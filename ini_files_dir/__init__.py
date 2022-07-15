@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/env python
-__author__ = 'e-cat.me'
 ##@package Katia.Ini
 #
 #
@@ -34,6 +33,7 @@ import execute_json as json
 import random as rnd
 
 from attr import attrib, attrs, Factory
+
 @attrs
 ##class Ini()
 # Все необходимые установки для запуска программы

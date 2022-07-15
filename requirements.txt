@@ -20,5 +20,3 @@ df2gspread
 google-auth-httplib2
 jupyterlab
 loguru
-
-

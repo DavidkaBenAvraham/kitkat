@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "python.defaultInterpreterPath": "c:users/user/anaconda3/python.exe",
+    "configurations": [
+        {
+            
+            "name": "Python: текущий файл",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}

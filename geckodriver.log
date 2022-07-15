@@ -1,0 +1,30 @@
+1657901224420	geckodriver	INFO	Listening on 127.0.0.1:62994
+1657901227443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--allow-profiles-outside-user-dir" "--allow-insecure-localhost" "--remote-debugging-port" "62995" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilejEGOmG"
+1657901227756	Marionette	INFO	Marionette enabled
+1657901227760	Marionette	INFO	Listening on port 63006
+WebDriver BiDi listening on ws://localhost:62995
+Read port: 63006
+1657901227863	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657901227914	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:62993","sslProxy":"127.0.0.1:62993"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilejEGOmG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62995/devtools/browser/ea4a34d6-25af-466e-8027-00f6946444ad
+1657901308246	geckodriver	INFO	Listening on 127.0.0.1:63069
+1657901311296	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--allow-profiles-outside-user-dir" "--allow-insecure-localhost" "--remote-debugging-port" "63070" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileQjiiOg"
+1657901311589	Marionette	INFO	Marionette enabled
+1657901311593	Marionette	INFO	Listening on port 63079
+WebDriver BiDi listening on ws://localhost:63070
+Read port: 63079
+1657901311689	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657901311721	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:63068","sslProxy":"127.0.0.1:63068"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileQjiiOg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63070/devtools/browser/d72b2cf8-c377-4387-b20c-9312140a1e74
+1657901621336	geckodriver	INFO	Listening on 127.0.0.1:63218
+1657901624379	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--allow-profiles-outside-user-dir" "--allow-insecure-localhost" "--remote-debugging-port" "63219" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilewmbHrB"
+1657901624677	Marionette	INFO	Marionette enabled
+1657901624681	Marionette	INFO	Listening on port 63229
+WebDriver BiDi listening on ws://localhost:63219
+Read port: 63229
+1657901624792	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657901624827	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:63217","sslProxy":"127.0.0.1:63217"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilewmbHrB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63219/devtools/browser/a0c8d492-b9fd-474c-a96d-52f911413e7b
