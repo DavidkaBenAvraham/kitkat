@@ -30,8 +30,11 @@ from strings_formatter import StringFormatter as SF
 #           supplier - class Supplier  f.e.: mor, cdata, visual, 
 #               aliexpress, ebay, amazon etc.
 def execute_list_of_scenaries(Supplier) -> bool :
-    logger.debug(f''' Старт {Supplier}''')
-
+    logger.debug(f''' 
+    Старт {Supplier}
+    --------------------
+    
+    ''')
 
     s = Supplier
     _d = s.driver
@@ -53,7 +56,12 @@ def execute_list_of_scenaries(Supplier) -> bool :
     def run(json_file) -> bool:
         logger.debug(''' start
         ---------------------------
-        json:{json_file} ''')
+        json:
+        
+        {json_file} 
+        
+        ------------ end json file ------------------
+        ''')
 
         s.scenaries = json.loads(Path(s.ini.paths.ini_files_dir , f'''{json_file}'''))
         s.scenario_category = f'''{json_file.split('_')[-2]}{json_file.split('_')[-1]}'''
@@ -188,6 +196,7 @@ def run_scenario(s , scenario) -> bool:
 # по локатору self.locators['product']['link_to_product_locator']
 def get_list_products_urls(s , scenario_node : dict ) ->list:
 
+
     ###############################################
     #
     #   Проверяю изменения чексбоксов на странице категории
@@ -240,11 +249,12 @@ def get_list_products_urls(s , scenario_node : dict ) ->list:
     ##                     Существует два вида показа товаров: 
     #                      переключение между страницами и бесконечная прокрутка 
     if s.locators['infinity_scroll'] == True: 
+        logger.debug("infinity scroll")
         ''' А бесконечная прокрука '''
         s.driver.scroll()
         
-        get_page_check_list(s)
-        get_top_banners(s)
+        #get_page_check_list(s)
+        #get_top_banners(s)
 
 
         list_product_urls : list = s.driver.find(_)

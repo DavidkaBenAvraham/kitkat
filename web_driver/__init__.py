@@ -173,7 +173,6 @@ class Driver:
             return None
 
 
-
     ## текущий url. Нужен мне для отслеживания переключений драйвера
     current_url : str = attrib(init = False , default = None)
 
@@ -185,6 +184,8 @@ class Driver:
 
     #parsed_google_search_result : GoogleHtmlParser = attrib(init = False, default = GoogleHtmlParser)
 
+    drivername : str = attrib(init = False , default = 'firefox')
+    
 
     driver : WD =  attrib(init = False , default = WD)
 
@@ -238,8 +239,8 @@ class Driver:
     # </pre>
     def set_driver(self , ini) -> WD:  
 
-        ## set_Chrome
-        def set_Chrome() -> bool:
+        ## set_chrome
+        def set_chrome() -> bool:
             _settings = ini.launcher['webdriver']['chrome']
             options = self.driver.ChromeOptions()
             for argument in _settings['arguments']:
@@ -247,8 +248,8 @@ class Driver:
             self.driver = self.driver.Chrome(options = options)
             return True
 
-        ## set_Firefox
-        def set_Firefox() -> bool:
+        ## set_firefox
+        def set_firefox() -> bool:
             _settings = ini.launcher['webdriver']['chrome']
             options = self.driver.FirefoxOptions()
             for argument in _settings['arguments']:
@@ -256,15 +257,15 @@ class Driver:
             self.driver = self.driver.Firefox(options = options)
             return True
          
-        ## set_Kora
-        def set_Kora() -> bool:
+        ## set_kora
+        def set_kora() -> bool:
             _wd = kora.selenium.wd
             if not kora.IN_COLAB: 
                 logger.debug(f''' Hello local from kora :) ''')
-                set_Chrome()
+                set_chrome()
                 
             else:
-                set_Chrome()
+                set_chrome()
                 logger.debug(f''' Hello colab  from kora :)''')
                 #options = _wd.ChromeOptions()
                 #for argument in webdriver_settings['kora']:
@@ -275,6 +276,7 @@ class Driver:
 
         # Create a request interceptor
         def interceptor(request):
+            ''' подставлаю headers '''
             self.headers = dict(ini.launcher['webdriver']['headers'])
             for k in self.headers:
                 del request.headers[k]  # Delete the header first
@@ -283,8 +285,8 @@ class Driver:
         
 
 
-        set_Firefox()
-        #set_Chrome()
+        set_firefox()
+        #set_chrome()
         self.driver.maximize_window()
         # Set the interceptor on the driver
         #https://stackoverflow.com/questions/15645093/setting-request-headers-in-selenium
@@ -404,6 +406,7 @@ class Driver:
 
     def _load_cookies_from_file(self, cookies_file_path : Path = None ) -> bool:
         cookies_file_path = self.cookies_file_path if cookies_file_path is None else cookies_file_path
+        
         logger.debug(''' cookies_file_path
         ---------------------------
         cookies_file_path} ''')
@@ -414,6 +417,7 @@ class Driver:
         self.cookies = pickle.load(open(cookies_file_path , 'rb'))
         for cookie in self.cookies:
                 self.driver.add_cookie(cookie)  
+                logger.debug(f''' скушал печеньки ''')
                 return True
 
 
@@ -509,7 +513,7 @@ class Driver:
         страницы с проверкой JS document.readyState'''
         count = 1
         while self.get_ready_state() == 'loading':
-            logger.error(f''' {self.get_ready_state()} - {_d.current_url}''')
+            logger.debug(f''' {self.get_ready_state()} - {_d.current_url}''')
             self._wait(1)
             count +=1
             if count>3:break
@@ -732,8 +736,10 @@ class Driver:
         try: 
             elements = self.driver.find_elements(locator['by'] , locator['selector'])
             return elements 
-        except Exception as ex: return None , logger.error(f'''_get_webelments_from_page() 
+        except Exception as ex: return None , logger.error(f'''
+        _get_webelments_from_page() 
         locator['by'] , locator['selector']  {locator['by']} , {locator['selector']}
+        ошибка: 
         ex: {ex} ''')
         
     ## CLICK
@@ -836,6 +842,8 @@ class Driver:
             try:
                 _e.click()
             except Exception as ex: 
+
+
                                 logger.error(f''' 
                                     Возникла ошибка  {ex} 
                                     ----------------------
@@ -844,8 +852,13 @@ class Driver:
                                     --------
                                     я попробую достучаться до него посылая Key.Return
                                     ''')
-                                try:self._send_keys( _ , self.driver.Keys.RETURN)
-                                except Exception as ex: return False, logger.error(f'''   ХУЙ! ''') 
+
+
+            else:
+                try:
+                    self._send_keys( _ , self.driver.Keys.RETURN)
+                except Exception as ex: 
+                    return False, logger.error(f'''   ХУЙ! ''') 
                             
 
         #если после клика изменился url
@@ -880,7 +893,14 @@ class Driver:
                 self.previous_url = _url_before_send_keys
 
 
-        except Exception as ex: return False , logger.error(f''' ошибка {ex} при отправке {keys} в {locator} ''')
+        except Exception as ex: return False , 
+        logger.error(f''' при отправке 
+        keys {keys} 
+        в   
+        locator {locator} 
+       {ex} 
+        
+        при отправке {keys} в {locator} ''')
     ## PAGE REFRESH      
     def _page_refresh(self):
         ##Рефреш с ожиданием полной перезагрузки страницы
@@ -888,7 +908,8 @@ class Driver:
         pass
     ## CLOSE
     def _close(self):
-            if self.driver.close(): self.logger.error(''' DRIVER CLOSED ''')
+            if self.driver.close(): 
+                logger.error(''' DRIVER CLOSED ''')
             pass
 
         

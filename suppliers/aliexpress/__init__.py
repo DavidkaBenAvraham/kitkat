@@ -350,8 +350,12 @@ def grab_product_page(s , p):
         field['description']  = _d.find(_['product_description'])
         #return _description
     def set_specification():pass
-        #specification = _d.find(_['product_specification'])
-        #return specification
+        try:
+            field['product_specification'] = _d.find(_['product_specification_locator'])
+            return True
+        except Exception as ex: 
+            field['product_specification'] = None
+            logger.error(ex)
     def set_customer_reviews():pass
         #_customer_reviews = _d.find(_['product_customer_reviews'])
         #return _customer_reviews

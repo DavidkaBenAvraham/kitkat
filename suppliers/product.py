@@ -5,7 +5,7 @@
 
 from pathlib import Path
 import pandas as pd
-
+from loguru import logger
 
 from strings_formatter import StringFormatter
 formatter = StringFormatter()
@@ -192,12 +192,7 @@ class Product():
                 logger.error(ex)
 
         def set_specification():
-            try:
-                field['product_specification'] = _d.find(_['product_specification_locator'])
-                return True
-            except Exception as ex: 
-                field['product_specification'] = None
-                logger.error(ex)
+
         def set_customer_reviews():
             try:
                 field['product_customer_reviews'] = _d.find(_['product_customer_reviews_locator'])

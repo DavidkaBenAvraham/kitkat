@@ -1,8 +1,8 @@
 certifi
 tornado>=5.1
 cryptography
-decorator>=4.4.0
-APScheduler==3.6.3
+decorator>=4.4
+APScheduler==3.6
 pytz>=2018.6
 conda
 selenium
@@ -20,3 +20,4 @@ df2gspread
 google-auth-httplib2
 jupyterlab
 loguru
+attrs
