@@ -1,0 +1,68 @@
+{
+  "EPIX": {
+    "brand": "GARMIN",
+    "url": "https://ksp.co.il/web/cat/2085..2160..33807",
+    "checkbox": false,
+    "prestashop_categories": "72,71,70,1,2,429,39,196,508"
+  },
+  "Fenix 6": {
+    "brand": "GARMIN",
+    "url": "https://ksp.co.il/web/cat/2085..2160..9393..13927..9392..13929..13930..9391",
+    "checkbox": false,
+    "prestashop_categories": "73,71,70,1,2,429,39,196,509"
+  },
+  "Fenix 7": {
+    "brand": "GARMIN",
+    "url": "https://ksp.co.il/web/cat/2085..2160..32654..32651..32657",
+    "checkbox": false,
+    "prestashop_categories": "75,71,70,1,2,429,39,196,510"
+  },
+  "HRM": {
+    "brand": "GARMIN",
+    "url": "https://ksp.co.il/web/cat/2085..2160..33807",
+    "checkbox": false,
+    "prestashop_categories": "76,71,70,1,2,429,39,196,511"
+  },
+  "Vivo": {
+    "brand": "GARMIN",
+    "url": "https://ksp.co.il/web/cat/2085..2160..31651..33932..13858..13860..10115..10116",
+    "checkbox": false,
+    "prestashop_categories": "78,71,70,1,2,429,39,196,512"
+  },
+  "Venu": {
+    "brand": "GARMIN",
+    "url": "https://ksp.co.il/web/cat/2085..2160..10117..15956..15955..25643..24313..31738",
+    "checkbox": false,
+    "prestashop_categories": "79,71,70,1,2,429,39,196,513"
+  },
+  "Lily": {
+    "brand": "GARMIN",
+    "url": "https://ksp.co.il/web/cat/2085..2160..25048",
+    "checkbox": false,
+    "prestashop_categories": "80,71,70,1,2,429,39,196,514"
+  },
+  "Instinct": {
+    "brand": "GARMIN",
+    "url": "https://ksp.co.il/web/cat/2085..2160..6109..33962",
+    "checkbox": false,
+    "prestashop_categories": "81,71,70,1,2,429,39,196,515"
+  },
+  "Swim": {
+    "brand": "GARMIN",
+    "url": "https://ksp.co.il/web/cat/2085..2160..10118",
+    "checkbox": false,
+    "prestashop_categories": "82,71,70,1,2,429,39,196,516"
+  },
+  "Enduro": {
+    "brand": "GARMIN",
+    "url": "https://ksp.co.il/web/cat/2085..2160..21932",
+    "checkbox": false,
+    "prestashop_categories": "83,71,70,1,2,429,39,196,517"
+  },
+  "Forerunner": {
+    "brand": "GARMIN",
+    "url": "https://ksp.co.il/web/cat/2085..2160..8336..17956..27545..7820..7821..15741..4104..7822",
+    "checkbox": false,
+    "prestashop_categories": "84,71,70,1,2,429,39,196,518"
+  }
+}

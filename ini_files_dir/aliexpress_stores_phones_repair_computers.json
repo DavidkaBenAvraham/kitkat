@@ -1,0 +1,10 @@
+﻿{
+  "Online Repair Store": {
+    "description": "Запчасти на телефоны",
+    "about": "====",
+    "store_id": 910316084,
+    "url": "https://www.aliexpress.com/store/910316084",
+    "all-wholesale-products": "https://www.aliexpress.com/store/all-wholesale-products/910316084.html",
+    "store_categories_json_file": "https://keyestudio-stem.aliexpress.com/store/productGroupsAjax.htm?storeId=910316084&shopVersion=3.0&callback=jsonp_910316084"
+  }
+}

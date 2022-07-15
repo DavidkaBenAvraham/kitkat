@@ -1,0 +1,73 @@
+{
+  "Nintendo Switch OLED": {
+    "brand": "NINTENDO",
+    "url": "https://ksp.co.il/web/cat/255..1304..28511",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3396": "Nintendo Switch OLED",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3228": "Gaming Consoles",
+      "3391": "Nintendo",
+     
+
+      "2262": "manufacturer -> NINTENDO",
+      "2312": "Nintendo Switch OLED",
+      "2": "HOME"
+    }
+  },
+  "Nintendo Switch": {
+    "brand": "NINTENDO",
+    "url": "https://ksp.co.il/web/cat/255..1304..4173",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3395": "Nintendo Switch",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3228": "Gaming Consoles",
+      "3391": "Nintendo",
+
+
+      "2262": "manufacturer -> NINTENDO",
+      "2311": "Nintendo Switch",
+      "2": "HOME"
+    }
+  },
+  "Nintendo Switch Lite": {
+    "brand": "NINTENDO",
+    "url": "https://ksp.co.il/web/cat/255..1304..9674",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2311": "Nintendo Switch Lite",
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3228": "Gaming Consoles",
+      "3391": "Nintendo",
+      "3398": "Nintendo Switch Lite",
+
+      "2262": "manufacturer -> NINTENDO",
+
+      "2": "HOME"
+    }
+    },
+  "Nintendo Classic": {
+    "brand": "NINTENDO",
+    "url": "https://ksp.co.il/web/cat/255..1304..9674",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3399": "Nintendo Classic",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3228": "Gaming Consoles",
+      "3391": "Nintendo",
+
+
+      "2262": "manufacturer -> NINTENDO",
+      "2315": "Nintendo Classic",
+      "2": "HOME"
+    }
+  }
+}

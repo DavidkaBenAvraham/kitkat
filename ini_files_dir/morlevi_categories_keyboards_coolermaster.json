@@ -1,0 +1,53 @@
+{
+
+  "COOLER MASTER WIRELESS KEYBOARD": {
+    "brand": "COOLER MASTER",
+    "model": "COOLER MASTER WIRELESS KEYBOARD",
+    "url": "-----------------------------------------------COOLER MASTER WIRELESS KEYBOARD----------------------------------------------",
+    "checkbox":false, "prestashop_categories":"203,204,316"
+  },
+  "COOLER MASTER USB KEYBOARD": {
+    "brand": "COOLER MASTER",
+    "model": "COOLER MASTER USB KEYBOARD",
+    "url": "-----------------------------------------------COOLER MASTER USB KEYBOARD----------------------------------------------",
+    "checkbox":false, "prestashop_categories":"203,204,315"
+  },
+  "COOLER MASTER USB MOUSE": {
+    "brand": "COOLER MASTER",
+    "model": "COOLER MASTER USB MOUSE",
+    "url": "https://www.morlevi.co.il/Cat/108?p_315=74&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"203,206,317"
+  },
+  "COOLER MASTER WIRELESS MOUSE": {
+    "brand": "COOLER MASTER",
+    "model": "COOLER MASTER WIRELESS MOUSE",
+    "url": "--------------------------------------COOLER MASTER WIRELESS MOUSE--------------------------------",
+    "checkbox":false, "prestashop_categories":"203,206,318"
+  },
+  "COOLER MASTER USB KEYBOARD-MOUSE SET": {
+    "brand": "COOLER MASTER",
+    "model": "COOLER MASTER USB KEYBOARD-MOUSE SET",
+    "url": "https://www.morlevi.co.il/Cat/113?p_315=74&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"203,207,208"
+  },
+  "COOLER MASTER WIRELESS  KEYBOARD-MOUSE SET": {
+    "brand": "COOLER MASTER",
+    "model": "COOLER MASTER WIRELESS KEYBOARD-MOUSE SET",
+    "url": "--------------------------------------COOLER MASTER WIRELESS  KEYBOARD-MOUSE SET--------------------------------",
+    "checkbox":false, "prestashop_categories":"203,207,334"
+  },
+  "COOLER MASTER GAMING  KEYBOARD": {
+    "brand": "COOLER MASTER",
+    "model": "COOLER MASTER GAMING  KEYBOARD",
+    "url": "https://www.morlevi.co.il/Cat/239?p_315=74&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "203,205"
+  },
+  "COOLER MASTER GAMING  MOUSE": {
+    "brand": "COOLER MASTER",
+    "model": "COOLER MASTER GAMING  MOUSE",
+    "url": "https://www.morlevi.co.il/Cat/252?p_315=74&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "203,206,343"
+  }
+}

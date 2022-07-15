@@ -1,0 +1,12 @@
+{
+  "supplier": "Dornet",
+  "supplier_prefics": "DRNT-",
+  "price_rule": "1.4",
+  "infinity_scroll": false,
+  "num_items_4_flush": 300,
+  "scenaries": [
+    []
+  ],
+  "last_runned_scenario": ""
+}
+

@@ -1,0 +1,108 @@
+{
+
+  "languages": [ "he", "en", "ru" ],
+  "languages_excluded": [ "en", "ru" ],
+
+  "mode": "debug",
+  "modes": [ "debug", "production" ],
+
+
+  "threads": false,
+  "about threads": "многопоточность программы",
+
+
+  "start_time": "",
+  "about start_time": "задается при запуске программы",
+
+  "log_format": "'%(asctime)s : [%(levelname)s] : %(message)s'",
+
+  "print_type": "jupiter",
+  "print_types": [ "jupiter", "html", "simple" ],
+
+  "program_paths": {
+    "ini_files_dir": "ini_files_dir",
+    "export_dir": "export",
+    "log_files_dir": "log",
+    "apis_file": "apis.json"
+  },
+
+  "webdriver": {
+    "headers" :
+    {
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.3",
+      "Accept-Encoding": "none",
+      "Accept-Language": "en-US,en;q=0.8",
+      "Connection": "keep-alive"
+    },
+
+    "kora": {
+      "arguments": [
+        "--headless",
+        "--no-sandbox",
+        "--disable-dev-shm-usage"
+      ],
+      "deafault_wait_time": 2,
+      "about wait": "явное ожидание браузера в сек",
+      "random": [ 0, 5 ],
+      "view_html_source_mode": false,
+      "maximize_window": false
+
+    },
+    "chrome": {
+      "arguments": [
+        "--no-sandbox",
+        "--disable-dev-shm-usage",
+        "--ignore-certificate-errors",
+        "--allow-profiles-outside-user-dir",
+        "--allow-insecure-localhost"
+
+      ],
+      "disabled arguments": [ "-auto-open-devtools-for-tabs", "--headless" ],
+      "about arguments": "https://peter.sh/experiments/chromium-command-line-switches/",
+      "deafault_wait_time": 5,
+      "view_html_source_mode": false,
+      "maximize_window": true
+    },
+    "firefox": {
+      "arguments": [ "--no-sandbox" ],
+      "disabled_arguments": [
+        "--disable-dev-shm-usage",
+        "--headless"
+      ],
+      "deafault_wait_time": 5,
+      "about wait": "явное ожидание браузера в сек",
+      "random": [ 0, 5 ],
+      "view_html_source_mode": false,
+      "maximize_window": true
+    }
+  },
+  "suppliers": [
+    "ksp",
+    "morlevi",
+    "aliexpress"
+  ],
+  "suppliers_excluded": [
+    "ksp",
+    "morlevi",
+    "grandadvance",
+    "amazon",
+    "bangood",
+    "cdata",
+    "ebay",
+    "gearbest",
+    "grandadvance",
+    "cdata",
+    "maxsanei_hashmal",
+    "morlevi",
+    "macy_s",
+    "neimanmarcus",
+    "victorinox",
+    "visualdg",
+    "wallashop",
+    "wallmart"
+
+  ]
+
+}

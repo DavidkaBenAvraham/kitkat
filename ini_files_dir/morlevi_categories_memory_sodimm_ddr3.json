@@ -1,0 +1,15 @@
+{
+
+  "KINGSTON SODIMM DDR3 4-8GB": {
+    "brand": "KINGSTON",
+    "url": "https://www.morlevi.co.il/Cat/170?p_315=22&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "148,153,156,482"
+  },
+  "CORSAIR SODIMM DDR3 4-8GB": {
+    "brand": "CORSAIR",
+    "url": "https://www.morlevi.co.il/Cat/170?p_315=20&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "148,153,156,483"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Pixel 6 Pro": {
+    "brand": "GOOGLE",
+    "url": "https://ksp.co.il/web/cat/573..3887..31508",
+    "checkbox": false,
+    "prestashop_categories": "720,719,718,27,1,2,2,429,705,716,717"
+  },
+  "Pixel 6": {
+    "brand": "GOOGLE",
+    "url": "https://ksp.co.il/web/cat/573..3887..30356",
+    "checkbox": false,
+    "prestashop_categories": "721,719,718,27,1,2,2,429,705,716,717"
+  }
+}

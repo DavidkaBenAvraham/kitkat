@@ -1,0 +1,43 @@
+{
+  "ANTEC MID TOWER": {
+    "brand": "ANTEC",
+    "model": "",
+    "url": "https://www.morlevi.co.il/Cat/98?p_315=12&p_124=540&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "195,196,556"
+  },
+  "ANTEC FULL TOWER": {
+    "brand": "ANTEC",
+    "url": "----------------------------ANTEC FULL TOWER--------------------------------",
+    "checkbox": false,
+    "prestashop_categories": "195,197,556"
+  },
+  "ANTEC MINI TOWER": {
+    "brand": "ANTEC",
+    "model": "",
+    "url": "https://www.morlevi.co.il/Cat/98?p_315=12&p_124=542&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "195,198,556"
+  },
+  "ANTEC gaming mid tower": {
+    "brand": "ANTEC",
+    "model": "",
+    "url": "https://www.morlevi.co.il/Cat/98?p_315=12&p_124=545&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "195,199,556"
+  },
+  "ANTEC gaming full tower": {
+    "brand": "ANTEC",
+    "model": "",
+    "url": "----------------------------ANTEC gaming full TOWER--------------------------------",
+    "checkbox": false,
+    "prestashop_categories": "195,200,556"
+  },
+  "ANTEC mini itx": {
+    "brand": "ANTEC",
+    "model": "",
+    "url": "----------------------------ANTEC mini itxR--------------------------------",
+    "checkbox": false,
+    "prestashop_categories": "195,201,556"
+  }
+}

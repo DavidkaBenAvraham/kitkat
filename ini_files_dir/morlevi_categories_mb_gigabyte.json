@@ -1,0 +1,242 @@
+{
+  "GIGABYTE 6+7 Gen Intel LGA 1151 H 110": {
+    "brand": "GIGABYTE",
+    "url": "--https://www.morlevi.co.il/Cat/45?p_95=403&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "635,612,611,610,1"
+  },
+  "GIGABYTE 8+9 Gen Intel LGA 1151 H 310 micro ATX": {
+    "brand": "GIGABYTE",
+    "url": "----https://www.morlevi.co.il/Cat/43?p_95=407&p_92=390&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "614,612,611,610,1"
+  },
+  "GIGABYTE 8+9 Gen Intel LGA 1151 H 310 miniITX": {
+    "brand": "GIGABYTE",
+    "url": "---https://www.morlevi.co.il/Cat/21?p_95=407&p_93=395&p_92=389&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "614,612,611,610,1"
+  },
+  "GIGABYTE 8+9 Gen Intel LGA 1151 B 360": {
+    "brand": "GIGABYTE",
+    "url": "-----------------------GIGABYTE 8+9 Gen Intel LGA 1151 B 360--------------------------",
+    "checkbox": false,
+    "prestashop_categories": "614,612,611,610,1"
+  },
+  "GIGABYTE 8+9 Gen Intel LGA 1151 B 365  ATX": {
+    "brand": "GIGABYTE",
+    "url": "---https://www.morlevi.co.il/Cat/43?p_95=3251&p_93=395&p_92=388&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "614,612,611,610,1"
+  },
+  "GIGABYTE 8+9 Gen Intel LGA 1151 B 365 micro ATX": {
+    "brand": "GIGABYTE",
+    "url": "--https://www.morlevi.co.il/Cat/43?p_95=3251&p_93=395&p_92=390&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "614,612,611,610,1"
+  },
+  "GIGABYTE 8+9 Gen Intel LGA 1151 H 370": {
+    "brand": "GIGABYTE",
+    "url": "--https://www.morlevi.co.il/Cat/264?p_95=409&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "614,612,611,610,1"
+  },
+  "GIGABYTE 8+9 Gen Intel LGA 1151 Z 370": {
+    "brand": "GIGABYTE",
+    "url": "--https://www.morlevi.co.il/Cat/264",
+    "checkbox": false,
+    "prestashop_categories": "614,612,611,610,1"
+  },
+  "GIGABYTE 8+9 Gen Intel LGA 1151 Z 390  ATX": {
+    "brand": "GIGABYTE",
+    "url": "--https://www.morlevi.co.il/Cat/43?p_95=1873&p_93=395&p_92=388&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "614,612,611,610,1"
+  },
+  "GIGABYTE 8+9 Gen Intel LGA 1151 Z 390 micro ATX": {
+    "brand": "GIGABYTE",
+    "url": "--https://www.morlevi.co.il/Cat/43?p_95=1873&p_93=395&p_92=390&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "614,612,611,610,1"
+  },
+
+  "GIGABYTE Intel 10 Gen H 410 miniITX": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/343?p_92=389&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "617,616,608,615,612,611,610,1"
+  },
+  "GIGABYTE Intel 10 Gen H 410 micro ATX": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/343?p_95=1875&p_92=390&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "618,616,608,615,612,611,610,1"
+  },
+
+
+  "GIGABYTE Intel 10 Gen H 470 mini ITX": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/17?p_95=3528&p_92=389&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "626,619,608,615,612,611,610,1"
+  },
+  "GIGABYTE Intel 10 Gen H 470 ATX": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/17?p_95=3528&p_92=388&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "627,619,608,615,612,611,610,1"
+  },
+  "GIGABYTE Intel 10 Gen H 470 Micro ATX": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/17?p_95=3528&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "628,619,608,615,612,611,610,1"
+  },
+  "GIGABYTE Intel 10 Gen H 510 micro ATX": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/335?p_95=3862&p_92=390&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "625,628,608,615,612,611,610,1"
+  },
+
+  "GIGABYTE Intel 10 Gen B 460 ATX": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/43?p_95=1876&p_92=388&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "622,621,620,615,612,611,610,1"
+  },
+
+  "GIGABYTE Intel 10 Gen B 560 ATX": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/365?p_95=3861&p_92=388&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "629,624,620,615,612,611,610,1"
+  },
+
+
+  "GIGABYTE Intel 10 Gen Z 490 ATX": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/17?p_95=3462&p_93=3461&p_92=388&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "631,630,625,615,612,611,610,1"
+  },
+  "GIGABYTE Intel 10 Gen Z 490 E ATX": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/17?p_95=3462&p_93=3461&p_92=391&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "632,630,625,615,612,611,610,1"
+  },
+  "GIGABYTE Intel 10 Gen Z 490 mini ITX": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/17?p_95=3462&p_93=3461&p_92=389&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "633,630,625,615,612,611,610,1"
+  },
+  "GIGABYTE Intel 10 Gen Z 490 micro ATX": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/17?p_95=3462&p_93=3461&p_92=390&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "634,630,625,615,612,611,610,1"
+  },
+  "GIGABYTE Intel 12 Gen  DDR-4  H 610 micro ATX": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/378?p_95=4071&p_92=390&p_94=400&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "638,637,636,635,612,611,610,1,2,429,640,641,642,645,646,647,648"
+  },
+  "GIGABYTE Intel 12 Gen  DDR-4  H 610 ATX": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/388?p_95=4070&p_92=388&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "639,637,636,635,612,611,610,1,2,429,640,641,642,646,650,651,652"
+  },
+
+  "GIGABYTE Intel 12 Gen  DDR-4  H 610 Micro ATX": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/388?p_95=4070&p_92=390&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "638,637,636,635,612,611,610,1,2,429,640,641,642,646,647,648,649"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+  "excluded": {
+    "GIGABYTE Intel LGA 2066 X 299": {
+      "brand": "GIGABYTE",
+      "url": "https://www.morlevi.co.il/Cat/28?p_95=411&sort=datafloat2%2Cprice&keyword=",
+      "checkbox": false,
+      "prestashop_categories": "56,57,62,503"
+    },
+    "GIGABYTE Intel LGA 2066 X 299 CEB": {
+      "brand": "GIGABYTE",
+      "url": "https://www.morlevi.co.il/Cat/28?p_95=411&p_92=3396&sort=datafloat2%2Cprice&keyword=",
+      "checkbox": false,
+      "prestashop_categories": "56,57,62,503,612"
+    },
+    "GIGABYTE Intel LGA 2066 X 299 ATX": {
+      "brand": "GIGABYTE",
+      "url": "https://www.morlevi.co.il/Cat/28?p_95=411&p_92=388&sort=datafloat2%2Cprice&keyword=",
+      "checkbox": false,
+      "prestashop_categories": "56,57,62,503,613"
+    },
+    "GIGABYTE Intel LGA 2066 X 299 E ATX": {
+      "brand": "GIGABYTE",
+      "url": "https://www.morlevi.co.il/Cat/28?p_95=411&p_92=391&sort=datafloat2%2Cprice&keyword=",
+      "checkbox": false,
+      "prestashop_categories": "56,57,62,503,614"
+    },
+
+    "GIGABYTE Intel LGA 2066 X 299X": {
+      "brand": "GIGABYTE",
+      "url": "https://www.morlevi.co.il/Cat/28?p_95=3393&sort=datafloat2%2Cprice&keyword=",
+      "checkbox": false,
+      "prestashop_categories": "56,57,62,504"
+    },
+
+    "GIGABYTE AM4+ AMD A 520": {
+      "brand": "GIGABYTE",
+      "url": "https://www.morlevi.co.il/Cat/350?p_95=3595&sort=datafloat2%2Cprice&keyword=",
+      "checkbox": false,
+      "prestashop_categories": "56,58,64,506"
+    },
+    "GIGABYTE AM4+ AMD B 450": {
+      "brand": "GIGABYTE",
+      "url": "https://www.morlevi.co.il/Cat/44?p_95=781&sort=datafloat2%2Cprice&keyword=",
+      "checkbox": false,
+      "prestashop_categories": "56,58,64,507"
+    },
+    "GIGABYTE AM4+ AMD X 570": {
+      "brand": "GIGABYTE",
+      "url": "https://www.morlevi.co.il/Cat/313?p_95=3225&sort=datafloat2%2Cprice&keyword=",
+      "checkbox": false,
+      "prestashop_categories": "56,58,64,508"
+    },
+    "GIGABYTE Threadripper AMD X 399 ATX": {
+      "brand": "GIGABYTE",
+      "url": "https://www.morlevi.co.il/Cat/353?p_92=388&sort=datafloat2%2Cprice&keyword=",
+      "checkbox": false,
+      "prestashop_categories": "56,58,65,509,545"
+    },
+    "GIGABYTE Threadripper AMD X 399 XL-ATX": {
+      "brand": "GIGABYTE",
+      "url": "------------------------GIGABYTE Threadripper AMD X 399 XL-ATX---------------------------",
+      "checkbox": false,
+      "prestashop_categories": "56,58,65,509,544"
+    },
+    "GIGABYTE Threadripper AMD TRX 40": {
+      "brand": "GIGABYTE",
+      "url": "https://www.morlevi.co.il/Cat/46?p_95=3375&sort=datafloat2%2Cprice&keyword=",
+      "checkbox": false,
+      "prestashop_categories": "56,58,65,510"
+    }
+  }
+} 

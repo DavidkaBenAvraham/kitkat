@@ -1,0 +1,118 @@
+{
+
+  "CORSAIR DIMM DDR4 8GB": {
+    "brand": "CORSAIR",
+    "url": "https://www.morlevi.co.il/Cat/169?p_315=20&p_45=100&p_44=92&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,155,484"
+  },
+  "CORSAIR DIMM DDR4 16GB": {
+    "brand": "CORSAIR",
+    "url": "https://www.morlevi.co.il/Cat/169?p_315=20&p_45=100&p_44=93&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,155,485"
+  },
+  "CORSAIR DIMM DDR4 16GB (2x8)": {
+    "brand": "CORSAIR",
+    "url": "https://www.morlevi.co.il/Cat/169?p_315=20&p_45=100&p_44=1290&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,155,486"
+  },
+  "CORSAIR DIMM DDR4 32GB": {
+    "brand": "CORSAIR",
+    "url": "https://www.morlevi.co.il/Cat/169?p_315=20&p_45=100&p_44=847&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,155,487"
+  },
+  "CORSAIR DIMM DDR4 32GB (2x16)": {
+    "brand": "CORSAIR",
+    "url": "https://www.morlevi.co.il/Cat/169?p_315=20&p_45=100&p_44=1292&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,155,488"
+  },
+  "CORSAIR DIMM DDR4 64GB (2x32)": {
+    "brand": "CORSAIR",
+    "url": "https://www.morlevi.co.il/Cat/169?p_315=20&p_45=100&p_44=3311&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,155,489"
+  },
+  "CORSAIR DIMM DDR4 128GB (4x32)": {
+    "brand": "CORSAIR",
+    "url": "https://www.morlevi.co.il/Cat/169?p_315=20&p_45=100&p_44=3592&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,155,490"
+  },
+  "CRUCIAL DIMM DDR4 4GB": {
+    "brand": "CRUCIAL",
+    "url": "https://www.morlevi.co.il/Cat/169?p_315=19&p_45=100&p_44=93&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,155,491"
+  },
+  "CRUCIAL DIMM DDR4 8GB": {
+    "brand": "CRUCIAL",
+    "url": "https://www.morlevi.co.il/Cat/169?p_315=19&p_45=100&p_44=93&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,155,484"
+  },
+  "CRUCIAL DIMM DDR4 16GB": {
+    "brand": "CRUCIAL",
+    "url": "https://www.morlevi.co.il/Cat/169?p_315=20&p_45=100&p_44=93&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,155,485"
+  },
+  "CRUCIAL DIMM DDR4 16GB (2x8)": {
+    "brand": "CRUCIAL",
+    "url": "-----------------------------------------CRUCIAL DIMM DDR4 16GB (2x8)----------------------------------",
+    "checkbox":false, "prestashop_categories":"148,152,155,486"
+  },
+  "CRUCIAL DIMM DDR4 32GB": {
+    "brand": "CRUCIAL",
+    "url": "-----------------------------------------CRUCIAL DIMM DDR4 32GB----------------------------------",
+    "checkbox":false, "prestashop_categories":"148,152,155,487"
+  },
+  "CRUCIAL DIMM DDR4 32GB (2x16)": {
+    "brand": "CRUCIAL",
+    "url": "-----------------------------------------CRUCIAL DIMM DDR4 32GB----------------------------------",
+    "checkbox":false, "prestashop_categories":"148,152,155,488"
+  },
+  "CRUCIAL DIMM DDR4 64GB (2x32)": {
+    "brand": "CRUCIAL",
+    "url": "-----------------------------------------CRUCIAL DIMM DDR4 32GB----------------------------------",
+    "checkbox":false, "prestashop_categories":"148,152,155,489"
+  },
+  "CRUCIAL DIMM DDR4 128GB (4x32)": {
+    "brand": "CRUCIAL",
+    "url": "-----------------------------------------CRUCIAL DIMM DDR4 32GB----------------------------------",
+    "checkbox":false, "prestashop_categories":"148,152,155,490"
+  },
+  "KINGSTON DIMM DDR4 4GB": {
+    "brand": "KINGSTON",
+    "url": "https://www.morlevi.co.il/Cat/169?p_315=22&p_45=100&p_44=91&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,155,491"
+  },
+  "KINGSTON DIMM DDR4 8GB": {
+    "brand": "KINGSTON",
+    "url": "https://www.morlevi.co.il/Cat/169?p_315=22&p_45=100&p_44=92&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,155,484"
+  },
+  "KINGSTON DIMM DDR4 16GB": {
+    "brand": "KINGSTON",
+    "url": "https://www.morlevi.co.il/Cat/169?p_315=22&p_45=100&p_44=93&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,155,485"
+  },
+  "KINGSTON DIMM DDR4 32GB ": {
+    "brand": "KINGSTON",
+    "url": "https://www.morlevi.co.il/Cat/169?p_315=22&p_45=100&p_44=847&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,155,487"
+  },
+  "G.SKILL DIMM DDR4 8GB": {
+    "brand": "G.SKILL",
+    "url": "https://www.morlevi.co.il/Cat/149?p_315=21&p_45=100&p_44=92&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,155,484"
+  },
+  "G.SKILL DIMM DDR4 16GB": {
+    "brand": "G.SKILL",
+    "url": "https://www.morlevi.co.il/Cat/149?p_315=21&p_45=100&p_44=93&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,155,485"
+  },
+  "G.SKILL DIMM DDR4 16GB (2x8)": {
+    "brand": "G.SKILL",
+    "url": "https://www.morlevi.co.il/Cat/149?p_315=21&p_45=100&p_44=1290&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,155,486"
+  },
+  "G.SKILL DIMM DDR4 32GB (2x16)": {
+    "brand": "G.SKILL",
+    "url": "https://www.morlevi.co.il/Cat/149?p_315=21&p_45=100&p_44=1292&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,155,488"
+  }
+}

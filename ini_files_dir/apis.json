@@ -1,0 +1,38 @@
+{
+  "aliexpress": {
+    "user": "one.last.bit@gmail.com",
+
+    "appkey": "33759699",
+    "secret": "593acdd5414f1845b464d87353fbad44",
+    "url": "gw.api.taobao.com",
+    "port_http": 80,
+    "port_https": 443,
+    "httpmethod": "POST",
+    "access_token": "50000201340tQdpjudpqBySjYiAphkyTigGwm1IRuCGYjSpdPuQ011d78531N2WmSpjK",
+    "refresh_token": "50001200f20De0dtaZ6gVjLwbyOcAbhP19ef38689lUWilIuiyHSTndzEuJlv4Wg9n3z"
+  },
+
+  "bangood": {
+    "appkey": "bg62a7ab6d66363",
+    "secret": "460b030c0cbb2bb01e254fcbcfadc7ba",
+    "my domain": "https://e-cat.me",
+    "get access token": "https://api.banggood.com/getAccessToken?app_id=bg62a7ab6d66363&app_secret=460b030c0cbb2bb01e254fcbcfadc7ba",
+    ""
+    "about access token": "https://api.banggood.com/index.php?com=document&article_id=8"
+  },
+
+
+
+  "RapidAPI - aliexpress extract JSON product data": {
+
+    "headers": {
+      "X-RapidAPI-Host": "aliexpress-product1.p.rapidapi.com",
+      "X-RapidAPI-Key": "00db3e6d71mshc3346718a5a11d1p1783b3jsn59f37172f102"
+    },
+    "url": "https://aliexpress-product1.p.rapidapi.com/scraper",
+
+    "resourse": "https://rapidapi.com/rene.meuselwitz/api/ali-express1/",
+    "about": "AliExpress Product API is an unofficial API to extract JSON product data from aliexpress.com"
+  }
+
+}

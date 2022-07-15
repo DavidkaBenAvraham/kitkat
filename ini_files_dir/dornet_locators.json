@@ -1,0 +1,74 @@
+{
+  "category": {
+    "pages_listing_locator": {
+      "attribute": "href",
+      "by": "css selector",
+      "selector": "li.next-page a"
+    }
+  },
+  "product": {
+    "product_block_locator": {
+      "attribute": "innerHTML",
+      "by": "css selector",
+      "selector": "div.boxItem-wrap"
+    },
+    "link_to_product_locator": {
+      "attribute": "href",
+      "by": "css selector",
+      "selector": "a.more-info"
+    }
+  },
+  "product_fields_locators": {
+    "title_locator": {
+      "attribute": "innerHTML",
+      "by": "css selector",
+      "selector": "div[class=product-name] h1[itemprop='name']"
+    },
+    "brand_locator": {
+      "attribute": "innerHTML",
+      "by": "css selector",
+      "selector": ".brands"
+    },
+
+    "sku_locator": {
+      "attribute": "innerHTML",
+      "by": "css selector",
+      "selector": "div[class=sku] span[itemprop='sku']"
+    },
+    "brand_sku_locator": {
+      "attribute": "innerHTML",
+      "by": "css selector",
+      "selector": "div[class=sku] span[itemprop='sku']"
+    },
+    "short_description_locator": {
+      "attribute": "innerHTML",
+      "by": "css selector",
+      "selector": "div[class=product-name] h1[itemprop='name']"
+    },
+    "description_locator": {
+      "attribute": "innerHTML",
+      "by": "css selector",
+      "selector": ".data-table[role='presentation']"
+    },
+    "image_locator": {
+      "attribute": "src",
+      "by": "css selector",
+      "selector": ".cloudzoom"
+    },
+    "price_locator": {
+      "attribute": "innerHTML",
+      "by": "css selector",
+      "selector": "div span[itemprop='price']"
+    }
+  },
+  "stock_locator": {
+    "attribute": "innerHTML",
+    "by": "css selector",
+    "selector": ".value.stock_staus"
+  },
+  "not in stock": [
+    "color:red",
+    "color:#d19b00"
+  ]
+}
+

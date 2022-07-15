@@ -1,0 +1,19 @@
+{
+  "davidka.net": {
+    "user": "u177424397_aluf",
+    "password": "hB6dyTJ6aikJcbeuSKHZ",
+    "host": "141.136.34.4",
+    "port": "3306",
+    "database": "u177424397_aluf",
+    "raise_on_warnings": true
+  },
+  "shalom-phones.co.il": {
+    "user": "u586010365_8JngF",
+    "password": "wuu98IJ8Hg",
+    "host": "141.136.34.4",
+    "port": "3306",
+    "database": "u586010365_Od5jE",
+    "raise_on_warnings": true
+  }
+
+}

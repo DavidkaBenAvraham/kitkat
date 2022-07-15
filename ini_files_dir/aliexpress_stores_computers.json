@@ -1,0 +1,18 @@
+﻿{
+  "chatreey computer store": {
+    "description": "миникомпьютеры",
+    "about": "====",
+    "store_id": 910316084,
+    "url": "https://www.aliexpress.com/store/910316084",
+    "all-wholesale-products": "https://www.aliexpress.com/store/all-wholesale-products/910316084.html",
+    "store_categories_json_file": "https://aliexpress.com/store/productGroupsAjax.htm?storeId=910316084&shopVersion=3.0&callback=jsonp_910316084"
+  },
+  "Muchisimo Store": {
+    "description": "видеокарточки и доски",
+    "about": "====",
+    "store_id": 5095129,
+    "url": "https://www.aliexpress.com/store/5095129",
+    "all-wholesale-products": "https://www.aliexpress.com/store/all-wholesale-products/5095129.html",
+    "store_categories_json_file": "https://www.aliexpress.com/store/productGroupsAjax.htm?storeId=5095129&shopVersion=3.0&callback=jsonp_5095129"
+  }
+}

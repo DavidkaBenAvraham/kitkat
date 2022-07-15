@@ -1,0 +1,510 @@
+{
+  "keyestudio STEM education Store": {
+    "store_id": 4247007,
+    "description": "Electronic Components & Supplies",
+    "about": "Rasberry, Arduino СУПЕРСКИЕ",
+    "url": "https://keyestudio-stem.aliexpress.com/store/4247007",
+    "all-wholesale-products": "https://keyestudio-stem.aliexpress.com/store/all-wholesale-products/4247007.html",
+    "store_categories_json_file": "https://keyestudio-stem.aliexpress.com/store/productGroupsAjax.htm?storeId=4247007&shopVersion=3.0&callback=jsonp_4247007",
+
+    "scenaries": {
+      "Raspberry Pi Kit": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Kit/4247007_40000000488227.html",
+        "prestashop_categories": {
+          "4247007": "aliexpress_store_id",
+          "2857": "prestashop_store_id",
+          "40000000488227": "store_category_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2719": "Raspberry Pi",
+          "2720": "Raspberry Pi Kit"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "Raspberry Pi Shield": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Shield/4247007_40000000514152.html",
+        "prestashop_categories": {
+          "4247007": "aliexpress_store_id",
+          "2857": "prestashop_store_id",
+          "40000000514152": "store_category_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2719": "Raspberry Pi",
+          "2721": "Raspberry Pi Shield"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "Raspberry Pi Robot": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Robot/4247007_40000000492143.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "2857": "prestashop_store_id",
+          "40000000492143": "store_category_id",
+
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2719": "Raspberry Pi",
+          "2723": "Raspberry Pi Robot"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "Raspberry Pi Cameras": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Camera/4247007_40000001744483.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "2857": "prestashop_store_id",
+          "40000001744483": "store_category_id",
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2719": "Raspberry Pi",
+          "2724": "Raspberry Pi Cameras"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "Raspberry Pi Screens": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Camera/4247007_40000001744483.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "2857": "prestashop_store_id",
+          "40000001744483": "store_category_id",
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2719": "Raspberry Pi",
+          "2725": "Raspberry Pi Screens"
+        },
+
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "Raspberry Pi Cases": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Case/4247007_40000000504117.html",
+        "prestashop_categories": {
+          "40000000504117": "store_category_id",
+          "4247007": "store_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2719": "Raspberry Pi",
+          "2726": "Raspberry Pi Cases"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "Raspberry Pi Accessories": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Accessories/4247007_40000001736986.html",
+        "prestashop_categories": {
+          "40000001736986": "store_category_id",
+          "4247007": "store_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2719": "Raspberry Pi",
+          "3204": "Raspberry Pi Accessories"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "Raspberry Pi PICO": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Board/4247007_40000001662207.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "40000001662207": "store_category_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2719": "Raspberry Pi",
+          "2727": "Raspberry Pi PICO"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+
+      "Raspberry Pi PICO Boards": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Board/4247007_40000001662207.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "40000001662207": "store_category_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2719": "Raspberry Pi",
+          "2728": "Raspberry Pi PICO Boards"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "Raspberry Pi PICO Shields": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Shield/4247007_40000001748185.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "40000001748185": "store_category_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2719": "Raspberry Pi",
+          "3205": "Raspberry Pi PICO Shields"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "Raspberry Pi PICO Kits": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Kit/4247007_40000001641128.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "40000001641128": "store_category_id",
+          "1071": "Gaming",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2719": "Raspberry Pi",
+          "2729": "Raspberry Pi PICO Kits"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+
+
+      "BBC Micro:bit V2.2 Boards": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Kit/4247007_40000001641128.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "40000001641128": "store_category_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2730": "BBC Micro:bit",
+          "2728": "Raspberry Pi PICO Boards"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "BBC Micro:bit Shields": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Shield/4247007_40000000500359.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "40000001641128": "store_category_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2730": "BBC Micro:bit",
+          "2732": "BBC Micro:bit Shields"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "BBC Micro:bit Kits": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Kit/4247007_40000001641128.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "40000001641128": "store_category_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2730": "BBC Micro:bit",
+          "2733": "BBC Micro:bit Kits"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "BBC Micro:bit Robots": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Robot/4247007_40000000477037.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "40000000477037": "store_category_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2730": "BBC Micro:bit",
+          "2734": "BBC Micro:bit Robots"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "BBC Micro:bit Modules": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Module/4247007_40000000514074.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "40000000514074": "store_category_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2730": "BBC Micro:bit",
+          "2735": "BBC Micro:bit Modules"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "Micro:bit Acessories": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Accessories/4247007_40000001726336.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "40000001726336": "store_category_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2730": "BBC Micro:bit",
+          "2736": "BBC Micro:bit Accessories"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "Arduino Boards": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Board/4247007_40000000504110.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "40000000504110": "store_category_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2737": "Arduino",
+          "2738": "Arduino Boards"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "Arduino Shields": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Shield/4247007_40000001529668.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "40000000504110": "store_category_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2737": "Arduino",
+          "2739": "Arduino Shields"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "Arduino Kits": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Kit/4247007_40000000504084.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "40000000504084": "store_category_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2737": "Arduino",
+          "2740": "Arduino Kits"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "Arduino Robots": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Robot/4247007_40000000495017.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "40000000495017": "store_category_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2737": "Arduino",
+          "2741": "Arduino Robots"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "Arduino Accessories": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Accessories/4247007_40000000491113.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "40000000491113": "store_category_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2737": "Arduino",
+          "2742": "Arduino Accessories"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "ESP 32": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/ESP32/4247007_40000001795896.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "40000001795896": "store_category_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "2737": "Arduino",
+          "2742": "Arduino Accessories"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "Keyestudio EASY Plug": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Easy-Plug/4247007_10000002116054.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "10000002116054": "store_category_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "3209": "Keyestudio EASY Plug"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "Keyestudio Kidbits": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Kidsbits/4247007_10000001340205.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "10000001340205": "store_category_id",
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3206": "Little robots",
+          "3211": "Keyestudio Kidbits"
+        }
+      },
+      "3D Machine & Printer Parts": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/3D-Machine-Printer-kit/4247007_40000001542996.html",
+        "4247007": "store_id",
+        "40000001542996": "store_category_id",
+        "prestashop_categories": {
+
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3213": "DIY",
+          "2747": "3D Machine & Printer Parts"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "3D Machine & Printer Kits": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/3D-Machine-Printer-kit/4247007_40000001542996.html",
+        "4247007": "store_id",
+        "40000001542996": "store_category_id",
+        "prestashop_categories": {
+
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3213": "DIY",
+          "2748": "3D Machine & Printer Kits"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "CNC Shields": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/CNC-Series/4247007_40000001537885.html",
+        "4247007": "store_id",
+        "40000001537885": "store_category_id",
+        "prestashop_categories": {
+
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3213": "DIY",
+          "2749": "CNC Shields"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      }
+
+    }
+  },
+  "Fantasyland Toy Store": {
+    "store_id": 910331321,
+    "description": "Technology Small Production Experiment Constructor",
+    "about": "деревянные электронные игрушки",
+    "url": "https://www.aliexpress.com/store/910331321",
+    "all-wholesale-products": "https://aliexpress.com/store/all-wholesale-products/910331321.html",
+    "store_categories_json_file": "https://www.aliexpress.com/store/productGroupsAjax.htm?storeId=910331321&shopVersion=3.0&callback=jsonp_910331321",
+
+    "scenaries": {
+      "Arduino kits && Electronic Kits": {
+        "url": "https://www.aliexpress.com/store/group/Arduno-kit-Electronic-Kit/910331321_10000001157695.html",
+        "910331321": "store_id",
+        "10000001157695": "store_category_id",
+        "prestashop_categories": {
+
+          "2857": "prestashop_store_id",
+
+          "3198": "Space: CONSUMER ELECTRONICS",
+          "3203": "STEM ELECTRONIC EDUCATION TOYS",
+          "3213": "Little robots"
+        }
+      },
+      "Science Kits": {
+        "url": "https://www.aliexpress.com/store/group/Science-kit/910331321_10000001748209.html",
+        "910331321": "store_id",
+        "10000001748209": "store_category_id",
+        "prestashop_categories": {
+
+          "2857": "prestashop_store_id",
+
+          "3221": "Space: TOYS",
+          "3223": "Electronic wooden science toys"
+        }
+      },
+      "Baby wooden puzzle": {
+        "url": "https://www.aliexpress.com/store/group/Baby-toy-wooden-puzzle/910331321_10000003179520.html",
+        "910331321": "store_id",
+        "10000003179520": "store_category_id",
+        "prestashop_categories": {
+
+          "2857": "prestashop_store_id",
+
+          "3221": "Space: TOYS",
+          "3222": "Baby wooden puzzle"
+        }
+      }
+    }
+
+  }
+}

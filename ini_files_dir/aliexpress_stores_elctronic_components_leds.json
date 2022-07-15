@@ -1,0 +1,83 @@
+{
+  "XSLai Store": {
+    "store_id": 523400,
+    "description": "подсветка для тв матриц",
+    "about": "подсветка для тв матриц",
+    "url": "https://www.aliexpress.com/store/523400",
+    "all-wholesale-products": "https://www.aliexpress.com/store/all-wholesale-products/523400.html",
+    "store_categories_json_file": "https://www.aliexpress.com/store/productGroupsAjax.htm?storeId=523400&shopVersion=3.0&callback=jsonp_523400",
+
+    "scenaries": {
+      "Chargers": {
+        "url": "https://www.aliexpress.com/store/523400/group/Improve-CCFL-To-LED/523400_259052040.html",
+        "prestashop_categories": {
+          "523400": "store_id",
+          "259052040": "store_category_id",
+          "2813": "Laptop chargers",
+          "2673": "Tech",
+          "2674": "ALIEXPRESS TECH",
+          "2097": "Tech / Electronics"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "LED Backlight Strip...": {
+        "url": "https://www.aliexpress.com/store/523400/group/LED-Backlight-Strip-Kit/523400_503514728.html",
+        "prestashop_categories": {
+          "523400": "store_id",
+          "503514728": "store_category_id",
+          "2673": "Tech",
+          "2674": "ALIEXPRESS TECH",
+          "2097": "Tech / Electronics",
+
+          "2811": "b2b",
+          "2812": "led",
+          "2814": "TV Backlight CCFL LCD & Led Strips",
+          "2815": "TV Backlight Led Strips"
+
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "NEW LED Backlight Strip...": {
+        "url": "https://www.aliexpress.com/store/523400/group/TV-NEW-LED-backlight/523400_518104393.html",
+        "prestashop_categories": {
+          "523400": "store_id",
+          "518104393": "store_category_id",
+          "2673": "Tech",
+          "2674": "ALIEXPRESS TECH",
+          "2097": "Tech / Electronics",
+
+          "2811": "b2b",
+          "2812": "led",
+          "2814": "TV Backlight CCFL LCD & Led Strips",
+          "2815": "TV Backlight Led Strips"
+
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      },
+      "CFL LCD Backlight": {
+        "url": "https://www.aliexpress.com/store/523400/group/CCFL-LCD-Backlight/523400_259043805.html",
+        "prestashop_categories": {
+          "523400": "store_id",
+          "259043805": "store_category_id",
+          "2673": "Tech",
+          "2674": "ALIEXPRESS TECH",
+          "2097": "Tech / Electronics",
+          "2811": "b2b",
+          "2812": "led",
+          "2814": "TV Backlight CCFL LCD & Led Strips",
+          "2816": "TV Backlight CCFL LCD Strips"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      }
+    }
+
+  }
+}

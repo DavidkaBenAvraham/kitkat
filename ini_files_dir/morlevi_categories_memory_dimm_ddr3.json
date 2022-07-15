@@ -1,0 +1,24 @@
+{
+
+  "KINGSTON DIMM DDR3 4GB": {
+    "brand": "KINGSTON",
+    "url": "https://www.morlevi.co.il/Cat/230?p_315=22&p_45=98&p_44=91&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,154,482"
+  },
+  "KINGSTON DIMM DDR3 8GB": {
+    "brand": "KINGSTON",
+    "url": "https://www.morlevi.co.il/Cat/230?p_315=22&p_45=98&p_44=92&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,154,483"
+  },
+  "CORSAIR DIMM DDR3 4GB": {
+    "brand": "CORSAIR",
+    "url": "-------------------------------------------- CORSAIR DIMM DDR3 4GB -----------------------------------",
+    "checkbox":false, "prestashop_categories":"148,152,154,482"
+  },
+  "CORSAIR DIMM DDR3 8GB": {
+    "brand": "CORSAIR",
+    "url": "https://www.morlevi.co.il/Cat/151?p_315=20&p_45=98&p_44=92&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"148,152,154,483"
+  }
+
+}

@@ -1,0 +1,50 @@
+{
+  "In-ear Bud": {
+    "brand": "SONY",
+    "url": "https://ksp.co.il/web/cat/242..323..1250",
+    "checkbox": false,
+    "prestashop_categories": "1054,374,17,1,2,38,359,1062,1063,1073"
+  },
+  "Over-ear": {
+    "brand": "SONY",
+    "url": "https://ksp.co.il/web/cat/242..323..1252",
+    "checkbox": false,
+    "prestashop_categories": "1055,374,17,1,2,38,359,1062,1064,1074"
+  },
+  "On-ear": {
+    "brand": "SONY",
+    "url": "https://ksp.co.il/web/cat/242..323..3139",
+    "checkbox": false,
+    "prestashop_categories": "1056,374,17,1,2,38,359,1062,1065,1075,1075"
+  },
+  "Neckband": {
+    "brand": "SONY",
+    "url": "https://ksp.co.il/web/cat/242..323..1253",
+    "checkbox": false,
+    "prestashop_categories": "1057,374,17,1,2,38,359,1062,1066,1076,1077"
+  },
+  "True Wireless": {
+    "brand": "SONY",
+    "url": "https://ksp.co.il/web/cat/242..323..7854",
+    "checkbox": false,
+    "prestashop_categories": "1058,374,17,1,2,38,359,1062,1067,1073"
+  },
+  "Bluetooth": {
+    "brand": "SONY",
+    "url": "https://ksp.co.il/web/cat/242..323..1263",
+    "checkbox": false,
+    "prestashop_categories": "1059,374,17,1,2,38,359,1062,1068,1079"
+  },
+  "WiFi": {
+    "brand": "SONY",
+    "url": "https://ksp.co.il/web/cat/242..323..1264",
+    "checkbox": false,
+    "prestashop_categories": "1060,374,17,1,2,38,359,1062,1069,1080"
+  },
+  "Gaming": {
+    "brand": "SONY",
+    "url": "https://ksp.co.il/web/cat/242..323..1264",
+    "checkbox": false,
+    "prestashop_categories": "1060,374,17,1,2,38,359,1062,1069,1071,1072"
+  }
+}

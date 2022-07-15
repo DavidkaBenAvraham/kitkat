@@ -1,0 +1,26 @@
+{
+  "iPad Mini 2021": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/270..245..28582",
+    "checkbox": false,
+    "prestashop_categories": "483,10,3,1,2,429,826,2042,1911"
+  },
+  "iPad Air": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/270..245..17058",
+    "checkbox": false,
+    "prestashop_categories": "486,10,3,1,2,429,826,2042,1912"
+  },
+  "iPad 10.2 2021": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/270..245..28556",
+    "checkbox": false,
+    "prestashop_categories": "488,10,3,1,2,429,826,2042,1913"
+  },
+  "iPad Pro": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/270..245..24377..24953",
+    "checkbox": false,
+    "prestashop_categories": "490,10,3,1,2,429,826,2042,1914"
+  }
+}

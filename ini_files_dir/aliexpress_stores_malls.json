@@ -1,0 +1,18 @@
+﻿{
+  "TMALL": {
+    "store_id": 2792104,
+    "description": "MALL",
+    "about": "====",
+    "url": "https://kincony.aliexpress.ru/store/2792104",
+    "all-wholesale-products": "https://aliexpress.com/store/all-wholesale-products/2792104.html",
+    "store_categories_json_file": "https://aliexpress.com/store/store/productGroupsAjax.htm?storeId=2792104&shopVersion=3.0&callback=jsonp_2792104"
+  },
+  "shinzanmono Store": {
+    "store_id": 1101502346,
+    "description": "BT наушники",
+    "about": "====",
+    "url": "https://kincony.aliexpress.ru/store/1101502346",
+    "all-wholesale-products": "https://aliexpress.com/store/all-wholesale-products/1101502346.html",
+    "store_categories_json_file": "https://aliexpress.com/store/store/productGroupsAjax.htm?storeId=1101502346&shopVersion=3.0&callback=jsonp_1101502346"
+  }
+}

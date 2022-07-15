@@ -1,0 +1,39 @@
+{
+  "GENERIC mid tower": {
+    "brand": "GENERIC",
+    "model": "",
+    "url": "https://www.morlevi.co.il/Cat/97?p_315=30&p_124=540&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "195,196"
+  },
+  "GENERIC full tower": {
+    "brand": "GENERIC",
+    "model": "",
+    "url": "----------------------------GENERIC FULL TOWER--------------------------------",
+    "checkbox":false, "prestashop_categories":"195,197"
+  },
+  "GENERIC mini tower": {
+    "brand": "GENERIC",
+    "model": "",
+    "url": "----------------------------GENERIC mini TOWER--------------------------------",
+    "checkbox":false, "prestashop_categories":"195,198"
+  },
+  "GENERIC gaming mid tower": {
+    "brand": "GENERIC",
+    "model": "",
+    "url": "----------------------------GENERIC gaming mid--------------------------------",
+    "checkbox":false, "prestashop_categories":"195,199"
+  },
+  "GENERIC gaming full tower": {
+    "brand": "GENERIC",
+    "model": "",
+    "url": "----------------------------GENERIC gaming full TOWER--------------------------------",
+    "checkbox":false, "prestashop_categories":"195,200"
+  },
+  "GENERIC mini itx": {
+    "brand": "GENERIC",
+    "model": "",
+    "url": "----------------------------GENERIC mini itxR--------------------------------",
+    "checkbox":false, "prestashop_categories":"195,201"
+  }
+}

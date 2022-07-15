@@ -1,0 +1,38 @@
+{
+  "routers": {
+    "brand": "",
+    "url": "https://www.morlevi.co.il/Cat/111",
+    "checkbox":false, "prestashop_categories":"210,211"
+  },
+  "switch": {
+    "brand": "",
+    "url": "https://www.morlevi.co.il/Cat/141",
+    "checkbox":false, "prestashop_categories":"210,212"
+  },
+  "access point": {
+    "brand": "",
+    "url": "https://www.morlevi.co.il/Cat/144",
+    "checkbox":false, "prestashop_categories":"210,213"
+  },
+  "network cards": {
+    "brand": "",
+    "url": "https://www.morlevi.co.il/Cat/154",
+    "checkbox":false, "prestashop_categories":"210,214"
+  },
+  "network-cables": {
+    "brand": "",
+    "url": "https://www.morlevi.co.il/Cat/192",
+    "checkbox":false, "prestashop_categories":"210,215"
+  },
+  "nas": {
+    "brand": "",
+    "url": "https://www.morlevi.co.il/Cat/346",
+    "checkbox":false, "prestashop_categories":"210,216"
+  },
+
+  "racks": {
+    "brand": "",
+    "url": "https://www.morlevi.co.il/Cat/198",
+    "checkbox":false, "prestashop_categories":"210,217"
+  }
+}

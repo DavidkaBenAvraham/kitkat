@@ -1,0 +1,89 @@
+{
+  "iPhone SE 2022": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/272..573..245..36192",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3425": "iPhone SE 2022",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3418": "APPLE"
+
+    }
+  },
+  "iPhone 12 Mini": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/272..573..245..19218",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3426": "iPhone 12 Mini",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3418": "APPLE"
+
+    }
+  },
+  "iPhone 12": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/272..573..245..19213",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3427": "iPhone 12",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3418": "APPLE"
+
+    }
+  },
+  "iPhone 13 mini": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/272..573..245..28917",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3428": "iPhone 13 mini",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3418": "APPLE"
+
+    }
+  },
+  "iPhone 13 Pro": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/573..28976",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3429": "iPhone 13 Pro",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3418": "APPLE"
+
+    }
+  },
+  "iPhone 13 Pro Max": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/573..29011",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3430": "iPhone 13 Pro Max",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3418": "APPLE"
+
+    }
+  }
+}

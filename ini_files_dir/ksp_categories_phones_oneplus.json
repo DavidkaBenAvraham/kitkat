@@ -1,0 +1,92 @@
+{
+  "ONEPLUS Nord 2": {
+    "brand": "ONEPLUS",
+    "url": "https://ksp.co.il/web/cat/272..573..2190..27278",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2555": "ONEPLUS Nord 2",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2252": "ONEPLUS"
+
+    }
+  },
+  "ONEPLUS Nord CE": {
+    "brand": "ONEPLUS",
+    "url": "https://ksp.co.il/web/cat/272..573..2190..26037",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2556": "ONEPLUS Nord CE",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2252": "ONEPLUS"
+
+    }
+  },
+  "ONEPLUS 8 PRO": {
+    "brand": "ONEPLUS",
+    "url": "https://ksp.co.il/web/cat/272..573..2190..13340",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2557": "ONEPLUS 8 PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2252": "ONEPLUS"
+
+    }
+  },
+  "ONEPLUS 8T": {
+    "brand": "ONEPLUS",
+    "url": "https://ksp.co.il/web/cat/272..573..2190..13340",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2558": "ONEPLUS 8T",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2252": "ONEPLUS"
+
+    }
+  },
+  "ONEPLUS 9": {
+    "brand": "ONEPLUS",
+    "url": "https://ksp.co.il/web/cat/272..573..2190..24484",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2559": "ONEPLUS 9",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2252": "ONEPLUS"
+
+    }
+  },
+  "ONEPLUS 9 PRO": {
+    "brand": "ONEPLUS",
+    "url": "https://ksp.co.il/web/cat/272..573..2190..26171",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2560": "ONEPLUS 9 PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2252": "ONEPLUS"
+
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Apple Watch SE": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/2085..245..29185..28724",
+    "checkbox": false,
+    "prestashop_categories": "58,5,3,1,2,429,39,193,470",
+    "price_rule": 1,
+    "combinations": {
+      "size:select": "40 mm",
+      "color:color": "black",
+      "reseller:select": "Autorized Reseller",
+      "importer:select": "Official Importer",
+      "warranty:select": "1 year"
+    }
+  },
+  "Apple Watch Series 7": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/245..2085..29150..29229",
+    "checkbox": false,
+    "prestashop_categories": "59,5,3,1,2,429,39,193,471",
+    "price_rule": 1,
+    "combinations": {
+      "size:select": "40 mm",
+      "color:color": "black",
+      "reseller:select": "Autorized Reseller",
+      "importer:select": "Official Importer",
+      "warranty:select": "1 year"
+    }
+  },
+  "Apple Watch Series 6": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/2085..245..16121",
+    "checkbox": false,
+    "prestashop_categories": "60,5,3,1,2,429,39,193,472",
+    "price_rule": 1,
+    "combinations": {
+      "size:select": "40 mm",
+      "color:color:": "black",
+      "reseller:select": "Autorized Reseller",
+      "importer:select": "Official Importer",
+      "warranty:select": "1 year"
+    }
+  }
+}

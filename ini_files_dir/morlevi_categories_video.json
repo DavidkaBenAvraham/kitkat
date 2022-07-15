@@ -1,0 +1,17 @@
+{
+    "Quatro": {
+      "brand": "PNY",
+      "url": "https://www.morlevi.co.il/Cat/88",
+      "checkbox":false, "prestashop_categories":"108,111"
+    },
+    "GForce": {
+      "brand": "Nvidia",
+      "url": "https://www.morlevi.co.il/Cat/83",
+      "checkbox":false, "prestashop_categories":"108,109"
+    },
+    "Radeon": {
+      "brand": "amd",
+      "url": "https://www.morlevi.co.il/Cat/84",
+      "checkbox":false, "prestashop_categories":"108,110"
+    }
+  }

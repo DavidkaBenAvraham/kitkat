@@ -1,0 +1,38 @@
+{
+  "GIGABYTE mid tower": {
+    "brand": "GIGABYTE",
+    "model": "",
+    "url": "----------------------------GIGABYTE MID TOWER--------------------------------",
+    "checkbox":false, "prestashop_categories":"195,196"
+  },
+  "GIGABYTE full tower": {
+    "brand": "GIGABYTE",
+    "model": "",
+    "url": "----------------------------GIGABYTE FULL TOWER--------------------------------",
+    "checkbox":false, "prestashop_categories":"195,197"
+  },
+  "GIGABYTE mini tower": {
+    "brand": "GIGABYTE",
+    "model": "",
+    "url": "----------------------------GIGABYTE mini TOWER--------------------------------",
+    "checkbox":false, "prestashop_categories":"195,198"
+  },
+  "GIGABYTE gaming mid tower": {
+    "brand": "GIGABYTE",
+    "model": "",
+    "url": "----------------------------GIGABYTE gaming mid--------------------------------",
+    "checkbox":false, "prestashop_categories":"195,199"
+  },
+  "GIGABYTE gaming full tower": {
+    "brand": "GIGABYTE",
+    "model": "",
+    "url": "----------------------------GIGABYTE gaming full TOWER--------------------------------",
+    "checkbox":false, "prestashop_categories":"195,200"
+  },
+  "GIGABYTE mini itx": {
+    "brand": "GIGABYTE",
+    "model": "",
+    "url": "----------------------------GIGABYTE mini itxR--------------------------------",
+    "checkbox":false, "prestashop_categories":"195,201"
+  }
+}

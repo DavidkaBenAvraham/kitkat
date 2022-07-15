@@ -1,0 +1,26 @@
+{
+  "Galaxy Tab S8": {
+    "brand": "SAMSUNG",
+    "url": "https://ksp.co.il/web/cat/1045..270..137..33873..33878..33877..33876..33875..33874",
+    "checkbox": false,
+    "prestashop_categories": "476,169,6,1,2,429,826,1008,1009"
+  },
+  "Galaxy Tab S7": {
+    "brand": "SAMSUNG",
+    "url": "https://ksp.co.il/web/cat/1045..270..137..28426..28410..14680..14675",
+    "checkbox": false,
+    "prestashop_categories": "477,169,6,1,2,429,826,1008,1010"
+  },
+  "Galaxy Tab S6": {
+    "brand": "SAMSUNG",
+    "url": "https://ksp.co.il/web/cat/1045..270..137..13571..13568",
+    "checkbox": false,
+    "prestashop_categories": "479,169,6,1,2,429,826,1008,1011"
+  },
+  "Galaxy Tab A7": {
+    "brand": "SAMSUNG",
+    "url": "https://ksp.co.il/web/cat/1045..270..137..29554..27904..19385",
+    "checkbox": false,
+    "prestashop_categories": "481,169,6,1,2,429,429,826,1008,1012"
+  }
+}

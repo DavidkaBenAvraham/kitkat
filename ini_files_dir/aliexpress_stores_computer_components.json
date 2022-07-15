@@ -1,0 +1,58 @@
+{
+  "Storage outlets Store": {
+    "description": "память по скидке",
+    "about": "====",
+    "store_id": 2843040,
+    "url": "https://aliexpress.com/store/2843040",
+    "all-wholesale-products": "https://aliexpress.com/store/all-wholesale-products/2843040.html",
+    "store_categories_json_file": "https://aliexpress.com/store/productGroupsAjax.htm?storeId=911943321&shopVersion=3.0&callback=jsonp_911943321"
+  },
+  "LAMB Store": {
+    "description": "запчасти для ноутбуков",
+    "about": "====",
+    "store_id": 2928019,
+    "url": "https://aliexpress.com/store/2928019",
+    "all-wholesale-products": "https://aliexpress.com/store/all-wholesale-products/2928019.html",
+    "store_categories_json_file": "https://aliexpress.com/store/productGroupsAjax.htm?storeId=2928019&shopVersion=3.0&callback=jsonp_2928019"
+  },
+  "KONYA Store": {
+    "description": "запчасти для ноутбуков",
+    "about": "====",
+    "store_id": 4376089,
+    "url": "https://aliexpress.com/store/4376089",
+    "all-wholesale-products": "https://aliexpress.com/store/all-wholesale-products/4376089.html",
+    "store_categories_json_file": "https://aliexpress.com/store/productGroupsAjax.htm?storeId=4376089&shopVersion=3.0&callback=jsonp_4376089"
+  },
+  "Professional Accessories Store": {
+    "description": "запчасти для ноутбуков",
+    "about": "====",
+    "store_id": 4376089,
+    "url": "https://aliexpress.com/store/4376089",
+    "all-wholesale-products": "https://aliexpress.com/store/all-wholesale-products/4376089.html",
+    "store_categories_json_file": "https://aliexpress.com/store/productGroupsAjax.htm?storeId=4376089&shopVersion=3.0&callback=jsonp_4376089"
+  },
+  "Kllisre Official Store": {
+    "description": "запчасти для ноутбуков",
+    "about": "====",
+    "store_id": 604710,
+    "url": "https://aliexpress.com/store/604710",
+    "all-wholesale-products": "https://aliexpress.com/store/all-wholesale-products/604710.html",
+    "store_categories_json_file": "https://aliexpress.com/store/productGroupsAjax.htm?storeId=604710&shopVersion=3.0&callback=jsonp_604710"
+  },
+  "Hl Digital Store": {
+    "description": "запчасти для ноутбуков",
+    "about": "====",
+    "store_id": 911936985,
+    "url": "https://aliexpress.com/store/911936985",
+    "all-wholesale-products": "https://aliexpress.com/store/all-wholesale-products/911936985.html",
+    "store_categories_json_file": "https://aliexpress.com/store/productGroupsAjax.htm?storeId=911936985&shopVersion=3.0&callback=jsonp_911936985"
+  },
+  "LCD Display Monitor Products Store": {
+    "description": " LCD Display ,   Monitor Products",
+    "about": "====",
+    "store_id": 911766779,
+    "url": "https://aliexpress.com/store/911766779",
+    "all-wholesale-products": "https://aliexpress.com/store/all-wholesale-products/911766779.html",
+    "store_categories_json_file": "https://aliexpress.com/store/productGroupsAjax.htm?storeId=911766779&shopVersion=3.0&callback=jsonp_911766779"
+  }
+}

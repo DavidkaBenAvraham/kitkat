@@ -1,0 +1,132 @@
+{
+  "infinity_scroll": false,
+  "checkboxes_for_categories": false,
+  "category": {
+    "pages_listing_locator": {
+      "attribute": "href",
+      "by": "css selector",
+      "selector": "\".page-link[aria-label='Next']"
+    }
+  },
+  "product": {
+    "link_to_product_locator": {
+      "attribute": "href",
+      "by": "css selector",
+      "selector": "div.product-thumb a[href*=\"product\"]"
+    }
+  },
+  "product_fields_locators": {
+    "title_locator": {
+      "attribute": "innerHTML",
+      "by": "css selector",
+      "selector": "h1.d-inline-block"
+    },
+    "short_description_locator": {
+      "attribute": "innerHTML",
+      "by": "css selector",
+      "selector": "h1.d-inline-block"
+    },
+    "description_locator": {
+      "attribute": "innerHTML",
+      "by": "css selector",
+      "selector": ".row.product-params.pt-2.pb-2.pt-sm-5.pb-sm-5"
+    },
+
+    "price_locator": {
+      "attribute": "innerHTML",
+      "by": "id",
+      "selector": "basicPrice"
+    },
+
+    "brand_locator": {
+      "attribute": "innerHTML",
+      "by": "css selector",
+      "selector": "text*='éöøï'"
+    },
+
+    "sku_locator": {
+      "attribute": "innerHTML",
+      "by": "css selector",
+      "selector": "span.ltr.sku-copy"
+    },
+    "brand_sku_locator": {
+      "attribute": "innerHTML",
+      "by": "css selector",
+      "selector": "span.sku-copy"
+    },
+
+    "image_locator": {
+      "attribute": "href",
+      "by": "id",
+      "selector": "mainpic"
+    },
+
+    "li_locator": {
+      "attribute": "innerHTML",
+      "by": "tag name",
+      "selector": "li"
+    }
+  },
+  "laptop_description_fields_selectors": {
+    "screen": {
+      "attribute": "innerHTML",
+      "by": "css selector",
+      "selector": "text*='âåãì îñê'"
+    },
+    "CPUTYPE": {
+      "attribute": "innerHTML",
+      "by": "css selector",
+      "selector": "text*='CPUTYPE'"
+    },
+    "cpu": {
+      "attribute": "innerHTML",
+      "by": "css selector",
+      "selector": "text='îòáã'"
+    }
+  },
+  "stock_locator": {
+    "attribute": "innerHTML",
+    "by": "css selector",
+    "selector": ".stockMsg"
+
+  },
+  "login": {
+    "open_login_dialog_locator_olld": {
+      "by": "css selector",
+      "selector": "img[src*=\"img/userico.png\"]"
+
+    },
+    "open_login_dialog_locator": {
+      "by": "css selector",
+      "selector": "a[data-modal*='/User/Login']"
+    },
+
+    "email": "sales@aluf.co.il",
+    "email_locator": {
+      "by": "id",
+      "selector": "Email"
+
+    },
+    "password": "9643766",
+    "password_locator": {
+      "by": "id",
+      "selector": "Password"
+
+    },
+    "loginbutton_locator": {
+      "by": "css selector",
+      "selector": ".btn.btn-primary.btn-lg.w-50.float-left.mr-2"
+
+    },
+
+    "popup_locator": {
+      "by": "css selector",
+      "selector": "div.messageModal"
+    },
+
+    "close_popup_locator": {
+      "by": "css selector",
+      "selector": "button.close"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+
+  "supplier": "grandadvance",
+  "supplier_prefics": "GRD-",
+  "start_url": "https://www.grandadvance.co.il/",
+  "price_rule": "1.43",
+
+  "scenaries": [
+    [ "grandadvance_categories_keyboards_logitech.json" ],
+    [
+      "grandadvance_categories_laptops_acer.json",
+      "grandadvance_categories_laptops_lenovo.json",
+      "grandadvance_categories_laptops_hp.json",
+      "grandadvance_categories_laptops_dell.json"
+    ],
+    [ "grandadvance_categories_video_nvidia.json" ]
+  ],
+  "last_runned_scenario": ""
+}

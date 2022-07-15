@@ -1,0 +1,178 @@
+{
+
+  "LENOVO 11.6 I3": {
+    "brand": "LENOVO",
+    "url": "------------------LENOVO 11.6 I3------------r     ",
+    "checkbox":false, "prestashop_categories":"3,53,305,8,4,366"
+  },
+  "LENOVO 11.6 I5": {
+    "brand": "LENOVO",
+    "url": "----------------LENOVO 11.6 I5--------------",
+    "checkbox":false, "prestashop_categories":"3,53,305,8,5"
+  },
+  "LENOVO 11.6 I7": {
+    "brand": "LENOVO",
+    "url": "---------------LENOVO 11.6 I7----------------",
+    "checkbox":false, "prestashop_categories":"3,53,305,8,6"
+  },
+  "LENOVO 11.6 I9": {
+    "brand": "LENOVO",
+    "url": "---------------LENOVO 11.6 I9-------------- ",
+    "checkbox":false, "prestashop_categories":"3,53,305,8,7"
+  },
+  "LENOVO 11.6 AMD": {
+    "brand": "LENOVO",
+    "url": "-----------------LENOVO 11.6 AMD------------ ",
+    "checkbox":false, "prestashop_categories":"3,53,305,8,234,367"
+  },
+  "LENOVO 11.6 Celeron": {
+    "brand": "LENOVO",
+    "url": "-----------------------LENOVO 11.6 Celeron----------------------",
+    "checkbox":false, "prestashop_categories":"3,53,305,8,233,368"
+  },
+  "LENOVO 11.6 Pentium": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/71?p_238=1142&p_387=3417&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,53,305,8,232,369"
+  },
+  "LENOVO 13.4 - 13.3 I3": {
+    "brand": "LENOVO",
+    "url": "-----------------LENOVO 13.4 - 13.3 I3-------------r ",
+    "checkbox":false, "prestashop_categories":"3,53,306,9,4,370"
+  },
+  "LENOVO 13.4 - 13.3 I5": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/71?p_238=1143&p_387=3414&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,53,306,9,5,371"
+  },
+  "LENOVO 13.4 - 13.3 I7": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/71?p_238=1143&p_387=3415&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,53,306,9,6,372"
+  },
+  "LENOVO 13.4 - 13.3 I9": {
+    "brand": "LENOVO",
+    "url": "----------------------------- ",
+    "checkbox":false, "prestashop_categories":"3,53,306,9,7,373"
+  },
+  "LENOVO 13.4 - 13.3 AMD": {
+    "brand": "LENOVO",
+    "url": "----------------------------- ",
+    "checkbox":false, "prestashop_categories":"3,53,306,9,234,347"
+  },
+  "LENOVO 13.4 - 13.3 Celeron": {
+    "brand": "LENOVO",
+    "url": "----------------------------- ",
+    "checkbox":false, "prestashop_categories":"3,53,306,9,233,375"
+  },
+  "LENOVO 13.4 - 13.3 Pentium": {
+    "brand": "LENOVO",
+    "url": "----------------------------- ",
+    "checkbox":false, "prestashop_categories":"3,53,306,9,232,376"
+  },
+  "LENOVO 14 I3": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/71?p_238=1144&p_387=3413&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,53,104,10,4,377"
+  },
+  "LENOVO 14 I5": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/71?p_238=1144&p_387=3414&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,53,104,10,5,378"
+  },
+  "LENOVO 14 I7": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/71?p_238=1144&p_387=3415&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,53,104,10,6,379"
+  },
+  "LENOVO 14 I9": {
+    "brand": "LENOVO",
+    "url": "----------------------------- ",
+    "checkbox":false, "prestashop_categories":"3,53,104,10,7,380"
+  },
+  "LENOVO 14 AMD": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/71?p_238=1144&p_387=3420&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,53,104,10,234,381"
+  },
+  "LENOVO 14 Celeron": {
+    "brand": "LENOVO",
+    "url": "---------------------------------LENOVO 14 Celeron-------------------------------",
+    "checkbox":false, "prestashop_categories":"3,53,104,10,233,382"
+  },
+  "LENOVO 14 Pentium": {
+    "brand": "LENOVO",
+    "url": "----------------- LENOVO 14 Pentium ------------ ",
+    "checkbox":false, "prestashop_categories":"3,53,104,10,232,383"
+  },
+  "LENOVO 15 I3": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/71?p_238=1145&p_387=3413&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,53,105,11,4,384"
+  },
+  "LENOVO 15 I5": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/71?p_238=1145&p_387=3414&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,53,105,11,5,385"
+  },
+  "LENOVO 15 I7": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/71?p_238=1145&p_387=3415&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,53,105,11,6,386"
+  },
+  "LENOVO 15 I9": {
+    "brand": "LENOVO",
+    "url": "----------------LENOVO 15 I9------------- ",
+    "checkbox":false, "prestashop_categories":"3,53,105,11,7,387"
+  },
+  "LENOVO 15 AMD": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/71?p_238=1145&p_387=3419&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,53,105,11,234,388"
+  },
+  "LENOVO 15 Celeron": {
+    "brand": "LENOVO",
+    "url": "---------------------LENOVO 15 Celeron-------------------",
+    "checkbox":false, "prestashop_categories":"3,53,105,11,233,389"
+  },
+  "LENOVO 15 Pentium": {
+    "brand": "LENOVO",
+    "url": "-------------------LENOVO 15 Pentium------------------",
+    "checkbox":false, "prestashop_categories":"3,53,105,11,232,390"
+  },
+  "LENOVO 17.3 I3": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/71?p_238=1146&p_387=3413&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,53,106,12,4,391"
+  },
+  "LENOVO 17.3 I5": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/71?p_238=1146&p_387=3414&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,53,106,12,5,392"
+  },
+  "LENOVO 17.3 I7": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/71?p_238=1146&p_387=3415&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,53,106,12,6,393"
+  },
+  "LENOVO 17.3 I9": {
+    "brand": "LENOVO",
+    "url": "--------------------LENOVO 17.3 I9---------",
+    "checkbox":false, "prestashop_categories":"3,53,106,12,7,394"
+  },
+  "LENOVO 17.3 AMD": {
+    "brand": "LENOVO",
+    "url": "-------------------LENOVO 17.3 AMD-----------",
+    "checkbox":false, "prestashop_categories":"3,53,106,12,234,395"
+  },
+  "LENOVO 17.3 Celeron": {
+    "brand": "LENOVO",
+    "url": "-------------------LENOVO 17.3 Celeron---------- ",
+    "checkbox":false, "prestashop_categories":"3,53,106,12,233,396"
+  },
+  "LENOVO 17.3 Pentium": {
+    "brand": "LENOVO",
+    "url": "---------------------LENOVO 17.3 Pentium-----------",
+    "checkbox":false, "prestashop_categories":"3,53,106,12,232,397"
+  }
+}

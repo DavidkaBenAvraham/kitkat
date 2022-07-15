@@ -1,0 +1,50 @@
+{
+  "TAB M7": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/1045..270..159..31989..26718..133790",
+    "checkbox": false,
+    "prestashop_categories": "684,700,682,260,1,2,429,826,999,1000"
+  },
+  "TAB M8": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/1045..270..159..13379",
+    "checkbox": false,
+    "prestashop_categories": "685,700,682,260,1,2,429,826,999,1001"
+  },
+  "TAB M10": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/1045..270..159..9721..19433..13544",
+    "checkbox": false,
+    "prestashop_categories": "686,700,682,260,1,2,429,826,999,1002"
+  },
+  "TAB P11": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/1045..270..159..22065..30559..21476",
+    "checkbox": false,
+    "prestashop_categories": "696,700,682,260,1,2,429,826,999,1003"
+  },
+  "TAB P12": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/1045..270..159..32548",
+    "checkbox": false,
+    "prestashop_categories": "697,700,682,260,1,2,429,826,999,1004"
+  },
+  "Yoga Smart Tab": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/1045..270..159..9734",
+    "checkbox": false,
+    "prestashop_categories": "702,701,682,260,1,2,429,826,999,1005"
+  },
+  "Yoga TAB 11": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/1045..270..159..26718",
+    "checkbox": false,
+    "prestashop_categories": "703,701,682,260,1,2,429,826,999,1006"
+  },
+  "Yoga TAB 13": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/1045..270..159..26718",
+    "checkbox": false,
+    "prestashop_categories": "704,701,682,260,1,2,429,826,999,1007"
+  }
+}

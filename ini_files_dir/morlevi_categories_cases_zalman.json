@@ -1,0 +1,44 @@
+{
+  "ZALMAN mid tower": {
+    "brand": "ZALMAN",
+    "model": "",
+    "url": "https://www.morlevi.co.il/Cat/100?p_315=34&p_124=540&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "195,196,555"
+  },
+  "ZALMAN full tower": {
+    "brand": "ZALMAN",
+    "model": "",
+    "url": "----------------------------ZALMAN FULL TOWER--------------------------------",
+    "checkbox": false,
+    "prestashop_categories": "195,197,555"
+  },
+  "ZALMAN mini tower": {
+    "brand": "ZALMAN",
+    "model": "",
+    "url": "----------------------------ZALMAN mini TOWER--------------------------------",
+    "checkbox": false,
+    "prestashop_categories": "195,198,555"
+  },
+  "ZALMAN gaming mid tower": {
+    "brand": "ZALMAN",
+    "model": "",
+    "url": "----------------------------ZALMAN gaming mid--------------------------------",
+    "checkbox": false,
+    "prestashop_categories": "195,199,555"
+  },
+  "ZALMAN gaming full tower": {
+    "brand": "ZALMAN",
+    "model": "",
+    "url": "----------------------------ZALMAN gaming full TOWER--------------------------------",
+    "checkbox": false,
+    "prestashop_categories": "195,200,555"
+  },
+  "ZALMAN mini itx": {
+    "brand": "ZALMAN",
+    "model": "",
+    "url": "----------------------------ZALMAN mini itxR--------------------------------",
+    "checkbox": false,
+    "prestashop_categories": "195,201,555"
+  }
+}

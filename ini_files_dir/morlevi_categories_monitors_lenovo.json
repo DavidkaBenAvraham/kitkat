@@ -1,0 +1,45 @@
+{
+  "LENOVO 22": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/8?p_315=6&p_350=1805&p_75=289&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "127,128,527"
+  },
+  "LENOVO 23": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/8?p_315=6&p_350=1806&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "127,128,527"
+  },
+  "LENOVO 24-25": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/8?p_315=6&p_350=1807&p_75=292&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "127,129,527"
+
+  },
+  "LENOVO 27-29": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/8?p_315=6&p_350=1808&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "127,130,527"
+  },
+  "LENOVO 32": {
+    "brand": "LENOVO",
+    "url": "https://www.morlevi.co.il/Cat/8?p_315=6&p_350=1809&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "127,131,527"
+  },
+  "LENOVO 34": {
+    "brand": "LENOVO",
+    "url": " --------------------------  LENOVO 34 -----------------------------------",
+    "checkbox": false,
+    "prestashop_categories": "127,132,527"
+  },
+  "LENOVO 49": {
+    "brand": "LENOVO",
+    "url": "-----------------------------  LENOVO 49 ---------------------------------",
+    "checkbox": false,
+    "prestashop_categories": "127,133,527"
+  }
+}

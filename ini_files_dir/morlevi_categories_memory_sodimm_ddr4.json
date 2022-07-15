@@ -1,0 +1,52 @@
+{
+
+  "KINGSTON SODIMM DDR3 4GB": {
+    "brand": "KINGSTON",
+    "url": "https://www.morlevi.co.il/Cat/236?p_315=22&p_45=100&p_44=91&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "148,153,156"
+  },
+  "KINGSTON SODIMM DDR3 8GB": {
+    "brand": "KINGSTON",
+    "url": "https://www.morlevi.co.il/Cat/171?p_315=22&p_45=100&p_44=92&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "148,153,156"
+  },
+  "G.SKILL SODIMM DDR4 8GB": {
+    "brand": "G.SKILL",
+    "url": "https://www.morlevi.co.il/Cat/278?p_315=21&p_45=100&p_44=92&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "148,153,157,567"
+  },
+  "G.SKILL SODIMM DDR4 16GB": {
+    "brand": "G.SKILL",
+    "url": "https://www.morlevi.co.il/Cat/278?p_315=21&p_45=100&p_44=93&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "148,153,157,568"
+  },
+  "CORSAIR SODIMM DDR3 4GB": {
+    "brand": "CORSAIR",
+    "url": "-------------------------------------------- CORSAIR SODIMM DDR3 4GB -----------------------------------",
+    "checkbox": false,
+    "prestashop_categories": "148,153,157,482"
+  },
+  "CORSAIR SODIMM DDR3 8GB": {
+    "brand": "CORSAIR",
+    "url": "https://www.morlevi.co.il/Cat/151?p_315=20&p_45=98&p_44=92&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "148,153,157,483"
+  },
+  "Crucial SODIMM DDR4 4GB": {
+    "brand": "CRUCIAL",
+    "url": "https://www.morlevi.co.il/Cat/171?p_315=19&p_45=100&p_44=91&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "148,153,157,566"
+  },
+  "Crucial SODIMM DDR4 8GB": {
+    "brand": "CRUCIAL",
+    "url": "https://www.morlevi.co.il/Cat/171?p_315=19&p_45=100&p_44=92&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "148,153,157,567"
+  }
+
+}

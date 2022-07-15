@@ -1,0 +1,144 @@
+{
+  "RUI Kiss Baby Clothing Store": {
+    "description": "RUI Kiss Baby Clothing Store",
+    "about": "RUI Kiss Baby Clothing Store",
+    "store_id": 4991089,
+    "url": "https://www.aliexpress.com/store/4991089",
+    "all-wholesale-products": "https://www.aliexpress.com/store/all-wholesale-products/4991089.html",
+    "store_categories_json_file": "https://www.aliexpress.com/store/store/productGroupsAjax.htm?storeId=4991089&shopVersion=3.0&callback=jsonp_4991089",
+    "scenaries": {
+      "Baby coat": {
+        "url": "https://www.aliexpress.com/store/group/Baby-coat/4991089_515163764.html",
+        "prestashop_categories": {
+          "4991089": "store_id",
+          "515163764": "store_category_id",
+          "2766": "Baby coat",
+          "2764": "Baby Clothing",
+          "2761": "Clothing",
+
+          "checkbox": false,
+
+          "price_rule": 1
+        }
+      },
+      "Baby Romper": {
+        "url": "https://www.aliexpress.com/store/group/Baby-Romper/4991089_515163765.html",
+        "prestashop_categories": {
+          "4991089": "store_id",
+          "515163765": "store_category_id",
+          "2767": "Baby Romper",
+          "2764": "Baby Clothing",
+          "2761": "Clothing",
+
+          "checkbox": false,
+
+          "price_rule": 1
+        }
+      },
+      "Baby Shoes": {
+        "url": "https://www.aliexpress.com/store/group/Baby-shoes/4991089_515163766.html",
+        "prestashop_categories": {
+          "4991089": "store_id",
+          "515163766": "store_category_id",
+          "2768": "Baby Shoes",
+          "2764": "Baby Clothing",
+          "2761": "Clothing",
+
+          "checkbox": false,
+
+          "price_rule": 1
+        }
+      },
+      "Baby pants": {
+        "url": "https://www.aliexpress.com/store/group/Baby-pants/4991089_515163767.html",
+        "prestashop_categories": {
+          "4991089": "store_id",
+          "515163767": "store_category_id",
+          "2769": "Baby pants",
+          "2764": "Baby Clothing",
+          "2761": "Clothing",
+
+          "checkbox": false,
+
+          "price_rule": 1
+        }
+      },
+      "Baby suit": {
+        "url": "https://www.aliexpress.com/store/group/Baby-suit/4991089_515163762.html",
+        "prestashop_categories": {
+          "4991089": "store_id",
+          "515163762": "store_category_id",
+          "2770": "Baby suit",
+          "2764": "Baby Clothing",
+          "2761": "Clothing",
+
+          "checkbox": false,
+
+          "price_rule": 1
+        }
+      },
+      "Baby T- shirts": {
+        "url": "https://www.aliexpress.com/store/group/Baby-T-shirt/4991089_515163763.html",
+        "prestashop_categories": {
+          "4991089": "store_id",
+          "515163763": "store_category_id",
+          "2771": "Baby T- shirts",
+          "2764": "Baby Clothing",
+          "2761": "Clothing",
+
+          "checkbox": false,
+
+          "price_rule": 1
+        }
+      },
+      "Baby dress": {
+        "url": "https://www.aliexpress.com/store/group/Baby-dress/4991089_514957277.html",
+        "prestashop_categories": {
+          "4991089": "store_id",
+          "514957277": "store_category_id",
+          "2773": "Baby dress",
+          "2764": "Baby Clothing",
+          "2761": "Clothing",
+
+          "checkbox": false,
+
+          "price_rule": 1
+        }
+      },
+      "Baby toys": {
+        "url": "https://www.aliexpress.com/store/group/Baby-toys/4991089_515163768.html",
+        "prestashop_categories": {
+          "4991089": "store_id",
+          "515163768": "store_category_id",
+          "2772": "Baby Toys",
+          "2764": "Baby Clothing",
+          "2761": "Clothing",
+
+
+          "2775": "Toys",
+
+          "checkbox": false,
+
+          "price_rule": 1
+        }
+      },
+      "Baby accessories": {
+        "url": "https://www.aliexpress.com/store/group/Baby-accessories/4991089_10000001496543.html",
+        "prestashop_categories": {
+          "4991089": "store_id",
+          "10000001496543": "store_category_id",
+          "2774": "Baby accessories",
+          "2764": "Baby Clothing",
+          "2761": "Clothing",
+
+
+          "2775": "Toys",
+
+          "checkbox": false,
+
+          "price_rule": 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+
+  "DESKTOP LENOVO WORKSTATION P I3": {
+    "brand": "LENOVO",
+    "model": "WORKSTATION P",
+    "url": "-----------------------------------DESKTOP LENOVO WORKSTATION P I3---------------------------------------------",
+    "checkbox":false, "prestashop_categories":"91,89,231,235"
+  },
+  "DESKTOP LENOVO WORKSTATION P I5": {
+    "brand": "LENOVO",
+    "model": "WORKSTATION P",
+    "url": "--------------------------------DESKTOP LENOVO WORKSTATION P I5--------------------------------",
+    "checkbox":false, "prestashop_categories":"91,89,231,236,242"
+  },
+  "DESKTOP LENOVO WORKSTATION P I7": {
+    "brand": "LENOVO",
+    "model": "WORKSTATION P",
+    "url": "https://www.visualdg.co.il/172346-WorkStation-P-Series/253274",
+    "checkbox": false,
+    "prestashop_categories": "91,89,237,242"
+  },
+  "DESKTOP LENOVO WORKSTATION P I9": {
+    "brand": "LENOVO",
+    "model": "WORKSTATION P",
+    "url": "https://www.visualdg.co.il/172346-WorkStation-P-Series/253278",
+    "checkbox": false,
+    "prestashop_categories": "91,89,238,242"
+  },
+  "DESKTOP LENOVO WORKSTATION P AMD": {
+    "brand": "LENOVO",
+    "model": "WORKSTATION P",
+    "url": "-------------------------------------DESKTOP DESKTOP LENOVO WORKSTATION P AMD-----------------------------------",
+    "checkbox":false, "prestashop_categories":"91,89,231,239"
+  }
+}

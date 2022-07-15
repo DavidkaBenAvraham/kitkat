@@ -1,0 +1,94 @@
+{
+  "HP Laptop 15": {
+    "brand": "HP",
+    "url": "https://ksp.co.il/web/cat/268..271..162..7766",
+    "checkbox": false,
+    "prestashop_categories": "913,541,540,1,2,429,943,351,928"
+  },
+  "HP Pavilion Aero": {
+    "brand": "HP",
+    "url": "https://ksp.co.il/web/cat/268..271..162..33856",
+    "checkbox": false,
+    "prestashop_categories": "914,541,540,1,2,429,943,351,929"
+  },
+  "HP Pavilion 15": {
+    "brand": "HP",
+    "url": "https://ksp.co.il/web/cat/268..271..162..7766..2528",
+    "checkbox": false,
+    "prestashop_categories": "915,541,540,1,2,429,943,351,930"
+  },
+  "HP Pavilion 14": {
+    "brand": "HP",
+    "url": "https://ksp.co.il/web/cat/268..271..162..2526",
+    "checkbox": false,
+    "prestashop_categories": "916,541,540,1,2,429,943,351,931"
+  },
+  "HP Pavilion 13": {
+    "brand": "HP",
+    "url": "https://ksp.co.il/web/cat/268..271..162..26891",
+    "checkbox": false,
+    "prestashop_categories": "917,541,540,1,2,429,943,351,932"
+  },
+  "HP Pavilion Gaming": {
+    "brand": "HP",
+    "url": "https://ksp.co.il/web/cat/268..271..162..26891",
+    "checkbox": false,
+    "prestashop_categories": "918,541,540,1,2,429,943,351,933"
+  },
+  "HP Pavilion x360 14": {
+    "brand": "HP",
+    "url": "https://ksp.co.il/web/cat/268..271..162..4392",
+    "checkbox": false,
+    "prestashop_categories": "919,541,540,1,2,429,943,351,934"
+  },
+  "HP Omen 15": {
+    "brand": "HP",
+    "url": "https://ksp.co.il/web/cat/268..271..162..3489",
+    "checkbox": false,
+    "prestashop_categories": "920,541,540,1,2,429,943,351,935"
+  },
+  "HP Omen 16": {
+    "brand": "HP",
+    "url": "https://ksp.co.il/web/cat/268..271..162..30954",
+    "checkbox": false,
+    "prestashop_categories": "921,541,540,1,2,429,943,351,936"
+  },
+  "HP Victus 16": {
+    "brand": "HP",
+    "url": "https://ksp.co.il/web/cat/268..271..162..29547",
+    "checkbox": false,
+    "prestashop_categories": "922,541,540,1,2,429,943,351,937"
+  },
+  "HP Spectre x360 14": {
+    "brand": "HP",
+    "url": "https://ksp.co.il/web/cat/268..271..162..21745",
+    "checkbox": false,
+    "prestashop_categories": "923,541,540,1,2,429,943,351,938"
+  },
+  "HP Spectre x360 13": {
+    "brand": "HP",
+    "url": "https://ksp.co.il/web/cat/268..271..162..3649",
+    "checkbox": false,
+    "prestashop_categories": "924,541,540,1,2,429,943,351,939"
+  },
+
+  "HP Envy 15": {
+    "brand": "HP",
+    "url": "https://ksp.co.il/web/cat/268..271..162..28949",
+    "checkbox": false,
+    "prestashop_categories": "925,541,540,1,2,429,943,351,940"
+  },
+  "HP Envy 14": {
+    "brand": "HP",
+    "url": "https://ksp.co.il/web/cat/268..271..162..20892",
+    "checkbox": false,
+    "prestashop_categories": "926,541,540,1,2,429,943,351,941"
+  },
+  "HP Envy 13": {
+    "brand": "HP",
+    "url": "https://ksp.co.il/web/cat/268..271..162..3839",
+    "checkbox": false,
+    "prestashop_categories": "927,541,540,1,2,429,943,351,942"
+  }
+
+}

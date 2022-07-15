@@ -1,0 +1,20 @@
+{
+  "NVIDIA Tesla": {
+    "brand": "NVIDIA Tesla",
+    "url": "https://reseller.c-data.co.il/graphics-nvidia-tesla",
+    "checkbox": false,
+    "prestashop_categories": "108,109,987"
+  },
+  "NVIDIA Quadro": {
+    "brand": "NVIDIA",
+    "url": "https://reseller.c-data.co.il/graphics-nvidia-quadro",
+    "checkbox": false,
+    "prestashop_categories": "108,109,988"
+  },
+  "Nvidia GPU": {
+    "brand": "NVIDIA",
+    "url": "https://reseller.c-data.co.il/graphics-nvidia-gtx-rtx",
+    "checkbox": false,
+    "prestashop_categories": "108,110"
+  }
+}

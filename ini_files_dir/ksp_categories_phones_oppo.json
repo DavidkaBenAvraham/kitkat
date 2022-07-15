@@ -1,0 +1,92 @@
+{
+  "Oppo A74": {
+    "brand": "OPPO",
+    "url": "https://ksp.co.il/web/cat/573..21448..28472",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
+  },
+  "Oppo A93": {
+    "brand": "OPPO",
+    "url": "https://ksp.co.il/web/cat/573..21448..21447",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2299": "Oppo A93",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
+  },
+  "Oppo A94": {
+    "brand": "OPPO",
+    "url": "https://ksp.co.il/web/cat/573..21448..25412",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2300": "Oppo A94",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
+  },
+  "Oppo Reno 5": {
+    "brand": "OPPO",
+    "url": "https://ksp.co.il/web/cat/573..21448..25491",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2301": "Oppo Reno 5",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
+  },
+  "Oppo Reno 5 Pro": {
+    "brand": "OPPO",
+    "url": "https://ksp.co.il/web/cat/573..21448..25800",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2302": "Oppo Reno 5 Pro",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
+  },
+  "Oppo Reno 6": {
+    "brand": "OPPO",
+    "url": "https://ksp.co.il/web/cat/573..21448..28099",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2303": "Oppo Reno 6",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
+  }
+}

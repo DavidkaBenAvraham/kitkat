@@ -1,0 +1,34 @@
+{
+  "elough Global Store": {
+    "description": "elough Global Store",
+    "about": "Компьютеры телефоны офис",
+    "store_id": 912124063,
+    "url": "elough Global Store",
+    "all-wholesale-products": "https://aliexpress.ru/store/912124063",
+    "store_categories_json_file": "https://liitokalahongkong.aliexpress.com/store/productGroupsAjax.htm?storeId=912124063&shopVersion=3.0&callback=jsonp_1656146849073_35687",
+
+    "scenaries": {
+      "Power Station": {
+        "url": "https://keyestudio-stem.aliexpress.com/store/group/Kit/4247007_40000000488227.html",
+        "prestashop_categories": {
+          "4247007": "store_id",
+          "40000000488227": "store_category_id",
+          "1071": "Gaming",
+          "2673": "Tech",
+          "2676": "Arduno kit && Electronic Kit",
+          "2674": "ALIEXPRESS TECH",
+          "2675": "ALIEXPRESS TOYS",
+          "2097": "Tech / Electronics",
+
+          "2717": "Toys & Hobbies",
+          "2722": "Toys & Hobbies / Electronic Toys and hobbyes",
+          "2719": "Toys & Hobbies / Electronic Toys and hobbyes / Raspberry Pi",
+          "2720": "Toys & Hobbies / Electronic Toys and hobbyes / Raspberry Pi / Raspberry Pi Kit"
+        },
+        "checkbox": false,
+
+        "price_rule": 1
+      }
+    }
+  }
+}

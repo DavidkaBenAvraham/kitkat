@@ -1,0 +1,20 @@
+{
+  "In-ear Bud": {
+    "brand": "JBL",
+    "url": "https://ksp.co.il/web/cat/242..1250..3127",
+    "checkbox": false,
+    "prestashop_categories": "582,581,493,1,2,38,359,893,1073"
+  },
+  "Over-ear": {
+    "brand": "JBL",
+    "url": "https://ksp.co.il/web/cat/3127..242..1252",
+    "checkbox": false,
+    "prestashop_categories": "584,581,493,1,2,38,359,893,1074"
+  },
+  "Neckband": {
+    "brand": "JBL",
+    "url": "https://ksp.co.il/web/cat/3127..242..1252",
+    "checkbox": false,
+    "prestashop_categories": "584,581,493,1,2,38,359,893,1077"
+  }
+}

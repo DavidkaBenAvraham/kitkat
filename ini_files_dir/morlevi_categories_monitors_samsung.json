@@ -1,0 +1,40 @@
+{
+  "SAMSUNG 22": {
+    "brand": "SAMSUNG",
+
+    "url": "https://www.morlevi.co.il/Cat/8?p_315=28&p_350=1805&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "127,128,979"
+  },
+  "SAMSUNG 24-25": {
+    "brand": "SAMSUNG",
+
+    "url": "https://www.morlevi.co.il/Cat/8?p_315=28&p_350=1805&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "127,129,979"
+
+  },
+  "SAMSUNG 27-29": {
+    "brand": "SAMSUNG",
+    "url": "https://www.morlevi.co.il/Cat/8?p_315=28&p_350=1808&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "127,130,979"
+  },
+  "SAMSUNG 32": {
+    "brand": "SAMSUNG",
+    "url": "https://www.morlevi.co.il/Cat/8?p_315=28&p_350=1809&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "127,131,979"
+  },
+  "SAMSUNG 34": {
+    "brand": "SAMSUNG",
+    "url": "https://www.morlevi.co.il/Cat/8?p_315=28&p_350=1810&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "127,132,979"
+  },
+  "SAMSUNG 49": {
+    "brand": "SAMSUNG",
+    "url": "-----------------------------  SAMSUNG 49 ---------------------------------",
+    "checkbox":false, "prestashop_categories":"127,133,979"
+  }
+}

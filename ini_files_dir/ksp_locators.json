@@ -1,0 +1,123 @@
+{
+  "languages": {
+    "he": {
+      "attribute": "sendKeys(Keys.RETURN)",
+      "by": "xpath",
+      "selector": "//li[@data-value='he']"
+    },
+    "en": {
+      "attribute": null,
+      "by": "xpath",
+      "selector": "//li[@data-value='en']",
+      "action": "sendKeys(Keys.RETURN)"
+    },
+    "ru": {
+      "attribute": null,
+      "by": "xpath",
+      "selector": "//li[@data-value='ru']",
+      "action": "sendKeys(Keys.RETURN)"
+    }
+  },
+  "infinity_scroll": true,
+  "checkboxes_for_categories": false,
+  "category": {
+    "pages_listing_locator": {
+      "attribute": "innerHTML",
+      "by": "css selector",
+      "selector": "infinity_scroll"
+    }
+  },
+
+  "top_banner_locator": {
+    "attribute": {"src" : null},
+    "by": "xpath",
+    "selector": "//ul[contains(@class , 'slider animated')]//img",
+    "action": null
+  },
+
+  "product": {
+
+    "link_to_product_locator": {
+      "attribute": "href",
+      "by": "xpath",
+      "selector": "//a[contains(@class,'MuiTypography') and contains(@href , 'web/item')]",
+      "action": "click()"
+    },
+
+    "product_block_locator": {
+      "attribute": "innerHTML",
+      "by": "xpath",
+      "selector": "//*[@id='product-page-root']"
+    },
+    "product_sku_locator": {
+      "attribute": "innerText",
+      "by": "xpath",
+      "selector": "//*[contains(@data-id, 'product-')]/span"
+    },
+
+    "product_title_locator": {
+      "attribute": "innerText",
+      "by": "xpath",
+      "replaced by driver.title": null,
+      "selector": "//*[@id='product-page-root']//h1//span"
+    },
+    "product_price_locator": {
+      "attribute": "innerText",
+      "by": "xpath",
+      "selector": "//*[@id='product-page-root']//div[@aria-label]//div[text()]"
+    },
+    "product_delivery_locator": {
+      "attribute": null,
+      "by": "xpath",
+      "selector": "//h2[contains(@aria-label ,'אפשרויות איסוף ומשלו')]//following::ul//li[contains(@aria-label ,'משלוח')]"
+    },
+
+    "product_images_locator": {
+      "attribute": "src",
+      "by": "xpath",
+      "selector": "//li[@class='slide']//img"
+    },
+
+    "product_summary_locator": {
+      "attribute": "innerText",
+      "by": "xpath",
+      "selector": "//p[contains(text(),'תיאור קצר')]//following-sibling::p[1]"
+    },
+
+    "product_attributes_locator": {
+      "attribute": "innerHTML",
+      "by": "xpath",
+      "selector": "//*[@id='product-page-root']//div[@aria-label]//following-sibling::div/p[1]",
+      "product attribute": {
+        "color": {
+          "attribute": null,
+          "by": "xpath",
+          "selector": "//h3[contains(@aria-label , 'בחירתצבע')]/following-sibling::*"
+        },
+        "phone memory": {
+          "attribute": null,
+          "by": "xpath",
+          "selector": "//h3[contains(@aria-label , 'בחירתנפח')]/following-sibling::*"
+        },
+        "delivery": {
+          "attribute": null,
+          "by": "xpath",
+          "selector": "//h3[contains(@aria-label , 'אפשרויות איסוף ומשלוח')]/following-sibling::*"
+        }
+      }
+    },
+
+    "product_description_locator": {
+      "attribute": "innerText",
+      "by": "xpath",
+      "selector": "//div[contains(@id , 'review-section')]"
+    },
+
+    "product_specification_locator": {
+      "attribute": null,
+      "by": "xpath",
+      "selector": "//div[contains(@id , 'review-section')]"
+    },
+    "product_customer_reviews_locator": null
+  }
+}

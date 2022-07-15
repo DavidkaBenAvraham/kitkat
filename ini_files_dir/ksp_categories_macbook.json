@@ -1,0 +1,26 @@
+{
+  "MacBook Air 13 Late 2020": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/271..245..19037",
+    "checkbox": false,
+    "prestashop_categories": "54,11,3,1,2,429,943,359,835"
+  },
+  "MacBook Pro 13 Late 2020": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/271..245..19085",
+    "checkbox": false,
+    "prestashop_categories": "55,11,3,1,2,429,943,359,835"
+  },
+  "MacBook Pro 14 Late 2021": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/271..245..29598",
+    "checkbox": false,
+    "prestashop_categories": "56,11,3,1,2,429,943,359,835"
+  },
+  "MacBook Pro 16 Late 2021": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/271..245..29608",
+    "checkbox": false,
+    "prestashop_categories": "57,11,3,1,2,429,943,359,835"
+  }
+}

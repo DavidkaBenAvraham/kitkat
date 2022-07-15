@@ -1,0 +1,68 @@
+{
+  "IdeaPad 4": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/268..271..159..29040",
+    "checkbox": false,
+    "prestashop_categories": "946,681,260,1,2,429,943,945,457"
+  },
+  "IdeaPad 5": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/268..271..159..29046..25585..13255",
+    "checkbox": false,
+    "prestashop_categories": "947,681,260,1,2,429,943,945,458"
+  },
+  "IdeaPad 3": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/268..271..159..29046..12746..12909",
+    "checkbox": false,
+    "prestashop_categories": "948,681,260,1,2,429,943,945,459"
+  },
+  "IdeaPad DUET": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/268..271..159..15291",
+    "checkbox": false,
+    "prestashop_categories": "949,681,260,1,2,429,943,945,460"
+  },
+  "IdeaPad Flex": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/268..271..159..13020..13440",
+    "checkbox": false,
+    "prestashop_categories": "950,681,260,1,2,429,943,945,461"
+  },
+  "IdeaPad Gaming": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/268..271..159..13337",
+    "checkbox": false,
+    "prestashop_categories": "951,681,260,1,2,429,943,945,462"
+  },
+  "Legion 5": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/159..268..271..13758..13994..25830",
+    "checkbox": false,
+    "prestashop_categories": "952,681,260,1,2,429,943,945,463"
+  },
+  "Legion 7": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/159..268..271..29352",
+    "checkbox": false,
+    "prestashop_categories": "953,681,260,1,2,429,943,945,464"
+  },
+  "Yoga 6": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/159..268..271..19834",
+    "checkbox": false,
+    "prestashop_categories": "954,681,260,1,2,429,943,945,465"
+  },
+  "Yoga 7": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/159..268..271..19716..18387..19099..26597",
+    "checkbox": false,
+    "prestashop_categories": "955,681,260,1,2,429,943,945,466"
+  },
+  "Yoga 9": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/159..268..271..19501",
+    "checkbox": false,
+    "prestashop_categories": "956,681,260,1,2,429,943,945,467"
+  }
+}

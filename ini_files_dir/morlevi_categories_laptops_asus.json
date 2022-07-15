@@ -1,0 +1,183 @@
+{
+
+  "ASUS 11.6 I3": {
+    "brand": "ASUS",
+    "url": "------------------ASUS 11.6 I3------------r     ",
+    "checkbox": false,
+    "prestashop_categories": "2,3,4,989,309,358,48"
+  },
+  "ASUS 11.6 I5": {
+    "brand": "ASUS",
+    "url": "----------------ASUS 11.6 I5--------------",
+    "checkbox": false,
+    "prestashop_categories": "2,3,234,989,309,361,48"
+  },
+  "ASUS 11.6 I7": {
+    "brand": "ASUS",
+    "url": "---------------ASUS 11.6 I7----------------",
+    "checkbox":false, "prestashop_categories":"3,48,309,8,6"
+  },
+  "ASUS 11.6 I9": {
+    "brand": "ASUS",
+    "url": "---------------ASUS 11.6 I9-------------- ",
+    "checkbox":false, "prestashop_categories":"3,48,309,8,7"
+  },
+  "ASUS 11.6 AMD": {
+    "brand": "ASUS",
+    "url": "-----------------ASUS 11.6 AMD------------ ",
+    "checkbox":false, "prestashop_categories":"3,48,309,8,234,361"
+  },
+  "ASUS 11.6 Celeron": {
+    "brand": "ASUS",
+    "url": "https://www.morlevi.co.il/Cat/69?p_238=1142&p_387=3416&sort=datafloat2%2Cprice&keyword=",
+    "checkbox": false,
+    "prestashop_categories": "2,3,233,989,309,359,48"
+
+  },
+  "ASUS 11.6 Pentium": {
+    "brand": "ASUS",
+    "url": "----------------ASUS 11.6 Pentium------------ ",
+    "checkbox":false, "prestashop_categories":"3,48,309,8,232,360"
+  },
+  "ASUS 13.4 - 13.3 I3": {
+    "brand": "ASUS",
+    "url": "-----------------ASUS 13.4 - 13.3 I3-------------r ",
+    "checkbox": false,
+    "prestashop_categories": "3,48,309,8,4,358,990"
+  },
+  "ASUS 13.4 - 13.3 I5": {
+    "brand": "ASUS",
+    "url": "https://www.morlevi.co.il/Cat/69?p_238=1143&p_387=3414&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,48,310,9,5,427"
+  },
+  "ASUS 13.4 - 13.3 I7": {
+    "brand": "ASUS",
+    "url": "https://www.morlevi.co.il/Cat/69?p_238=1143&p_387=3415&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,48,310,9,6,428"
+  },
+  "ASUS 13.4 - 13.3 I9": {
+    "brand": "ASUS",
+    "url": "----------------ASUS 13.4 - 13.3 I9 ------------- ",
+    "checkbox":false, "prestashop_categories":"3,48,310,9,7,429"
+  },
+  "ASUS 13.4 - 13.3 AMD": {
+    "brand": "ASUS",
+    "url": "------------------ASUS 13.4 - 13.3 AMD ----------- ",
+    "checkbox":false, "prestashop_categories":"3,48,310,9,234,430"
+  },
+  "ASUS 13.4 - 13.3 Celeron": {
+    "brand": "ASUS",
+    "url": "----------------------------- ",
+    "checkbox":false, "prestashop_categories":"3,48,310,9,233,431"
+  },
+  "ASUS 13.4 - 13.3 Pentium": {
+    "brand": "ASUS",
+    "url": "-----------------ASUS 13.4 - 13.3 Pentium------------ ",
+    "checkbox":false, "prestashop_categories":"3,48,310,9,232,432"
+  },
+  "ASUS 14 I3": {
+    "brand": "ASUS",
+    "url": "https://www.morlevi.co.il/Cat/69?p_238=1144&p_387=3413&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,48,98,10,4,433"
+  },
+  "ASUS 14 I5": {
+    "brand": "ASUS",
+    "url": "https://www.morlevi.co.il/Cat/69?p_238=1144&p_387=3414&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,48,98,10,5,434"
+  },
+  "ASUS 14 I7": {
+    "brand": "ASUS",
+    "url": "https://www.morlevi.co.il/Cat/69?p_238=1144&p_387=3415&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,48,98,10,6,435"
+  },
+  "ASUS 14 I9": {
+    "brand": "ASUS",
+    "url": "------------------ASUS 14 I9----------- ",
+    "checkbox":false, "prestashop_categories":"3,48,98,10,7,436"
+  },
+  "ASUS 14 AMD": {
+    "brand": "ASUS",
+    "url": "----------------- ASUS 14 AMD ------------",
+    "checkbox":false, "prestashop_categories":"3,48,98,10,234,437"
+  },
+  "ASUS 14 Celeron": {
+    "brand": "ASUS",
+    "url": "https://www.morlevi.co.il/Cat/69?p_238=1144&p_387=3416&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,48,98,10,233,438"
+  },
+  "ASUS 14 Pentium": {
+    "brand": "ASUS",
+    "url": "----------------- ASUS 14 Pentium ------------ ",
+    "checkbox":false, "prestashop_categories":"3,48,98,10,232,439"
+  },
+  "ASUS 15 I3": {
+    "brand": "ASUS",
+    "url": "https://www.morlevi.co.il/Cat/69?p_238=1145&p_387=3413&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,48,99,11,4,440"
+  },
+  "ASUS 15 I5": {
+    "brand": "ASUS",
+    "url": "https://www.morlevi.co.il/Cat/69?p_238=1145&p_387=3414&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,48,99,11,5,441"
+  },
+  "ASUS 15 I7": {
+    "brand": "ASUS",
+    "url": "https://www.morlevi.co.il/Cat/69?p_238=1145&p_387=3415&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,48,99,11,6,442"
+  },
+  "ASUS 15 I9": {
+    "brand": "ASUS",
+    "url": "----------------ASUS 15 I9------------- ",
+    "checkbox":false, "prestashop_categories":"3,48,99,11,7,443"
+  },
+  "ASUS 15 AMD": {
+    "brand": "ASUS",
+    "url": "https://www.morlevi.co.il/Cat/69?p_238=1145&p_387=3419&sort=datafloat2%2Cprice&keyword=",
+    "checkbox":false, "prestashop_categories":"3,48,99,11,234,444"
+  },
+  "ASUS 15 Celeron": {
+    "brand": "ASUS",
+    "url": "---------------------ASUS 15 Celeron-------------------",
+    "checkbox":false, "prestashop_categories":"3,48,99,11,233,445"
+  },
+  "ASUS 15 Pentium": {
+    "brand": "ASUS",
+    "url": "-------------------ASUS 15 Pentium------------------",
+    "checkbox":false, "prestashop_categories":"3,48,99,11,232,446"
+  },
+  "ASUS 17.3 I3": {
+    "brand": "ASUS",
+    "url": "-------------------ASUS 17.3 I3------------------",
+    "checkbox":false, "prestashop_categories":"3,48,100,12,4,447"
+  },
+  "ASUS 17.3 I5": {
+    "brand": "ASUS",
+    "url": "-------------------ASUS 17.3 I5------------------",
+    "checkbox":false, "prestashop_categories":"3,48,100,12,5,448"
+  },
+  "ASUS 17.3 I7": {
+    "brand": "ASUS",
+    "url": "-------------------ASUS 17.3 I5------------------",
+    "checkbox":false, "prestashop_categories":"3,48,100,12,6,449"
+  },
+  "ASUS 17.3 I9": {
+    "brand": "ASUS",
+    "url": "--------------------ASUS 17.3 I9---------",
+    "checkbox":false, "prestashop_categories":"3,48,100,12,7,450"
+  },
+  "ASUS 17.3 AMD": {
+    "brand": "ASUS",
+    "url": "-------------------ASUS 17.3 AMD-----------",
+    "checkbox":false, "prestashop_categories":"3,48,100,12,234,451"
+  },
+  "ASUS 17.3 Celeron": {
+    "brand": "ASUS",
+    "url": "-------------------ASUS 17.3 Celeron---------- ",
+    "checkbox":false, "prestashop_categories":"3,48,100,12,233,452"
+  },
+  "ASUS 17.3 Pentium": {
+    "brand": "ASUS",
+    "url": "---------------------ASUS 17.3 Pentium-----------",
+    "checkbox":false, "prestashop_categories":"3,48,100,12,232,453"
+  }
+}

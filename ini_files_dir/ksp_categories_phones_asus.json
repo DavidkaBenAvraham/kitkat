@@ -1,0 +1,30 @@
+{
+  "Asus Zenfone 8": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/573..1358..24585",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3401": "Asus Zenfone 8",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3400": "ASUS"
+
+    }
+  },
+  "ROG Phone": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/573..1358..30284",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3401": "Asus ROG Phone",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3400": "ASUS"
+
+    }
+  }
+}
