@@ -686,3 +686,49 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1657995335415	geckodriver	INFO	Listening on 127.0.0.1:61900
+1657995338487	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--allow-profiles-outside-user-dir" "--allow-insecure-localhost" "--remote-debugging-port" "61901" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileF14Kln"
+1657995338878	Marionette	INFO	Marionette enabled
+1657995338886	Marionette	INFO	Listening on port 61913
+WebDriver BiDi listening on ws://localhost:61901
+Read port: 61913
+1657995339050	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657995339091	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:61899","sslProxy":"127.0.0.1:61899"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileF14Kln\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61901/devtools/browser/5a2738cf-04b4-490c-b076-460246573e44
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1657995638528	geckodriver	INFO	Listening on 127.0.0.1:62243
+1657995641582	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--allow-profiles-outside-user-dir" "--allow-insecure-localhost" "--remote-debugging-port" "62244" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileCK4uq8"
+1657995641891	Marionette	INFO	Marionette enabled
+1657995641895	Marionette	INFO	Listening on port 62254
+WebDriver BiDi listening on ws://localhost:62244
+Read port: 62254
+1657995641996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657995642030	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:62242","sslProxy":"127.0.0.1:62242"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileCK4uq8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62244/devtools/browser/b54c4cab-6fda-47fb-be90-fa0716a2d05b
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1657996171951	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1657997445046	geckodriver	INFO	Listening on 127.0.0.1:62999
+1657997448110	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--allow-profiles-outside-user-dir" "--allow-insecure-localhost" "--remote-debugging-port" "63000" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilekhSVLP"
+1657997448413	Marionette	INFO	Marionette enabled
+1657997448418	Marionette	INFO	Listening on port 63010
+WebDriver BiDi listening on ws://localhost:63000
+Read port: 63010
+1657997448527	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657997448561	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:62998","sslProxy":"127.0.0.1:62998"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilekhSVLP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63000/devtools/browser/9c2f4ba4-93ea-457e-b547-38cc8cec96b7
+1657997730904	geckodriver	INFO	Listening on 127.0.0.1:63204
+1657997733976	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--allow-profiles-outside-user-dir" "--allow-insecure-localhost" "--remote-debugging-port" "63205" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileDVpVz1"
+1657997734276	Marionette	INFO	Marionette enabled
+1657997734280	Marionette	INFO	Listening on port 63214
+WebDriver BiDi listening on ws://localhost:63205
+Read port: 63214
+1657997734378	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657997734410	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:63203","sslProxy":"127.0.0.1:63203"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileDVpVz1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63205/devtools/browser/f2b17c13-8295-4662-8053-15c0509b2bbe

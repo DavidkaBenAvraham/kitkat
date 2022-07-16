@@ -3,12 +3,30 @@
     "brand": "XIAOMI",
     "url": "https://ksp.co.il/web/cat/2085..2202..34255",
     "checkbox": false,
-    "prestashop_categories": "367,205,9,1,2,2,429,39,189,195,523"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Xiaomi Mi Watch": {
     "brand": "XIAOMI",
     "url": "https://ksp.co.il/web/cat/2085..2202..29146..29145",
     "checkbox": false,
-    "prestashop_categories": "191,48,9,1,2,2,429,39,189,195,524"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   }
 }

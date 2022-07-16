@@ -3,30 +3,75 @@
     "brand": "JBL",
     "url": "https://ksp.co.il/web/cat/7076..1047..241..1309..3127..34919",
     "checkbox": false,
-    "prestashop_categories": "1034,1033,493,1,2,38,1025,1039,1040"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Xtreme 3": {
     "brand": "JBL",
     "url": "https://ksp.co.il/web/cat/7076..1047..241..1309..3127..34920",
     "checkbox": false,
-    "prestashop_categories": "1034,1033,493,1,2,38,1025,1039,1041"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Horizon 2": {
     "brand": "JBL",
     "url": "https://ksp.co.il/web/cat/7076..1047..241..1309..3127..31833",
     "checkbox": false,
-    "prestashop_categories": "1034,1033,493,1,2,38,1025,1039,1042"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Link Portable": {
     "brand": "JBL",
     "url": "https://ksp.co.il/web/cat/7076..1047..241..1309..3127..29320",
     "checkbox": false,
-    "prestashop_categories": "1034,1033,493,1,2,38,1025,1039,1043"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "FLIP 5": {
     "brand": "JBL",
     "url": "https://ksp.co.il/web/cat/7076..1047..241..1309..3127..13938",
     "checkbox": false,
-    "prestashop_categories": "1034,1033,493,1,2,38,1025,1039,1044"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   }
 }

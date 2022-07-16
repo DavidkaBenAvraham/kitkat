@@ -3,48 +3,119 @@
     "brand": "ASUS",
     "url": "https://ksp.co.il/web/cat/271..1358..212..24403..406",
     "checkbox": false,
-    "prestashop_categories": "249,820,49,1,2,429,943,1045,1046"
-  },
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   "Asus Laptop X": {
     "brand": "ASUS",
     "url": "https://ksp.co.il/web/cat/271..1358..9419..19412..22537",
     "checkbox": false,
-    "prestashop_categories": "250,820,49,1,2,429,943,1045,1047"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Asus Laptop M": {
     "brand": "ASUS",
     "url": "https://ksp.co.il/web/cat/271..1358..28121..21237",
     "checkbox": false,
-    "prestashop_categories": "251,820,49,1,2,429,943,1045,1048"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Asus Vivobook": {
     "brand": "ASUS",
     "url": "https://ksp.co.il/web/cat/271..1358..32457..35129..19149..33557..13987..23221..13633..29915..28789..30157..29654..31384..31279..13965",
     "checkbox": false,
-    "prestashop_categories": "252,820,49,1,2,429,943,1045,1049"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Asus ProArt StudioBook": {
     "brand": "ASUS",
     "url": "https://ksp.co.il/web/cat/271..1358..34432..31287",
     "checkbox": false,
-    "prestashop_categories": "253,820,49,1,2,429,943,1045,1051"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Asus TUF Gaming": {
     "brand": "ASUS",
     "url": "https://ksp.co.il/web/cat/271..1358..19134..19147..19979..35068",
     "checkbox": false,
-    "prestashop_categories": "254,820,49,1,2,429,943,1045,1052"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Asus ROG": {
     "brand": "ASUS",
     "url": "https://ksp.co.il/web/cat/271..1358..26133..20729..13980..21433..20675..20924..21167",
     "checkbox": false,
-    "prestashop_categories": "255,820,49,1,2,429,943,1045,1052"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Asus ZenBook": {
     "brand": "ASUS",
     "url": "https://ksp.co.il/web/cat/271..1358..25464..31880..31505..25975..21372..28771..13864..7720..14098..32374..16902",
     "checkbox": false,
-    "prestashop_categories": "256,820,49,1,2,429,943,1045,1053"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   }
 }

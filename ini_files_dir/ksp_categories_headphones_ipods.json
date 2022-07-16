@@ -1,7 +1,7 @@
 {
-  "iMac 24 Inch": {
+  "in-ear-bud": {
     "brand": "APPLE",
-    "url": "https://ksp.co.il/web/cat/1513..245..25303",
+    "url": "https://ksp.co.il/web/cat/242..245..1250",
     "checkbox": false,
     "prestashop_categories": {
       "3405": "GOOGLE PIXEL PRO",
@@ -14,9 +14,24 @@
 
     }
   },
-  "iMac 27 Inch": {
+  "Overear": {
     "brand": "APPLE",
-    "url": "https://ksp.co.il/web/cat/1513..245..14491",
+    "url": "https://ksp.co.il/web/cat/242..245..1252",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
+  },
+  "Ear-clip": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/242..245..1254",
     "checkbox": false,
     "prestashop_categories": {
       "3405": "GOOGLE PIXEL PRO",

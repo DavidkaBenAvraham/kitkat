@@ -1,38 +1,92 @@
 {
   "22": {
-    "brand": "SAMSUNG",
+    "brand": "LG",
     "url": "https://ksp.co.il/web/cat/230..137..195",
     "checkbox": false,
-    "prestashop_categories": "176,174,6,1,2,429,895,173,175"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "23-24": {
-    "brand": "SAMSUNG",
+    "brand": "LG",
     "url": "https://ksp.co.il/web/cat/230..137..2238..1649..198",
     "checkbox": false,
-    "prestashop_categories": "177,174,6,1,2,429,895,173,178"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "26-28": {
-    "brand": "SAMSUNG",
+    "brand": "LG",
     "url": "https://ksp.co.il/web/cat/230..137..4831..199..4784..2037",
     "checkbox": false,
-    "prestashop_categories": "179,174,6,1,2,429,895,173,180"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "31-32": {
-    "brand": "SAMSUNG",
+    "brand": "LG",
     "url": "https://ksp.co.il/web/cat/230..137..1948..200",
     "checkbox": false,
-    "prestashop_categories": "181,174,6,1,2,429,895,173,182"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "34": {
-    "brand": "SAMSUNG",
+    "brand": "LG",
     "url": "https://ksp.co.il/web/cat/230..137..2129",
     "checkbox": false,
-    "prestashop_categories": "184,174,6,1,2,429,895,173,183"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "48": {
-    "brand": "SAMSUNG",
+    "brand": "LG",
     "url": "https://ksp.co.il/web/cat/230..137..4831..199..4784..2037",
     "checkbox": false,
-    "prestashop_categories": "185,174,6,1,2,429,895,173,186"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   }
 }

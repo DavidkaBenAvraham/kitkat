@@ -3,102 +3,255 @@
     "brand": "DELL",
     "url": "https://ksp.co.il/web/cat/268..271..132..33047",
     "checkbox": false,
-    "prestashop_categories": "896,432,430,1,2,429,943,433,434"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Inspiron 15 5000 5510": {
     "brand": "DELL",
     "url": "https://ksp.co.il/web/cat/268..271..132..32882",
     "checkbox": false,
-    "prestashop_categories": "897,432,430,1,2,429,943,433,435"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Vostro 14 3000 3400": {
     "brand": "DELL",
     "url": "https://ksp.co.il/web/cat/268..271..132..21466",
     "checkbox": false,
-    "prestashop_categories": "898,432,430,1,2,429,943,433,436"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Vostro 15 3000 3500": {
     "brand": "DELL",
     "url": "https://ksp.co.il/web/cat/268..271..132..21218",
     "checkbox": false,
-    "prestashop_categories": "899,432,430,1,2,429,943,433,437"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Vostro 15 3000 3510": {
     "brand": "DELL",
     "url": "https://ksp.co.il/web/cat/268..271..132..21218",
     "checkbox": false,
-    "prestashop_categories": "900,432,430,1,2,429,943,433,438"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Vostro 14 5000 5402": {
     "brand": "DELL",
     "url": "https://ksp.co.il/web/cat/268..271..132..21203",
     "checkbox": false,
-    "prestashop_categories": "901,432,430,1,2,429,943,433,439"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Vostro 14 5000 5410": {
     "brand": "DELL",
     "url": "https://ksp.co.il/web/cat/268..271..132..29303",
     "checkbox": false,
-    "prestashop_categories": "902,432,430,1,2,429,943,433,440"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Vostro 15 5000 5510": {
     "brand": "DELL",
     "url": "https://ksp.co.il/web/cat/268..271..132..29755",
     "checkbox": false,
-    "prestashop_categories": "903,432,430,1,2,429,943,433,441"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Vostro 15 7000 7510": {
     "brand": "DELL",
     "url": "https://ksp.co.il/web/cat/268..271..132..30361",
     "checkbox": false,
-    "prestashop_categories": "904,432,430,1,2,429,943,433,442"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Inspiron 15 3000 3511": {
     "brand": "DELL",
     "url": "https://ksp.co.il/web/cat/268..271..132..30192",
     "checkbox": false,
-    "prestashop_categories": "905,432,430,1,2,429,943,433,443"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Inspiron 14 5000 5402": {
     "brand": "DELL",
     "url": "https://ksp.co.il/web/cat/268..271..132..25810",
     "checkbox": false,
-    "prestashop_categories": "906,432,430,1,2,429,943,433,444"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Inspiron 14 5000 5410": {
     "brand": "DELL",
     "url": "https://ksp.co.il/web/cat/268..271..132..25810",
     "checkbox": false,
-    "prestashop_categories": "907,432,430,1,2,429,943,433,445"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "G15 15 5511": {
     "brand": "DELL",
     "url": "https://ksp.co.il/web/cat/268..271..132..25810",
     "checkbox": false,
-    "prestashop_categories": "908,432,430,1,2,429,943,433,446"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "XPS 13 9305": {
     "brand": "DELL",
     "url": "https://ksp.co.il/web/cat/268..271..132..22432",
     "checkbox": false,
-    "prestashop_categories": "909,432,430,1,2,429,943,433,447"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "XPS 13 9310": {
     "brand": "DELL",
     "url": "https://ksp.co.il/web/cat/268..271..132..13011",
     "checkbox": false,
-    "prestashop_categories": "910,432,430,1,2,429,943,433,448"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "XPS 15 9510": {
     "brand": "DELL",
     "url": "https://ksp.co.il/web/cat/268..271..132..13011",
     "checkbox": false,
-    "prestashop_categories": "911,432,430,1,2,429,943,433,449"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "XPS 17 9710": {
     "brand": "DELL",
     "url": "https://ksp.co.il/web/cat/268..271..132..28120",
     "checkbox": false,
-    "prestashop_categories": "912,432,430,1,2,429,943,433,450"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   }
 }

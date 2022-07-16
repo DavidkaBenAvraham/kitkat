@@ -73,9 +73,12 @@ def grab_product_page(s , p) -> Product:
     def set_id():
         _id = _d.find(_['product_sku_locator'])
 
-        if len(str(_id)) < 1 :
+        if not isinstance(_id , str):
             logger.exception(f''' PRODUCT ID ''')
             raise Exception(f''' PRODUCT ID''')
+            return False
+
+
             
         _field['id'] = _d.find(_['product_sku_locator'])
 
@@ -167,7 +170,7 @@ def grab_product_page(s , p) -> Product:
     def set_customer_reviews():pass
 
    
-    set_id(),
+    if not set_id(): return False,
     set_sku_suppl(),
     set_sku_prod(),
     set_title(),

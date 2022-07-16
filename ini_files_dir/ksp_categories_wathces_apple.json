@@ -3,7 +3,16 @@
     "brand": "APPLE",
     "url": "https://ksp.co.il/web/cat/2085..245..29185..28724",
     "checkbox": false,
-    "prestashop_categories": "58,5,3,1,2,429,39,193,470",
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    },
     "price_rule": 1,
     "combinations": {
       "size:select": "40 mm",
@@ -17,7 +26,16 @@
     "brand": "APPLE",
     "url": "https://ksp.co.il/web/cat/245..2085..29150..29229",
     "checkbox": false,
-    "prestashop_categories": "59,5,3,1,2,429,39,193,471",
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    },
     "price_rule": 1,
     "combinations": {
       "size:select": "40 mm",
@@ -31,7 +49,16 @@
     "brand": "APPLE",
     "url": "https://ksp.co.il/web/cat/2085..245..16121",
     "checkbox": false,
-    "prestashop_categories": "60,5,3,1,2,429,39,193,472",
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    },
     "price_rule": 1,
     "combinations": {
       "size:select": "40 mm",

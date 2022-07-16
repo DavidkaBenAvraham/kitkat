@@ -1,7 +1,7 @@
 {
-  "Galaxy Watch": {
-    "brand": "SAMSUNG",
-    "url": "https://ksp.co.il/web/cat/2085..137..11631",
+  "MacBook Air 13 Late 2020": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/271..245..19037",
     "checkbox": false,
     "prestashop_categories": {
       "3405": "GOOGLE PIXEL PRO",
@@ -14,9 +14,9 @@
 
     }
   },
-  "Galaxy Watch Active 2": {
-    "brand": "SAMSUNG",
-    "url": "https://ksp.co.il/web/cat/2085..137..10040",
+  "MacBook Pro 13 Late 2020": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/271..245..19085",
     "checkbox": false,
     "prestashop_categories": {
       "3405": "GOOGLE PIXEL PRO",
@@ -29,9 +29,9 @@
 
     }
   },
-  "Galaxy Watch 3": {
-    "brand": "SAMSUNG",
-    "url": "https://ksp.co.il/web/cat/2085..137..28031..28036",
+  "MacBook Pro 14 Late 2021": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/271..245..29598",
     "checkbox": false,
     "prestashop_categories": {
       "3405": "GOOGLE PIXEL PRO",
@@ -44,9 +44,9 @@
 
     }
   },
-  "Galaxy Watch 4": {
-    "brand": "SAMSUNG",
-    "url": "https://ksp.co.il/web/cat/2085..137..14382",
+  "MacBook Pro 16 Late 2021": {
+    "brand": "APPLE",
+    "url": "https://ksp.co.il/web/cat/271..245..29608",
     "checkbox": false,
     "prestashop_categories": {
       "3405": "GOOGLE PIXEL PRO",

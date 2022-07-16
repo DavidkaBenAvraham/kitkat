@@ -3,24 +3,60 @@
     "brand": "APPLE",
     "url": "https://ksp.co.il/web/cat/270..245..28582",
     "checkbox": false,
-    "prestashop_categories": "483,10,3,1,2,429,826,2042,1911"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "iPad Air": {
     "brand": "APPLE",
     "url": "https://ksp.co.il/web/cat/270..245..17058",
     "checkbox": false,
-    "prestashop_categories": "486,10,3,1,2,429,826,2042,1912"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "iPad 10.2 2021": {
     "brand": "APPLE",
     "url": "https://ksp.co.il/web/cat/270..245..28556",
     "checkbox": false,
-    "prestashop_categories": "488,10,3,1,2,429,826,2042,1913"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "iPad Pro": {
     "brand": "APPLE",
     "url": "https://ksp.co.il/web/cat/270..245..24377..24953",
     "checkbox": false,
-    "prestashop_categories": "490,10,3,1,2,429,826,2042,1914"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   }
 }

@@ -3,92 +3,227 @@
     "brand": "HP",
     "url": "https://ksp.co.il/web/cat/268..271..162..7766",
     "checkbox": false,
-    "prestashop_categories": "913,541,540,1,2,429,943,351,928"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "HP Pavilion Aero": {
     "brand": "HP",
     "url": "https://ksp.co.il/web/cat/268..271..162..33856",
     "checkbox": false,
-    "prestashop_categories": "914,541,540,1,2,429,943,351,929"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "HP Pavilion 15": {
     "brand": "HP",
     "url": "https://ksp.co.il/web/cat/268..271..162..7766..2528",
     "checkbox": false,
-    "prestashop_categories": "915,541,540,1,2,429,943,351,930"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "HP Pavilion 14": {
     "brand": "HP",
     "url": "https://ksp.co.il/web/cat/268..271..162..2526",
     "checkbox": false,
-    "prestashop_categories": "916,541,540,1,2,429,943,351,931"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "HP Pavilion 13": {
     "brand": "HP",
     "url": "https://ksp.co.il/web/cat/268..271..162..26891",
     "checkbox": false,
-    "prestashop_categories": "917,541,540,1,2,429,943,351,932"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "HP Pavilion Gaming": {
     "brand": "HP",
     "url": "https://ksp.co.il/web/cat/268..271..162..26891",
     "checkbox": false,
-    "prestashop_categories": "918,541,540,1,2,429,943,351,933"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "HP Pavilion x360 14": {
     "brand": "HP",
     "url": "https://ksp.co.il/web/cat/268..271..162..4392",
     "checkbox": false,
-    "prestashop_categories": "919,541,540,1,2,429,943,351,934"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "HP Omen 15": {
     "brand": "HP",
     "url": "https://ksp.co.il/web/cat/268..271..162..3489",
     "checkbox": false,
-    "prestashop_categories": "920,541,540,1,2,429,943,351,935"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "HP Omen 16": {
     "brand": "HP",
     "url": "https://ksp.co.il/web/cat/268..271..162..30954",
     "checkbox": false,
-    "prestashop_categories": "921,541,540,1,2,429,943,351,936"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "HP Victus 16": {
     "brand": "HP",
     "url": "https://ksp.co.il/web/cat/268..271..162..29547",
     "checkbox": false,
-    "prestashop_categories": "922,541,540,1,2,429,943,351,937"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "HP Spectre x360 14": {
     "brand": "HP",
     "url": "https://ksp.co.il/web/cat/268..271..162..21745",
     "checkbox": false,
-    "prestashop_categories": "923,541,540,1,2,429,943,351,938"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "HP Spectre x360 13": {
     "brand": "HP",
     "url": "https://ksp.co.il/web/cat/268..271..162..3649",
     "checkbox": false,
-    "prestashop_categories": "924,541,540,1,2,429,943,351,939"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
 
   "HP Envy 15": {
     "brand": "HP",
     "url": "https://ksp.co.il/web/cat/268..271..162..28949",
     "checkbox": false,
-    "prestashop_categories": "925,541,540,1,2,429,943,351,940"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "HP Envy 14": {
     "brand": "HP",
     "url": "https://ksp.co.il/web/cat/268..271..162..20892",
     "checkbox": false,
-    "prestashop_categories": "926,541,540,1,2,429,943,351,941"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "HP Envy 13": {
     "brand": "HP",
     "url": "https://ksp.co.il/web/cat/268..271..162..3839",
     "checkbox": false,
-    "prestashop_categories": "927,541,540,1,2,429,943,351,942"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   }
 
 }

@@ -3,12 +3,30 @@
     "brand": "HUAWEI",
     "url": "https://ksp.co.il/web/cat/268..271..583..31024",
     "checkbox": false,
-    "prestashop_categories": "944,352,14,1,2,429,943,454,455"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "Huawei Matebook D14": {
     "brand": "HUAWEI",
     "url": "https://ksp.co.il/web/cat/268..271..583..23286",
     "checkbox": false,
-    "prestashop_categories": "945,352,14,1,2,429,943,454,456"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   }
 }

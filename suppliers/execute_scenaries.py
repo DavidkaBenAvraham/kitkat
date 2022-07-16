@@ -47,11 +47,12 @@ def execute_list_of_scenaries(supplier) -> bool :
         return False
 
     ## конвертирую сложные объекты в просты списки
-    scenario_files = json.convert_to_list(s.settings["scenaries"])
+    scenario_files = json.convert_to_list(s.settings['scenaries'])
 
     for json_file in scenario_files:
         ''' запускаю json файлы один за другим '''
         run_scenario_file(s ,json_file)
+        s.settings['last_runned_scenario']=json_file
     return True
 
 
@@ -89,6 +90,12 @@ def run_scenario(s , scenario) -> bool:
         '''# СОБИРАЮ ДАННЫЕ СО СТРАНИЦЫ '''
         def grab_product_page():
             product : Product = s.related_functions.grab_product_page(s , Product())
+            
+            if not product:
+                return False
+            ''' что-то не сработало при наполнении полей товара'''
+
+
             ''' получаю товар 
             заполняю все свойства товара в функции 
             grab_product_page() для каждого поставщика.

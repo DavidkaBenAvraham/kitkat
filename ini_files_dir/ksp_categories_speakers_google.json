@@ -3,6 +3,15 @@
     "brand": "GOOGLE",
     "url": "https://ksp.co.il/web/cat/1309..3887",
     "checkbox": false,
-    "prestashop_categories": "1027,1026,27,1,2,38,1025,1028,1029"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   }
 }

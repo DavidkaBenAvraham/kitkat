@@ -3,12 +3,30 @@
     "brand": "AMAZON",
     "url": "https://ksp.co.il/web/cat/1045..270..159..31989..26718..133790",
     "checkbox": false,
-    "prestashop_categories": "777,776,775,1,2,429,826,996,997"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   },
   "TAB M8": {
     "brand": "LENOVO",
     "url": "https://ksp.co.il/web/cat/1045..270..159..13379",
     "checkbox": false,
-    "prestashop_categories": "777,776,775,1,2,429,826,996,998"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   }
 }

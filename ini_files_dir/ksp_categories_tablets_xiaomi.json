@@ -3,6 +3,15 @@
     "brand": "XIAOMI",
     "url": "https://ksp.co.il/web/cat/1045..270..2202",
     "checkbox": false,
-    "prestashop_categories": "860,859,9,1,2,429,826,861,862"
+    "prestashop_categories": {
+      "3405": "GOOGLE PIXEL PRO",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "3403": "GOOGLE"
+
+    }
   }
 }
