@@ -3,7 +3,16 @@
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/573..137..32787",
     "checkbox": false,
-    "prestashop_categories": "867,25,24,6,1,2,429,718,2050,2051,2053"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
 
 
@@ -11,74 +20,182 @@
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/573..137..30128",
     "checkbox": false,
-    "prestashop_categories": "868,25,24,6,1,2,429,718,2050,2051,2052"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Galaxy A22": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/573..137..30128",
     "checkbox": false,
-    "prestashop_categories": "869,25,24,6,1,2,429,718,2050,2051,2052"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Galaxy A52s": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/573..137..28393",
     "checkbox": false,
-    "prestashop_categories": "871,25,24,6,1,2,429,718,2050,2051,2054"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Galaxy A03s": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/573..137..28236",
     "checkbox": false,
-    "prestashop_categories": "872,25,24,6,1,2,429,718,2050,2051,2055"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Galaxy A32": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/137..573..27321",
     "checkbox": false,
-    "prestashop_categories": "873,25,24,6,1,2,429,718,2050,2051,2056"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Galaxy A72": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/137..573..23543",
     "checkbox": false,
-    "prestashop_categories": "874,25,24,6,1,2,429,718,2050,2051,2057"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Galaxy A52": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/573..137..23549",
     "checkbox": false,
-    "prestashop_categories": "875,25,24,6,1,2,429,718,2050,2051,2058"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Galaxy A12": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/573..137..19585",
     "checkbox": false,
-    "prestashop_categories": "881,25,24,6,1,2,429,718,2050,2051,2059"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
 
   "Galaxy S  Galaxy S22+": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/573..33652",
     "checkbox": false,
-    "prestashop_categories": "864,26,24,6,1,2,429,718,2050,2060,2062"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Galaxy S22": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/573..33651",
     "checkbox": false,
-    "prestashop_categories": "865,26,24,6,1,2,429,718,2050,2060,2063"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Galaxy S22 Ultra": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/272..573..137..29972..31267..31272",
     "checkbox": false,
-    "prestashop_categories": "866,26,24,6,1,2,429,718,2050,2060,2064"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Galaxy S21 FE 5G": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/573..137..31826",
     "checkbox": false,
-    "prestashop_categories": "868,26,24,6,1,2,429,718,2050,2060,2061"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
 
 
@@ -87,59 +204,140 @@
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/573..137..20103",
     "checkbox": false,
-    "prestashop_categories": "878,26,24,6,1,2,429,718,2050,2060,2065"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Galaxy S21 Plus": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/573..137..20110",
     "checkbox": false,
-    "prestashop_categories": "879,26,24,6,1,2,429,718,2050,2060,2066"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Galaxy S21 Ultra": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/573..137..20116",
     "checkbox": false,
-    "prestashop_categories": "880,26,24,6,1,2,429,718,2050,2060,2067"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
 
   "Galaxy S20 FE": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/573..137..19507",
     "checkbox": false,
-    "prestashop_categories": "882,26,24,6,1,2,429,718,2050,2060,2068"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
 
   "Galaxy M12": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/573..137..31272",
     "checkbox": false,
-    "prestashop_categories": "869,51,24,6,1,2,429,718,2050,2069,2070"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
 
   "Galaxy M52 5G": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/573..137..29972",
     "checkbox": false,
-    "prestashop_categories": "870,51,24,6,1,2,429,718,2050,2069,2071"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
 
   "Galaxy Z Flip 3": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/573..137..27347",
     "checkbox": false,
-    "prestashop_categories": "876,52,24,6,1,2,429,718,2050,2072,2073"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Galaxy Z Fold 3": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/137..573..27321",
     "checkbox": false,
-    "prestashop_categories": "877,52,24,6,1,2,429,718,2050,2072,2074"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
 
   "Galaxy Note 20 Ultra": {
     "brand": "SAMSUNG",
     "url": "https://ksp.co.il/web/cat/573..137..14168",
     "checkbox": false,
-    "prestashop_categories": "883,53,24,6,1,2,429,718,2050,2075,2076"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   }
 }

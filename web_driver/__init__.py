@@ -40,6 +40,7 @@
 #<li>        https://selenium-python.readthedocs.io/api.html#desired-capabilities</li>
 #</ul>
 
+from cmath import log
 from pathlib import Path
 #from base64 import b64decode
 import urllib
@@ -492,35 +493,45 @@ class Driver:
     #   url:str 
     # @param
     #   view_html_source_mode : bool     возвращает код страницы
-    def _get_url(self, url:str , wait_to_locator_be_loaded : dict = {} , view_html_source_mode : bool = False):
+    def _get_url(self, url:str , 
+                 wait_to_locator_be_loaded : dict = {} , 
+                 retrieveies = 3, 
+                 view_html_source_mode : bool = False
+                 ):
         logger.debug(f''' url : {url}''')
         
         _d = self.driver
         json_files : str = ''
         _url = _d.current_url
 
+        flag = False
         try:
             _d.get(f'''{url}''')
+            flag = True
         except Exception as ex:
             return False , logger.error(f''' Ошибка в _get_url() :
             {ex}
             -------------------------------------
             url = {url}''')  
-        
-       
+
+        #logger.debug(f''' Requests:
+        #''')
+        #for request in _d.requests:
+        #    logger.debug(request)
+
+
+        #logger.debug(f''' PERFOMANCE :
+        #{_d.get_log(f'''performance''')}
+        #-------------------------------------''')  
 
         ''' ожидание полной загрузки 
         страницы с проверкой JS document.readyState'''
         count = 1
-        while self.get_ready_state() == 'loading':
+        while self.get_ready_state() != 'complete':
             logger.debug(f''' {self.get_ready_state()} - {_d.current_url}''')
             self._wait(1)
             count +=1
             if count>3:break
-
-
-
-
 
 
         ## Здесь нерешенная проблема с coockies
@@ -532,8 +543,25 @@ class Driver:
         _d.previous_url = _url if _d.previous_url != _url else _d.previous_url
 
         # запоминаю рабочее окно 
-        main_window_handler = _d.current_window_handle
+        try:
+            main_window_handler = _d.current_window_handle
+        # перезапускаю
+        except Exception as ex:
+            logger.error(f''' 
+            потеряно окно!!!
+            -------------------------------
+                Следующая попытка через 15с
+            -------------------------------
+            ''')
+            self._wait(15)
+            if retrieveies > 0:
+                retrieveies-=1
 
+                self._get_url(url, 
+                 wait_to_locator_be_loaded , 
+                 retrieveies, 
+                 view_html_source_mode
+                 )
         return True
 
 

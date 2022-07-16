@@ -29,14 +29,14 @@ from strings_formatter import StringFormatter as SF
 #           -------------------------------
 #           supplier - class Supplier  f.e.: mor, cdata, visual, 
 #               aliexpress, ebay, amazon etc.
-def execute_list_of_scenaries(Supplier) -> bool :
+def execute_list_of_scenaries(supplier) -> bool :
     logger.debug(f''' 
-    Старт {Supplier}
+    Старт 
     --------------------
     
     ''')
 
-    s = Supplier
+    s = supplier
     _d = s.driver
    
     
@@ -46,48 +46,30 @@ def execute_list_of_scenaries(Supplier) -> bool :
             {s.settings['start_url']}''')
         return False
 
+    ## конвертирую сложные объекты в просты списки
+    scenario_files = json.convert_to_list(s.settings["scenaries"])
 
-
-    ## 1.
-        # Запускаю каждый сценарий из из списка <supplier>.json["scenaries"]
-        #   файл сценариев Алиэкспресс отличается тем, что в файл включены хедеры
-        #   магазинов. Я это сделал, чтобы не плодить мелкие файлы по 
-        #   каждому магазину.
-    def run(json_file) -> bool:
-        logger.debug(''' start
-        ---------------------------
-        json:
-        
-        {json_file} 
-        
-        ------------ end json file ------------------
-        ''')
-
-        s.scenaries = json.loads(Path(s.ini.paths.ini_files_dir , f'''{json_file}'''))
-        s.scenario_category = f'''{json_file.split('_')[-2]}{json_file.split('_')[-1]}'''
-        s.export_file_name = f'''{s.settings['supplier_prefics']}-{s.scenario_category}'''
-        ''' третье слово в названии файла сценариев это категория товаров '''
-        while len(s.scenaries.items())>0:
-            _scenario = s.scenaries.popitem()[1]
-            run_scenario(s , _scenario) 
-            #json.export(s, s.p , export_file_name  , ['csv'] )
-           
-            
-        
-
-    for scenario_files in s.settings["scenaries"]:
+    for json_file in scenario_files:
         ''' запускаю json файлы один за другим '''
-
-        if isinstance(scenario_files, str):
-            ''' если в сценарии есть всего один файл '''
-            run(scenario_files)
-        else:
-            for json_file in [scenario_files]: 
-                run(json_file)
-               
-
+        run_scenario_file(s ,json_file)
     return True
 
+
+## 1.
+    # Запускаю каждый сценарий из из списка <supplier>.json["scenaries"]
+    #   файл сценариев Алиэкспресс отличается тем, что в файл включены хедеры
+    #   магазинов. Я это сделал, чтобы не плодить мелкие файлы по 
+    #   каждому магазину.
+def run_scenario_file(suppiler, json_file) -> bool:
+    _s = suppiler
+    _s.scenaries = json.loads(Path(_s.ini.paths.ini_files_dir , f'''{json_file}'''))
+    _s.scenario_category = f'''{json_file.split('_')[-2]}{json_file.split('_')[-1]}'''
+    _s.export_file_name = f'''{_s.settings['supplier_prefics']}-{_s.scenario_category}'''
+    ''' третье слово в названии файла сценариев это категория товаров '''
+    while len(_s.scenaries.items())>0:
+        _scenario = _s.scenaries.popitem()[1]
+        run_scenario(_s , _scenario) 
+    json.export(_s, _s.p , _s.export_file_name  , ['csv'] )
 
 def run_scenario(s , scenario) -> bool:
     '''
@@ -136,8 +118,7 @@ def run_scenario(s , scenario) -> bool:
 
         ''' ... списком '''
         ''' перебираю список адресов товаров'''
-        if isinstance(list_products_urls, list):
-            
+        if isinstance(list_products_urls, list):      
             for product_url in list_products_urls :
                 '''функция get_url('url') возвращает True, 
                 если переход на страницу был успешен,
@@ -153,14 +134,15 @@ def run_scenario(s , scenario) -> bool:
             export()
 
             ''' ... строкой '''
-        elif s.driver.get_url(list_products_urls):
-            '''функция get_url('url') возвращает True, 
-            если переход на страницу был успешен,
-            иначе False.
-            Исключения обрабатываются внутри самой get_url()'''
-            grab_product_page()
-        else:
-            logger.error(f''' нет такой страницы товара {list_products_urls} ''') 
+        else: 
+            if s.driver.get_url(list_products_urls):
+                '''функция get_url('url') возвращает True, 
+                если переход на страницу был успешен,
+                иначе False.
+                Исключения обрабатываются внутри самой get_url()'''
+                grab_product_page()
+            else:
+                logger.error(f''' нет такой страницы товара {list_products_urls} ''') 
         
 
             

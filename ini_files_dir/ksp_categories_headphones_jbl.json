@@ -3,18 +3,57 @@
     "brand": "JBL",
     "url": "https://ksp.co.il/web/cat/242..1250..3127",
     "checkbox": false,
-    "prestashop_categories": "582,581,493,1,2,38,359,893,1073"
+    "prestashop_categories": {
+      "3455": "Earbuds",
+
+      "3198": "CONSUMER ELECTRONICS",
+
+      "3436": "Speakers & Audio",
+      "3454": "Headphones",
+
+
+
+      "2269": "manufacturer ->  XYPER-X",
+      "3472": "Headphones",
+      "3464": "Earbuds"
+    }
   },
   "Over-ear": {
     "brand": "JBL",
     "url": "https://ksp.co.il/web/cat/3127..242..1252",
     "checkbox": false,
-    "prestashop_categories": "584,581,493,1,2,38,359,893,1074"
+    "prestashop_categories": {
+      "3455": "Earbuds",
+
+      "3198": "CONSUMER ELECTRONICS",
+
+      "3436": "Speakers & Audio",
+      "3454": "Headphones",
+
+
+
+      "2269": "manufacturer ->  XYPER-X",
+      "3472": "Headphones",
+      "3464": "Earbuds"
+    }
   },
   "Neckband": {
     "brand": "JBL",
     "url": "https://ksp.co.il/web/cat/3127..242..1252",
     "checkbox": false,
-    "prestashop_categories": "584,581,493,1,2,38,359,893,1077"
+    "prestashop_categories": {
+      "3455": "Earbuds",
+
+      "3198": "CONSUMER ELECTRONICS",
+
+      "3436": "Speakers & Audio",
+      "3454": "Headphones",
+
+
+
+      "2269": "manufacturer ->  XYPER-X",
+      "3472": "Headphones",
+      "3464": "Earbuds"
+    }
   }
 }

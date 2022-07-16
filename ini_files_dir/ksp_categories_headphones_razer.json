@@ -3,6 +3,19 @@
     "brand": "RAZER",
     "url": "https://ksp.co.il/web/cat/242..1250..309",
     "checkbox": false,
-    "prestashop_categories": "600,599,598,1,2,38,359,360,1073"
+    "prestashop_categories": {
+      "3455": "Earbuds",
+
+      "3198": "CONSUMER ELECTRONICS",
+
+      "3436": "Speakers & Audio",
+      "3454": "Headphones",
+
+
+
+      "2269": "manufacturer ->  XYPER-X",
+      "3472": "Headphones",
+      "3464": "Earbuds"
+    }
   }
 }

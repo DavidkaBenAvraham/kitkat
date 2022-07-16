@@ -3,48 +3,152 @@
     "brand": "SONY",
     "url": "https://ksp.co.il/web/cat/242..323..1250",
     "checkbox": false,
-    "prestashop_categories": "1054,374,17,1,2,38,359,1062,1063,1073"
+    "prestashop_categories": {
+      "3455": "Earbuds",
+
+      "3198": "CONSUMER ELECTRONICS",
+
+      "3436": "Speakers & Audio",
+      "3454": "Headphones",
+
+
+
+      "2269": "manufacturer ->  XYPER-X",
+      "3472": "Headphones",
+      "3464": "Earbuds"
+    }
   },
   "Over-ear": {
     "brand": "SONY",
     "url": "https://ksp.co.il/web/cat/242..323..1252",
     "checkbox": false,
-    "prestashop_categories": "1055,374,17,1,2,38,359,1062,1064,1074"
+    "prestashop_categories": {
+      "3455": "Earbuds",
+
+      "3198": "CONSUMER ELECTRONICS",
+
+      "3436": "Speakers & Audio",
+      "3454": "Headphones",
+
+
+
+      "2269": "manufacturer ->  XYPER-X",
+      "3472": "Headphones",
+      "3464": "Earbuds"
+    }
   },
   "On-ear": {
     "brand": "SONY",
     "url": "https://ksp.co.il/web/cat/242..323..3139",
     "checkbox": false,
-    "prestashop_categories": "1056,374,17,1,2,38,359,1062,1065,1075,1075"
+    "prestashop_categories": {
+      "3455": "Earbuds",
+
+      "3198": "CONSUMER ELECTRONICS",
+
+      "3436": "Speakers & Audio",
+      "3454": "Headphones",
+
+
+
+      "2269": "manufacturer ->  XYPER-X",
+      "3472": "Headphones",
+      "3464": "Earbuds"
+    }
   },
   "Neckband": {
     "brand": "SONY",
     "url": "https://ksp.co.il/web/cat/242..323..1253",
     "checkbox": false,
-    "prestashop_categories": "1057,374,17,1,2,38,359,1062,1066,1076,1077"
+    "prestashop_categories": {
+      "3455": "Earbuds",
+
+      "3198": "CONSUMER ELECTRONICS",
+
+      "3436": "Speakers & Audio",
+      "3454": "Headphones",
+
+
+
+      "2269": "manufacturer ->  XYPER-X",
+      "3472": "Headphones",
+      "3464": "Earbuds"
+    }
   },
   "True Wireless": {
     "brand": "SONY",
     "url": "https://ksp.co.il/web/cat/242..323..7854",
     "checkbox": false,
-    "prestashop_categories": "1058,374,17,1,2,38,359,1062,1067,1073"
+    "prestashop_categories": {
+      "3455": "Earbuds",
+
+      "3198": "CONSUMER ELECTRONICS",
+
+      "3436": "Speakers & Audio",
+      "3454": "Headphones",
+
+
+
+      "2269": "manufacturer ->  XYPER-X",
+      "3472": "Headphones",
+      "3464": "Earbuds"
+    }
   },
   "Bluetooth": {
     "brand": "SONY",
     "url": "https://ksp.co.il/web/cat/242..323..1263",
     "checkbox": false,
-    "prestashop_categories": "1059,374,17,1,2,38,359,1062,1068,1079"
+    "prestashop_categories": {
+      "3455": "Earbuds",
+
+      "3198": "CONSUMER ELECTRONICS",
+
+      "3436": "Speakers & Audio",
+      "3454": "Headphones",
+
+
+
+      "2269": "manufacturer ->  XYPER-X",
+      "3472": "Headphones",
+      "3464": "Earbuds"
+    }
   },
   "WiFi": {
     "brand": "SONY",
     "url": "https://ksp.co.il/web/cat/242..323..1264",
     "checkbox": false,
-    "prestashop_categories": "1060,374,17,1,2,38,359,1062,1069,1080"
+    "prestashop_categories": {
+      "3455": "Earbuds",
+
+      "3198": "CONSUMER ELECTRONICS",
+
+      "3436": "Speakers & Audio",
+      "3454": "Headphones",
+
+
+
+      "2269": "manufacturer ->  XYPER-X",
+      "3472": "Headphones",
+      "3464": "Earbuds"
+    }
   },
   "Gaming": {
     "brand": "SONY",
     "url": "https://ksp.co.il/web/cat/242..323..1264",
     "checkbox": false,
-    "prestashop_categories": "1060,374,17,1,2,38,359,1062,1069,1071,1072"
+    "prestashop_categories": {
+      "3455": "Earbuds",
+
+      "3198": "CONSUMER ELECTRONICS",
+
+      "3436": "Speakers & Audio",
+      "3454": "Headphones",
+
+
+
+      "2269": "manufacturer ->  XYPER-X",
+      "3472": "Headphones",
+      "3464": "Earbuds"
+    }
   }
 }

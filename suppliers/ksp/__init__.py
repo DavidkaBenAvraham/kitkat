@@ -71,28 +71,62 @@ def grab_product_page(s , p) -> Product:
     '''
     
     def set_id():
+        _id = _d.find(_['product_sku_locator'])
+
+        if len(str(_id)) < 1 :
+            logger.exception(f''' PRODUCT ID ''')
+            raise Exception(f''' PRODUCT ID''')
+            
         _field['id'] = _d.find(_['product_sku_locator'])
 
-    def set_mkt_suppl():
-        _field['mkt_suppl'] = _field['id']
-
+        logger.debug(f'''
+        id - 
+        {_field['id']}
+        ''')
+    def set_sku_suppl():
+        _field['mkt suppl'] = _field['id']
+        #logger.debug(f'''
+        #mkt_suppl - 
+        #{_field['mkt_suppl']}
+        #''')
+    def set_sku_prod():
+        _field['mkt'] = str('ksp-') + _field['id']
+        #logger.debug(f'''
+        #mkt_suppl - 
+        #{_field['mkt_suppl']}
+        #''')
     def set_title():
-        _field['title'] = _d.find(_['product_title_locator'])
-        _field['title'] = SF.remove_non_latin_characters(_field['title'])
-    
+        title = _d.find(_['product_title_locator'])
+        _field['title'] = SF.remove_non_latin_characters(title)
+        #logger.debug(f'''
+        #title - 
+        #{_field['title']}
+        #''')
     def set_summary():
         _field['summary'] = _d.find(_['product_summary_locator'])
-
+        #logger.debug(f'''
+        #summary - 
+        #{_field['description']}
+        #''')
     def set_description():
         _field['description'] = _d.find(_['product_description_locator'])
+        #logger.debug(f'''
+        #description - 
+        #{_field['description']}
+        #''')
 
-    def set_price():
+    def set_cost_price():
         _price = _d.find(_['product_price_locator'])
-        try:
-            '''  Может прийти все, что угодно  '''
-            _price = SF.clear_price(_price)
-        except Exception as ex: return False , print (f''' Exception   {ex} in set_price() ''')
-        _field['mexir olut'] = _price
+        '''  Может прийти все, что угодно  '''
+        _price = SF.clear_price(_price)
+        _field['cost price'] =  _price
+        logger.debug(f'''
+        цена - {_field['cost price']}
+        ''')
+        return True
+    def set_before_tax_price():
+        _field['price tax excluded']  = _field['cost price']
+     
         return True
 
     def set_delivery():
@@ -113,29 +147,20 @@ def grab_product_page(s , p) -> Product:
         - прочая хуйня
         '''
         if imgs is None: 
-            _field['img url'] = ''
-            return True
+            imgs = ''
         elif isinstance(imgs , list):
             imgs = ','.join(imgs)
-            _field['img url'] = imgs
-        elif str(imgs)>0:_field['img url'] = imgs
-
-        try:
-            _field['img url'] = ','.join(imgs)
-        except Exception as ex:
-            logger.error(f'''ошибка в  _field['img url']  
-            {ex}
-            ''')
-            _field['img url'] = ''
-
+        
+        logger.debug(f''' 
+        ссылки на картинки 
+        {imgs}
+        ''')
+        _field['img url'] = imgs
+       
 
     def set_combinations():pass
 
     def set_qty():pass
-
-    def set_byer_protection():pass
-
-    
 
     def set_specification():pass
 
@@ -143,9 +168,12 @@ def grab_product_page(s , p) -> Product:
 
    
     set_id(),
+    set_sku_suppl(),
+    set_sku_prod(),
     set_title(),
     set_summary()
-    set_price(),
+    set_cost_price(),
+    set_before_tax_price()
     set_delivery(),
     set_images(),
     set_combinations(),

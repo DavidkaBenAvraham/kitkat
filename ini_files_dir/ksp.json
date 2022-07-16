@@ -6,37 +6,35 @@
   "num_items_4_flush": 300,
   "if_login": false,
   "collect_products_from_categorypage": false,
-  "scenaries": [
-    "ksp_categories_consoles_microsoft.json",
+  "scenaries": {
+    "consoles": [
+      "ksp_categories_consoles_microsoft.json",
+      "ksp_categories_consoles_nintendo.json"
+    ],
+    "audio": [
+      "ksp_categories_headphones_bang_olufsen.json",
+      "ksp_categories_headphones_hyperx.json",
+      "ksp_categories_headphones_jbl.json"
+    ],
 
-    "ksp_categories_phones_apple.json",
-    "ksp_categories_phones_nokia.json",
-    "ksp_categories_phones_google.json",
-    "ksp_categories_phones_asus.json",
-
-    "ksp_categories_phones_samsung.json",
-
-
-    "ksp_categories_phones_oppo.json",
-    "ksp_categories_phones_oneplus.json",
-    "ksp_categories_phones_philips.json",
-    "ksp_categories_phones_xiaomi.json",
-    "ksp_categories_phones_philips.json"
-
-  ],
+    "phones": [
+      "ksp_categories_phones_apple.json",
+      "ksp_categories_phones_nokia.json",
+      "ksp_categories_phones_google.json",
+      "ksp_categories_phones_asus.json",
+      "ksp_categories_phones_samsung.json",
+      "ksp_categories_phones_oppo.json",
+      "ksp_categories_phones_oneplus.json",
+      "ksp_categories_phones_philips.json",
+      "ksp_categories_phones_xiaomi.json",
+      "ksp_categories_phones_philips.json"
+    ]
+  },
   "excluded": [
-
     "ksp_categories_wathces_apple.json",
     "ksp_categories_speakers_google.json",
     "ksp_categories_speakers_jbl.json",
 
-
-
-
-
-    "ksp_categories_headphones_bang_olufsen.json",
-    "ksp_categories_headphones_hyperx.json",
-    "ksp_categories_headphones_jbl.json",
     "ksp_categories_headphones_razer.json",
     "ksp_categories_headphones_sony.json",
     "ksp_categories_headphones_xiaomi.json",
@@ -49,15 +47,14 @@
     "ksp_categories_tablets_xiaomi.json",
 
 
-    
+
     "ksp_categories_macbook.json",
     "ksp_categories_apple_wathces.json",
     "ksp_categories_ipods.json",
     "ksp_categories_ipads.json",
     "ksp_categories_imacs.json",
 
-    "ksp_categories_consoles_microsoft.json",
-    "ksp_categories_consoles_nintendo.json",
+
 
 
     "ksp_categories_notebooks_asus_by_model.json",
@@ -87,4 +84,3 @@
   ],
   "last_runned_scenario": ""
 }
-

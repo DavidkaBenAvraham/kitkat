@@ -201,7 +201,7 @@ def grab_product_page(s , p):
 
     def set_id():
         _field['id'] = _d.current_url.split('/')[-1].split('.')[0]
-    def set_mkt_suppl():
+    def set_sku_suppl():
         _field['mkt_suppl'] = _field['id']
 
 
@@ -219,13 +219,13 @@ def grab_product_page(s , p):
         except Exception as ex: print (f''' Exception   {ex} in set_title() ''')
             
     ## set_price
-    def set_price():
+    def set_cost_price():
         _price = _d.find(_['product_price_locator'])
         try:
             _price = SF.clear_price(_price)
-            _field['mexir olut'] = _price
+            _field['cost price'] = _price
             return True
-        except Exception as ex: print (f''' Exception   {ex} in set_price() ''')
+        except Exception as ex: print (f''' Exception   {ex} in set_cost_price() ''')
 
 
     ## set_delivery    
@@ -347,8 +347,13 @@ def grab_product_page(s , p):
             field['product_byer_protection'] = None
             logger.error(ex)
     def set_description():
-        field['description']  = _d.find(_['product_description'])
-        #return _description
+        try:
+            field['product_description'] = _d.find(_['product_description_locator'])
+            return True
+        except Exception as ex: 
+            field['product_description'] = None
+            logger.error(ex)
+
     def set_specification():pass
         try:
             field['product_specification'] = _d.find(_['product_specification_locator'])
@@ -357,15 +362,17 @@ def grab_product_page(s , p):
             field['product_specification'] = None
             logger.error(ex)
     def set_customer_reviews():pass
-        #_customer_reviews = _d.find(_['product_customer_reviews'])
-        #return _customer_reviews
-
+        try:
+            field['product_customer_reviews'] = _d.find(_['product_customer_reviews_locator'])
+        except Exception as ex:
+            field['product_customer_reviews'] = None
+            logger.error(ex)
 
 
     set_id(),
-    set_mkt_suppl(),
+    set_sku_suppl(),
     set_title(),
-    set_price(),
+    set_cost_price(),
     set_delivery(),
     set_images(),
     set_combinations(),

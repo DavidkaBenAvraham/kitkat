@@ -14,8 +14,8 @@
 
       "2255": "MICROSOFT",
       "3232": "Microsoft X-Box",
-      "3230": "Microsoft Xbox Series X",
-      "2": "HOME"
+      "3230": "Microsoft Xbox Series X"
+      
     },
     "price_rule": 1
   },
@@ -34,9 +34,8 @@
 
       "2255": "MICROSOFT",
       "3232": "Microsoft X-Box",
-      "3231": "Microsoft Xbox Series S",
+      "3231": "Microsoft Xbox Series S"
 
-        "2": "HOME"
     },
     "price_rule": 1
 

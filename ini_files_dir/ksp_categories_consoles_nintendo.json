@@ -10,11 +10,11 @@
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
       "3228": "Gaming Consoles",
       "3391": "Nintendo",
-     
+
 
       "2262": "manufacturer -> NINTENDO",
-      "2312": "Nintendo Switch OLED",
-      "2": "HOME"
+      "2312": "Nintendo Switch OLED"
+
     }
   },
   "Nintendo Switch": {
@@ -31,8 +31,8 @@
 
 
       "2262": "manufacturer -> NINTENDO",
-      "2311": "Nintendo Switch",
-      "2": "HOME"
+      "2311": "Nintendo Switch"
+
     }
   },
   "Nintendo Switch Lite": {
@@ -47,11 +47,9 @@
       "3391": "Nintendo",
       "3398": "Nintendo Switch Lite",
 
-      "2262": "manufacturer -> NINTENDO",
-
-      "2": "HOME"
+      "2262": "manufacturer -> NINTENDO"
     }
-    },
+  },
   "Nintendo Classic": {
     "brand": "NINTENDO",
     "url": "https://ksp.co.il/web/cat/255..1304..9674",
@@ -66,8 +64,7 @@
 
 
       "2262": "manufacturer -> NINTENDO",
-      "2315": "Nintendo Classic",
-      "2": "HOME"
+      "2315": "Nintendo Classic"
     }
   }
 }

@@ -3,90 +3,225 @@
     "brand": "XIAOMI",
     "url": "https://ksp.co.il/web/cat/573..2202..35919",
     "checkbox": false,
-    "prestashop_categories": "737,736,9,1,2,429,718,708,752"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Xiaomi Poco M4 Pro 5G": {
     "brand": "XIAOMI",
     "url": "https://ksp.co.il/web/cat/573..2202..30964",
     "checkbox": false,
-    "prestashop_categories": "738,736,9,1,2,429,718,708,,753"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Xiaomi Poco X3 Pro": {
     "brand": "XIAOMI",
     "url": "https://ksp.co.il/web/cat/573..2202..23626",
     "checkbox": false,
-    "prestashop_categories": "739,736,9,1,2,2429,718,708,754"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Xiaomi Poco X3 GT": {
     "brand": "XIAOMI",
     "url": "https://ksp.co.il/web/cat/573..2202..27479",
     "checkbox": false,
-    "prestashop_categories": "740,736,9,1,2,2,429,718,708,755"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Xiaomi Poco F3": {
     "brand": "XIAOMI",
     "url": "https://ksp.co.il/web/cat/573..2202..24075",
     "checkbox": false,
-    "prestashop_categories": "741,736,9,1,2,2,429,718,708,756"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Xiaomi Redmi 9A": {
     "brand": "XIAOMI",
     "url": "https://ksp.co.il/web/cat/573..2202..13962",
     "checkbox": false,
-    "prestashop_categories": "742,736,9,1,2,2,429,718,708,757"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Xiaomi Redmi 9C": {
     "brand": "XIAOMI",
     "url": "https://ksp.co.il/web/cat/573..2202..14550",
     "checkbox": false,
-    "prestashop_categories": "743,736,9,1,2,2,429,718,708,758"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Xiaomi Redmi Note 10S": {
     "brand": "XIAOMI",
     "url": "https://ksp.co.il/web/cat/573..2202..24975",
     "checkbox": false,
-    "prestashop_categories": "744,736,9,1,2,2,429,718,708,759"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Xiaomi Redmi Note 10 Pro": {
     "brand": "XIAOMI",
     "url": "https://ksp.co.il/web/cat/573..2202..23954",
     "checkbox": false,
-    "prestashop_categories": "745,736,9,1,2,2,429,718,708,760"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Xiaomi Redmi Note 11": {
     "brand": "XIAOMI",
     "url": "https://ksp.co.il/web/cat/573..2202..33017",
     "checkbox": false,
-    "prestashop_categories": "746,736,9,1,2,2,429,718,708,761"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Xiaomi Redmi Note 11S": {
     "brand": "XIAOMI",
     "url": "https://ksp.co.il/web/cat/573..2202..33497",
     "checkbox": false,
-    "prestashop_categories": "747,736,9,1,2,2,429,718,708,762"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Xiaomi Redmi Note 11 Pro": {
     "brand": "XIAOMI",
     "url": "https://ksp.co.il/web/cat/573..2202..34982",
     "checkbox": false,
-    "prestashop_categories": "748,736,9,1,2,2,429,718,708,763"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Xiaomi Redmi Note 11 Pro 5G": {
     "brand": "XIAOMI",
     "url": "https://ksp.co.il/web/cat/573..2202..34984",
     "checkbox": false,
-    "prestashop_categories": "749,736,9,1,2,2,429,718,708,764"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Xiaomi 11 Lite 5G NE": {
     "brand": "XIAOMI",
     "url": "https://ksp.co.il/web/cat/573..2202..29080",
     "checkbox": false,
-    "prestashop_categories": "750,736,9,1,2,2,429,718,708,765"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   },
   "Xiaomi 11T": {
     "brand": "XIAOMI",
     "url": "https://ksp.co.il/web/cat/573..2202..29088",
     "checkbox": false,
-    "prestashop_categories": "751,736,9,1,2,2,429,718,708,766"
+    "prestashop_categories": {
+      "2298": "Oppo A74",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3373": "Smartphones",
+      "2260": "OPPO"
+
+    }
   }
 }

@@ -111,6 +111,9 @@ class StringFormatter():
         self.pattern_remove_special_characters = pattern_remove_special_characters
 
         pass
+
+
+    @classmethod
     @staticmethod
     # убираю все значки переноса строк
     def remove_line_breaks(s:str)->str:
@@ -123,6 +126,7 @@ class StringFormatter():
         else: s=_(s)
         return s
     
+    @classmethod
     @staticmethod
     # remove_suppliers_and_special_chars
     def remove_htmls(s:str)->str:
@@ -134,7 +138,7 @@ class StringFormatter():
         else: s=_(s)
         return s
 
-
+    @classmethod
     @staticmethod
     #     def remove_non_latin_characters
     def remove_non_latin_characters(s:str)->str:
@@ -148,12 +152,16 @@ class StringFormatter():
         else: s=_(s)
 
         return s
+
+
+    @classmethod
     @staticmethod
     def remove_special_characters(s:str)->str:
         s = StringFormatter.remove_htmls(s)
         s = StringFormatter.remove_line_breaks(s)
         return s
 
+    @classmethod
     @staticmethod
     def clear_number(s:str)->str:
         def _(s):
@@ -164,17 +172,23 @@ class StringFormatter():
             for sub_s in s: sub_s = _(sub_s)
         else: s = _(s)
         return s
+
+
+    @classmethod
     @staticmethod
     def clear_price(s:str)->str:
         def _(s):
-            s = pattern_clear_price.sub(r'', str(s)).strip().replace(',','.')
-            return ast.literal_eval(s)
+            #s = pattern_clear_price.sub(r'', str(s)).strip().replace(',','.')
+            _price = pattern_clear_price.sub(r'', str(s)).strip().replace(',','')
+            if len(str(_price)) <1 : return 0 
+            return ast.literal_eval(_price)
 
         if isinstance(s, list ):
             for sub_s in s: sub_s = _(sub_s)
         else: s=_(s)
         return s
 
+    @classmethod
     @staticmethod
     def convert_url_to_valid_string(s)->str:
         def remove_protocol(s)->str:
@@ -199,6 +213,7 @@ class StringFormatter():
         
         return s
 
+    @classmethod
     @staticmethod
     def  get_urlstr_params_as_dict(s:str)->dict:
        

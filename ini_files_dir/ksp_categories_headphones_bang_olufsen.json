@@ -3,6 +3,19 @@
     "brand": "B&O",
     "url": "https://ksp.co.il/web/cat/242..1250..5030",
     "checkbox": false,
-    "prestashop_categories": "592,591,590,1,2,38,359,889,1073"
+    "prestashop_categories": {
+      "3455": "Earbuds",
+
+      "3198": "CONSUMER ELECTRONICS",
+
+      "3436": "Speakers & Audio",
+      "3454": "Headphones",
+
+
+
+      "2268": "manufacturer -> B&O",
+      "3462": "Headphones",
+      "3464": "Earbuds"
+    }
   }
 }

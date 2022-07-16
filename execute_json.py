@@ -28,6 +28,36 @@ def html2json(html:str)->json:
     pass
 
 
+## конвертация сложных объектов в список
+# @param dict_interpreter_vаlues_only
+#   если True:
+#       берется только правая часть словаря
+#   если False:
+#       выводится 2 списка - [[k],[v]]
+def convert_to_list(json, dict_interpreter_vаlues_only:bool = True, _l:list=[]) -> list:
+
+    
+    if isinstance(json, str):
+        ''' если в списке сценариев есть 
+        всего один файл '''
+        _l.append(json)
+
+    elif isinstance(json, list):
+        for json_file in scenario_files: _l.append(json)
+
+
+    elif isinstance(json, dict):
+        for scenario in json.keys(): 
+            for json_files in json[scenario]: 
+                ''' если есть вложенный словарь - 
+               я его рекурсивно обрабатываю'''
+                if isinstance(json_files, dict):
+                    convert_to_list(json_files, dict_interpreter_vаlues_only, _l)
+                else:_l.append(json_files)
+
+
+    return _l
+
 
 
 ### экспортирую данные в файл .
