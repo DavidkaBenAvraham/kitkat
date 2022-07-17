@@ -47,6 +47,8 @@ import urllib
 #import requests
 #import codecs
 from loguru import logger
+from msedge.selenium_tools import EdgeOptions
+#https://stackoverflow.com/questions/62951105/how-to-set-options-for-chromium-edge-in-selenium
 
 import selenium
 
@@ -185,7 +187,7 @@ class Driver:
 
     #parsed_google_search_result : GoogleHtmlParser = attrib(init = False, default = GoogleHtmlParser)
 
-    drivername : str = attrib(init = False , default = 'firefox')
+    #drivername : str = attrib(init = False , default = 'firefox')
     
 
     driver : WD =  attrib(init = False , default = WD)
@@ -239,7 +241,16 @@ class Driver:
     # }
     # </pre>
     def set_driver(self , ini) -> WD:  
+        
 
+
+        #seleniumwire_options = {
+        #    'proxy': {
+        #        'http': 'http://myusername:password@myproxyserver.com:123456', 
+        #        'https': 'http://myusername:password@myproxyserver.com:123456',
+        #        'no_proxy': 'localhost,127.0.0.1:8080' # excludes
+        #    }  
+        #}
         ## set_chrome
         def set_chrome() -> bool:
             _settings = ini.launcher['webdriver']['chrome']
@@ -252,12 +263,43 @@ class Driver:
         ## set_firefox
         def set_firefox() -> bool:
             _settings = ini.launcher['webdriver']['chrome']
+            #options = self.driver.FirefoxOptions()
             options = self.driver.FirefoxOptions()
             for argument in _settings['arguments']:
                     options.add_argument(argument)
+
+
+            seleniumwire_options = {
+                'proxy': {
+                    'no_proxy': 'localhost,127.0.0.1:8080' # excludes
+                } , 
+                'port': 8080,
+                'options':options
+            }
             self.driver = self.driver.Firefox(options = options)
             return True
-         
+
+                 ## set_firefox
+        def set_edge() -> bool:
+            _settings = ini.launcher['webdriver']['edge']
+
+            options = EdgeOptions()
+            options.use_chromium = True
+            #options = self.driver.EdgeOptions()
+            for argument in _settings['arguments']:
+                    options.add_argument(argument)
+
+            seleniumwire_options = {
+                'proxy': {
+                    'no_proxy': 'localhost,127.0.0.1:8080' # excludes
+                } , 
+                'port': 8080,
+                'options':options
+            }
+
+
+            self.driver = self.driver.Edge(seleniumwire_options = seleniumwire_options)
+            return True
         ## set_kora
         def set_kora() -> bool:
             _wd = kora.selenium.wd
@@ -288,10 +330,11 @@ class Driver:
 
         set_firefox()
         #set_chrome()
+        #set_edge()
         self.driver.maximize_window()
         # Set the interceptor on the driver
         #https://stackoverflow.com/questions/15645093/setting-request-headers-in-selenium
-        self.driver.request_interceptor = interceptor
+        #self.driver.request_interceptor = interceptor
 
 
         self.driver.wait =                              self._wait
@@ -317,8 +360,8 @@ class Driver:
 
         self.driver.WebKitGTK =                         SWD.WebKitGTK
         self.driver.WebKitGTKOptions =                  SWD.WebKitGTKOptions
-        self.driver.WPEWebKit =                         SWD.WPEWebKit
-        self.driver.WPEWebKitOptions =                  SWD.WPEWebKitOptions
+        #self.driver.WPEWebKit =                         SWD.WPEWebKit
+        #self.driver.WPEWebKitOptions =                  SWD.WPEWebKitOptions
         
 
         from selenium.webdriver.support.ui import WebDriverWait

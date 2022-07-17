@@ -21,3 +21,4 @@ google-auth-httplib2
 jupyterlab
 loguru
 attrs
+msedge-selenium-tools

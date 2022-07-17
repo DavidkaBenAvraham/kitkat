@@ -2,15 +2,15 @@
   "supplier": "morlevi",
   "supplier_prefics": "MLV-",
   "start_url": "https://www.morlevi.co.il/",
+  "login_url": "https://www.morlevi.co.il/",
   "price_rule": "*1.43",
   "collect_products_from_categorypage": false,
   "num_items_4_flush": 50,
   "if_login": true,
-  "scenaries": [
+  "scenaries": {
+    "mb": [ "morlevi_categories_mb_gigabyte.json" ]
 
-    [ "morlevi_categories_mb_gigabyte.json" ]
-
-  ],
+  },
   "last_runned_scenario": "",
   "excluded": [
     [

@@ -102,7 +102,7 @@ class Supplier:
     driver  : Driver = attrib(init = False , default = None)
     ''' вебдрайвер - мотор всей системы '''
 
-    d = driver
+    d : Driver = attrib(init = False , default = None)
     
     p : Factory(list) = attrib(init = False , default = [])
     ''' товары '''
@@ -126,6 +126,7 @@ class Supplier:
         self.start_time = _ini.get_now()
 
         self.driver = Driver().set_driver(_ini)
+        self.d = self.driver
 
         self.locators : dict = json.loads(Path(_ini.paths.ini_files_dir , f'''{self.supplier_prefics}_locators.json'''))
         ''' локаторы элементов страницы '''

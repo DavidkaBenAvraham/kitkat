@@ -91,14 +91,12 @@
 
   },
   "login": {
-    "open_login_dialog_locator_olld": {
-      "by": "css selector",
-      "selector": "img[src*=\"img/userico.png\"]"
 
-    },
     "open_login_dialog_locator": {
-      "by": "css selector",
-      "selector": "a[data-modal*='/User/Login']"
+      "attribute": null,
+      "by": "xpath",
+      "selector": "//a[contains(@data-modal,'User')]",
+      "action": "click()"
     },
 
     "email": "sales@aluf.co.il",

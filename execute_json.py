@@ -43,7 +43,7 @@ def convert_to_list(json, dict_interpreter_vаlues_only:bool = True, _l:list=[])
         _l.append(json)
 
     elif isinstance(json, list):
-        for json_file in scenario_files: _l.append(json)
+        for json_file in json: _l.append(json)
 
 
     elif isinstance(json, dict):
