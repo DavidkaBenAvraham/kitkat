@@ -1,17 +1,21 @@
 {
   "In-ear Bud": {
     "brand": "XIAOMI",
-    "url": "https://ksp.co.il/web/cat/242..1263..2202..1250",
+    "url": "https://ksp.co.il/web/cat/242..2202..1250",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
-
+      "3459": "In-ear Bud",
 
       "3198": "CONSUMER ELECTRONICS",
-      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
 
+      "3436": "Speakers & Audio",
+      "3454": "Headphones",
+
+
+
+      "2250": "manufacturer ->  XIAOMI",
+      "2479": "Headphones",
+      "3494": "In-ear Bud"
     }
   }
 }

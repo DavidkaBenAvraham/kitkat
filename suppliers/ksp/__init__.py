@@ -5,12 +5,9 @@
 #Documentation for this module
 #           Функции, присущие поставщику  KSP, которыми я дополняю класс supplier
 
- 
 
-from bs4 import BeautifulSoup
 import execute_json as json
 from strings_formatter import StringFormatter as SF
-#formatter = StringFormatter()
 from suppliers.product import Product 
 import suppliers.ksp.banners_grabber
 from loguru import logger
@@ -73,18 +70,11 @@ def grab_product_page(s , p) -> Product:
     def set_id():
         _id = _d.find(_['product_sku_locator'])
 
-        if not isinstance(_id , str):
-            logger.exception(f''' PRODUCT ID ''')
-            raise Exception(f''' PRODUCT ID''')
-            return False
 
-
-            
         _field['id'] = _d.find(_['product_sku_locator'])
 
         logger.debug(f'''
-        id - 
-        {_field['id']}
+        id - {_field['id']}
         ''')
     def set_sku_suppl():
         _field['mkt suppl'] = _field['id']
@@ -93,7 +83,8 @@ def grab_product_page(s , p) -> Product:
         #{_field['mkt_suppl']}
         #''')
     def set_sku_prod():
-        _field['mkt'] = str('ksp-') + _field['id']
+        if not _field['id']  is None :
+            _field['mkt'] = str('ksp-') + _field['id']
         #logger.debug(f'''
         #mkt_suppl - 
         #{_field['mkt_suppl']}
@@ -170,20 +161,20 @@ def grab_product_page(s , p) -> Product:
     def set_customer_reviews():pass
 
    
-    if not set_id(): return False,
-    set_sku_suppl(),
-    set_sku_prod(),
-    set_title(),
+    set_id()
+    set_sku_suppl()
+    set_sku_prod()
+    set_title()
     set_summary()
-    set_cost_price(),
+    set_cost_price()
     set_before_tax_price()
-    set_delivery(),
-    set_images(),
-    set_combinations(),
-    #set_qty(),
-    #set_byer_protection(),
-    set_description(),
-    #set_specification(),
+    set_delivery()
+    set_images()
+    set_combinations()
+    #set_qty()
+    #set_byer_protection()
+    set_description()
+    #set_specification()
     #set_customer_reviews()
         
     return p

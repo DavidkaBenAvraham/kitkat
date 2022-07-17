@@ -24,7 +24,10 @@
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
       "3373": "Smartphones",
-      "3403": "GOOGLE"
+
+
+      "2256": "manufacturer ->  GOOGLE",
+      "1023": "SMARTPHONES"
 
     }
   },
@@ -38,7 +41,12 @@
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
       "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3403": "GOOGLE",
+
+
+      "2256": "manufacturer ->  GOOGLE",
+      "1023": "SMARTPHONES"
+
 
     }
   }

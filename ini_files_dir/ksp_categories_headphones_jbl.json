@@ -4,18 +4,19 @@
     "url": "https://ksp.co.il/web/cat/242..1250..3127",
     "checkbox": false,
     "prestashop_categories": {
-      "3455": "Earbuds",
+      "3484": "In-ear Bud",
+
 
       "3198": "CONSUMER ELECTRONICS",
-
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
       "3436": "Speakers & Audio",
       "3454": "Headphones",
 
 
 
-      "2269": "manufacturer ->  XYPER-X",
-      "3472": "Headphones",
-      "3464": "Earbuds"
+      "2264": "JBL",
+      "2614": "Headphones",
+      "2615": "In-ear Bud"
     }
   },
   "Over-ear": {
@@ -30,11 +31,9 @@
       "3436": "Speakers & Audio",
       "3454": "Headphones",
 
-
-
-      "2269": "manufacturer ->  XYPER-X",
-      "3472": "Headphones",
-      "3464": "Earbuds"
+      "2264": "JBL",
+      "2611": "Headphones",
+      "2616": "Over-ear"
     }
   },
   "Neckband": {
@@ -50,10 +49,9 @@
       "3454": "Headphones",
 
 
-
-      "2269": "manufacturer ->  XYPER-X",
-      "3472": "Headphones",
-      "3464": "Earbuds"
+      "2264": "JBL",
+      "2614": "Headphones",
+      "3483": "Neckband"
     }
   }
 }

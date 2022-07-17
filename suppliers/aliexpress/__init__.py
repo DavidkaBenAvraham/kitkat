@@ -330,14 +330,14 @@ def grab_product_page(s , p):
 
     ## set_qty
     def set_qty():
-            try:
-                _qty = _d.find(_['product_qty_locator'])[0]
-                _field['qty'] = SF.clear_price(_qty)
-                return True
-            except Exception as ex: 
-                #field['qty'] = None
-                logger.error(ex)
-                return False
+        try:
+            _qty = _d.find(_['product_qty_locator'])[0]
+            _field['qty'] = SF.clear_price(_qty)
+            return True
+        except Exception as ex: 
+            #field['qty'] = None
+            logger.error(ex)
+            return False
 
     def set_byer_protection():
         try:
@@ -369,21 +369,21 @@ def grab_product_page(s , p):
             logger.error(ex)
 
 
-    set_id(),
-    set_sku_suppl(),
-    set_title(),
-    set_cost_price(),
-    set_delivery(),
-    set_images(),
-    set_combinations(),
-    set_qty(),
-    set_byer_protection(),
-    set_description(),
-    set_specification(),
+    set_id()
+    set_sku_suppl()
+    set_title()
+    set_cost_price()
+    set_delivery()
+    set_images()
+    set_combinations()
+    set_qty()
+    set_byer_protection()
+    set_description()
+    set_specification()
     set_customer_reviews()
         
 
-    return p.fields
+        return p.fields
 
 
 

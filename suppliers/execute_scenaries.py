@@ -90,12 +90,7 @@ def run_scenario(s , scenario) -> bool:
         '''# СОБИРАЮ ДАННЫЕ СО СТРАНИЦЫ '''
         def grab_product_page():
             product : Product = s.related_functions.grab_product_page(s , Product())
-            
-            if not product:
-                return False
-            ''' что-то не сработало при наполнении полей товара'''
-
-
+           
             ''' получаю товар 
             заполняю все свойства товара в функции 
             grab_product_page() для каждого поставщика.
@@ -103,6 +98,11 @@ def run_scenario(s , scenario) -> bool:
             c) Добавляю поля товара в список товаров поставщика 
             для их дальнейшей обработки
             '''
+
+            ''' не получил id -> нет смысла сохранять товар '''
+            if isinstance(product.fields['id'], None): return False
+                
+
             product_fields : pd.DataFrame = product.fields
             s.p.append(product_fields)
             pass

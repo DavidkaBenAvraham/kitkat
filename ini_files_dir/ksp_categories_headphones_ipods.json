@@ -4,13 +4,19 @@
     "url": "https://ksp.co.il/web/cat/242..245..1250",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
+      "3484": "in-ear-bud",
 
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3436": "Speakers & Audio",
+      "3454": "Headphones",
+
+
+
+      "2243": " 2243 APPLE",
+      "2093": "2093 Ipods",
+      "2095": "In-ear Bud"
 
     }
   },
@@ -19,13 +25,18 @@
     "url": "https://ksp.co.il/web/cat/242..245..1252",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
+      "3456": "Overear",
 
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3436": "Speakers & Audio",
+
+
+
+      "2243": " 2243 APPLE",
+      "2093": "2093 Ipods",
+      "2096": "Over-ear"
 
     }
   },
@@ -34,13 +45,18 @@
     "url": "https://ksp.co.il/web/cat/242..245..1254",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
+      "3455": "Earbuds",
 
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3436": "Speakers & Audio",
+  
+
+
+      "2243": " 2243 APPLE",
+      "2093": "2093 Ipods",
+      "2094": "Over-ear"
 
     }
   }

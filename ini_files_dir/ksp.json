@@ -7,10 +7,7 @@
   "if_login": false,
   "collect_products_from_categorypage": false,
   "scenaries": {
-    "consoles": [
-      "ksp_categories_consoles_microsoft.json",
-      "ksp_categories_consoles_nintendo.json"
-    ],
+
     "audio": [
       "ksp_categories_speakers_google.json",
       "ksp_categories_speakers_jbl.json",
@@ -65,7 +62,11 @@
       "ksp_categories_monitors_lg.json"
     ],
     "streamers": [ "ksp_categories_streamers_google.json" ],
-    "aio": [ "ksp_categories_imacs.json" ]
+    "aio": [ "ksp_categories_imacs.json" ],
+    "consoles": [
+      "ksp_categories_consoles_microsoft.json",
+      "ksp_categories_consoles_nintendo.json"
+    ]
   },
   "excluded": [
 

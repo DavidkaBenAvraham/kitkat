@@ -4,7 +4,7 @@
     "url": "https://ksp.co.il/web/cat/242..323..1250",
     "checkbox": false,
     "prestashop_categories": {
-      "3455": "Earbuds",
+      "3459": "In-ear Bud",
 
       "3198": "CONSUMER ELECTRONICS",
 
@@ -15,7 +15,7 @@
 
       "2269": "manufacturer ->  XYPER-X",
       "3472": "Headphones",
-      "3464": "Earbuds"
+      "3489": "In-ear Bud"
     }
   },
   "Over-ear": {
@@ -23,7 +23,7 @@
     "url": "https://ksp.co.il/web/cat/242..323..1252",
     "checkbox": false,
     "prestashop_categories": {
-      "3455": "Earbuds",
+      "3456": "Over-ear",
 
       "3198": "CONSUMER ELECTRONICS",
 
@@ -32,9 +32,9 @@
 
 
 
-      "2269": "manufacturer ->  XYPER-X",
-      "3472": "Headphones",
-      "3464": "Earbuds"
+      "2254": "manufacturer ->  Sony",
+      "2488": "Headphones",
+      "3486": "Over-ear"
     }
   },
   "On-ear": {
@@ -42,7 +42,7 @@
     "url": "https://ksp.co.il/web/cat/242..323..3139",
     "checkbox": false,
     "prestashop_categories": {
-      "3455": "Earbuds",
+      "3487": "On-ear",
 
       "3198": "CONSUMER ELECTRONICS",
 
@@ -51,9 +51,9 @@
 
 
 
-      "2269": "manufacturer ->  XYPER-X",
-      "3472": "Headphones",
-      "3464": "Earbuds"
+      "2254": "manufacturer ->  Sony",
+      "2488": "Headphones",
+      "3488": "On-ear"
     }
   },
   "Neckband": {
@@ -61,7 +61,7 @@
     "url": "https://ksp.co.il/web/cat/242..323..1253",
     "checkbox": false,
     "prestashop_categories": {
-      "3455": "Earbuds",
+      "3480": "Neckband",
 
       "3198": "CONSUMER ELECTRONICS",
 
@@ -69,10 +69,9 @@
       "3454": "Headphones",
 
 
-
-      "2269": "manufacturer ->  XYPER-X",
-      "3472": "Headphones",
-      "3464": "Earbuds"
+      "2254": "manufacturer ->  Sony",
+      "2488": "Headphones",
+      "3488": "On-ear"
     }
   },
   "True Wireless": {
@@ -88,12 +87,12 @@
       "3454": "Headphones",
 
 
-
-      "2269": "manufacturer ->  XYPER-X",
-      "3472": "Headphones",
-      "3464": "Earbuds"
+      "2254": "manufacturer ->  Sony",
+      "2488": "Headphones",
+      "3483": "True wireless"
     }
   },
+
   "Bluetooth": {
     "brand": "SONY",
     "url": "https://ksp.co.il/web/cat/242..323..1263",
@@ -107,10 +106,8 @@
       "3454": "Headphones",
 
 
-
-      "2269": "manufacturer ->  XYPER-X",
-      "3472": "Headphones",
-      "3464": "Earbuds"
+      "2254": "manufacturer ->  Sony",
+      "2488": "Headphones"
     }
   },
   "WiFi": {
@@ -127,9 +124,8 @@
 
 
 
-      "2269": "manufacturer ->  XYPER-X",
-      "3472": "Headphones",
-      "3464": "Earbuds"
+      "2254": "manufacturer ->  Sony",
+      "2488": "Headphones"
     }
   },
   "Gaming": {
@@ -145,10 +141,8 @@
       "3454": "Headphones",
 
 
-
-      "2269": "manufacturer ->  XYPER-X",
-      "3472": "Headphones",
-      "3464": "Earbuds"
+      "2254": "manufacturer ->  Sony",
+      "2488": "Headphones"
     }
   }
 }
