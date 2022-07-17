@@ -42,7 +42,7 @@
     ],
     "tablets": [
 
-
+      "ksp_categories_tablets_ipads.json",
       "ksp_categories_tablets_amazon.json",
       "ksp_categories_tablets_lenovo.json",
       "ksp_categories_tablets_samsung.json",

@@ -1,38 +1,43 @@
 {
   "infinity_scroll": false,
   "checkboxes_for_categories": false,
-  "category": {
-    "pages_listing_locator": {
-      "attribute": "href",
-      "by": "css selector",
-      "selector": "\".page-link[aria-label='Next']"
+  "pagination": {
+    "ul": {
+      "attribute": null,
+      "by": "xpath",
+      "selector": "//ul[@class='pagination']"
+    },
+    "a": {
+      "attribute": null,
+      "by": "xpath",
+      "selector": "//ul[@class='pagination']//a[@class='page-link']"
     }
   },
+
+
   "product": {
     "link_to_product_locator": {
       "attribute": "href",
       "by": "css selector",
       "selector": "div.product-thumb a[href*=\"product\"]"
-    }
-  },
-  "product_fields_locators": {
-    "title_locator": {
+    },
+    "product_title_locator": {
       "attribute": "innerHTML",
       "by": "css selector",
       "selector": "h1.d-inline-block"
     },
-    "short_description_locator": {
+    "product_summary_locator": {
       "attribute": "innerHTML",
       "by": "css selector",
       "selector": "h1.d-inline-block"
     },
-    "description_locator": {
+    "product_description_locator": {
       "attribute": "innerHTML",
       "by": "css selector",
       "selector": ".row.product-params.pt-2.pb-2.pt-sm-5.pb-sm-5"
     },
 
-    "price_locator": {
+    "product_price_locator": {
       "attribute": "innerHTML",
       "by": "id",
       "selector": "basicPrice"
@@ -44,7 +49,7 @@
       "selector": "text*='éöøï'"
     },
 
-    "sku_locator": {
+    "product_sku_locator": {
       "attribute": "innerHTML",
       "by": "css selector",
       "selector": "span.ltr.sku-copy"
@@ -55,7 +60,7 @@
       "selector": "span.sku-copy"
     },
 
-    "image_locator": {
+    "product_images_locator": {
       "attribute": "href",
       "by": "id",
       "selector": "mainpic"
@@ -66,6 +71,9 @@
       "by": "tag name",
       "selector": "li"
     }
+  },
+  "product_fields_locators": {
+    
   },
   "laptop_description_fields_selectors": {
     "screen": {

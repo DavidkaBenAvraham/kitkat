@@ -160,6 +160,31 @@
       "3564": "Z590"
 
     }
+  },
+
+
+  "GIGABYTE INTEL LGA2066 X299": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/343",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3565": "X299",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+      "3449": "Motherboards",
+      "3547": "Intel Motherboards",
+      "3389": "INTEL LGA2066",
+
+      "2271": "MANUGACTURER ->  Gigabyte",
+      "3543": "Motherboards",
+      "3544": "Intel motherboards",
+      "3526": "Intel LGA 2066",
+      "3566": "X299"
+
+    }
   }
+
 
 } 

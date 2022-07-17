@@ -95,9 +95,9 @@ def grab_product_page(s , p) -> Product:
     
     def set_id():
         _id = _d.find(_['product_sku_locator'])
+        if isinstance(_id,list):_id=_id[0]
 
-
-        _field['id'] = _d.find(_['product_sku_locator'])
+        _field['id'] = _id
 
         logger.debug(f'''
         id - {_field['id']}
@@ -109,8 +109,7 @@ def grab_product_page(s , p) -> Product:
         #{_field['mkt_suppl']}
         #''')
     def set_sku_prod():
-        if not _field['id']  is None :
-            _field['mkt'] = str('ksp-') + _field['id']
+        _field['mkt'] = str('morlevi-') + _field['id']
         #logger.debug(f'''
         #mkt_suppl - 
         #{_field['mkt_suppl']}
@@ -151,7 +150,7 @@ def grab_product_page(s , p) -> Product:
 
     def set_delivery():
         '''@TODO  перенести в комбинации '''
-        product_delivery_list = _d.find(_['product_delivery_locator'])
+        #product_delivery_list = _d.find(_['product_delivery_locator'])
         #for i in product_delivery_list:
         #    pass
 
@@ -187,7 +186,7 @@ def grab_product_page(s , p) -> Product:
     def set_customer_reviews():pass
 
     def set_supplier():
-        _field['supplier'] = '2787'
+        _field['supplier'] = '2784'
         pass
 
     set_id()
@@ -208,4 +207,20 @@ def grab_product_page(s , p) -> Product:
     set_supplier()
     return p
     pass
+
+def list_product_urls_from_pagination(supplier):
+    
+    _s = supplier
+    _d = _s.d
+    _l = _s.locators['product']['link_to_product_locator']
+
+    list_product_urls : list = _d.find(_l)
+    pages = _d.find(_s.locators['pagination']['a'])
+    if isinstance(pages,list):
+        for page in pages:
+            list_product_urls.append(_d.find(_l))
+            _perv_url = _d.current_url
+            page.click()
+            if _perv_url == _d.current_url:break
+    return list_product_urls
 

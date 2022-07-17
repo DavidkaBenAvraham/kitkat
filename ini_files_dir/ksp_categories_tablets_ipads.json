@@ -9,7 +9,7 @@
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
       "3227": "TABLETS",
-
+      "3514": "iPad Mini 2021",
 
       "2243": "APPLE",
       "2686": "Ipad",
@@ -27,7 +27,7 @@
         "3198": "CONSUMER ELECTRONICS",
         "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
         "3227": "TABLETS",
-
+        "3517": "iPad 10.2 2021",
 
         "2243": "APPLE",
         "2686": "Ipad",
@@ -46,7 +46,7 @@
         "3198": "CONSUMER ELECTRONICS",
         "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
         "3227": "TABLETS",
-
+        "3515": "iPad 10.2 2021",
 
         "2243": "APPLE",
         "2686": "Ipad",
@@ -64,7 +64,7 @@
         "3198": "CONSUMER ELECTRONICS",
         "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
         "3227": "TABLETS",
-
+        "3516": "iPad Air 10.9 2022",
 
         "2243": "APPLE",
         "2686": "Ipad",
@@ -72,6 +72,7 @@
 
       }
     },
+    
     "iPad Pro 11 2021": {
       "brand": "APPLE",
       "url": "https://ksp.co.il/web/cat/270..245..24377",
@@ -82,6 +83,25 @@
         "3198": "CONSUMER ELECTRONICS",
         "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
         "3227": "TABLETS",
+        "3518": "iPad Pro 11 2021",
+
+        "2243": "APPLE",
+        "2686": "Ipad",
+        "2690": "iPad Pro 11 2021"
+
+      }
+    },
+    "iPad Pro 12.9 2021": {
+      "brand": "APPLE",
+      "url": "https://ksp.co.il/web/cat/270..245..36222",
+      "checkbox": false,
+      "prestashop_categories": {
+        "3509": "9 - 11 inch",
+
+        "3198": "CONSUMER ELECTRONICS",
+        "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+        "3227": "TABLETS",
+        "3568": "iPad Pro 12.9 2021",
 
 
         "2243": "APPLE",

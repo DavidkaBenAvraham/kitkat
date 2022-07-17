@@ -804,15 +804,19 @@ class Driver:
     #   возвращает найденные на странице элементы в списке элементы
     #    если элементы  не найдны -возвращает пустой список []
     def _get_webelments_from_page(self, locator) -> list:
-
         try: 
             elements = self.driver.find_elements(locator['by'] , locator['selector'])
             return elements 
+
         except Exception as ex: return None , logger.error(f'''
         _get_webelments_from_page() 
-        locator['by'] , locator['selector']  {locator['by']} , {locator['selector']}
+        -------------------------------------------
+        locator
+        {locator}
+        ------------------------------------------
         ошибка: 
-        ex: {ex} ''')
+        ex: {ex} 
+        ''')
         
     ## CLICK
     ##  Обработчик события click()

@@ -252,10 +252,11 @@ def get_list_products_urls(s , scenario_node : dict ) ->list:
     
     else:
         ''' Б переключение между страницами реализуется в каждом постащике '''
-        list_product_urls = s.related_functions.pagination(s)
-        get_page_check_list(s)
-        get_top_banners(s)
-        return list_product_urls
+        return s.related_functions.list_product_urls_from_pagination(s)
+
+        #get_page_check_list(s)
+        #get_top_banners(s)
+      
 
 
 
