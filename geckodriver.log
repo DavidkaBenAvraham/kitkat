@@ -835,3 +835,32 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 1658000950123	Marionette	INFO	Stopped listening on port 65001
 JavaScript error: chrome://global/content/elements/videocontrols.js, line 2304: TypeError: can't access dead object
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658041706071	geckodriver	INFO	Listening on 127.0.0.1:61193
+1658041709131	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--allow-profiles-outside-user-dir" "--allow-insecure-localhost" "--remote-debugging-port" "61194" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileZJ72RG"
+1658041709469	Marionette	INFO	Marionette enabled
+1658041709473	Marionette	INFO	Listening on port 61203
+WebDriver BiDi listening on ws://localhost:61194
+Read port: 61203
+1658041709721	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658041709722	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:61192","sslProxy":"127.0.0.1:61192"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileZJ72RG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61194/devtools/browser/e82f501b-1e09-409d-82e1-008d6183b7b6
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1658041936005	geckodriver	INFO	Listening on 127.0.0.1:61372
+1658041939066	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--allow-profiles-outside-user-dir" "--allow-insecure-localhost" "--remote-debugging-port" "61373" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile7uqbpF"
+1658041939366	Marionette	INFO	Marionette enabled
+1658041939370	Marionette	INFO	Listening on port 61384
+WebDriver BiDi listening on ws://localhost:61373
+Read port: 61384
+1658041939463	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658041939496	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:61371","sslProxy":"127.0.0.1:61371"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile7uqbpF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61373/devtools/browser/b6e02989-f680-45a6-9495-2851b5cf432a
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1658048336862	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658048336865	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658048336867	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

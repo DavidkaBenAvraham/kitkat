@@ -4,13 +4,17 @@
     "url": "https://ksp.co.il/web/cat/1513..245..25303",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
+      "3500": "screen sizes about 23 - 24 inch",
 
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3371": "AIO",
+
+
+      "2243": "APPLE",
+      "2696": "IMac",
+      "2697": "2697 IMac 24 inch"
 
     }
   },
@@ -19,13 +23,17 @@
     "url": "https://ksp.co.il/web/cat/1513..245..14491",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
+      "3501": "screen sizes about 27 inch",
 
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3371": "AIO",
+
+
+      "2243": "APPLE",
+      "2696": "IMac",
+      "2698": "2697 IMac 27 inch"
 
     }
   }

@@ -10,6 +10,7 @@
 #       get_list_products_urls(s , scenario_node : dict ) ->list:
 
 
+from ast import Str
 from pathlib import Path
 import pandas as pd
 from loguru import logger
@@ -100,7 +101,7 @@ def run_scenario(s , scenario) -> bool:
             '''
 
             ''' не получил id -> нет смысла сохранять товар '''
-            if isinstance(product.fields['id'], None): return False
+            if not isinstance(product.fields['id'], str): return False
                 
 
             product_fields : pd.DataFrame = product.fields

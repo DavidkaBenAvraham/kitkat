@@ -508,11 +508,12 @@ class Driver:
         try:
             _d.get(f'''{url}''')
             flag = True
+
         except Exception as ex:
             return False , logger.error(f''' Ошибка в _get_url() :
             {ex}
             -------------------------------------
-            url = {url}''')  
+             url = {url}''')  
 
         #logger.debug(f''' Requests:
         #''')

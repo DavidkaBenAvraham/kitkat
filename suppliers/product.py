@@ -139,19 +139,19 @@ class Product():
         def __attrs_post_init__(self , *args, **kwards):
             pass
 
-        def handler(ex:Exception , locator , field):
-            ## 
-            #@params ex
-            #@params field
-            #@params locator
+        #def handler(ex:Exception , locator , field):
+        #    ## 
+        #    #@params ex
+        #    #@params field
+        #    #@params locator
 
 
-            #field = None
-            logger.error(f''' 
-            {ex}, 
-            locator {locator} , 
-            field {field} ''')
-            return False
+        #    #field = None
+        #    logger.error(f''' 
+        #    {ex}, 
+        #    locator {locator} , 
+        #    field {field} ''')
+        #    return False
 
 
     ##собраю локаторами нужные мне позиции со страницы товара 
@@ -183,6 +183,8 @@ class Product():
             categories :str = ','.join(_current_node['prestashop_categories'].keys())
             field['categories'] = categories + ',2'
 
+      
+
         set_id()
         set_sku_suppl()
         set_title()
@@ -198,5 +200,6 @@ class Product():
         set_specification()
         set_customer_reviews()
         set_categories()
+        set_supplier()
         
         return self

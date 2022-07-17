@@ -1,5 +1,5 @@
 {
-  "supplier": "ksp",
+  "supplier": "2787",
   "supplier_prefics": "ksp",
   "start_url": "https://www.ksp.co.il/",
   "price_rule": "+100",
@@ -62,7 +62,7 @@
       "ksp_categories_monitors_lg.json"
     ],
     "streamers": [ "ksp_categories_streamers_google.json" ],
-    "aio": [ "ksp_categories_imacs.json" ],
+    "aio": [ "ksp_categories_aio_imacs.json.json" ],
     "consoles": [
       "ksp_categories_consoles_microsoft.json",
       "ksp_categories_consoles_nintendo.json"

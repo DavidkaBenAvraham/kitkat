@@ -160,7 +160,10 @@ def grab_product_page(s , p) -> Product:
 
     def set_customer_reviews():pass
 
-   
+    def set_supplier():
+        _field['supplier'] = '2787'
+        pass
+
     set_id()
     set_sku_suppl()
     set_sku_prod()
@@ -176,7 +179,7 @@ def grab_product_page(s , p) -> Product:
     set_description()
     #set_specification()
     #set_customer_reviews()
-        
+    set_supplier()
     return p
     pass
 
