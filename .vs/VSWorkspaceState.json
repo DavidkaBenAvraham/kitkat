@@ -4,8 +4,9 @@
     "\\suppliers",
     "\\suppliers\\aliexpress",
     "\\suppliers\\ksp",
-    "\\suppliers\\morlevi"
+    "\\suppliers\\morlevi",
+    "\\web_driver"
   ],
-  "SelectedNode": "\\suppliers\\wallmart",
+  "SelectedNode": "\\suppliers\\ksp\\__init__.py",
   "PreviewInSolutionExplorer": false
 }

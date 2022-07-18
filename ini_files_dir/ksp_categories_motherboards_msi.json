@@ -1,0 +1,42 @@
+{
+  "MSI Intel": {
+    "brand": "MSI",
+    "url": "https://ksp.co.il/web/cat/47..3..52",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3547": "Intel Motherboards",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+      "3449": "Motherboards",
+
+      "3634": "MANUGACTURER ->  MSI",
+      "3650": "Motherboards",
+      "3651": "Intel motherboards"
+
+    },
+    "price_rule": 1
+  },
+  "MSI AMD": {
+    "brand": "MSI",
+    "url": "https://ksp.co.il/web/cat/47..3..202",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3450": "AMD Motherboards",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+      "3449": "Motherboards",
+
+
+      "3634": "MANUGACTURER ->  MSI",
+      "3650": "Motherboards",
+      "3652": "AMD motherboards"
+
+    },
+    "price_rule": 1
+  }
+
+} 

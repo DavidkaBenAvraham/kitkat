@@ -4,14 +4,16 @@
     "url": "https://ksp.co.il/web/cat/230..137..195",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
-
+      "3662": "SAMSUNG monitors 22 inch ",
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3448": "PC MONITORS",
+      "3509": "about 21 inch ",
 
+      "2245": "brands -> SAMSUNG",
+      "2529": "monitors",
+      "3674": "29 inch"
     }
   },
   "23-24": {
@@ -19,14 +21,16 @@
     "url": "https://ksp.co.il/web/cat/230..137..2238..1649..198",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
-
+      "3663": "SAMSUNG monitors 23-24 inch ",
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3448": "PC MONITORS",
+      "3510": "about 23-24 inch ",
 
+      "2245": "brands -> SAMSUNG",
+      "2529": "monitors",
+      "3675": "screen sizes about 23 - 24 inch"
     }
   },
   "26-28": {
@@ -34,14 +38,16 @@
     "url": "https://ksp.co.il/web/cat/230..137..4831..199..4784..2037",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
-
+      "3664": "SAMSUNG monitors 26-28 inch ",
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3448": "PC MONITORS",
+      "3511": "about 26-28 inch ",
 
+      "2245": "brands -> SAMSUNG",
+      "2529": "monitors",
+      "3676": "screen sizes about 26-28 inch"
     }
   },
   "31-32": {
@@ -49,14 +55,16 @@
     "url": "https://ksp.co.il/web/cat/230..137..1948..200",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
-
+      "3666": "SAMSUNG monitors 31-32 inch ",
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3448": "PC MONITORS",
+      "3513": "about 31-32 inch ",
 
+      "2245": "brands -> SAMSUNG",
+      "2529": "monitors",
+      "3678": "screen sizes about 31 inch"
     }
   },
   "34": {
@@ -64,13 +72,34 @@
     "url": "https://ksp.co.il/web/cat/230..137..2129",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
-
+      "3667": "SAMSUNG monitors 34 inch ",
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3448": "PC MONITORS",
+      "3595": "about 34 inch ",
+
+      "2245": "brands -> SAMSUNG",
+      "2529": "monitors",
+      "3679": "screen sizes about 34 inch"
+
+    }
+  },
+  "43": {
+    "brand": "SAMSUNG",
+    "url": "https://ksp.co.il/web/cat/137..230..3121",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3669": "SAMSUNG monitors 43 inch ",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3448": "PC MONITORS",
+      "3597": "about 43 inch ",
+
+      "2245": "brands -> SAMSUNG",
+      "2529": "monitors",
+      "3681": "screen sizes about 43 inch"
 
     }
   },
@@ -79,14 +108,16 @@
     "url": "https://ksp.co.il/web/cat/230..137..4831..199..4784..2037",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
-
+      "3667": "SAMSUNG monitors 48 inch ",
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3448": "PC MONITORS",
+      "3600": "about 48 inch ",
 
+      "2245": "brands -> SAMSUNG",
+      "2529": "monitors",
+      "3681": "screen sizes about 48 inch"
     }
   }
 }

@@ -1,90 +1,131 @@
 {
-  "22": {
+  "LG monitors 21 - 22 inch": {
     "brand": "LG",
-    "url": "https://ksp.co.il/web/cat/230..137..195",
+    "url": "https://ksp.co.il/web/cat/230..134..31308..194..195",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
+      "3586": "LG monitors 21 - 22 inch ",
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
       "3448": "PC MONITORS",
-      "3403": "GOOGLE"
+      "3509": "21 - 22 inch ",
+
+      "2253": "brands -> LG",
+      "1020": "monitors",
+      "3522": "21 - 22 inch"
 
     }
   },
-  "23-24": {
+  "LG monitors 23 -24 inch": {
     "brand": "LG",
-    "url": "https://ksp.co.il/web/cat/230..137..2238..1649..198",
+    "url": "https://ksp.co.il/web/cat/230..134..1649..198",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
-
+      "3587": "LG monitors 23 -24 inch ",
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3448": "PC MONITORS",
+      "3510": "23 -24 inch ",
+
+      "2253": "brands -> LG",
+      "1020": "monitors",
+      "3522": "21 - 22 inch"
 
     }
   },
-  "26-28": {
+  "LG monitors 26 28 inch": {
     "brand": "LG",
     "url": "https://ksp.co.il/web/cat/230..137..4831..199..4784..2037",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
-
+      "3589": "LG monitors 26 28 inch ",
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3448": "PC MONITORS",
+      "3512": "23 -24 inch ",
+
+      "2253": "brands -> LG",
+      "1020": "monitors",
+      "3525": "29 inch"
 
     }
   },
-  "31-32": {
+  "LG monitors about 29 inch": {
+    "brand": "LG",
+    "url": "https://ksp.co.il/web/cat/230..137..4831..199..4784..2037",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3589": "LG monitors about 29 inch ",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3448": "PC MONITORS",
+      "3512": "23 -24 inch ",
+
+      "2253": "brands -> LG",
+      "1020": "monitors",
+      "3525": "29 inch"
+
+    }
+  },
+  "LG monitors 31 32 inch": {
     "brand": "LG",
     "url": "https://ksp.co.il/web/cat/230..137..1948..200",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
+      "3590": "LG monitors 31 32 inch",
 
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3448": "PC MONITORS",
+      "3512": "31-32 inch ",
+
+      "2253": "brands -> LG",
+      "1020": "monitors",
+      "3526": "31-32 inch "
 
     }
   },
-  "34": {
+  "LG monitors 34 inch": {
     "brand": "LG",
     "url": "https://ksp.co.il/web/cat/230..137..2129",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
+      "3591": "LG monitors 34 inch",
 
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3448": "PC MONITORS",
+      "3595": "34 inch ",
+
+      "2253": "brands -> LG",
+      "1020": "monitors",
+      "3527": "31-32 inch "
+
 
     }
   },
-  "48": {
+  "LG monitors 48 inch": {
     "brand": "LG",
     "url": "https://ksp.co.il/web/cat/230..137..4831..199..4784..2037",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
+      "3591": "LG monitors 48 inch",
 
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3448": "PC MONITORS",
+      "3600": "48 inch ",
+
+      "2253": "brands -> LG",
+      "1020": "monitors",
+      "3601": "48 inch "
 
     }
   }

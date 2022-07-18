@@ -47,13 +47,13 @@ import urllib
 #import requests
 #import codecs
 from loguru import logger
-from msedge.selenium_tools import EdgeOptions
+#from msedge.selenium_tools import EdgeOptions
 #https://stackoverflow.com/questions/62951105/how-to-set-options-for-chromium-edge-in-selenium
 
-import selenium
+#import selenium
 
 
-from strings_formatter import StringFormatter as SF
+#from strings_formatter import StringFormatter as SF
 
 
 ##############################################################

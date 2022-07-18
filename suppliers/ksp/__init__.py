@@ -17,7 +17,7 @@ def product_attributes(self, p, delimeter, elements):
     skip = False
     c = p.combinations 
     ''' просто сокращенная запись '''
-    for e in build_list_from_html_elements(self, delimeter, elements):
+    for e in json.build_list_from_html_elements(self, delimeter, elements):
         if i%2 == 0:
 
             if not p.skip_row(e):
@@ -68,46 +68,24 @@ def grab_product_page(s , p) -> Product:
     '''
     
     def set_id():
-        _id = _d.find(_['product_sku_locator'])
-
-
         _field['id'] = _d.find(_['product_sku_locator'])
 
-        logger.debug(f'''
-        id - {_field['id']}
-        ''')
     def set_sku_suppl():
         _field['mkt suppl'] = _field['id']
-        #logger.debug(f'''
-        #mkt_suppl - 
-        #{_field['mkt_suppl']}
-        #''')
+
     def set_sku_prod():
         if not _field['id']  is None :
             _field['mkt'] = str('ksp-') + _field['id']
-        #logger.debug(f'''
-        #mkt_suppl - 
-        #{_field['mkt_suppl']}
-        #''')
+
     def set_title():
         title = _d.find(_['product_title_locator'])
         _field['title'] = SF.remove_non_latin_characters(title)
-        #logger.debug(f'''
-        #title - 
-        #{_field['title']}
-        #''')
+
     def set_summary():
         _field['summary'] = _d.find(_['product_summary_locator'])
-        #logger.debug(f'''
-        #summary - 
-        #{_field['description']}
-        #''')
+
     def set_description():
         _field['description'] = _d.find(_['product_description_locator'])
-        #logger.debug(f'''
-        #description - 
-        #{_field['description']}
-        #''')
 
     def set_cost_price():
         _price = _d.find(_['product_price_locator'])

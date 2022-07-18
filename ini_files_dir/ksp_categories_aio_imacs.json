@@ -1,16 +1,16 @@
 {
-  "iMac 24 Inch": {
+  "3425 IMac 24 inch": {
     "brand": "APPLE",
     "url": "https://ksp.co.il/web/cat/1513..245..25303",
     "checkbox": false,
     "prestashop_categories": {
-      "3500": "screen sizes about 23 - 24 inch",
+      "3425": "3425 IMac 24 inch",
 
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
       "3371": "AIO",
-
+      "3500": "AIO screen sizes about 23 - 24 inch",
 
       "2243": "APPLE",
       "2696": "IMac",
@@ -23,13 +23,13 @@
     "url": "https://ksp.co.il/web/cat/1513..245..14491",
     "checkbox": false,
     "prestashop_categories": {
-      "3501": "screen sizes about 27 inch",
 
+      "3425": "3426 IMac 27 inch",
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
       "3371": "AIO",
-
+      "3501": "screen sizes about 27 inch",
 
       "2243": "APPLE",
       "2696": "IMac",

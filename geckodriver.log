@@ -1313,13 +1313,13 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 1658091409152	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 1658091578513	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 1658091698127	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
-ecipes: "getRecipes: falling back to a synchronous message for:" "https://www.morlevi.co.il"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.morlevi.co.il"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.morlevi.co.il"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.morlevi.co.il"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658091873969	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658091873969	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658092024760	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658092024761	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658092253204	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658092434917	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+ line 136: TypeError: gRecipeManager is null
 1658083945131	Marionette	INFO	Stopped listening on port 61980
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
 st" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile9PtU3w"
@@ -1339,8 +1339,9 @@ Read port: 62468
 1658083133639	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:62455","sslProxy":"127.0.0.1:62455"}
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileL5EYgs\\search.json.mozlz4", (void 0)))
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-1:62578
-1658083188296	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--allow-profiles-outside-user-dir" "--allow-insecure-localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilek9X2S0"
+1658092703691	Marionette	INFO	Stopped listening on port 62468
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+a\\Local\\Temp\\rust_mozprofilek9X2S0"
 1658083188621	Marionette	INFO	Marionette enabled
 1658083188626	Marionette	INFO	Listening on port 62615
 Read port: 62615
@@ -1348,3 +1349,5 @@ Read port: 62615
 1658083188769	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:62577","sslProxy":"127.0.0.1:62577"}
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilek9X2S0\\search.json.mozlz4", (void 0)))
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1658092702623	Marionette	INFO	Stopped listening on port 62615
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]

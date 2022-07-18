@@ -79,7 +79,7 @@ def start_script() -> bool:
             
         if _['threads']:
             # с потоками -> 
-            thread  = thread_for_supplier(supplier_prefics ,  ini)
+            thread = Thread_for_supplier(supplier_prefics,  ini)
             thread.start()
 
         else:

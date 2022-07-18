@@ -1,10 +1,10 @@
 {
   "In-ear Bud": {
-    "brand": "B&O",
-    "url": "https://ksp.co.il/web/cat/242..1250..5030",
+    "brand": "MSI",
+    "url": "https://ksp.co.il/web/cat/242..47..1250",
     "checkbox": false,
     "prestashop_categories": {
-      "3455": "In-ear Bud",
+      "3459": "In-ear Bud",
 
       "3198": "CONSUMER ELECTRONICS",
 
@@ -13,14 +13,14 @@
 
 
 
-      "3471": "manufacturer -> B&O",
-      "3462": "Headphones",
-      "3463": "Earbuds"
+      "3634": "manufacturer ->  MSI",
+      "3635": "Headphones",
+      "3647": "In-ear Bud"
     }
   },
   "Overear": {
-    "brand": "B&O",
-    "url": "https://ksp.co.il/web/cat/242..1250..5030",
+    "brand": "MSI",
+    "url": "https://ksp.co.il/web/cat/242..1252..47",
     "checkbox": false,
     "prestashop_categories": {
       "3456": "Overear",
@@ -32,9 +32,9 @@
 
 
 
-      "3471": "manufacturer -> B&O",
-      "3462": "Headphones",
-      "3464": "Overear"
+      "3634": "manufacturer ->  MSI",
+      "3635": "Headphones",
+      "3648": "On-ear"
     }
   }
 }

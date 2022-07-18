@@ -1,0 +1,158 @@
+{
+  "IdeaCentre AIO 3-24ITL": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/1513..159..28794",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3625": "IdeaCentre AIO 24",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3371": "AIO",
+      "3500": "screen sizes about 23 - 24 inch",
+
+
+      "2261": "LENOVO",
+      "3603": "AIO",
+      "3604": "IdeaCentre AIO",
+      "3605": "24 inch",
+      "3615": "IdeaCentre AIO 3-24",
+      "3607": "IdeaCentre AIO 3-24ITL"
+
+    }
+  },
+  "IdeaCentre AIO 3-24IAP7": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/1513..159..38022",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3625": "IdeaCentre AIO 24",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3371": "AIO",
+      "3500": "screen sizes about 23 - 24 inch",
+
+
+      "2261": "LENOVO",
+      "3603": "AIO",
+      "3604": "IdeaCentre AIO",
+      "3605": "24 inch",
+      "3615": "IdeaCentre AIO 3-24",
+      "3611": "IdeaCentre AIO 3-24IAP7"
+
+    }
+  },
+
+
+  "IdeaCentre AIO 5-24IOB": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/1513..159..29670",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3625": "IdeaCentre AIO 24",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3371": "AIO",
+      "3500": "screen sizes about 23 - 24 inch",
+
+
+      "2261": "LENOVO",
+      "3603": "AIO",
+      "3604": "IdeaCentre AIO",
+      "3605": "24 inch",
+      "3616": "IdeaCentre AIO 5-24",
+      "3609": "IdeaCentre AIO 5-24IOB"
+    }
+  },
+
+  "IdeaCentre AIO 3-27ITL": {
+    "brand": "LENOVO",
+    "url": "https://ksp.co.il/web/cat/1513..159..30015",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3626": "27",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3371": "AIO",
+      "3501": "screen sizes about 26 - 28 inch",
+
+
+      "2261": "LENOVO",
+      "3603": "AIO",
+      "3604": "IdeaCentre AIO",
+      "3605": "24 inch",
+      "3617": "IdeaCentre AIO 3-27",
+      "3608": "IdeaCentre AIO 3-27ITL"
+    },
+    "IdeaCentre AIO 3-27IAP7": {
+      "brand": "LENOVO",
+      "url": "https://ksp.co.il/web/cat/1513..159..38311",
+      "checkbox": false,
+      "prestashop_categories": {
+        "3626": "27",
+
+
+        "3198": "CONSUMER ELECTRONICS",
+        "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+        "3371": "AIO",
+        "3501": "screen sizes about 26 - 28 inch",
+
+
+        "2261": "LENOVO",
+        "3603": "AIO",
+        "3604": "IdeaCentre AIO",
+        "3605": "24 inch",
+        "3617": "IdeaCentre AIO 3-27",
+        "3612": "IdeaCentre AIO 3-27IAP7"
+      }
+    },
+    "IdeaCentre AIO 5-27IOB": {
+      "brand": "LENOVO",
+      "url": "https://ksp.co.il/web/cat/1513..159..31370",
+      "checkbox": false,
+      "prestashop_categories": {
+        "3626": "27",
+
+
+        "3198": "CONSUMER ELECTRONICS",
+        "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+        "3371": "AIO",
+        "3501": "screen sizes about 26 - 28 inch",
+
+
+        "2261": "LENOVO",
+        "3603": "AIO",
+        "3604": "IdeaCentre AIO",
+        "3605": "24 inch",
+        "3618": "IdeaCentre AIO 5-27",
+        "3610": "IdeaCentre AIO 5-27IOB"
+      }
+    },
+    "Yoga AIO 7 27ACH6": {
+      "brand": "LENOVO",
+      "url": "https://ksp.co.il/web/cat/1513..159..34238",
+      "checkbox": false,
+      "prestashop_categories": {
+        "3626": "27",
+
+
+        "3198": "CONSUMER ELECTRONICS",
+        "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+        "3371": "AIO",
+        "3501": "screen sizes about 26 - 28 inch",
+
+
+        "2261": "LENOVO",
+        "3603": "AIO",
+        "3613": "Yoga AIO",
+        "3614": "Yoga AIO 7 27ACH67"
+      }
+    }
+  }
