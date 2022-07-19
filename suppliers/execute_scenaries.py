@@ -64,15 +64,17 @@ def execute_list_of_scenaries(supplier) -> bool :
     #   каждому магазину.
 def run_scenario_file(suppiler, json_file) -> bool:
     _s = suppiler
-    _s.scenaries = json.loads(Path(_s.ini.paths.ini_files_dir , f'''{json_file}'''))
+    _s.scenaries = json.loads(Path(_s.ini.paths.ini_files_dir, f'''{json_file}'''))
     _s.scenario_category = f'''{json_file.split('_')[-2]}{json_file.split('_')[-1]}'''
     _s.export_file_name = f'''{_s.settings['supplier_prefics']}-{_s.scenario_category}'''
     ''' третье слово в названии файла сценариев это категория товаров '''
+    last_runned_scenario = _s.settings['last_runned_scenario']
     while len(_s.scenaries.items())>0:
         _scenario = _s.scenaries.popitem()[1]
         run_scenario(_s , _scenario) 
-    json.export(_s, _s.p , _s.export_file_name  , ['csv'] )
-
+        json.export(_s, _s.p, _s.export_file_name, ['csv'] )
+        last_runned_scenario = json_file
+        json.dump_supplier_settings(_s)
 def run_scenario(s , scenario) -> bool:
     '''
     -текущий сценарий исполнения состоит из узлов. Каждый узел состоит из:
@@ -90,7 +92,7 @@ def run_scenario(s , scenario) -> bool:
 
         '''# СОБИРАЮ ДАННЫЕ СО СТРАНИЦЫ '''
         def grab_product_page():
-            product : Product = s.related_functions.grab_product_page(s , Product())
+            product : Product = s.related_functions.grab_product_page(s, Product())
            
             ''' получаю товар 
             заполняю все свойства товара в функции 
