@@ -206,11 +206,11 @@ class Product():
         
         return self
 
-    def prepare_images(supplier, raw_imgs)->str:
+    def prepare_images(self, supplier, raw_imgs)->str:
         _out:str = None
 
         def _parse_webelement(we):
-            if len(str(type(we)).lower().find('selenium')) > 0 :
+            if str(type(we)).lower().find('selenium') > 0 :
                 ''' найден вебэлемент . 
                  @TODO - узнать какой аттрибут вытащить
                  '''
@@ -226,7 +226,7 @@ class Product():
             return raw_imgs
         
         elif isinstance(raw_imgs , list):
-            if supplier.p.NUMBER_PICTURES_TO_SAVE == 1:
+            if self.NUMBER_PICTURES_TO_SAVE == 1:
                 _out = _parse_webelement(raw_imgs[0])
             else:
                 for i in raw_imgs:
