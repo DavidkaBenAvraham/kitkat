@@ -13,7 +13,11 @@
 
       "2245": "brands -> SAMSUNG",
       "2529": "monitors",
-      "3674": "29 inch"
+      "3674": "29 inch",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4001": "screen sizes about 22 inch"
     }
   },
   "23-24": {
@@ -30,7 +34,11 @@
 
       "2245": "brands -> SAMSUNG",
       "2529": "monitors",
-      "3675": "screen sizes about 23 - 24 inch"
+      "3675": "screen sizes about 23 - 24 inch",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4003": "screen sizes about 23 - 24 inch"
     }
   },
   "26-28": {
@@ -47,7 +55,11 @@
 
       "2245": "brands -> SAMSUNG",
       "2529": "monitors",
-      "3676": "screen sizes about 26-28 inch"
+      "3676": "screen sizes about 26-28 inch",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4004": "screen sizes about 23 - 24 inch"
     }
   },
   "31-32": {
@@ -64,7 +76,11 @@
 
       "2245": "brands -> SAMSUNG",
       "2529": "monitors",
-      "3678": "screen sizes about 31 inch"
+      "3678": "screen sizes about 31 inch",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4006": "screen sizes about 31 inch"
     }
   },
   "34": {
@@ -81,7 +97,11 @@
 
       "2245": "brands -> SAMSUNG",
       "2529": "monitors",
-      "3679": "screen sizes about 34 inch"
+      "3679": "screen sizes about 34 inch",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4007": "screen sizes about 23 - 24 inch"
 
     }
   },
@@ -99,7 +119,11 @@
 
       "2245": "brands -> SAMSUNG",
       "2529": "monitors",
-      "3681": "screen sizes about 43 inch"
+      "3681": "screen sizes about 43 inch",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4009": "screen sizes about 23 - 24 inch"
 
     }
   },
@@ -117,7 +141,11 @@
 
       "2245": "brands -> SAMSUNG",
       "2529": "monitors",
-      "3681": "screen sizes about 48 inch"
+      "3681": "screen sizes about 48 inch",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4011": "screen sizes about 23 - 24 inch"
     }
   }
 }

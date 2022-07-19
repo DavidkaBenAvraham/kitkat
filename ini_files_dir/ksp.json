@@ -7,6 +7,39 @@
   "if_login": false,
   "collect_products_from_categorypage": false,
   "scenaries": {
+
+    "test": [
+      "ksp_categories_monitors_lg.json",
+      "ksp_categories_monitors_lenovo.json",
+      "ksp_categories_monitors_samsung.json",
+      "ksp_categories_phones_apple.json"
+    ]
+
+
+  },
+  "excluded": {
+
+    "monitors": [
+      "ksp_categories_monitors_lg.json",
+      "ksp_categories_monitors_lenovo.json",
+      "ksp_categories_monitors_samsung.json"
+    ],
+    "tablets": [
+
+      "ksp_categories_tablets_ipads.json",
+      "ksp_categories_tablets_amazon.json",
+      "ksp_categories_tablets_lenovo.json",
+      "ksp_categories_tablets_samsung.json",
+      "ksp_categories_tablets_xiaomi.json"
+
+    ],
+
+
+    "streamers": [ "ksp_categories_streamers_google.json" ],
+    "aio": [
+      "ksp_categories_aio_imacs.json.json",
+      "ksp_categories_aio_lenovo.json.json"
+    ],
     "monitors": [
       "ksp_categories_monitors_lg.json",
       "ksp_categories_monitors_lenovo.json",
@@ -51,24 +84,6 @@
       "ksp_categories_watches_amazfit.json",
       "ksp_categories_wathces_apple.json"
     ],
-    "tablets": [
-
-      "ksp_categories_tablets_ipads.json",
-      "ksp_categories_tablets_amazon.json",
-      "ksp_categories_tablets_lenovo.json",
-      "ksp_categories_tablets_samsung.json",
-      "ksp_categories_tablets_xiaomi.json"
-
-    ],
-
-
-    "streamers": [ "ksp_categories_streamers_google.json" ],
-    "aio": [
-      "ksp_categories_aio_imacs.json.json",
-      "ksp_categories_aio_lenovo.json.json"
-    ]
-  },
-  "excluded": {
     "consoles": [
       "ksp_categories_consoles_microsoft.json",
       "ksp_categories_consoles_nintendo.json"

@@ -14,7 +14,11 @@
       "2261": "brands -> Lenovo",
       "2571": "monitors",
       "3672": "Lenovo Monitor L Series",
-      "3728": "Lenovo Monitor L Series 23.8"
+      "3728": "Lenovo Monitor L Series 23.8",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4003": "screen sizes about 23 - 24 inch"
     }
   },
   "Lenovo Monitor L Series 27-28": {
@@ -32,7 +36,11 @@
       "2261": "brands -> Lenovo",
       "2571": "monitors",
       "3672": "Lenovo Monitor L Series",
-      "3729": "Lenovo Monitor L Series 27-28"
+      "3729": "Lenovo Monitor L Series 27-28",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4004": "screen sizes about 23 - 24 inch"
     }
   },
   "Lenovo Monitor L Series 29": {
@@ -50,7 +58,11 @@
       "2261": "brands -> Lenovo",
       "2571": "monitors",
       "3672": "Lenovo Monitor L Series",
-      "3730": "Lenovo Monitor L Series 29"
+      "3730": "Lenovo Monitor L Series 29",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4005": "screen sizes about 23 - 24 inch"
     }
   },
 
@@ -69,7 +81,11 @@
       "2261": "brands -> Lenovo",
       "2571": "monitors",
       "3672": "Lenovo Monitor L Series",
-      "3731": "Lenovo Monitor L Series 31"
+      "3731": "Lenovo Monitor L Series 31",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4006": "screen sizes about 23 - 24 inch"
     }
   },
   "Lenovo Monitor D Series 31": {
@@ -87,7 +103,11 @@
       "2261": "brands -> Lenovo",
       "2571": "monitors",
       "3673": "Lenovo Monitor D Series",
-      "3734": "Lenovo Monitor D Series 31"
+      "3734": "Lenovo Monitor D Series 31",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4006": "screen sizes about 31 inch"
     }
   },
   "Lenovo Monitor G Series 23 - 24.5": {
@@ -105,7 +125,11 @@
       "2261": "brands -> Lenovo",
       "2571": "monitors",
       "3674": "Lenovo Monitor G Series",
-      "3736": "Lenovo Monitor G Series 23.8"
+      "3736": "Lenovo Monitor G Series 23.8",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4003": "screen sizes about 23 - 24 inch"
     }
   },
   "Lenovo Monitor G Series 27-28": {
@@ -123,7 +147,11 @@
       "2261": "brands -> Lenovo",
       "2571": "monitors",
       "3674": "Lenovo Monitor G Series",
-      "3737": "Lenovo Monitor G Series 27-28"
+      "3737": "Lenovo Monitor G Series 27-28",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4003": "screen sizes about 23 - 24 inch"
     }
   },
   "Lenovo Monitor G Series 31": {
@@ -141,7 +169,11 @@
       "2261": "brands -> Lenovo",
       "2571": "monitors",
       "3674": "Lenovo Monitor G Series",
-      "3739": "Lenovo Monitor G Series 31"
+      "3739": "Lenovo Monitor G Series 31",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4006": "screen sizes about 23 - 24 inch"
     }
   },
   "Lenovo Monitor G Series 34": {
@@ -159,7 +191,11 @@
       "2261": "brands -> Lenovo",
       "2571": "monitors",
       "3674": "Lenovo Monitor G Series",
-      "3739": "Lenovo Monitor G Series 34"
+      "3739": "Lenovo Monitor G Series 34",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4007": "screen sizes about 34 inch"
     }
   },
   "Lenovo Monitor Y Series 24.5": {
@@ -177,7 +213,11 @@
       "2261": "brands -> Lenovo",
       "2571": "monitors",
       "3741": "Monitor Y Series",
-      "3742": "Lenovo Monitor Y Series 24.5"
+      "3742": "Lenovo Monitor Y Series 24.5",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4004": "screen sizes about 23 - 24 inch"
     }
   },
   "Lenovo Monitor Q Series 24.5": {
@@ -195,7 +235,11 @@
       "2261": "brands -> Lenovo",
       "2571": "monitors",
       "3743": "Monitor Q Series",
-      "3744": "Lenovo Monitor Q Series 24.5"
+      "3744": "Lenovo Monitor Q Series 24.5",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4004": "screen sizes about 23 - 24 inch"
     }
   },
 
@@ -215,7 +259,11 @@
       "2261": "brands -> Lenovo",
       "2571": "monitors",
       "3743": "Lenovo Monitor Q Series",
-      "3744": "Lenovo Monitor Q Series 27-28"
+      "3744": "Lenovo Monitor Q Series 27-28",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4004": "screen sizes about 27-28 inch"
     }
   }
 

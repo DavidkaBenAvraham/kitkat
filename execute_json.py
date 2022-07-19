@@ -12,6 +12,11 @@ import csv
 from loguru import logger
 import pandas as pd
 
+## Сохраняю установки в файл поставщика
+def dump_supplier_settings(supplier):
+    file_path = Path(f'''{supplier.ini.paths.ini_files_dir},{supplier.supplier_prefics}.json''')
+    dump(supplier.settings , file_path)
+
 ## Читаю файл из внешнего источника .
 # path: путь к файлу 
 def loads(path:Path )-> dict :
@@ -58,16 +63,16 @@ def convert_to_list(json, dict_interpreter_vаlues_only:bool = True, _l:list=[])
 
     return _l
 
-
+def dump(data , path:Path):
+        with path.absolute().open('w',encoding='utf-8') as f:
+            json.dump(data, f)
 
 ### экспортирую данные в файл.
 # функция позволяет экспортировать словарь в файл 
 # из всех точек выполнения сценариев 
 def export(supplier, data, filename:str = None, format:list = ['json','csv','txt'])->bool:
 
-    def dumps(data , path:Path):
-        with path.absolute().open('w',encoding='utf-8') as f:
-            f.write(json.dumps(data))
+
 
 
 
@@ -78,7 +83,7 @@ def export(supplier, data, filename:str = None, format:list = ['json','csv','txt
     for frmt in format:
         export_file_path = Path(f'''{supplier.ini.paths.export_dir}''' , f'''{filename}.{frmt}''')
         if frmt == 'json':
-            dumps(data, export_file_path)
+            dump(data, export_file_path)
 
         if frmt == 'csv':
             df = pd.DataFrame(data)

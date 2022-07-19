@@ -13,8 +13,12 @@
 
       "2253": "brands -> LG",
       "1020": "monitors",
-      "3522": "21 - 22 inch"
+      "3522": "21 - 22 inch",
 
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4002": "screen sizes about 21 - 22 inch"
     }
   },
   "LG monitors 23 -24 inch": {
@@ -31,7 +35,12 @@
 
       "2253": "brands -> LG",
       "1020": "monitors",
-      "3522": "21 - 22 inch"
+      "3522": "21 - 22 inch",
+
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4003": "screen sizes about 23 - 24 inch"
 
     }
   },
@@ -49,7 +58,11 @@
 
       "2253": "brands -> LG",
       "1020": "monitors",
-      "3525": "29 inch"
+      "3525": "29 inch",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4004": "screen sizes about 23 - 24 inch"
 
     }
   },
@@ -67,7 +80,11 @@
 
       "2253": "brands -> LG",
       "1020": "monitors",
-      "3525": "29 inch"
+      "3525": "29 inch",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4005": "screen sizes about 23 - 24 inch"
 
     }
   },
@@ -86,7 +103,11 @@
 
       "2253": "brands -> LG",
       "1020": "monitors",
-      "3526": "31-32 inch "
+      "3526": "31-32 inch ",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4006": "screen sizes about 23 - 24 inch"
 
     }
   },
@@ -105,7 +126,11 @@
 
       "2253": "brands -> LG",
       "1020": "monitors",
-      "3527": "31-32 inch "
+      "3527": "31-32 inch ",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4007": "screen sizes about 23 - 24 inch"
 
 
     }
@@ -125,7 +150,11 @@
 
       "2253": "brands -> LG",
       "1020": "monitors",
-      "3601": "48 inch "
+      "3601": "48 inch ",
+
+      "3437": "TV AND AUDIO",
+      "4000": "PC Monitors",
+      "4011": "screen sizes about 23 - 24 inch"
 
     }
   }
