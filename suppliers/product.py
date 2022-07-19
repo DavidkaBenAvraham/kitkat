@@ -117,19 +117,21 @@ class Product():
 
     ##@param combinations : pd.DataFrame
     #поля комбинаций товара
-    combinations : pd.DataFrame = attrib(init = False , default = None)
+    combinations : pd.DataFrame = attrib(init = False, default = None)
     
 
     ##@param attributes : pd.DataFrame
     #поля аттрибутов товара
-    attributes : pd.DataFrame = attrib(init = False , default = None)
+    attributes : pd.DataFrame = attrib(init = False, default = None)
    
+
+    NUMBER_PICTURES_TO_SAVE : int= attrib(init=False, default=1)
+    
     ## инициализация класса
     #
     #словарь полей товара определена в файле <prestashop>_product_fields.json
     #словарь полей комбинаций товара определена в файле <prestashop>_product_combination.json
     def __attrs_post_init__(self , *args, **kwards):
-
         self.fields = json.loads(Path(ini.paths.ini_files_dir , f'''prestashop_product_fields.json'''))
         self.combinations =json.loads(Path(ini.paths.ini_files_dir , f'''prestashop_product_combinations_fields.json'''))
         
@@ -203,3 +205,37 @@ class Product():
         set_supplier()
         
         return self
+
+    def prepare_images(supplier, raw_imgs)->str:
+        _out:str = None
+
+        def _parse_webelement(we):
+            if len(str(type(we)).lower().find('selenium')) > 0 :
+                ''' найден вебэлемент . 
+                 @TODO - узнать какой аттрибут вытащить
+                 '''
+                logger.debug(f'''  
+                найден вебэлемент . 
+                @TODO - узнать какой аттрибут вытащить
+                {raw_imgs} 
+                ''')
+            return we
+
+        if raw_imgs is None: 
+            raw_imgs = ''
+            return raw_imgs
+        
+        elif isinstance(raw_imgs , list):
+            if supplier.p.NUMBER_PICTURES_TO_SAVE == 1:
+                _out = _parse_webelement(raw_imgs[0])
+            else:
+                for i in raw_imgs:
+                  _out += _parse_webelement(i)
+        return _out               
+            
+
+        
+        logger.debug(f''' 
+        ссылки на картинки 
+        {imgs}
+        ''')

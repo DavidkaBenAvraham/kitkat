@@ -118,16 +118,9 @@ def grab_product_page(s , p) -> Product:
         - картинка не загрузилась (таймаут)
         - прочая хуйня
         '''
-        if imgs is None: 
-            imgs = ''
-        elif isinstance(imgs , list):
-            imgs = ','.join(imgs)
+        _field['img url'] = p.prepare_imgs(s, imgs)
+       
         
-        logger.debug(f''' 
-        ссылки на картинки 
-        {imgs}
-        ''')
-        _field['img url'] = imgs
        
 
     def set_combinations():pass
