@@ -95,11 +95,13 @@
     }
   },
   "suppliers": [
-    "ksp",
+    "aliexpress",
     "morlevi",
-    "aliexpress"
+    "ksp"
   ],
   "suppliers_excluded": [
+    "aliexpress",
+    "morlevi",
     "ksp",
     "morlevi",
     "grandadvance",

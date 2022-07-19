@@ -79,10 +79,16 @@ import pickle
 #                  WD = KWD | SWD | SWWD
 #import kora
 #from kora.selenium import wd as KWD
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+
 import seleniumwire
 from selenium import webdriver as SWD
 from seleniumwire import webdriver as SWWD
-WD = SWWD
+WD = SWD
 
 
 #import html5lib
@@ -364,20 +370,22 @@ class Driver:
         #self.driver.WPEWebKitOptions =                  SWD.WPEWebKitOptions
         
 
-        from selenium.webdriver.support.ui import WebDriverWait
-        self.driver.WebDriverWait = WebDriverWait
+        if SWWD:
 
-        from selenium.webdriver.support import expected_conditions as EC
-        self.driver.EC = EC
+            
+            self.driver.WebDriverWait = WebDriverWait
 
-        from selenium.webdriver.common.by import By
-        self.driver.By = By
+            
+            self.driver.EC = EC
 
-        from selenium.webdriver.common.keys import Keys
-        self.driver.Keys = Keys
+            
+            self.driver.By = By
 
-        from selenium.webdriver.common.action_chains import ActionChains
-        self.driver.ActionChains = ActionChains
+            
+            self.driver.Keys = Keys
+
+            
+            self.driver.ActionChains = ActionChains
         self.ini = ini
         return self.driver
 
@@ -460,9 +468,13 @@ class Driver:
         
         self.cookies = pickle.load(open(cookies_file_path , 'rb'))
         for cookie in self.cookies:
+            try:
                 self.driver.add_cookie(cookie)  
-                logger.debug(f''' скушал печеньки ''')
-                return True
+            except Exception as ex:
+                logger.error(f''' НЕ скушал печеньки ''')
+                pass
+            logger.debug(f''' скушал печеньки ''')
+            return True
 
 
     ## После успешного события ведрайвера я бережно сохраню печеньку  в файл 
@@ -472,9 +484,9 @@ class Driver:
     def _dump_cookies_to_file(self, cookies_file_path : Path = None):
         cookies_file_path = self.cookies_file_path if cookies_file_path is None else cookies_file_path
         _cookies = self.driver.get_cookies()
-        for cookie in _cookies:
-            if cookie.get('expiry', None) is not None:
-                cookie['expires'] = cookie.pop('expiry')
+        #for cookie in _cookies:
+        #    if cookie.get('expiry', None) is not None:
+        #        cookie['expires'] = cookie.pop('expiry')
         pickle.dump(_cookies, open(cookies_file_path, 'wb'))
         logger.debug(''' сохранил печеньку 
         {_cookies}
@@ -917,6 +929,7 @@ class Driver:
         
             try:
                 _e.click()
+                return True
             except Exception as ex: 
 
 

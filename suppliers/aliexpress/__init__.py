@@ -341,31 +341,31 @@ def grab_product_page(s , p):
 
     def set_byer_protection():
         try:
-            field['product_byer_protection'] = _d.find(_['product_byer_protection_locator'])
+            _field['product_byer_protection'] = _d.find(_['product_byer_protection_locator'])
             return True
         except Exception as ex: 
-            field['product_byer_protection'] = None
+            _field['product_byer_protection'] = None
             logger.error(ex)
     def set_description():
         try:
-            field['product_description'] = _d.find(_['product_description_locator'])
+            _field['product_description'] = _d.find(_['product_description_locator'])
             return True
         except Exception as ex: 
-            field['product_description'] = None
+            _field['product_description'] = None
             logger.error(ex)
 
     def set_specification():
         try:
-            field['product_specification'] = _d.find(_['product_specification_locator'])
+            _field['product_specification'] = _d.find(_['product_specification_locator'])
             return True
         except Exception as ex: 
-            field['product_specification'] = None
+            _field['product_specification'] = None
             logger.error(ex)
     def set_customer_reviews():
         try:
-            field['product_customer_reviews'] = _d.find(_['product_customer_reviews_locator'])
+            _field['product_customer_reviews'] = _d.find(_['product_customer_reviews_locator'])
         except Exception as ex:
-            field['product_customer_reviews'] = None
+            _field['product_customer_reviews'] = None
             logger.error(ex)
 
 
@@ -384,6 +384,26 @@ def grab_product_page(s , p):
         
 
     return p.fields
+
+
+
+def list_product_urls_from_pagination(supplier):
+    
+    _s = supplier
+    _d = _s.d
+    _l = _s.locators['product']['link_to_product_locator']
+
+    list_product_urls : list = _d.find(_l)
+    pages = _d.find(_s.locators['pagination']['a'])
+    if isinstance(pages,list):
+        for page in pages:
+            list_product_urls.append(_d.find(_l))
+            _perv_url = _d.current_url
+            page.click()
+            if _perv_url == _d.current_url:break
+    return list_product_urls
+
+
 
 
 

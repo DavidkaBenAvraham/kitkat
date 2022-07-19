@@ -65,11 +65,12 @@ def execute_list_of_scenaries(supplier) -> bool :
 def run_scenario_file(suppiler, json_file) -> bool:
     _s = suppiler
     _s.scenaries = json.loads(Path(_s.ini.paths.ini_files_dir, f'''{json_file}'''))
-    _s.scenario_category = f'''{json_file.split('_')[-2]}{json_file.split('_')[-1]}'''
+    _s.scenario_category = f'''{json_file.split('.')[0]}'''
     _s.export_file_name = f'''{_s.settings['supplier_prefics']}-{_s.scenario_category}'''
     ''' третье слово в названии файла сценариев это категория товаров '''
     while len(_s.scenaries.items())>0:
         _scenario = _s.scenaries.popitem()[1]
+        if 'status' in _scenario.keys() and _scenario['status'] == 'skip scrapping': continue
         run_scenario(_s , _scenario) 
         json.export(_s, _s.p, _s.export_file_name, ['csv'] )
         _s.settings['last_runned_scenario'] = json_file

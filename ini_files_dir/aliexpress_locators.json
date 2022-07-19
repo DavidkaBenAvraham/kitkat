@@ -104,13 +104,20 @@
     "selector": "//a[@data-role = 'goto-globalsite']",
     "action": "click()"
   },
-  "pagination_block_locator": {
-    "attribute": {
-      "text": "href"
+  "pagination": {
+    "ul": {
+      "attribute": null,
+      "by": "xpath",
+      "selector": "//ul[@class='pagination']"
     },
-    "by": "xpath",
-    "selector": "//*[@class = 'ui-pagination-navi util-left']/a"
+    "a": {
+      "attribute": null,
+      "by": "xpath",
+      "selector": "//*[@class = 'ui-pagination-navi util-left']/a",
+      "action": "click()"
+    }
   },
+
   "main_categories_locator_HTMLBLOCK": {
     "DESCRITION": "корневые категории алиэкспресс (Оранжевые)",
     "attribute": { "text": "href" },

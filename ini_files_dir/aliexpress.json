@@ -19,9 +19,12 @@
     "EN": "https://www.aliexpress.com/all-wholesale-products.html",
     "FR": "https://fr.aliexpress.com/all-wholesale-products.html"
   },
-  "scenaries": [
-    "aliexpress_stores_electronic_toys.json"
-  ],
+
+  "scenaries": {
+    "electronic_toys": [
+      "aliexpress_stores_electronic_toys.json"
+    ]
+  },
   "excluded": [
     "aliexpress_stores_elctronic_components_leds.json",
     "aliexpress_stores_battery.json",

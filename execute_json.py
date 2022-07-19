@@ -14,7 +14,7 @@ import pandas as pd
 
 ## Сохраняю установки в файл поставщика
 def dump_supplier_settings(supplier):
-    file_path = Path(f'''{supplier.ini.paths.ini_files_dir},{supplier.supplier_prefics}.json''')
+    file_path = Path(f'''{supplier.ini.paths.ini_files_dir}''',f'''{supplier.supplier_prefics}.json''')
     dump(supplier.settings , file_path)
 
 ## Читаю файл из внешнего источника .

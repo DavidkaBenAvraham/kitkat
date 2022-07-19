@@ -222,5 +222,11 @@ def list_product_urls_from_pagination(supplier):
             _perv_url = _d.current_url
             page.click()
             if _perv_url == _d.current_url:break
+
+    list_product_urls = new_func(list_product_urls)
+    return list_product_urls
+
+def new_func(list_product_urls):
+    list_product_urls = set(list_product_urls)
     return list_product_urls
 
