@@ -60,7 +60,7 @@ def convert_to_list(json, dict_interpreter_vаlues_only:bool = True, _l:list=[])
 
 
 
-### экспортирую данные в файл .
+### экспортирую данные в файл.
 # функция позволяет экспортировать словарь в файл 
 # из всех точек выполнения сценариев 
 def export(supplier, data, filename:str = None, format:list = ['json','csv','txt'])->bool:

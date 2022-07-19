@@ -89,17 +89,24 @@ import ast
 class StringFormatter():
     ''' Обработчик строк '''
 
+
+    ## Декоратор не реализован
     def remove_suppliers_and_special_chars(method_to_decorate:object , s:str)->object: 
         ## Декоратор для внутренних функций форматера.
         #Убираю имя поставщика и значки не удовлетворяющие условиям хранения строк в базе данных
         #моего каталога
         
         def remover(self , s:str)->str:
-            s = pattern_remove_suppliers_from_string.sub(r'',s)
-            s = pattern_remove_special_characters.sub(r'',s)
-            s = pattern_remove_line_breaks.sub(r'',s)
+            s = self.pattern_remove_suppliers_from_string.sub(r' ',s)
+            s = self.pattern_remove_special_characters.sub(r' ',s)
+            s = self.pattern_remove_line_breaks.sub(r' ',s)
             method_to_decorate(self,s)
         return remover(s)
+
+
+
+
+
 
     def __attrs_post_init__(self , *srgs, **kwrads):
         ## инициализация класса StringFormatter()
@@ -118,7 +125,7 @@ class StringFormatter():
     # убираю все значки переноса строк
     def remove_line_breaks(s:str)->str:
         def _(s):
-            return pattern_remove_line_breaks.sub(r'', s).strip()
+            return pattern_remove_line_breaks.sub(r' ', s).strip()
 
         if isinstance(s , list ):
             for sub_s in s:
@@ -131,7 +138,7 @@ class StringFormatter():
     # remove_suppliers_and_special_chars
     def remove_htmls(s:str)->str:
         def _(s):
-            return pattern_remove_HTML.sub(r'', str(s)).strip()
+            return pattern_remove_HTML.sub(r' ', str(s)).strip()
         ''' если пришел список строк '''
         if isinstance(s , list ):
             for sub_s in s: sub_s = _(sub_s)
@@ -143,8 +150,10 @@ class StringFormatter():
     #     def remove_non_latin_characters
     def remove_non_latin_characters(s:str)->str:
         s = StringFormatter.remove_special_characters(s)
+
         def _(s):
-            return pattern_remove_non_latin_characters.sub(r'', str(s)).strip()
+
+            return pattern_remove_non_latin_characters.sub(r' ', str(s)).strip()
 
         ''' если пришел список строк '''
         if isinstance(s , list ):
@@ -161,17 +170,20 @@ class StringFormatter():
         s = StringFormatter.remove_line_breaks(s)
         return s
 
+
     @classmethod
     @staticmethod
     def clear_number(s:str)->str:
         def _(s):
-            s = pattern_clear_number.sub(r'', str(s)).strip()
+            s = pattern_clear_number.sub(r' ', str(s)).strip()
             return ast.literal_eval(s)
-
-        if isinstance(s , list):
+        
+        ''' я могу обработать список строк '''
+        if isinstance(s, list ):
             for sub_s in s: sub_s = _(sub_s)
         else: s = _(s)
         return s
+
 
 
     @classmethod
@@ -179,13 +191,15 @@ class StringFormatter():
     def clear_price(s:str)->str:
         def _(s):
             #s = pattern_clear_price.sub(r'', str(s)).strip().replace(',','.')
-            _price = pattern_clear_price.sub(r'', str(s)).strip().replace(',','')
+            _price = pattern_clear_price.sub(r' ', str(s)).strip().replace(',', '')
             if len(str(_price)) <1 : return 0 
             return ast.literal_eval(_price)
 
-        if isinstance(s, list ):
-            for sub_s in s: sub_s = _(sub_s)
-        else: s=_(s)
+        ''' я могу получить список цен. По умолчанию обрабатываю только первую '''
+        if isinstance(s, list):
+            s = _(s[0])
+        else: 
+            s = _(s)
         return s
 
     @classmethod
@@ -196,13 +210,13 @@ class StringFormatter():
         def convert_slashes_to_to_mysign(s)->str:
             return s.split('/')[-1]
         def convert_dottes_to_underlines(s)->str:
-            return str(s).replace('.','_')
+            return str(s).replace('.', '_')
         def convert_question_sign_to_mysign(s)->str:
-            return str(s).replace('?','-_params_-')
+            return str(s).replace('?', '-_params_-')
         def convert_amp_sign_to_mysign(s)->str:
-            return str(s).replace('&','-_p_-')
+            return str(s).replace('&', '-_p_-')
         def convert_eq_sign_to_mysign(s)->str:
-            return str(s).replace('=','-_v_-')
+            return str(s).replace('=', '-_v_-')
 
         s = remove_protocol(s)
         s = convert_dottes_to_underlines(s)

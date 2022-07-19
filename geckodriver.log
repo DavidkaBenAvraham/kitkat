@@ -1319,10 +1319,10 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 1658092024761	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 1658092253204	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 1658092434917	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
- line 136: TypeError: gRecipeManager is null
-1658083945131	Marionette	INFO	Stopped listening on port 61980
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1658170870238	Marionette	INFO	Stopped listening on port 61831
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
-st" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile9PtU3w"
+no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile9PtU3w"
 1658083015167	Marionette	INFO	Marionette enabled
 1658083015173	Marionette	INFO	Listening on port 62317
 Read port: 62317
@@ -1330,8 +1330,10 @@ Read port: 62317
 1658083015507	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:62302","sslProxy":"127.0.0.1:62302"}
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile9PtU3w\\search.json.mozlz4", (void 0)))
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-1:62456
-1658083133179	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--allow-profiles-outside-user-dir" "--allow-insecure-localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileL5EYgs"
+1658170045313	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1658170881956	Marionette	INFO	Stopped listening on port 62317
+"--allow-insecure-localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileL5EYgs"
 1658083133490	Marionette	INFO	Marionette enabled
 1658083133494	Marionette	INFO	Listening on port 62468
 Read port: 62468
@@ -1351,3 +1353,146 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1658092702623	Marionette	INFO	Stopped listening on port 62615
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1658155260172	geckodriver	INFO	Listening on 127.0.0.1:52427
+1658155263181	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--allow-profiles-outside-user-dir" "--allow-insecure-localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileGqcLjr"
+1658155263498	Marionette	INFO	Marionette enabled
+1658155263504	Marionette	INFO	Listening on port 52439
+Read port: 52439
+1658155263610	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658155263643	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:52426","sslProxy":"127.0.0.1:52426"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileGqcLjr\\search.json.mozlz4", (void 0)))
+1658155280476	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1658155291207	geckodriver	INFO	Listening on 127.0.0.1:52606
+1658155294257	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--allow-profiles-outside-user-dir" "--allow-insecure-localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofiletCUp48"
+1658155294538	Marionette	INFO	Marionette enabled
+1658155294543	Marionette	INFO	Listening on port 52618
+Read port: 52618
+1658155294654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658155294686	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:52605","sslProxy":"127.0.0.1:52605"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofiletCUp48\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1658156117834	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658156474757	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1658158050318	geckodriver	INFO	Listening on 127.0.0.1:60774
+1658158053343	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--allow-profiles-outside-user-dir" "--allow-insecure-localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileRw68St"
+1658158053619	Marionette	INFO	Marionette enabled
+1658158053623	Marionette	INFO	Listening on port 60786
+Read port: 60786
+1658158053791	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658158053816	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:60773","sslProxy":"127.0.0.1:60773"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileRw68St\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1658158896123	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658159233290	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658160427734	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658160721028	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658161908045	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658162357759	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1658170908558	geckodriver	INFO	Listening on 127.0.0.1:59085
+1658170911618	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--allow-profiles-outside-user-dir" "--allow-insecure-localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileHYCvoH"
+1658170911992	Marionette	INFO	Marionette enabled
+1658170911997	Marionette	INFO	Listening on port 59097
+Read port: 59097
+1658170912173	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658170912199	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:59084","sslProxy":"127.0.0.1:59084"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileHYCvoH\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1658171019219	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658171802980	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ksp.co.il"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1658173969559	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658175423915	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658176995551	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658177677656	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658179059009	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658180304243	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658180304243	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658180304244	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658183157475	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658183269311	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658183368809	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658183468293	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658183468294	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658183640774	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658183868309	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658183868310	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658183980643	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658184064946	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658184267421	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658184267421	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658184267422	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658184375591	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658184375592	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658184375593	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658184463148	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[Parent 32900, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:554
+1658184611487	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658184728903	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658184728904	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658184728904	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658184728904	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658184899585	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658184984687	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658184984687	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658185169411	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658185169412	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658185169413	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658185680064	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658185680065	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658185680065	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658185967764	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658185967764	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658185967765	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658186256801	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658186421166	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658186507826	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658186600242	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658186600244	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658187204828	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658187363007	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658187725359	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
