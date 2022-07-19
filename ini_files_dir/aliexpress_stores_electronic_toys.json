@@ -1,7 +1,7 @@
 {
   "keyestudio STEM education Store": {
     "store_id": 4247007,
-    "status": "skip scrapping",
+    
     "description": "Electronic Components & Supplies",
     "about": "Rasberry, Arduino СУПЕРСКИЕ",
     "url": "https://keyestudio-stem.aliexpress.com/store/4247007",
@@ -464,6 +464,7 @@
 
 
   "Fantasyland Toy Store": {
+    "status": "skip scrapping",
     "store_id": 910331321,
     "description": "Technology Small Production Experiment Constructor",
     "about": "деревянные электронные игрушки",
