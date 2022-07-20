@@ -223,8 +223,11 @@ class Product():
 
         if raw_imgs is None: 
             raw_imgs = ''
-            return raw_imgs
-        
+            _out = ''
+
+        if isinstance(raw_imgs, str):
+            _out = _parse_webelement(raw_imgs[0])
+           
         elif isinstance(raw_imgs , list):
             if self.NUMBER_PICTURES_TO_SAVE == 1:
                 _out = _parse_webelement(raw_imgs[0])

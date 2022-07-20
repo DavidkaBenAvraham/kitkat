@@ -239,7 +239,9 @@ def grab_product_page(s , p):
     def set_images():
         imgs : str = ''
         
-        _i = _d.find(_['product_main_image_locator']).replace('.webp','')
+        _i = _d.find(_['product_main_image_locator'])
+        
+        _i = _i.replace('.webp','')
         ''' если расширение файла .webp 
         то я его убираю в надежде, что за ним прячется 
         настоящий формат'''

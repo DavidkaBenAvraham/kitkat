@@ -95,9 +95,7 @@
     }
   },
   "suppliers": [
-    "aliexpress",
-    "morlevi",
-    "ksp"
+    "morlevi"
   ],
   "suppliers_excluded": [
     "aliexpress",

@@ -214,14 +214,31 @@ def list_product_urls_from_pagination(supplier):
     _d = _s.d
     _l = _s.locators['product']['link_to_product_locator']
 
-    list_product_urls : list = _d.find(_l)
+    list_product_urls : list = []
+    _product_list_from_page = _d.find(_l)
+    ''' может вернуться или список адресов или строка. '''
+    if isinstance(_product_list_from_page,list):
+        list_product_urls.extend(_product_list_from_page)
+    else:
+        list_product_urls.append(_product_list_from_page) 
+
     pages = _d.find(_s.locators['pagination']['a'])
     if isinstance(pages,list):
         for page in pages:
-            list_product_urls.append(_d.find(_l))
+            _product_list_from_page = _d.find(_l)
+            ''' может вернуться или список адресов или строка. '''
+            if isinstance(_product_list_from_page,list):
+                list_product_urls.extend(_product_list_from_page)
+            else:
+                list_product_urls.append(_product_list_from_page) 
+
             _perv_url = _d.current_url
             page.click()
+
+            ''' дошел до конца листалки '''
             if _perv_url == _d.current_url:break
 
-    list_product_urls = set(list_product_urls)
+
+    if isinstance(list_product_urls, list):
+        list_product_urls = set(list_product_urls)
     return list_product_urls
