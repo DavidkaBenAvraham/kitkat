@@ -6,7 +6,7 @@
 import execute_json as json
 from strings_formatter import StringFormatter as SF
 from suppliers.product import Product 
-from loguru import logger
+from script_logger import logger
 
 def login(supplier):
     _s = supplier

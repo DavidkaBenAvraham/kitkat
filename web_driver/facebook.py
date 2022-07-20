@@ -2,7 +2,7 @@
 #!/usr/bin/env python
 ##
 # @package Katia.Driver.facebook
-from loguru import logger
+from script_logger import logger
 
 
 ## https://qna.habr.com/q/1162122

@@ -7,7 +7,7 @@ from typing import List
 from pathlib import Path
 import pandas as pd
 import pickle
-from loguru import logger
+from script_logger import logger
 from attr import attrib, attrs, Factory
 
 import execute_json as json

@@ -2,10 +2,10 @@
 #!/usr/bin/env python3
 ##@brief Doxygen style comments
 ##@package Katia.Product
-
+import inspect
 from pathlib import Path
 import pandas as pd
-from loguru import logger
+from script_logger import logger
 
 from strings_formatter import StringFormatter
 formatter = StringFormatter()

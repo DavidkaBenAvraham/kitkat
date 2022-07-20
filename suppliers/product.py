@@ -2,16 +2,19 @@
 #!/usr/bin/env python3
 ##@brief Doxygen style comments
 ##@package Katia.Product
-
-from pathlib import Path
+import inspect
 import pandas as pd
-from loguru import logger
 
-from strings_formatter import StringFormatter
-formatter = StringFormatter()
-from ini_files_dir import Ini
-ini = Ini()
-import execute_json as json
+import GLOBAL_SETTINGS as SETTINGS
+json = SETTINGS.json
+logger = SETTINGS.logger
+formatter = SETTINGS.SF
+NUM_OF_PAGES_TO_BE_SAVED = SETTINGS.NUM_OF_PAGES_TO_BE_SAVED
+
+#from ini_files_dir import Ini
+
+#ini = Ini()
+#import execute_json as json
 
 from attr import attrs, attrib, Factory
 @attrs
@@ -38,77 +41,77 @@ from attr import attrs, attrib, Factory
 # @section author_product Author(s)
 # - Created by Katia on 19/06/2022.
 #
-##'''
-##ID
-##Active (0/1)
-##Name*
-##Categories (x,y,z...)
-##Price tax excluded
-##Price tax included
-##Tax rule ID
-##Cost price
-##On sale (0/1)
-##Discount amount
-##Discount percent
-##Discount from (yyyy-mm-dd)
-##Discount to (yyyy-mm-dd)
-##Reference #
-##Supplier reference #
-##Supplier
-##Brand
-##EAN13
-##UPC
-##MPN
-##Ecotax
-##Width
-##Height
-##Depth
-##Weight
-##Delivery time of in-stock products:
-##Delivery time of out-of-stock products with allowed orders:
-##Quantity
-##Minimal quantity
-##Low stock level
-##Send me an email when the quantity is under this level
-##Visibility
-##Additional shipping cost
-##Unit for base price
-##Base price
-##Summary
-##Description
-##Tags (x,y,z...)
-##Meta title
-##Meta keywords
-##Meta description
-##Rewritten URL
-##Label when in stock
-##Label when backorder allowed
-##Available for order (0 = No, 1 = Yes)
-##Product availability date
-##Product creation date
-##Show price (0 = No, 1 = Yes)
-##Image URLs (x,y,z...)
-##Image alt texts (x,y,z...)
-##Delete existing images (0 = No, 1 = Yes)
-##Feature (Name:Value:Position:Customized)
-##Available online only (0 = No, 1 = Yes)
-##Condition
-##Customizable (0 = No, 1 = Yes)
-##Uploadable files (0 = No, 1 = Yes)
-##Text fields (0 = No, 1 = Yes)
-##Action when out of stock
-##Virtual product (0 = No, 1 = Yes)
-##File URL
-##Number of allowed downloads
-##Expiration date (yyyy-mm-dd)
-##Number of days
-##ID / Name of shop
-##Advanced Stock Management
-##Depends on stock
-##Warehouse
-##Accessories (x,y,z...)
-##'''
-# Copyright (c) 2020 e-cat.me  All rights reserved.
+
+## ID
+## Active (0/1)
+## Name*
+## Categories (x,y,z...)
+## Price tax excluded
+## Price tax included
+## Tax rule ID
+## Cost price
+## On sale (0/1)
+## Discount amount
+## Discount percent
+## Discount from (yyyy-mm-dd)
+## Discount to (yyyy-mm-dd)
+## Reference #
+## Supplier reference #
+## Supplier
+## Brand
+## EAN13
+## UPC
+## MPN
+## Ecotax
+## Width
+## Height
+## Depth
+## Weight
+## Delivery time of in-stock products:
+## Delivery time of out-of-stock products with allowed orders:
+## Quantity
+## Minimal quantity
+## Low stock level
+## Send me an email when the quantity is under this level
+## Visibility
+## Additional shipping cost
+## Unit for base price
+## Base price
+## Summary
+## Description
+## Tags (x,y,z...)
+## Meta title
+## Meta keywords
+## Meta description
+## Rewritten URL
+## Label when in stock
+## Label when backorder allowed
+## Available for order (0 = No, 1 = Yes)
+## Product availability date
+## Product creation date
+## Show price (0 = No, 1 = Yes)
+## Image URLs (x,y,z...)
+## Image alt texts (x,y,z...)
+## Delete existing images (0 = No, 1 = Yes)
+## Feature (Name:Value:Position:Customized)
+## Available online only (0 = No, 1 = Yes)
+## Condition
+## Customizable (0 = No, 1 = Yes)
+## Uploadable files (0 = No, 1 = Yes)
+## Text fields (0 = No, 1 = Yes)
+## Action when out of stock
+## Virtual product (0 = No, 1 = Yes)
+## File URL
+## Number of allowed downloads
+## Expiration date (yyyy-mm-dd)
+## Number of days
+## ID / Name of shop
+## Advanced Stock Management
+## Depends on stock
+## Warehouse
+## Accessories (x,y,z...)
+
+
 class Product():
   
     ##@param fields : pd.DataFrame 
@@ -125,8 +128,6 @@ class Product():
     attributes : pd.DataFrame = attrib(init = False, default = None)
    
 
-    NUMBER_PICTURES_TO_SAVE : int= attrib(init=False, default=1)
-    
     ## инициализация класса
     #
     #словарь полей товара определена в файле <prestashop>_product_fields.json
@@ -135,26 +136,6 @@ class Product():
         self.fields = json.loads(Path(ini.paths.ini_files_dir , f'''prestashop_product_fields.json'''))
         self.combinations =json.loads(Path(ini.paths.ini_files_dir , f'''prestashop_product_combinations_fields.json'''))
         
-    
-    @attrs
-    class err:
-        def __attrs_post_init__(self , *args, **kwards):
-            pass
-
-        #def handler(ex:Exception , locator , field):
-        #    ## 
-        #    #@params ex
-        #    #@params field
-        #    #@params locator
-
-
-        #    #field = None
-        #    logger.error(f''' 
-        #    {ex}, 
-        #    locator {locator} , 
-        #    field {field} ''')
-        #    return False
-
 
     ##собраю локаторами нужные мне позиции со страницы товара 
     #collect the positions from the product page with locators
@@ -206,7 +187,7 @@ class Product():
         
         return self
 
-    def prepare_images(self, supplier, raw_imgs)->str:
+    def get_certain_amount_of_images(self, supplier, raw_imgs)->str:
         _out:str = None
 
         def _parse_webelement(we):
@@ -229,16 +210,13 @@ class Product():
             _out = _parse_webelement(raw_imgs[0])
            
         elif isinstance(raw_imgs , list):
-            if self.NUMBER_PICTURES_TO_SAVE == 1:
+            if NUM_OF_PAGES_TO_BE_SAVED == 1:
                 _out = _parse_webelement(raw_imgs[0])
             else:
+                _counter = 0
                 for i in raw_imgs:
                   _out += _parse_webelement(i)
+                  _counter += 1
+                  if _counter >= NUM_OF_PAGES_TO_BE_SAVED: break
         return _out               
-            
-
-        
-        logger.debug(f''' 
-        ссылки на картинки 
-        {imgs}
-        ''')
+         

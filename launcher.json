@@ -21,9 +21,12 @@
 
   "program_paths": {
     "ini_files_dir": "ini_files_dir",
+    "scenaries_dir": "ini_files_dir",
     "export_dir": "export",
     "log_files_dir": "log",
-    "apis_file": "apis.json"
+    "apis_file": "apis.json",
+    "cookies_dir": "cookies",
+    "binary_files_dir": "binaries"
   },
 
   "webdriver": {

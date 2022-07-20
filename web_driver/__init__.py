@@ -18,6 +18,8 @@
 #   - как работает библиотека ast
 #   -- #https://www.techiedelight.com/ru/parse-string-to-float-or-int-python/
 #
+#   - как загрижать бинарный файлл драйвера
+#   -- https://stackoverflow.com/questions/40208051/selenium-using-python-geckodriver-executable-needs-to-be-in-path
 #
 # инерфейс самый простой - произвести команды поймав 
 # локатором элемент
@@ -40,13 +42,18 @@
 #<li>        https://selenium-python.readthedocs.io/api.html#desired-capabilities</li>
 #</ul>
 
+
+
+
+
 from cmath import log
 from pathlib import Path
 #from base64 import b64decode
 import urllib
 #import requests
 #import codecs
-from loguru import logger
+from script_logger import logger
+
 #from msedge.selenium_tools import EdgeOptions
 #https://stackoverflow.com/questions/62951105/how-to-set-options-for-chromium-edge-in-selenium
 
@@ -84,6 +91,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 
 import seleniumwire
 from selenium import webdriver as SWD
@@ -107,11 +115,11 @@ import pandas as pd
 import datetime
 import time
 from attr import attrs, attrib, Factory
-
-from ini_files_dir import Ini as ini
-import execute_json as json
-
-
+import GLOBAL_SETTINGS
+LAUNCHER_SETTINGS = GLOBAL_SETTINGS.LAUNCHER_SETTINGS
+BINARY_FILES_DIRECTORY = GLOBAL_SETTINGS.BINARY_FILES_DIRECTORY
+COOKIES_DIRECTORY = GLOBAL_SETTINGS.COOKIES_DIRECTORY
+COOKIES_FILE = GLOBAL_SETTINGS.COOKIES_FILE
 @attrs
 ## класс <b>Driver()</b> 
 # реализует функции selenium 
@@ -196,7 +204,7 @@ class Driver:
     #drivername : str = attrib(init = False , default = 'firefox')
     
 
-    driver : WD =  attrib(init = False , default = WD)
+    driver : WD =  attrib(init = False, default = WD)
 
     ################################################################
     #
@@ -204,12 +212,9 @@ class Driver:
     #   https://stackoverflow.com/questions/15645093/setting-request-headers-in-selenium
     #
     ################################################################
-    headers : dict = attrib(init = False , default = None)
-    
+    headers : dict = attrib(init = False, default = None)
 
-
-    cookies = attrib(init = False , default = None)
-    cookies_file_path : Path = attrib(init = False , default = Path('cookies.pkl'))
+    cookies = attrib(init = False, default = None)
     
     
     ##############################################################
@@ -218,37 +223,14 @@ class Driver:
     #           при инициализации класса s = Supplier()
     #
     #############################################################
-    def __attrs_post_init__(self ,  *args, **kwrads):
+    def __attrs_post_init__(self,  *args, **kwrads):
 
         pass
     
 
 
-
-
-
-    ## set_driver(webdriver_settings)
-    # <pre>
-    # webdriver_settings from launcher.json: 
-    # --------------------------
-    # f.e. FirefoxDriver
-    #"firefox": {
-    #     "arguments": [ "--no-sandbox" ],
-    #     "disabled_arguments": [
-    #       "--disable-dev-shm-usage",
-    #       "--headless"
-    #     ],
-    #     "deafault_wait_time": 5,
-    #     "about wait": "явное ожидание браузера в сек",
-    #     "random": [ 0, 5 ],
-    #     "view_html_source_mode": false,
-    #     "maximize_window": true
-    #   }
-    # }
-    # </pre>
-    def set_driver(self , ini) -> WD:  
-        
-
+    
+    def set_driver(self) -> WD:  
 
         #seleniumwire_options = {
         #    'proxy': {
@@ -258,8 +240,9 @@ class Driver:
         #    }  
         #}
         ## set_chrome
+
         def set_chrome() -> bool:
-            _settings = ini.launcher['webdriver']['chrome']
+            _settings = LAUNCHER_SETTINGS['webdriver']['chrome']
             options = self.driver.ChromeOptions()
             for argument in _settings['arguments']:
                     options.add_argument(argument)
@@ -268,13 +251,13 @@ class Driver:
 
         ## set_firefox
         def set_firefox() -> bool:
-            _settings = ini.launcher['webdriver']['chrome']
+            
+            _settings = LAUNCHER_SETTINGS['webdriver']['firefox']
             #options = self.driver.FirefoxOptions()
             options = self.driver.FirefoxOptions()
             for argument in _settings['arguments']:
                     options.add_argument(argument)
 
-
             seleniumwire_options = {
                 'proxy': {
                     'no_proxy': 'localhost,127.0.0.1:8080' # excludes
@@ -282,37 +265,42 @@ class Driver:
                 'port': 8080,
                 'options':options
             }
-            self.driver = self.driver.Firefox(options = options)
+
+            '''
+            https://stackoverflow.com/questions/40208051/selenium-using-python-geckodriver-executable-needs-to-be-in-path
+            '''
+            _path = Path(BINARY_FILES_DIRECTORY , 'geckodriver.exe')
+            #binary = FirefoxBinary(_path)
+            self.driver = self.driver.Firefox(executable_path = _path,
+                                              options = options)
             return True
 
-                 ## set_firefox
+        ## set_edge
         def set_edge() -> bool:
-            _settings = ini.launcher['webdriver']['edge']
+            #_settings = LAUNCHER_SETTINGS['webdriver']['edge']
 
-            options = EdgeOptions()
-            options.use_chromium = True
-            #options = self.driver.EdgeOptions()
-            for argument in _settings['arguments']:
-                    options.add_argument(argument)
+            #options = EdgeOptions()
+            #options.use_chromium = True
+            ##options = self.driver.EdgeOptions()
+            #for argument in _settings['arguments']:
+            #        options.add_argument(argument)
 
-            seleniumwire_options = {
-                'proxy': {
-                    'no_proxy': 'localhost,127.0.0.1:8080' # excludes
-                } , 
-                'port': 8080,
-                'options':options
-            }
-
-
+            #seleniumwire_options = {
+            #    'proxy': {
+            #        'no_proxy': 'localhost,127.0.0.1:8080' # excludes
+            #    } , 
+            #    'port': 8080,
+            #    'options':options
+            #}
             self.driver = self.driver.Edge(seleniumwire_options = seleniumwire_options)
             return True
+
         ## set_kora
         def set_kora() -> bool:
             _wd = kora.selenium.wd
-            if not kora.IN_COLAB: 
+            if not kora.IN_COLAB:
                 logger.debug(f''' Hello local from kora :) ''')
                 set_chrome()
-                
             else:
                 set_chrome()
                 logger.debug(f''' Hello colab  from kora :)''')
@@ -320,7 +308,6 @@ class Driver:
                 #for argument in webdriver_settings['kora']:
                 #        options.add_argument(argument)
                 #self.driver = _wd.Chrome(options = options)
-
             return True
 
         # Create a request interceptor
@@ -337,11 +324,13 @@ class Driver:
         set_firefox()
         #set_chrome()
         #set_edge()
+
+        cookies_file = Path(f'''{COOKIES_DIRECTORY},{self.driver.name}.pkl''')
+    
         self.driver.maximize_window()
         # Set the interceptor on the driver
         #https://stackoverflow.com/questions/15645093/setting-request-headers-in-selenium
         #self.driver.request_interceptor = interceptor
-
 
         self.driver.wait =                              self._wait
         self.driver.get_url =                           self._get_url
@@ -352,43 +341,27 @@ class Driver:
         self.driver.page_refresh =                      self._page_refresh
         self.driver.close =                             self._close  
         self.driver.scroll =                            self._scroller
-        self.driver.previous_url :str =                 self.previous_url
-        self.driver.save_images  =                       self._save_images
-        #self.driver.get_parsed_google_search_result =   GoogleHtmlParser
+        self.driver.previous_url : str =                self.previous_url
+        self.driver.save_images  =                      self._save_images
         self.driver.send_keys =                         self._send_keys
-        
-        
+                
         self.driver.cookies =                           self.cookies
         self.driver.cookies_file_path :Path =           self.cookies_file_path
         self.driver.dump_cookies_to_file =              self._dump_cookies_to_file
         self.driver.load_cookies_from_file =            self._load_cookies_from_file
 
-
         self.driver.WebKitGTK =                         SWD.WebKitGTK
         self.driver.WebKitGTKOptions =                  SWD.WebKitGTKOptions
-        #self.driver.WPEWebKit =                         SWD.WPEWebKit
-        #self.driver.WPEWebKitOptions =                  SWD.WPEWebKitOptions
+        #self.driver.WPEWebKit =                        SWD.WPEWebKit
+        #self.driver.WPEWebKitOptions =                 SWD.WPEWebKitOptions
         
-
-        if SWWD:
-
-            
-            self.driver.WebDriverWait = WebDriverWait
-
-            
-            self.driver.EC = EC
-
-            
-            self.driver.By = By
-
-            
-            self.driver.Keys = Keys
-
-            
-            self.driver.ActionChains = ActionChains
-        self.ini = ini
+        self.driver.WebDriverWait = WebDriverWait
+        self.driver.EC = EC
+        self.driver.By = By
+        self.driver.Keys = Keys
+        self.driver.ActionChains = ActionChains
         return self.driver
-
+    
 
 
 
@@ -422,25 +395,18 @@ class Driver:
         '''
         self.wait = 100
         _d = self.driver
-        webelement =  _d.WebDriverWait(_d , self.wait).until(_d.EC.presence_of_element_located(locator))
+        webelement =  _d.WebDriverWait(_d, self.wait).until(_d.EC.presence_of_element_located(locator))
         return webelement
+
     ## _wait_to_be_clickable 
     # ожидание кликабельности элемента
-    def _wait_to_be_clickable(self, wait : int = 0 , locator : dict = {}) :
+    def _wait_to_be_clickable(self, wait: int = 0 , locator: dict = {}) :
         '''
         ождание кликабельности элемента '''
         element_clickable = EC.element_to_be_clickable(locator)
-        webelement =  WebDriverWait(self.driver , wait).until(element_clickable)
+        webelement =  WebDriverWait(self.driver, wait).until(element_clickable)
         return webelement
     
-
-
-
-
-
-
-
-
 
 
 
@@ -455,20 +421,21 @@ class Driver:
     #                                                       #
     #                                                       #
     #########################################################
-    def cookie(self, supplier):
-        _s = supplier
-
-        def _load_cookies_from_file(self, cookies_file_path : Path = None ):
-            cookies_file_path = self.cookies_file_path if cookies_file_path is None else cookies_file_path
-        
+    def cookie(self):
+      
+        def _load_cookies_from_file():
+            
             logger.debug(''' cookies_file_path
             ---------------------------
             cookies_file_path} ''')
 
-            if not cookies_file_path.exists():
-                    return False, logger.error(f''' {cookies_file_path} не найден ''')
+            if not cookies_file.exists():
+                    return False, logger.error(f'''
+                        {cookies_file_path}
+                        не найден ''')
         
             self.cookies = pickle.load(open(cookies_file_path , 'rb'))
+
             for cookie in self.cookies:
                 try:
                     self.driver.add_cookie(cookie)  
@@ -488,22 +455,26 @@ class Driver:
         #   @param
         # -------------
         #   cookies_file : Path('cookies.pkl')
-        def _dump_cookies_to_file(self, cookies_file_path : Path = None):
+        def _dump_cookies_to_file(self, cookies_file_path: Path = None):
             cookies_file_path = self.cookies_file_path if cookies_file_path is None else cookies_file_path
             _cookies = self.driver.get_cookies()
             #for cookie in _cookies:
             #    if cookie.get('expiry', None) is not None:
             #        cookie['expires'] = cookie.pop('expiry')
             pickle.dump(_cookies, open(cookies_file_path, 'wb'))
-            logger.debug(''' сохранил печеньку 
+            logger.debug(''' 
+            сохранил печеньку 
             {_cookies}
             ---------------------------
             в файл:
-            {cookies_file_path} ''')
+            {cookies_file_path} 
+            ''')
     
         def get():
             _load_cookies_from_file()
-        def save():_dump_cookies_to_file
+
+        def save():
+            _dump_cookies_to_file()
 
 
 

@@ -9,7 +9,7 @@ __author__ = 'e-cat.me'
 from pathlib import Path
 import json as json
 import csv
-from loguru import logger
+from script_logger import logger
 import pandas as pd
 
 ## Сохраняю установки в файл поставщика
@@ -19,14 +19,11 @@ def dump_supplier_settings(supplier):
 
 ## Читаю файл из внешнего источника .
 # path: путь к файлу 
-def loads(path:Path )-> dict :
+def loads(path:Path)-> dict :
     ''' получаю объект Path - не str! '''
-    with path.absolute().open(encoding='utf-8') as f:
+    with path.open(encoding='utf-8') as f:
         data = json.loads(f.read())
     return data
-
-
-
 
 ## Документация для функции.
 def html2json(html:str)->json:
@@ -43,8 +40,10 @@ def convert_to_list(json, dict_interpreter_vаlues_only:bool = True, _l:list=[])
 
     
     if isinstance(json, str):
-        ''' если в списке сценариев есть 
-        всего один файл '''
+        ''' 
+        если в списке сценариев есть 
+        всего один файл 
+        '''
         _l.append(json)
 
     elif isinstance(json, list):
@@ -63,7 +62,7 @@ def convert_to_list(json, dict_interpreter_vаlues_only:bool = True, _l:list=[])
 
     return _l
 
-def dump(data , path:Path):
+def dump(data, path:Path):
         with path.absolute().open('w',encoding='utf-8') as f:
             json.dump(data, f)
 
@@ -71,9 +70,6 @@ def dump(data , path:Path):
 # функция позволяет экспортировать словарь в файл 
 # из всех точек выполнения сценариев 
 def export(supplier, data, filename:str = None, format:list = ['json','csv','txt'])->bool:
-
-
-
 
 
     if filename == None:
@@ -88,7 +84,7 @@ def export(supplier, data, filename:str = None, format:list = ['json','csv','txt
         if frmt == 'csv':
             df = pd.DataFrame(data)
             try:
-                df.to_csv(export_file_path , sep = ';' , index=False ,  encoding='utf-8')
+                df.to_csv(export_file_path, sep = ';', index=False,  encoding='utf-8')
             except Exception as ex:
                 logger.error(ex)
         if frmt == 'txt': 

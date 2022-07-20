@@ -25,16 +25,13 @@
 from pathlib import Path
 from threading import Thread
 ''' Работа с потоками описана в https://python-scripts.com/threading '''
-from pathlib import Path
-from loguru import logger
 
-import execute_json as json
-from ini_files_dir import Ini
-ini = Ini()
-import GLOBALS
 from suppliers import Supplier
 
-''' инициализация '''
+import GLOBAL_SETTINGS
+json = GLOBAL_SETTINGS.json
+logger = GLOBAL_SETTINGS.logger
+suppliers_list = GLOBAL_SETTINGS.suppliers_list
 
 threads : list = []
 ''' потоки '''
@@ -48,7 +45,7 @@ class Thread_for_supplier(Thread):
     supplier : Supplier = None
     ''' здесь рождается класс поставщика в собственном потоке '''
 
-    def __init__(self, supplier_prefics:str ,  ini : Ini):
+    def __init__(self, supplier_prefics:str):
         ''' в классе Ini() происходит раскрытие launcher.json
         supplier_prefics : str - поставщик из класса ini.suppliers, 
         lang : list - язык/и  из launcher.json ???? нахуя?
@@ -57,7 +54,7 @@ class Thread_for_supplier(Thread):
         Thread.__init__(self)
         ### Здесь создался поток. ОСТОРОЖНО! Может повесить малоядерные цпу
         # 
-        self.supplier  = Supplier(supplier_prefics = supplier_prefics, ini = ini)
+        self.supplier  = Supplier(supplier_prefics = supplier_prefics)
         ### Здесь родился Supplier() в потоке 
         
     def run(self):
@@ -75,20 +72,25 @@ def start_script() -> bool:
     # ini : Ini = Ini() 
     # Класс инициализации приложения 
     # строится на основе файла launch.json 
-    _ = ini.launcher
-    for supplier_prefics in _['suppliers']: 
+    
+    for supplier_prefics in suppliers_list: 
             
-        if _['threads']:
+        if GLOBAL_SETTINGS.threads:
             # с потоками -> 
-            thread = Thread_for_supplier(supplier_prefics,  ini)
+            thread = Thread_for_supplier(supplier_prefics)
             thread.start()
 
         else:
             # Без потоков ->
-            supplier  = Supplier(supplier_prefics = supplier_prefics, ini = ini)
+            supplier  = Supplier(supplier_prefics = supplier_prefics)
             ### Здесь родился Supplier() в ОДНОМ потоке
             # программа будет перелопачивать их один за другим
             supplier.run()
+            logger.info(f''' 
+            ЗАВЕРШЕНИЕ 
+            supplier {supplier.supplier_prefics} 
+            ''')
+            supplier.driver.close()
 
 
 if __name__ == "__main__":

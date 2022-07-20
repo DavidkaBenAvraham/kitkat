@@ -16,7 +16,7 @@
 
 from selenium.webdriver.firefox.options import Options
 
-from loguru import logger
+from script_logger import logger
 ##@package Katia.Driver.Options
 # doc for chrome_options()
 def chrome_options(self):

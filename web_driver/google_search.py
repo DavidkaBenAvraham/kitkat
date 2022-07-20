@@ -2,7 +2,7 @@
 #!/usr/bin/env python
 ##
 # @package Katia.Driver.google_search
-from loguru import logger
+from script_logger import logger
 
 
 from lxml import html

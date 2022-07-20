@@ -10,7 +10,7 @@ import execute_json as json
 from strings_formatter import StringFormatter as SF
 from suppliers.product import Product 
 import suppliers.ksp.banners_grabber
-from loguru import logger
+from script_logger import logger
 
 def product_attributes(self, p, delimeter, elements):
     i=0

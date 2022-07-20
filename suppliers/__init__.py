@@ -13,20 +13,17 @@ __author__ = 'e-cat.me'
 
 
 import inspect
-import pandas as pd
 import importlib
-from pathlib import Path
-from loguru import logger
-from web_driver import Driver 
-from strings_formatter import StringFormatter as SF
-#formatter = StringFormatter()
-import execute_json as json
-import suppliers.execute_scenaries as execute_scenaries
 from attr import attrs, attrib, Factory
+from pathlib import Path
 
+import GLOBAL_SETTINGS
+json = GLOBAL_SETTINGS.json
+logger = GLOBAL_SETTINGS.logger
+SCENARIES_DIRECTORY = GLOBAL_SETTINGS.SCENARIES_DIRECTORY
 
-#import xml.etree.ElementTree as ET
-
+from web_driver import Driver 
+import suppliers.execute_scenaries as execute_scenaries
 
 
 @attrs
@@ -40,18 +37,26 @@ from attr import attrs, attrib, Factory
 #<cite> s = Supplier(supplier_prefics = supplier_prefics, lang = lang , ini = ini) </cite>
 class Supplier:
 
-
-    
     supplier_prefics    : str  = attrib(kw_only = True, default = None)                         
     '''  Обязательные ключи запуска - имя поставщика    '''
   
-    ini                 : ini = attrib(kw_only = True, default = None)
+    #ini                 : ini = attrib(init = False, default = None)
+    ''' ушел в GLOBAL_SETTINGS '''
     ''' Параметры из лончера '''
 
     settings :dict  = attrib(init = False, default = None)
-    
-    paths               : paths  = attrib(init = False, default = None)
-    ''' класс с путями всяких разных директорий '''
+    ''' 
+    параметры из файла <supllier>.json
+    в процессе исполнения я буду менять его параметры,
+    last_runnes_scenario и прочие,
+    а потом сохранять json.dump()
+    '''
+
+
+    #paths               : paths  = attrib(init = False, default = None)
+    ''' 
+    класс с путями всяких разных директорий 
+    '''
 
     price_rule          : str = attrib(init = False, default = None)                         
     ''' правило пересчета цены от поставщика, заложеное в сценарии.
@@ -59,11 +64,7 @@ class Supplier:
                         категориям и магазинам '''
 
 
-
-
-
-    ''' с локаторами как-то нелогично 
-    их много
+    ''' с локаторами как-то нелогично их много
     '''
     locators            : dict  =  attrib(init = False, default = None)                         
     ''' локаторы элементов страницы              '''
@@ -118,24 +119,24 @@ class Supplier:
     # которые задяются при инициализации класса Supplier в виде парамтров:  
     # attrib(kw_only = True)  
     def __attrs_post_init__(self, *args, **kwards):
-        _ini = self.ini
+        #_ini = self.ini
 
 
-        self.settings : dict  = json.loads(Path(_ini.paths.ini_files_dir , f'''{self.supplier_prefics}.json'''))
 
-        self.start_time = _ini.get_now()
+        self.settings : dict  = json.loads(Path(SCENARIES_DIRECTORY , f'''{self.supplier_prefics}.json'''))
 
-        self.driver = Driver().set_driver(_ini)
+        #self.start_time = _ini.get_now()
+
+        self.driver = Driver().set_driver()
         self.d = self.driver
+        ''' всего лишь сокращенное '''
 
-        self.locators : dict = json.loads(Path(_ini.paths.ini_files_dir , f'''{self.supplier_prefics}_locators.json'''))
+        self.locators : dict = json.loads(SCENARIES_DIRECTORY , f'''{self.supplier_prefics}_locators.json''')
         ''' локаторы элементов страницы '''
         
         self.related_functions = importlib.import_module(f'''suppliers.{self.supplier_prefics}''')
         ''' подгружаю релевантные функции для конкретного поствщика '''
 
-        
-        
         if self.settings['if_login']: self.related_functions.login(self)
         ''' логин '''
 

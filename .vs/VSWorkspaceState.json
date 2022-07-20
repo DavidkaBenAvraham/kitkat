@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\suppliers\\aliexpress",
-    "\\suppliers\\ksp",
-    "\\suppliers\\morlevi"
+    ""
   ],
-  "SelectedNode": "\\main.py",
+  "SelectedNode": "\\strings_formatter.py",
   "PreviewInSolutionExplorer": false
 }

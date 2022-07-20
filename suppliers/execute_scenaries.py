@@ -13,15 +13,13 @@
 from ast import Str
 from pathlib import Path
 import pandas as pd
-from loguru import logger
+
+import GLOBAL_SETTINGS as SETTINGS
+json = SETTINGS.json
+logger = SETTINGS.logger
+strings_formatter = SETTINGS.SF
+
 from suppliers.product import Product
-import execute_json as json
-from strings_formatter import StringFormatter as SF
-#from ini_files_dir import Ini
-#ini = Ini()
-
-
-
 
 #           по умолчанию все сценарии  прописаны в файлах <supplier>.json
 #           Каждый сценарий поставщика - файл с именем 
@@ -30,17 +28,13 @@ from strings_formatter import StringFormatter as SF
 #           -------------------------------
 #           supplier - class Supplier  f.e.: mor, cdata, visual, 
 #               aliexpress, ebay, amazon etc.
+
+
 def execute_list_of_scenaries(supplier) -> bool :
-    logger.debug(f''' 
-    Старт 
-    --------------------
-    
-    ''')
 
     s = supplier
     _d = s.driver
    
-    
     ## 0. 
     if not _d.get_url(s.settings['start_url']):
         logger.error(f''' supplier not started in url:
@@ -70,11 +64,8 @@ def run_scenario_file(suppiler, json_file) -> bool:
     ''' имя файла экспорта '''
     _s.export_file_name = f'''{_s.settings['supplier_prefics']}-{_s.scenario_category}'''
     
-    
-    ''' третье слово в названии файла сценариев это категория товаров '''
     while len(_s.scenaries.items())>0:
         _scenario = _s.scenaries.popitem()[1]
-
         ''' возможность игнорировать сценарий заложена в
        файл <scenario>. json 
        "scenario name":{
@@ -83,12 +74,13 @@ def run_scenario_file(suppiler, json_file) -> bool:
        }'''
         if 'status' in _scenario.keys() and _scenario['status'] == 'skip scrapping': continue
         
-
-        run_scenario(_s , _scenario) 
-
+        ''' исполнqю сценарий '''
+        run_scenario(_s , _scenario)
 
         ''' сбрасываю данные в файлы '''
         json.export(_s, _s.p, _s.export_file_name, ['csv'] )
+
+        ''' запоминаю изполненный сценарий '''
         _s.settings['last_runned_scenario'] = json_file
         json.dump_supplier_settings(_s)
 
@@ -111,7 +103,6 @@ def run_scenario(s , scenario) -> bool:
         '''# СОБИРАЮ ДАННЫЕ СО СТРАНИЦЫ '''
         def grab_product_page():
             product : Product = s.related_functions.grab_product_page(s, Product())
-           
             ''' получаю товар 
             заполняю все свойства товара в функции 
             grab_product_page() для каждого поставщика.
@@ -130,8 +121,11 @@ def run_scenario(s , scenario) -> bool:
 
         s.current_node = node
 
+        ###############################################
         '''              1                          '''
-        ''' получаю список url на страницы товаров '''
+        ''' получаю список url на страницы товаров  '''
+        ###############################################
+
         list_products_urls : list = get_list_products_urls(s , node)
         
 
@@ -140,18 +134,25 @@ def run_scenario(s , scenario) -> bool:
         (перехожу к следующему узлу выполнения) '''
         if list_products_urls is None or len(list_products_urls) == 0 : return False 
 
-        '''              2                          '''
-        ''' driver вернул urls на страницы товаров ... '''
+
+
+        ###################################################
+        '''              2                              '''
+        ''' driver вернул urls на страницы товаров ...  '''
+        ###################################################
+
 
 
         ''' ... списком '''
         ''' перебираю список адресов товаров'''
         if isinstance(list_products_urls, list):      
             for product_url in list_products_urls :
-                '''функция get_url('url') возвращает True, 
+                '''
+                функция get_url('url') возвращает True, 
                 если переход на страницу был успешен,
                 иначе False.
-                Исключения обрабатываются внутри самой get_url()'''
+                Исключения обрабатываются внутри самой get_url()
+                '''
                 if s.driver.get_url(product_url) : 
                     grab_product_page()
                     
@@ -160,7 +161,6 @@ def run_scenario(s , scenario) -> bool:
                     continue
 
             export()
-
             ''' ... строкой '''
         else: 
             if s.driver.get_url(list_products_urls):
@@ -221,6 +221,7 @@ def get_list_products_urls(s , scenario_node : dict ) ->list:
 
         elems = s.driver.find(locator)
         controls = []
+
         for e in elems:
             controls.append(e.id)
 
@@ -233,8 +234,6 @@ def get_list_products_urls(s , scenario_node : dict ) ->list:
         banners = s.driver.find(s.locators['top_banner_locator'])
         logger.debug(f'''Найдены баннеры {banners} ''')
         s.driver.save_images(banners)
-
-
 
 
     if not s.driver.get_url(scenario_node["url"]): 
@@ -257,6 +256,7 @@ def get_list_products_urls(s , scenario_node : dict ) ->list:
 
 
     ##                     
+    #           
     #           Существует два вида показа товаров: 
     #   переключение между страницами и бесконечная прокрутка 
     #

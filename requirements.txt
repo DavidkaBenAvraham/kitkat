@@ -13,12 +13,12 @@ aliyun-python-sdk-core-v3
 aliexpress-sdk
 selenium-wire
 pyautogui
-loguru
+script_logger
 gspread 
 oauth2client 
 df2gspread
 google-auth-httplib2
 jupyterlab
-loguru
+script_logger
 attrs
 msedge-selenium-tools
