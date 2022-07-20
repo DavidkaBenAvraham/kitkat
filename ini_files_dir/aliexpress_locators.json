@@ -230,7 +230,7 @@
     "shop_info_locator": {
       "attribute": null,
       "by": "xpath",
-      "selector": "//div[contains(@class , 'HeaderPDP_ShopInfo__wrapper']"
+      "selector": "//div[contains(@class , 'HeaderPDP_ShopInfo__wrapper')]"
     },
 
 
@@ -259,13 +259,13 @@
     "product_delivery_locator": {
       "attribute": null,
       "by": "xpath",
-      "selector": "//div[@class = 'dynamic-shipping']//strong"
+      "selector": "//div[@class='dynamic-shipping']//strong"
     },
 
     "product_images_thumb_50x50": {
       "attribute": null,
       "by": "xpath",
-      "selector": "//div[contains(@class , 'Product_GalleryBarItem_']/"
+      "selector": "//div[contains(@class, 'Product_GalleryBarItem_')]/"
     },
     "product_main_image_locator": {
       "attribute": "src",
@@ -299,7 +299,7 @@
       "product_combinations_value_title": {
         "attribute": "innerText",
         "by": "xpath",
-        "selector": "//span[contains(@class,'sku-title-value']"
+        "selector": "//span[contains(@class,'sku-title-value')]"
       },
 
       "text_attribute_locator": {

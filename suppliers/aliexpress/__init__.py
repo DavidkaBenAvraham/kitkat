@@ -102,7 +102,7 @@ def run_stores(s):
     ''' ------------------ КОНЕЦ  -------------------------- '''
 
 ## try to get json fro file
-def set_json_from_store(s , store_settings_dict : dict = {}) -> dict:
+def get_json_from_store(s , store_settings_dict : dict = {}) -> dict:
     ''' у каждого магазина в алиэкспресс можно запросить файл 
     https://aliexpress.com/store/store/productGroupsAjax.htm?storeId=<storeId>&shopVersion=3.0&callback=<callback>
     в нем заложена структура внутренних категорий магазина
@@ -174,7 +174,7 @@ def build_shop_categories(s , store_settings_dict : dict) -> dict:
 
 ## run_local_scenario
 def run_local_scenario(s, store_settings_dict: dict = {}):
-    json_from_store = set_json_from_store(s, store_settings_dict)
+    json_from_store = get_json_from_store(s, store_settings_dict)
     #s.export(ajax_from_store , ['json'] , store_settings_dict['store ID'])
     #logger.error(f''' {store_settings_dict['store ID']} added''')
     pass
@@ -238,15 +238,25 @@ def grab_product_page(s , p):
     ## set_images
     def set_images():
         imgs : str = ''
-        try:
-            _images_thumb_50x50 = _d.find(_['product_images_thumb_50x50'])
+        
+        _i = _d.find(_['product_main_image_locator']).replace('.webp','')
+        ''' если расширение файла .webp 
+        то я его убираю в надежде, что за ним прячется 
+        настоящий формат'''
+
+        if _i[:-1]=='_':
+            ''' вполне попадается _ после .jpg 
+            имеет вид .jpg_'''
+            _i = _i[1:-1]
+        _field['img url'] = _i
+
+
+        _images_thumb_50x50 : str = None
+        def replace_suffics():
             for i in _images_thumb_50x50:
                 imgs += f''' {str(i).replace('_50x50.jpg','')},'''
             _field['img url'] = imgs
-        except Exception as ex:  
-            self.err.handler(ex, _['product_images_locator'], [_field['img url'] , _field['img alt']])
-
-
+   
 
 
 
@@ -383,12 +393,12 @@ def grab_product_page(s , p):
     set_customer_reviews()
         
 
-    return p.fields
+    return p
 
 
 
 def list_product_urls_from_pagination(supplier):
-    
+    ''' листалка '''
     _s = supplier
     _d = _s.d
     _l = _s.locators['product']['link_to_product_locator']
