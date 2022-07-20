@@ -7,6 +7,7 @@ import execute_json as json
 from strings_formatter import StringFormatter as SF
 from suppliers.product import Product 
 from loguru import logger
+
 def login(supplier):
     _s = supplier
     _d = _s.d
@@ -75,8 +76,6 @@ def _login(_s):
 
 def grab_product_page(s , p) -> Product:
     p.grab_product_page(s)
-
-
 
     _ : dict = s.locators['product']
     _d = s.driver

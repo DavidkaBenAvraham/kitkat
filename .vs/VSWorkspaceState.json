@@ -1,12 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\suppliers",
     "\\suppliers\\aliexpress",
     "\\suppliers\\ksp",
-    "\\suppliers\\morlevi",
-    "\\web_driver"
+    "\\suppliers\\morlevi"
   ],
-  "SelectedNode": "\\launcher.json",
+  "SelectedNode": "\\main.py",
   "PreviewInSolutionExplorer": false
 }

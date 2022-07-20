@@ -31,6 +31,7 @@ from loguru import logger
 import execute_json as json
 from ini_files_dir import Ini
 ini = Ini()
+import GLOBALS
 from suppliers import Supplier
 
 ''' инициализация '''

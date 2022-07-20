@@ -455,44 +455,55 @@ class Driver:
     #                                                       #
     #                                                       #
     #########################################################
+    def cookie(self, supplier):
+        _s = supplier
 
-    def _load_cookies_from_file(self, cookies_file_path : Path = None ) -> bool:
-        cookies_file_path = self.cookies_file_path if cookies_file_path is None else cookies_file_path
+        def _load_cookies_from_file(self, cookies_file_path : Path = None ):
+            cookies_file_path = self.cookies_file_path if cookies_file_path is None else cookies_file_path
         
-        logger.debug(''' cookies_file_path
-        ---------------------------
-        cookies_file_path} ''')
+            logger.debug(''' cookies_file_path
+            ---------------------------
+            cookies_file_path} ''')
 
-        if not cookies_file_path.exists():
-                return False , logger.error(f''' {cookies_file_path} не найден ''')
+            if not cookies_file_path.exists():
+                    return False, logger.error(f''' {cookies_file_path} не найден ''')
         
-        self.cookies = pickle.load(open(cookies_file_path , 'rb'))
-        for cookie in self.cookies:
-            try:
-                self.driver.add_cookie(cookie)  
-            except Exception as ex:
-                logger.error(f''' НЕ скушал печеньки ''')
-                pass
-            logger.debug(f''' скушал печеньки ''')
-            return True
+            self.cookies = pickle.load(open(cookies_file_path , 'rb'))
+            for cookie in self.cookies:
+                try:
+                    self.driver.add_cookie(cookie)  
+                    logger.debug(f''' скушал печеньки ''')
+                    continue
+                except Exception as ex:
+                    logger.error(f''' 
+                    НЕ скушал печеньки:
+                    {cookie} 
+                    ошибка:
+                    {ex}
+                    ''')
+                    continue
 
 
-    ## После успешного события ведрайвера я бережно сохраню печеньку  в файл 
-    #   @param
-    # -------------
-    #   cookies_file : Path('cookies.pkl')
-    def _dump_cookies_to_file(self, cookies_file_path : Path = None):
-        cookies_file_path = self.cookies_file_path if cookies_file_path is None else cookies_file_path
-        _cookies = self.driver.get_cookies()
-        #for cookie in _cookies:
-        #    if cookie.get('expiry', None) is not None:
-        #        cookie['expires'] = cookie.pop('expiry')
-        pickle.dump(_cookies, open(cookies_file_path, 'wb'))
-        logger.debug(''' сохранил печеньку 
-        {_cookies}
-        ---------------------------
-        в файл:
-        {cookies_file_path} ''')
+        ## После успешного события ведрайвера я бережно сохраню печеньку  в файл 
+        #   @param
+        # -------------
+        #   cookies_file : Path('cookies.pkl')
+        def _dump_cookies_to_file(self, cookies_file_path : Path = None):
+            cookies_file_path = self.cookies_file_path if cookies_file_path is None else cookies_file_path
+            _cookies = self.driver.get_cookies()
+            #for cookie in _cookies:
+            #    if cookie.get('expiry', None) is not None:
+            #        cookie['expires'] = cookie.pop('expiry')
+            pickle.dump(_cookies, open(cookies_file_path, 'wb'))
+            logger.debug(''' сохранил печеньку 
+            {_cookies}
+            ---------------------------
+            в файл:
+            {cookies_file_path} ''')
+    
+        def get():
+            _load_cookies_from_file()
+        def save():_dump_cookies_to_file
 
 
 
@@ -544,17 +555,19 @@ class Driver:
 
     ## обертка для driver.get():
     # переход по указанному url
-    # @param
-    #   url:str 
-    # @param
-    #   view_html_source_mode : bool     возвращает код страницы
-    def _get_url(self, url:str , 
-                 wait_to_locator_be_loaded : dict = {} , 
-                 retrieveies = 3, 
+    def _get_url(self, url:str, 
+                 wait_to_locator_be_loaded : dict = {}, 
+                 attemps = 3, 
                  view_html_source_mode : bool = False
                  ):
-        logger.debug(f''' url : {url}''')
-        
+        '''
+        @param url:
+            целевой адрес
+        @wait_to_locator_be_loaded:
+            элемент, в загрузке которого трбуется убедиться
+        @view_html_source_modeЬ
+            показывает код страницы
+        '''
         _d = self.driver
         json_files : str = ''
         _url = _d.current_url
@@ -565,10 +578,33 @@ class Driver:
             flag = True
 
         except Exception as ex:
-            return False , logger.error(f''' Ошибка в _get_url() :
-            {ex}
-            -------------------------------------
-             url = {url}''')  
+            ''' не получил страницу
+               пробую получить ее повторно 
+               {attemps} раз через интервал
+               {t}
+               через 
+               интервал 
+            '''
+            t = 10
+            if attemps >0:
+                logger.error(f''' Неудачный переход по адресу:
+               {url}
+               -------------------------------------
+                {ex}
+                -------------------------------------
+                следующая попытка через {t}''')  
+                self._wait(t)
+                attemps -= 1
+                self._get_url(url, 
+                 wait_to_locator_be_loaded, 
+                 attemps, 
+                 view_html_source_mode
+                 )
+            else:
+                return False , logger.error(f''' Ошибка в _get_url() :
+                {ex}
+                -------------------------------------
+                 url = {url}''')  
 
         #logger.debug(f''' Requests:
         #''')

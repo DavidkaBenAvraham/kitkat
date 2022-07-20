@@ -66,15 +66,33 @@ def run_scenario_file(suppiler, json_file) -> bool:
     _s = suppiler
     _s.scenaries = json.loads(Path(_s.ini.paths.ini_files_dir, f'''{json_file}'''))
     _s.scenario_category = f'''{json_file.split('.')[0]}'''
+
+    ''' имя файла экспорта '''
     _s.export_file_name = f'''{_s.settings['supplier_prefics']}-{_s.scenario_category}'''
+    
+    
     ''' третье слово в названии файла сценариев это категория товаров '''
     while len(_s.scenaries.items())>0:
         _scenario = _s.scenaries.popitem()[1]
+
+        ''' возможность игнорировать сценарий заложена в
+       файл <scenario>. json 
+       "scenario name":{
+           "status": "skip scrapping",
+           ...
+       }'''
         if 'status' in _scenario.keys() and _scenario['status'] == 'skip scrapping': continue
+        
+
         run_scenario(_s , _scenario) 
+
+
+        ''' сбрасываю данные в файлы '''
         json.export(_s, _s.p, _s.export_file_name, ['csv'] )
         _s.settings['last_runned_scenario'] = json_file
         json.dump_supplier_settings(_s)
+
+
 def run_scenario(s , scenario) -> bool:
     '''
     -текущий сценарий исполнения состоит из узлов. Каждый узел состоит из:
@@ -238,22 +256,27 @@ def get_list_products_urls(s , scenario_node : dict ) ->list:
     
 
 
-    ##                     Существует два вида показа товаров: 
-    #                      переключение между страницами и бесконечная прокрутка 
+    ##                     
+    #           Существует два вида показа товаров: 
+    #   переключение между страницами и бесконечная прокрутка 
+    #
+    ##
     if s.locators['infinity_scroll'] == True: 
         logger.debug("infinity scroll")
-        ''' А бесконечная прокрука '''
+        ''' А. бесконечная прокрука '''
         s.driver.scroll()
         
         #get_page_check_list(s)
         #get_top_banners(s)
 
-
         list_product_urls : list = s.driver.find(_)
         return list_product_urls
     
     else:
-        ''' Б переключение между страницами реализуется в каждом постащике '''
+        ''' Б. переключение между страницами и
+        сбор url реализуется 
+        в функции list_product_urls_from_pagination()
+        в каждом конкретном постащике '''
         return s.related_functions.list_product_urls_from_pagination(s)
 
         #get_page_check_list(s)
