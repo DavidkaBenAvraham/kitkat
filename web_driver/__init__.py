@@ -464,9 +464,9 @@ class Driver:
             pickle.dump(_cookies, open(cookies_file_path, 'wb'))
             logger.debug(''' 
             сохранил печеньку 
-            {_cookies}
-            ---------------------------
-            в файл:
+            {_cookies} 
+            --------------------------- 
+            в файл: 
             {cookies_file_path} 
             ''')
     
