@@ -131,7 +131,7 @@ class Supplier:
         self.d = self.driver
         ''' всего лишь сокращенное '''
 
-        self.locators : dict = json.loads(SCENARIES_DIRECTORY , f'''{self.supplier_prefics}_locators.json''')
+        self.locators : dict = json.loads(Path(SCENARIES_DIRECTORY , f'''{self.supplier_prefics}_locators.json'''))
         ''' локаторы элементов страницы '''
         
         self.related_functions = importlib.import_module(f'''suppliers.{self.supplier_prefics}''')

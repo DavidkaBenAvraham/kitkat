@@ -115,11 +115,13 @@ import pandas as pd
 import datetime
 import time
 from attr import attrs, attrib, Factory
+
 import GLOBAL_SETTINGS
 LAUNCHER_SETTINGS = GLOBAL_SETTINGS.LAUNCHER_SETTINGS
 BINARY_FILES_DIRECTORY = GLOBAL_SETTINGS.BINARY_FILES_DIRECTORY
 COOKIES_DIRECTORY = GLOBAL_SETTINGS.COOKIES_DIRECTORY
 COOKIES_FILE = GLOBAL_SETTINGS.COOKIES_FILE
+
 @attrs
 ## класс <b>Driver()</b> 
 # реализует функции selenium 
@@ -143,12 +145,6 @@ COOKIES_FILE = GLOBAL_SETTINGS.COOKIES_FILE
     #    "view_html_source_mode": false
     #}
     # </pre>
-#<ul>
-#<li>current_url : текущий url. Нужен мне для отслеживания переключений драйвера</li>
-#<li>previous_url : прошлый url. Нужен мне для отслеживания переключений драйвера</li>
-#<li>driver : webdriver </li>
-#<li>get_parsed_google_search_result : время запуска скрипта</li>
-#</ul>
 class Driver:
    
     ### JS: Всякие javascrits полезности
@@ -196,14 +192,10 @@ class Driver:
     ## прошлый url. Нужен мне для отслеживания переключений драйвера
     previous_url : str = attrib(init = False , default = None)
     
-
     #from web_drive.google_search import GoogleHtmlParser as GoogleHtmlParser
-
     #parsed_google_search_result : GoogleHtmlParser = attrib(init = False, default = GoogleHtmlParser)
-
     #drivername : str = attrib(init = False , default = 'firefox')
     
-
     driver : WD =  attrib(init = False, default = WD)
 
     ################################################################
@@ -269,7 +261,7 @@ class Driver:
             '''
             https://stackoverflow.com/questions/40208051/selenium-using-python-geckodriver-executable-needs-to-be-in-path
             '''
-            _path = Path(BINARY_FILES_DIRECTORY , 'geckodriver.exe')
+            _path = Path(BINARY_FILES_DIRECTORY, 'geckodriver.exe')
             #binary = FirefoxBinary(_path)
             self.driver = self.driver.Firefox(executable_path = _path,
                                               options = options)
@@ -292,6 +284,7 @@ class Driver:
             #    'port': 8080,
             #    'options':options
             #}
+
             self.driver = self.driver.Edge(seleniumwire_options = seleniumwire_options)
             return True
 
@@ -341,12 +334,12 @@ class Driver:
         self.driver.page_refresh =                      self._page_refresh
         self.driver.close =                             self._close  
         self.driver.scroll =                            self._scroller
-        self.driver.previous_url : str =                self.previous_url
+        self.driver.previous_url: str =                self.previous_url
         self.driver.save_images  =                      self._save_images
         self.driver.send_keys =                         self._send_keys
                 
         self.driver.cookies =                           self.cookies
-        self.driver.cookies_file_path :Path =           self.cookies_file_path
+        #self.driver.cookies_file_path: Path =           self.cookies_file_path
         self.driver.dump_cookies_to_file =              self._dump_cookies_to_file
         self.driver.load_cookies_from_file =            self._load_cookies_from_file
 
@@ -423,60 +416,59 @@ class Driver:
     #                                                       #
     #                                                       #
     #########################################################
-    def cookie(self):
-      
-        def _load_cookies_from_file():
+
+    def _load_cookies_from_file():
             
-            logger.debug(''' cookies_file_path
-            ---------------------------
-            cookies_file_path} ''')
+        logger.debug(''' 
+---------------------------------------------------
+        cookies_file_path
+---------------------------------------------------
+        cookies_file_path} 
+---------------------------------------------------
+        ''')
 
-            if not cookies_file.exists():
-                    return False, logger.error(f'''
-                        {cookies_file_path}
-                        не найден ''')
+        if not cookies_file.exists():
+                return False, logger.error(f'''
+                    {cookies_file_path}
+                    не найден ''')
         
-            self.cookies = pickle.load(open(cookies_file_path , 'rb'))
+        self.cookies = pickle.load(open(cookies_file_path , 'rb'))
 
-            for cookie in self.cookies:
-                try:
-                    self.driver.add_cookie(cookie)  
-                    logger.debug(f''' скушал печеньки ''')
-                    continue
-                except Exception as ex:
-                    logger.error(f''' 
-                    НЕ скушал печеньки:
-                    {cookie} 
-                    ошибка:
-                    {ex}
-                    ''')
-                    continue
+        for cookie in self.cookies:
+            try:
+                self.driver.add_cookie(cookie)  
+                logger.debug(f''' скушал печеньки ''')
+                continue
+            except Exception as ex:
+                logger.error(f''' 
+                НЕ скушал печеньки:
+                {cookie} 
+                ошибка:
+                {ex}
+                ''')
+                continue
 
 
-        ## После успешного события ведрайвера я бережно сохраню печеньку  в файл 
-        #   @param
-        # -------------
-        #   cookies_file : Path('cookies.pkl')
-        def _dump_cookies_to_file(self, cookies_file_path: Path = None):
-            cookies_file_path = self.cookies_file_path if cookies_file_path is None else cookies_file_path
-            _cookies = self.driver.get_cookies()
-            #for cookie in _cookies:
-            #    if cookie.get('expiry', None) is not None:
-            #        cookie['expires'] = cookie.pop('expiry')
-            pickle.dump(_cookies, open(cookies_file_path, 'wb'))
-            logger.debug(''' 
-            сохранил печеньку 
-            {_cookies} 
-            --------------------------- 
-            в файл: 
-            {cookies_file_path} 
-            ''')
+    ## После успешного события ведрайвера я бережно сохраню печеньку  в файл 
+    #   @param
+    # -------------
+    #   cookies_file : Path('cookies.pkl')
+    def _dump_cookies_to_file(self, cookies_file_path: Path = None):
+        cookies_file_path = self.cookies_file_path if cookies_file_path is None else cookies_file_path
+        _cookies = self.driver.get_cookies()
+        #for cookie in _cookies:
+        #    if cookie.get('expiry', None) is not None:
+        #        cookie['expires'] = cookie.pop('expiry')
+        pickle.dump(_cookies, open(cookies_file_path, 'wb'))
+        logger.debug(''' 
+        сохранил печеньку 
+        {_cookies} 
+        --------------------------- 
+        в файл: 
+        {cookies_file_path} 
+        ''')
     
-        def get():
-            _load_cookies_from_file()
-
-        def save():
-            _dump_cookies_to_file()
+    
 
 
 

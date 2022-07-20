@@ -17,6 +17,7 @@ import pandas as pd
 import GLOBAL_SETTINGS as SETTINGS
 json = SETTINGS.json
 logger = SETTINGS.logger
+SCENARIES_DIRECTORY = SETTINGS.SCENARIES_DIRECTORY
 strings_formatter = SETTINGS.SF
 
 from suppliers.product import Product
@@ -58,7 +59,7 @@ def execute_list_of_scenaries(supplier) -> bool :
     #   каждому магазину.
 def run_scenario_file(suppiler, json_file) -> bool:
     _s = suppiler
-    _s.scenaries = json.loads(Path(_s.ini.paths.ini_files_dir, f'''{json_file}'''))
+    _s.scenaries = json.loads(Path(SCENARIES_DIRECTORY, f'''{json_file}'''))
     _s.scenario_category = f'''{json_file.split('.')[0]}'''
 
     ''' имя файла экспорта '''

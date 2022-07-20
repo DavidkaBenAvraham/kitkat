@@ -4838,3 +4838,45 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 Read port: 52646
 1658345904649	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileprlo1c\\search.json.mozlz4", (void 0)))
+1658346322888	geckodriver	INFO	Listening on 127.0.0.1:52804
+1658346325891	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofiley4Sd6I"
+1658346326172	Marionette	INFO	Marionette enabled
+1658346326176	Marionette	INFO	Listening on port 52816
+Read port: 52816
+1658346326284	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofiley4Sd6I\\search.json.mozlz4", (void 0)))
+1658346562344	geckodriver	INFO	Listening on 127.0.0.1:52909
+1658346565363	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileYdKKFc"
+1658346565632	Marionette	INFO	Marionette enabled
+1658346565636	Marionette	INFO	Listening on port 52921
+Read port: 52921
+1658346565813	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileYdKKFc\\search.json.mozlz4", (void 0)))
+1658349972876	geckodriver	INFO	Listening on 127.0.0.1:53657
+1658349975923	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileJ0tkUy"
+1658349976188	Marionette	INFO	Marionette enabled
+1658349976192	Marionette	INFO	Listening on port 53670
+Read port: 53670
+1658349976402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileJ0tkUy\\search.json.mozlz4", (void 0)))
+1658350078858	geckodriver	INFO	Listening on 127.0.0.1:53726
+1658350081873	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileEewJ0J"
+1658350082156	Marionette	INFO	Marionette enabled
+1658350082160	Marionette	INFO	Listening on port 53738
+Read port: 53738
+1658350082253	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileEewJ0J\\search.json.mozlz4", (void 0)))
+1658350163058	geckodriver	INFO	Listening on 127.0.0.1:53786
+1658350166077	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileOz0iHo"
+1658350166385	Marionette	INFO	Marionette enabled
+1658350166389	Marionette	INFO	Listening on port 53798
+Read port: 53798
+1658350166487	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileOz0iHo\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.morlevi.co.il"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.morlevi.co.il"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.morlevi.co.il"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.morlevi.co.il"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
