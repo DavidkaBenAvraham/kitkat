@@ -13,7 +13,12 @@
       "selector": "//ul[@class='pagination']//a[@class='page-link']"
     }
   },
-
+  "close_popup_locator": {
+    "attribute": null,
+    "by": "xpath",
+    "selector": "//div[@class='modal-dialog']//button[@class='close']",
+    "action": "click()"
+  },
 
   "product": {
     "link_to_product_locator": {
@@ -73,7 +78,7 @@
     }
   },
   "product_fields_locators": {
-    
+
   },
   "laptop_description_fields_selectors": {
     "screen": {
@@ -125,14 +130,9 @@
 
     },
 
-    "popup_locator": {
+    "======== deprecated popup_locator": {
       "by": "css selector",
       "selector": "div.messageModal"
-    },
-
-    "close_popup_locator": {
-      "by": "css selector",
-      "selector": "button.close"
     }
   }
 }

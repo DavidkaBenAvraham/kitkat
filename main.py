@@ -29,7 +29,7 @@ from threading import Thread
 from suppliers import Supplier
 
 import GLOBAL_SETTINGS
-json = GLOBAL_SETTINGS.json
+import execute_json as json
 logger = GLOBAL_SETTINGS.logger
 suppliers_list = GLOBAL_SETTINGS.suppliers_list
 
@@ -90,7 +90,7 @@ def start_script() -> bool:
             ЗАВЕРШЕНИЕ 
             supplier {supplier.supplier_prefics} 
             ''')
-            supplier.driver.close()
+            supplier.driver.quit()
 
 
 if __name__ == "__main__":

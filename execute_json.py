@@ -1,20 +1,15 @@
 ﻿# -*- coding: utf-8 -*-
 #!/usr/bin/env python
-__author__ = 'e-cat.me'
-##@package Katia.Tools
-# execute_json.py
-# всякие полезности для работы с JSON
-
+# @package Katia.Tools
 
 from pathlib import Path
 import json as json
 import csv
-from script_logger import logger
 import pandas as pd
 
 ## Сохраняю установки в файл поставщика
 def dump_supplier_settings(supplier):
-    file_path = Path(f'''{supplier.ini.paths.ini_files_dir}''',f'''{supplier.supplier_prefics}.json''')
+    file_path = Path(f'''{supplier.SCENARIES_DIRECTORY}''',f'''{supplier.supplier_prefics}.json''')
     dump(supplier.settings , file_path)
 
 ## Читаю файл из внешнего источника .
@@ -31,12 +26,12 @@ def html2json(html:str)->json:
 
 
 ## конвертация сложных объектов в список
-# @param dict_interpreter_vаlues_only
+# @param extract_keys_only
 #   если True:
 #       берется только правая часть словаря
 #   если False:
 #       выводится 2 списка - [[k],[v]]
-def convert_to_list(json, dict_interpreter_vаlues_only:bool = True, _l:list=[]) -> list:
+def convert_to_list(json, extract_keys_only:bool=True, _l:list=[])->list:
 
     
     if isinstance(json, str):
@@ -47,17 +42,24 @@ def convert_to_list(json, dict_interpreter_vаlues_only:bool = True, _l:list=[])
         _l.append(json)
 
     elif isinstance(json, list):
-        for json_file in json: _l.append(json)
+        for j in json: 
+            ''' может попасться список 
+            или словарь в списке. Гоню рекурсию
+            '''
+            if isinstance(j,dict) or isinstance(j,list):
+                convert_to_list(j, extract_keys_only, _l)
+            else:
+                _l.append(j)
 
 
     elif isinstance(json, dict):
         for scenario in json.keys(): 
-            for json_files in json[scenario]: 
+            for j in json[scenario]: 
                 ''' если есть вложенный словарь - 
                я его рекурсивно обрабатываю'''
-                if isinstance(json_files, dict):
-                    convert_to_list(json_files, dict_interpreter_vаlues_only, _l)
-                else:_l.append(json_files)
+                if isinstance(j, dict) or isinstance(j,list):
+                    convert_to_list(j, extract_keys_only, _l)
+                else:_l.append(j)
 
 
     return _l
@@ -77,7 +79,7 @@ def export(supplier, data, filename:str = None, format:list = ['json','csv','txt
 
 
     for frmt in format:
-        export_file_path = Path(f'''{supplier.ini.paths.export_dir}''' , f'''{filename}.{frmt}''')
+        export_file_path = Path(f'''{supplier.EXPORT_DIRECTORY}''' , f'''{filename}.{frmt}''')
         if frmt == 'json':
             dump(data, export_file_path)
 

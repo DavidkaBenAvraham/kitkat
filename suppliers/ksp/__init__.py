@@ -116,7 +116,7 @@ def grab_product_page(s , p) -> Product:
         - картинка не загрузилась (таймаут)
         - прочая хуйня
         '''
-        _field['img url'] = p.prepare_images(s, imgs)
+        #_field['img url'] = p.prepare_images(s, imgs)
        
         
        

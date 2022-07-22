@@ -427,7 +427,7 @@ class Driver:
 ---------------------------------------------------
         ''')
 
-        if not cookies_file.exists():
+        if not cookies_file_path.exists():
                 return False, logger.error(f'''
                     {cookies_file_path}
                     не найден ''')
@@ -541,23 +541,30 @@ class Driver:
         try:
             _d.get(f'''{url}''')
             flag = True
+            logger.debug(f'''URL: {url}''')
 
         except Exception as ex:
-            ''' не получил страницу
+            ''' не получил страницу {t}
                пробую получить ее повторно 
                {attemps} раз через интервал
-               {t}
+               
                через 
                интервал 
             '''
+            if str(ex).find('Malformed URL'): return False,logger.error(f''' 
+            Malformed URL переход по адресу:
+            {url}  
+            -------------------------------------
+            {ex} ''')
+
             t = 10
             if attemps >0:
                 logger.error(f''' Неудачный переход по адресу:
-               {url}
-               -------------------------------------
-                {ex}
-                -------------------------------------
-                следующая попытка через {t}''')  
+                   {url}
+                   -------------------------------------
+                    {ex} ''')
+                logger.error(f'''  -------------------------------------
+                    следующая попытка через {t}''')  
                 self._wait(t)
                 attemps -= 1
                 self._get_url(url, 

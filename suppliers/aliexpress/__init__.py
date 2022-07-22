@@ -78,9 +78,9 @@ def login(s) -> bool :
 stores:list = []
 def run_stores(s):
     
-    stores_groups_files_dict = json.loads(Path(s.ini.paths.ini_files_dir , f'''aliexpress.json'''))['scenaries']
+    stores_groups_files_dict = json.loads(Path(s.SCENARIES_DIRECTORY , f'''aliexpress.json'''))['scenaries']
     for stores_group_file in stores_groups_files_dict:
-        stores_dict = json.loads(Path(s.ini.paths.ini_files_dir , f'''{stores_group_file}'''))
+        stores_dict = json.loads(Path(s.SCENARIES_DIRECTORY , f'''{stores_group_file}'''))
         try:
             for store_settings_dict in stores_dict.items(): 
                 stores.append({
@@ -266,7 +266,7 @@ def grab_product_page(s , p):
 
     ## set_combinations
     def set_combinations():
-        _combina = json.loads(Path(s.ini.paths.ini_files_dir , f'''prestashop_product_combinations_fields.json'''))
+        _combina = json.loads(Path(s.SCENARIES_DIRECTORY , f'''prestashop_product_combinations_fields.json'''))
         _attr_position = 0
 
         def set_values():

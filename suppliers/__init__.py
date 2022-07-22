@@ -18,10 +18,11 @@ from attr import attrs, attrib, Factory
 from pathlib import Path
 
 import GLOBAL_SETTINGS
-json = GLOBAL_SETTINGS.json
 logger = GLOBAL_SETTINGS.logger
 SCENARIES_DIRECTORY = GLOBAL_SETTINGS.SCENARIES_DIRECTORY
+EXPORT_DIRECTORY = GLOBAL_SETTINGS.EXPORT_DIRECTORY
 
+import execute_json as json
 from web_driver import Driver 
 import suppliers.execute_scenaries as execute_scenaries
 
@@ -69,30 +70,28 @@ class Supplier:
     locators            : dict  =  attrib(init = False, default = None)                         
     ''' локаторы элементов страницы              '''
 
-    categories_locator  : dict = attrib(init = False, default = None)  
+    #categories_locator  : dict = attrib(init = False, default = None)  
     ''' локаторы элементов категорий. Сейчас я нахожусь в 
         раздумывании вынести категории в отдельный объект'''
 
-    banners_locator     : dict  = attrib(init = False, default = None) 
+    #banners_locator     : dict  = attrib(init = False, default = None) 
     ''' локаторы элементов категорий. Сейчас я нахожусь в 
         раздумывании вынести категории в отдельный объект'''
 
-
-
-    current_scenario    : dict = attrib(init = False , default = None) 
+    runned_scenario    : dict = attrib(init = False , default = None) 
     '''Исполняемый в данный момент сценарий в формате dict{}'''
     
-    current_scenario_category   : str =  attrib(init=False , default = None)
+    runned_scenario_category   : str =  attrib(init=False , default = None)
     '''Категория товаров в исполяемом сценарии 
                                     название категории заложено в третье слово имени сценария'''
 
-    current_scenario_current_url : str =  attrib(init = False, default = None)                         
+    #runned_scenario_current_url : str =  attrib(init = False, default = None)                         
     '''     url адрес сценария  '''
 
     current_node        : dict =  attrib(init=False, default = None)  
     '''  исполняемый узел сценария '''
 
-    current_nodename    : str =  attrib(init=False, default = None) 
+    #current_nodename    : str =  attrib(init=False, default = None) 
     ''' Имя испоняемого узла сценария'''
     export_file_name    : str =  attrib(init=False, default = None) 
 
@@ -111,7 +110,8 @@ class Supplier:
     c : Factory(list) = attrib(init = False , default = [])
     ''' категории '''
 
-
+    EXPORT_DIRECTORY : Path = attrib(init = False , default = GLOBAL_SETTINGS.EXPORT_DIRECTORY)
+    SCENARIES_DIRECTORY : Path = attrib(init = False , default = GLOBAL_SETTINGS.SCENARIES_DIRECTORY)
 
     ## Установки запуска  класса поставщика передаются через обязательные ключи
     # self.supplier_prefics = supplier_prefics

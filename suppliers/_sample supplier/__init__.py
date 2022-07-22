@@ -63,9 +63,9 @@ def run_stores(s):
     -------------------------
     s : текущий Supplier
     '''
-    stores_groups_files_dict = json.loads(Path(s.ini.paths.ini_files_dir , f'''{s.}.json'''))['scenaries']
+    stores_groups_files_dict = json.loads(Path(s.SCENARIES_DIRECTORY , f'''{s.}.json'''))['scenaries']
     for stores_group_file in stores_groups_files_dict:
-        stores_dict = json.loads(Path(s.ini.paths.ini_files_dir , f'''{stores_group_file}'''))
+        stores_dict = json.loads(Path(s.SCENARIES_DIRECTORY , f'''{stores_group_file}'''))
         try:
             for store_settings_dict in stores_dict.items(): 
                 stores.append({

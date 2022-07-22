@@ -37,8 +37,8 @@ class Category():
     #словарь полей комбинаций товара определена в файле <prestashop>_product_combination.json
     def __attrs_post_init__(self , *args, **kwards):
 
-        self.fields = json.loads(Path(ini.paths.ini_files_dir , f'''prestashop_product_fields.json'''))
-        self.combinations =json.loads(Path(ini.paths.ini_files_dir , f'''prestashop_product_combinations_fields.json'''))
+        self.fields = json.loads(Path(SCENARIES_DIRECTORY , f'''prestashop_product_fields.json'''))
+        self.combinations =json.loads(Path(SCENARIES_DIRECTORY , f'''prestashop_product_combinations_fields.json'''))
         
     
     @attrs

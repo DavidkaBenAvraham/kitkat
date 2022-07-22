@@ -230,10 +230,29 @@ class StringFormatter():
     @classmethod
     @staticmethod
     def  get_urlstr_params_as_dict(s:str)->dict:
-       
-        _list = str(s).split(str(s).find('?'))
-        _params_str = f'''{{ {str(_list[1]).strip().replace('=' , ':' ,str(_list[1]))} }}'''
-        _params = ast.literal_eval(_params_str)
+        ''' строю словарь из URL строки
+
+        {
+        url:value, 
+        'params':
+            {
+            url_param:value,
+            ...
+            }
+        }
+        
+        '''
+        _list = str(s).split('?')
+
+        _list_params =_list[1].split('&')
+        _str = ''
+        for param in _list_params:
+            for i in param:
+                _str += f''' "{i[0]}":"{i[1]}", '''
+            _str = _str[1:-1] # убрал последнюю запятую
+
+        #_params_str = f'''{{ {str(_list[1]).strip().replace('=',':', str(_list[1]))} }}'''
+        _params = ast.literal_eval(_str)
 
         _out :dict = {"url":_list[0], "params":_params}
 

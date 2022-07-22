@@ -49,37 +49,39 @@ from attr import attrib, attrs, Factory
 #</ul>
 class Ini():
     
-    start_time          : datetime = attrib(init = False ,default = datetime.datetime.now().strftime('%d-%m_%H.%M.%S'))
-    launcher            : dict = attrib(init = False)
-    paths               : paths = attrib(init = False ,default = None)
+    #start_time          : datetime = attrib(init = False ,default = datetime.datetime.now().strftime('%d-%m_%H.%M.%S'))
+    #launcher            : dict = attrib(init = False)
+    #paths               : paths = attrib(init = False ,default = None)
   
     @attrs
     class paths():
         ## В классе path я строю все пути к файлам и директориям программы
         
-        launcher        : dict = attrib(kw_only=True)
-        root            : Path = attrib(init=False , default = Path.cwd().absolute())
-        ini_files_dir   : Path  = attrib(init = False, default = False)
-        export_dir      : Path = attrib(init = False, default = False)
-        log_file        : Path = attrib(init = False, default = False)
-        apis_file       : Path = attrib(init = False, default = False)
+        #launcher        : dict = attrib(kw_only=True)
+        #root            : Path = attrib(init=False , default = Path.cwd().absolute())
+        #ini_files_dir   : Path  = attrib(init = False, default = False)
+        #export_dir      : Path = attrib(init = False, default = False)
+        #log_file        : Path = attrib(init = False, default = False)
+        #apis_file       : Path = attrib(init = False, default = False)
 
-        def __attrs_post_init__(self,  *args, **kwards):
-            _ : dict = self.launcher['program_paths']
-            self.ini_files_dir = Path(self.root ,  _['ini_files_dir']).absolute()
-            self.export_dir = Path(self.root.parent , _['export_dir']).absolute()
-            self.logfile  = Path(self.root.parent , _['log_files_dir'] , f'''{self.launcher['start_time']}.htm''').absolute()
-            self.apis_file = Path(self.ini_files_dir ,  _['apis_file']).absolute()
+        #def __attrs_post_init__(self,  *args, **kwards):
+        #    _ : dict = self.launcher['program_paths']
+        #    self.ini_files_dir = Path(self.root ,  _['ini_files_dir']).absolute()
+        #    self.export_dir = Path(self.root.parent , _['export_dir']).absolute()
+        #    self.logfile  = Path(self.root.parent , _['log_files_dir'] , f'''{self.launcher['start_time']}.htm''').absolute()
+        #    self.apis_file = Path(self.ini_files_dir ,  _['apis_file']).absolute()
   
     
     def __attrs_post_init__(self , *args, **kwards):
         ## __attrs_post_init__ == __init__
 
-        self.launcher : dict = json.loads(Path('launcher.json'))
-        ## словарь из файла ./launcher.json
-        self.launcher['start_time'] = self.get_now()
-        self.paths = self.paths(launcher = self.launcher)
-        ## определяю пути для скрипта 
+
+        # потихоньку отключаю функционал
+        #self.launcher : dict = json.loads(Path('launcher.json'))
+        ### словарь из файла ./launcher.json
+        #self.launcher['start_time'] = self.get_now()
+        #self.paths = self.paths(launcher = self.launcher)
+        ### определяю пути для скрипта 
 
     @staticmethod
     def get_now(strformat : str = '%m%d%H%M%S') -> datetime :

@@ -4,13 +4,13 @@
 ##@package Katia.Product
 import inspect
 import pandas as pd
-
+from pathlib import Path
 import GLOBAL_SETTINGS as SETTINGS
 json = SETTINGS.json
 logger = SETTINGS.logger
 formatter = SETTINGS.SF
-NUM_OF_PAGES_TO_BE_SAVED = SETTINGS.NUM_OF_PAGES_TO_BE_SAVED
-
+NUM_OF_IMAGES_TO_BE_SAVED = SETTINGS.NUM_OF_IMAGES_TO_BE_SAVED
+SCENARIES_DIRECTORY = SETTINGS.SCENARIES_DIRECTORY
 #from ini_files_dir import Ini
 
 #ini = Ini()
@@ -133,8 +133,8 @@ class Product():
     #словарь полей товара определена в файле <prestashop>_product_fields.json
     #словарь полей комбинаций товара определена в файле <prestashop>_product_combination.json
     def __attrs_post_init__(self , *args, **kwards):
-        self.fields = json.loads(Path(ini.paths.ini_files_dir , f'''prestashop_product_fields.json'''))
-        self.combinations =json.loads(Path(ini.paths.ini_files_dir , f'''prestashop_product_combinations_fields.json'''))
+        self.fields = json.loads(Path(SCENARIES_DIRECTORY , f'''prestashop_product_fields.json'''))
+        self.combinations =json.loads(Path(SCENARIES_DIRECTORY , f'''prestashop_product_combinations_fields.json'''))
         
 
     ##собраю локаторами нужные мне позиции со страницы товара 
@@ -210,13 +210,13 @@ class Product():
             _out = _parse_webelement(raw_imgs[0])
            
         elif isinstance(raw_imgs , list):
-            if NUM_OF_PAGES_TO_BE_SAVED == 1:
+            if NUM_OF_IMAGES_TO_BE_SAVED == 1:
                 _out = _parse_webelement(raw_imgs[0])
             else:
                 _counter = 0
                 for i in raw_imgs:
                   _out += _parse_webelement(i)
                   _counter += 1
-                  if _counter >= NUM_OF_PAGES_TO_BE_SAVED: break
+                  if _counter >= NUM_OF_IMAGES_TO_BE_SAVED: break
         return _out               
          

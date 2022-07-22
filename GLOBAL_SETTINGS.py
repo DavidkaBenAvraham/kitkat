@@ -29,4 +29,4 @@ START_TIME = get_now()
 suppliers_list: list = LAUNCHER_SETTINGS['suppliers']
 threads: bool = LAUNCHER_SETTINGS['threads']
 
-NUM_OF_PAGES_TO_BE_SAVED = 3
+NUM_OF_IMAGES_TO_BE_SAVED = 3

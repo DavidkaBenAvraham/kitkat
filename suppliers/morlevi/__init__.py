@@ -14,6 +14,7 @@ def login(supplier):
     _d.get_url(_s.settings['login_url'])
     if _login(_s): return True
     else: 
+
         try:
             #'''
             #закрываю модальные окна сайта
@@ -24,10 +25,18 @@ def login(supplier):
             if _login(_s): return True
 
 
-            close_popup_locator = (_s.locators['login']['close_popup_locator']['by'], _s.locators['login']['close_popup_locator']['selector'])
 
+
+            # артефакт из прошлой версии
+            #close_popup_locator = (_s.locators['login']['close_popup_locator']['by'], _s.locators['login']['close_popup_locator']['selector'])
+            #close_popup_btn = _d.find(close_popup_locator)
+            
+            
+
+            close_popup_locator = _s.locators['login']['close_popup_locator']
             close_popup_btn = _d.find(close_popup_locator)
             _d.wait(5)
+
             if str(type(close_popup_btn)).find("class 'list'") >-1:  # Если появилось несколько
                 for b in close_popup_btn:
                     try:
@@ -52,13 +61,9 @@ def _login(_s):
     #self.driver.switch_to_active_element()
     email = _s.locators['login']['email']
     password = _s.locators['login']['password']
-
     open_login_dialog_locator = _s.locators['login']['open_login_dialog_locator']
-
     email_locator = _s.locators['login']['email_locator']
-
     password_locator = _s.locators['login']['password_locator']
-
     loginbutton_locator =  _s.locators['login']['loginbutton_locator']
 
     try:
@@ -75,12 +80,18 @@ def _login(_s):
         return False
 
 def grab_product_page(s , p) -> Product:
+
     p.grab_product_page(s)
 
     _ : dict = s.locators['product']
     _d = s.driver
     _d.scroll(3)
     _field = p.fields
+
+
+    ''' морлеви может выкинуть модальное окно '''
+    _d.click(s.locators['close_popup_locator'])
+
 
     '''комбинации/опции товара '''
     _combinot = p.combinations
@@ -239,5 +250,5 @@ def list_product_urls_from_pagination(supplier):
 
 
     if isinstance(list_product_urls, list):
-        list_product_urls = set(list_product_urls)
+        list_product_urls = list(set(list_product_urls))
     return list_product_urls

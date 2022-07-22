@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\ini_files_dir",
     "\\suppliers",
     "\\web_driver"
   ],
-  "SelectedNode": "\\requirements.txt",
+  "SelectedNode": "\\web_driver\\__init__.py",
   "PreviewInSolutionExplorer": false
 }
