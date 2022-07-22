@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/env python
-## @package Katia.suppliers.morlevi
+## @package katia.suppliers.morlevi
 # Documentation for this module
 
 import execute_json as json

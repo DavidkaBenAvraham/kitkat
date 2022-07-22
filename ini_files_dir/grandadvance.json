@@ -3,8 +3,9 @@
   "supplier": "grandadvance",
   "supplier_prefics": "GRD-",
   "start_url": "https://www.grandadvance.co.il/",
-  "price_rule": "1.43",
-
+  "price_rule": "*1.43",
+  "num_items_4_flush": 50,
+  "if_login": true,
   "scenaries": [
     [ "grandadvance_categories_keyboards_logitech.json" ],
     [

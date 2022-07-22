@@ -4,7 +4,20 @@
     "model": "",
     "url": "https://www.morlevi.co.il/Cat/98?p_315=12&p_124=540&sort=datafloat2%2Cprice&keyword=",
     "checkbox": false,
-    "prestashop_categories": "195,196,556"
+    "prestashop_categories": {
+      "3565": "X299",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+      "3361": "Motherboards",
+      "3547": "Intel Motherboards",
+      "3389": "INTEL LGA2066",
+
+      "4012": "MANUFACTURER ->  Antec",
+      "2569": "Computer Cases",
+      "4031": "Mid Tower"
+    }
   },
   "ANTEC FULL TOWER": {
     "brand": "ANTEC",

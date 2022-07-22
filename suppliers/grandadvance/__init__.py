@@ -1,10 +1,17 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/env python
-__author__ = 'e-cat.me'
-##@package Katia
-#Documentation for this module
-def log_in(self):
-    self.print(f"Залогиниваюсь")
+#@package katia.suppliers.grandadvance
+
+import execute_json as json
+from strings_formatter import StringFormatter as SF
+from suppliers.product import Product 
+from script_logger import logger
+
+# Documentation for this module
+def login(self):
+
+
+    logger.info(f"Залогиниваюсь")
     email = self.locators['login']['email']
     password = self.locators['login']['password']
 
@@ -34,7 +41,7 @@ def log_in(self):
     ''' получаю див с кнопками Отмена и Войти
     мне нужна вторая'''
     elements[1].click()
-    self.log('Гранд logged in')
+    logger.info('Гранд logged in')
     return True
 
 

@@ -1,7 +1,7 @@
 ﻿# -*- coding: utf-8 -*-
 #!/usr/bin/env python
-__author__ = 'e-cat.me'
-##@package Katia
+#@package katia.suppliers.aliexpress
+
 #Documentation for this module
 from typing import List
 from pathlib import Path

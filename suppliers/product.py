@@ -164,7 +164,7 @@ class Product():
 
         def set_categories():
             categories :str = ','.join(_current_node['prestashop_categories'].keys())
-            field['categories'] = categories + ',2'
+            field['categories'] = categories# + ',2'
 
       
 
