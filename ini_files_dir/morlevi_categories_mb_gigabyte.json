@@ -125,7 +125,7 @@
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
       "3229": "DESKTOP COMPUTER HARDWARE",
-      "3361": "Motherboards",
+      "3449": "Motherboards",
       "3547": "Intel Motherboards",
       "3385": "INTEL LGA1200",
 
@@ -149,7 +149,7 @@
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
       "3229": "DESKTOP COMPUTER HARDWARE",
-      "3361": "Motherboards",
+      "3449": "Motherboards",
       "3547": "Intel Motherboards",
       "3385": "INTEL LGA1200",
 
@@ -165,7 +165,7 @@
 
   "GIGABYTE INTEL LGA2066 X299": {
     "brand": "GIGABYTE",
-    "url": "https://www.morlevi.co.il/Cat/343",
+    "url": "https://www.morlevi.co.il/Cat/28?p_95=411&sort=datafloat2%2Cprice&keyword=",
     "checkbox": false,
     "prestashop_categories": {
       "3565": "X299",
@@ -173,7 +173,7 @@
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
       "3229": "DESKTOP COMPUTER HARDWARE",
-      "3361": "Motherboards",
+      "3449": "Motherboards",
       "3547": "Intel Motherboards",
       "3389": "INTEL LGA2066",
 
@@ -184,7 +184,164 @@
       "3566": "X299"
 
     }
+  },
+
+  "GIGABYTE AMD AM4+  A520": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/350",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4046": "AMD A520 Chipset",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+      "3449": "Motherboards",
+      "3450": "AMD Motherboards",
+      "4044": "AM+",
+
+      "2271": "MANUGACTURER ->  Gigabyte",
+      "3543": "Motherboards",
+      "3545": "AMD motherboards",
+      "4050": "Motherboards AMD AM+",
+      "4052": "AMD A520 Chipset"
+
+    }
+  },
+
+  "GIGABYTE AMD AM4+  B450": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/311",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4047": "AMD B450 Chipset",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+      "3449": "Motherboards",
+      "3450": "AMD Motherboards",
+      "4044": "AM+",
+
+      "2271": "MANUGACTURER ->  Gigabyte",
+      "3543": "Motherboards",
+      "3545": "AMD motherboards",
+      "4050": "Motherboards AMD AM+",
+      "4053": "AMD B450 Chipset"
+
+    }
+  },
+
+  "GIGABYTE AMD AM4+  B550": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/340",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4049": "AMD B450 Chipset",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+      "3449": "Motherboards",
+      "3450": "AMD Motherboards",
+      "4044": "AM+",
+
+      "2271": "MANUGACTURER ->  Gigabyte",
+      "3543": "Motherboards",
+      "3545": "AMD motherboards",
+      "4050": "Motherboards AMD AM+",
+      "4055": "AMD B550 Chipset"
+
+    }
+  },
+
+  "GIGABYTE AMD AM4+  X570/X570S": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/22?p_95=4022&p_95=3225",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4056": "AMD X570/X570S Chipset",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+      "3449": "Motherboards",
+      "3450": "AMD Motherboards",
+      "4044": "AM+",
+
+      "2271": "MANUGACTURER ->  Gigabyte",
+      "3543": "Motherboards",
+      "3545": "AMD motherboards",
+      "4050": "Motherboards AMD AM+",
+      "4057": "AMD X570/X570S Chipset"
+    }
+  },
+
+  "GIGABYTE AMD Threadripper   TRX40": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/349",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4058": "AMD TRX40 Chipset",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+      "3449": "Motherboards",
+      "3450": "AMD Motherboards",
+      "4045": "Motherboards Threadripper ",
+
+      "2271": "MANUGACTURER ->  Gigabyte",
+      "3543": "Motherboards",
+      "3545": "AMD motherboards",
+      "4050": "Motherboards AMD AM+",
+      "4061": "AMD TRX40 Chipsets"
+
+    }
+  },
+  "GIGABYTE AMD Threadripper   X399": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/353",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4059": "AMD X399 Chipset",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+      "3449": "Motherboards",
+      "3450": "AMD Motherboards",
+      "4045": "Motherboards Threadripper ",
+
+      "2271": "MANUGACTURER ->  Gigabyte",
+      "3543": "Motherboards",
+      "3545": "AMD motherboards",
+      "4050": "Motherboards AMD AM+",
+      "4062": "AMD X399 Chipset"
+
+    }
+  },
+
+  "GIGABYTE AMD Threadripper   WRX80": {
+    "brand": "GIGABYTE",
+    "url": "https://www.morlevi.co.il/Cat/366",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4060": "AMD WRX80 Chipset",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+      "3449": "Motherboards",
+      "3450": "AMD Motherboards",
+      "4045": "Motherboards Threadripper ",
+
+      "2271": "MANUGACTURER ->  Gigabyte",
+      "3543": "Motherboards",
+      "3545": "AMD motherboards",
+      "4050": "Motherboards AMD AM+",
+      "4063": "AMD WRX80 Chipset"
+
+    }
   }
-
-
-} 
+}

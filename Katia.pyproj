@@ -930,6 +930,8 @@
     <Content Include="aliexpress_api\tools\desktop.ini" />
     <Content Include="apis\README.md" />
     <Content Include="DB\prestashop-viewers-creation.sql" />
+    <Content Include="DB\update_viewers_after_installation_kazarinov.sql" />
+    <Content Include="DB\update_viewers_after_installation_shalom_phones.sql" />
     <Content Include="DOC\doxygen\def\doxygen.def" />
     <Content Include="DOC\doxygen\Doxyfile" />
     <Content Include="DOC\doxygen\doxygen_log.txt" />

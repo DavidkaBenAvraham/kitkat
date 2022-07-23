@@ -539,7 +539,7 @@ class Driver:
 
         flag = False
         try:
-            _d.get(f'''{url}''')
+            _d.get(f'''{url} ''')
             flag = True
             logger.debug(f'''URL: {url}''')
 

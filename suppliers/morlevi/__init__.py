@@ -226,7 +226,15 @@ def list_product_urls_from_pagination(supplier):
 
     list_product_urls : list = []
     _product_list_from_page = _d.find(_l)
-    ''' может вернуться или список адресов или строка. '''
+    ''' может вернуться или список адресов или строка или None 
+    если нет товаров на странице на  данный момент'''
+    if _product_list_from_page is None: 
+        ''' нет смысла продожать. Нет товаров в категории 
+        Возвращаю пустой список'''
+        logger.debug(f''' Нет товаров в категории по адресу
+       {_d.current_url}''')
+        return list_product_urls
+
     if isinstance(_product_list_from_page,list):
         list_product_urls.extend(_product_list_from_page)
     else:
