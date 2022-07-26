@@ -26,7 +26,7 @@ API_DIRECTORY:Path = None
 BINARY_FILES_DIRECTORY = Path(ROOT_DIRECTORY,_paths['binary_files_dir']).absolute()
 START_TIME = get_now()
 
-suppliers_list: list = LAUNCHER_SETTINGS['suppliers']
-threads: bool = LAUNCHER_SETTINGS['threads']
+SUPPLIERS_LIST_FOR_SCRAPPING: list = LAUNCHER_SETTINGS['suppliers']
+THREADS: bool = LAUNCHER_SETTINGS['threads']
 
 NUM_OF_IMAGES_TO_BE_SAVED = 3

@@ -192,8 +192,10 @@ class Product():
 
         def _parse_webelement(we):
             if str(type(we)).lower().find('selenium') > 0 :
-                ''' найден вебэлемент . 
-                 @TODO - узнать какой аттрибут вытащить
+                ''' если будет найден вебэлемент . 
+                 @TODO - надо будет 
+                 узнать какой аттрибут вытащить 
+                 (src/href/img)
                  '''
                 logger.debug(f'''  
                 найден вебэлемент . 

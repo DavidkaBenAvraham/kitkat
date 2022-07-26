@@ -66,8 +66,17 @@ def grab_product_page(s , p) -> Product:
     '''
     
     def set_id():
-        _field['id'] = _d.find(_['product_sku_locator'])
+        _id = _d.find(_['product_sku_locator'])
+        counter = 0 
+        while _id is None:
+            counter += 1
+            _d.wait(10)
+            _id = _d.find(_['product_sku_locator'])
+            logger.error(f''' Не нашелся id ''')
+            if counter > 5: break
 
+        _field['id'] = _id
+         
     def set_sku_suppl():
         _field['mkt suppl'] = _field['id']
 
@@ -88,6 +97,9 @@ def grab_product_page(s , p) -> Product:
     def set_cost_price():
         _price = _d.find(_['product_price_locator'])
         '''  Может прийти все, что угодно  '''
+        if _price is None:
+            logger.error(f''' Не нашлась цена ''')
+
         _price = SF.clear_price(_price)
         _field['cost price'] =  _price
         logger.debug(f'''

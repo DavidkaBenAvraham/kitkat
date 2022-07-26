@@ -4,18 +4,18 @@
     "url": "https://ksp.co.il/web/cat/219..255..15733..9335",
     "checkbox": false,
     "prestashop_categories": {
-      "3379": "Microsoft Xbox Series X",
+      "3230": "Microsoft Xbox Series X",
 
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
       "3228": "Gaming Consoles",
       "3376": "Microsoft Xbox",
-
+      "3379": "Microsoft Xbox Series X",
 
 
       "2255": "MICROSOFT",
-      "3232": "Microsoft X-Box",
-      "3230": "Microsoft Xbox Series X"
-      
+      "3232": "Microsoft X-Box"
+
+
     },
     "price_rule": 1
   },
@@ -24,17 +24,17 @@
     "url": "https://ksp.co.il/web/cat/219..255..15734..9335",
     "checkbox": false,
     "prestashop_categories": {
-      "3380": "Microsoft Xbox Series S",
+      "3231": "Microsoft Xbox Series S",
 
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
       "3228": "Gaming Consoles",
       "3376": "Microsoft Xbox",
-
+      "3380": "Microsoft Xbox Series S",
 
 
       "2255": "MICROSOFT",
-      "3232": "Microsoft X-Box",
-      "3231": "Microsoft Xbox Series S"
+      "3232": "Microsoft X-Box"
+
 
     },
     "price_rule": 1

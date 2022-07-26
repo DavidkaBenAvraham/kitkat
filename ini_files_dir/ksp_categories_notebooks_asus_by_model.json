@@ -1,121 +1,2421 @@
 {
-  "Asus Laptop  E203 11.6 Intel Celeron": {
+  "Asus Laptop E210 Intel Celeron": {
     "brand": "ASUS",
-    "url": "https://ksp.co.il/web/cat/271..1358..212..24403..406",
+    "url": "https://ksp.co.il/web/cat/271..1358..16177",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
+      "2288": "Asus Laptop E210",
 
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
-
-    }
-  "Asus Laptop X": {
-    "brand": "ASUS",
-    "url": "https://ksp.co.il/web/cat/271..1358..9419..19412..22537",
-    "checkbox": false,
-    "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4126": "Laptops with screen size about 11 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4132": "Intel Celeron",
 
 
-      "3198": "CONSUMER ELECTRONICS",
-      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4166": "Asus Laptop"
 
     }
   },
-  "Asus Laptop M": {
+  "Asus Laptop E410": {
     "brand": "ASUS",
-    "url": "https://ksp.co.il/web/cat/271..1358..28121..21237",
+    "url": "https://ksp.co.il/web/cat/271..1358..14699",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
+      "2289": "Asus Laptop E410",
 
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4132": "Intel Celeron",
+
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4166": "Asus Laptop"
+    }
+  },
+  "Asus Laptop E510": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..22586",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2290": "Asus Laptop E510",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4132": "Intel Celeron",
+
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4166": "Asus Laptop"
 
     }
   },
-  "Asus Vivobook": {
+  "Asus Laptop X415 Intel Celeron": {
     "brand": "ASUS",
-    "url": "https://ksp.co.il/web/cat/271..1358..32457..35129..19149..33557..13987..23221..13633..29915..28789..30157..29654..31384..31279..13965",
+    "url": "https://ksp.co.il/web/cat/271..1358..19412..406",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
-
+      "2291": "X415 Intel Celeron",
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4132": "Intel Celeron",
+
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4166": "Asus Laptop"
 
     }
   },
-  "Asus ProArt StudioBook": {
+  "Asus Laptop X415 Intel Core i3 - U": {
     "brand": "ASUS",
-    "url": "https://ksp.co.il/web/cat/271..1358..34432..31287",
+    "url": "https://ksp.co.il/web/cat/271..1358..19412..2179",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
-
+      "2291": "X415 Intel Core i3 - U",
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4132": "Intel Celeron",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4166": "Asus Laptop"
 
     }
   },
-  "Asus TUF Gaming": {
+  "Asus Laptop X415 Intel Core i3 - G": {
     "brand": "ASUS",
-    "url": "https://ksp.co.il/web/cat/271..1358..19134..19147..19979..35068",
+    "url": "https://ksp.co.il/web/cat/271..1358..19412..9718",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
-
+      "2291": "X415 Intel Core i3 - G",
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4135": "Intel Core i3",
+
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4166": "Asus Laptop"
 
     }
   },
-  "Asus ROG": {
+  "Asus Laptop X415 Intel Core i5 - G": {
     "brand": "ASUS",
-    "url": "https://ksp.co.il/web/cat/271..1358..26133..20729..13980..21433..20675..20924..21167",
+    "url": "https://ksp.co.il/web/cat/271..1358..19412..5394",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
-
+      "2291": "X415 Intel Core i5 - G",
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4166": "Asus Laptop"
 
     }
   },
-  "Asus ZenBook": {
+  "Asus Laptop X415 Intel Core i7 - G": {
     "brand": "ASUS",
-    "url": "https://ksp.co.il/web/cat/271..1358..25464..31880..31505..25975..21372..28771..13864..7720..14098..32374..16902",
+    "url": "https://ksp.co.il/web/cat/271..1358..19412..5315",
     "checkbox": false,
     "prestashop_categories": {
-      "3405": "GOOGLE PIXEL PRO",
+      "2291": "X415 Intel Core i7 - G",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4166": "Asus Laptop"
+
+    }
+  },
+  "Asus Laptop X515 Intel Celeron": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..22537..406",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2292": "X515 Intel Celeron",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4132": "Intel Celeron",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4166": "Asus Laptop"
+    }
+  },
+  "Asus Laptop X515 Intel Core i3 - U": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..22537..2179",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2292": "X515 Intel Core i3 - U",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4165": "Intel Core i3",
+
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4166": "Asus Laptop"
+    }
+  },
+  "Asus Laptop X515 Intel Core i3 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..22537..9718",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2292": "X515 Intel Core i3 - G",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4165": "Intel Core i3",
+
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4166": "Asus Laptop"
+    }
+  },
+  "Asus Laptop X515 Intel Core i5 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..22537..9718",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2292": "X515 Intel Core i5 - G",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4166": "Asus Laptop"
+    }
+  },
+  "Asus Laptop X515 Intel Core i7 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..22537..5315",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2292": "X515 Intel Core i7 - G",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4166": "Asus Laptop"
+    }
+  },
+  "Asus Laptop M509 AMD A6": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..16177..19412..22537",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2293": "M509 AMD A6",
+
 
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
-      "3373": "Smartphones",
-      "3403": "GOOGLE"
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4150": "Laptops AMD CPU",
+      "4154": "AMD A6",
 
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4166": "Asus Laptop"
+
+    }
+  },
+  "Asus Laptop M515 Ryzen 3": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..21237..4449",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2294": "M515 Ryzen 3",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4150": "Laptops AMD CPU",
+      "4155": "Ryzen 3",
+
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4166": "Asus Laptop"
+
+
+    }
+  },
+  "Asus Laptop M515 Ryzen 5": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..21237..4039",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2294": "M515 Ryzen 5",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4150": "Laptops AMD CPU",
+      "4156": "Ryzen 5",
+
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4166": "Asus Laptop"
+
+
+    }
+  },
+  "Asus VivoBook 13 Slate T3300 Intel Pentium - N ": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..32457..2184",
+    "checkbox": false,
+    "prestashop_categories": {
+      "2295": "13 Slate T3300 Intel Pentium - N",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4127": "Laptops with screen size about 13 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4133": "Intel Pentium",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+
+
+    }
+  },
+  "Asus Vivobook Go 14 Flip TP1401": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..35129..2184",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4064": "Asus Vivobook Go 14 Flip TP1401 Pentium - N",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4127": "Laptops with screen size about 13 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4133": "Intel Pentium",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+
+
+    }
+  },
+  "Asus VivoBook Flip 14 TM420 Ryzen 7": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..19149..3955",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4065": "Asus VivoBook Flip 14 TM420 Ryzen 7",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4150": "Laptops AMD CPU",
+      "4157": "Ryzen 7",
+
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+
+    }
+  },
+  "Asus VivoBook Flip 14 TP470 Intel Core i5 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..33557..5394",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4066": "Asus VivoBook Flip 14 TP470 Intel Core i5 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4149": "Laptops Intel cpu",
+      "4133": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+
+    }
+  },
+  "Asus VivoBook 14 X413 / K413 Intel Core i5 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..13987..5394",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4067": "Asus VivoBook 14 X413 / K413 Intel Core i5 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4133": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook 14 X413 / K413 Intel Core i7 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..13987..5315",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4067": "Asus VivoBook 14 X413 / K413 Intel Core i7 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook 15 X512 Intel Core i5 - U": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..7653..2183",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4068": "Asus VivoBook 15 X512 Intel Core i5 - U",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4133": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+
+    }
+  },
+  "Asus VivoBook 15 X513 / K513 Intel Core i5 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..23221..5394",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4069": "Asus VivoBook 15 X513 / K513 Intel Core i5 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4133": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook 15 X513 / K513 Intel Core i7 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..5315..23221",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4069": "Asus VivoBook 15 X513 / K513 Intel Core i7 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook S14 S433 Intel Core i5 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..13965..5394",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4070": "Asus VivoBook S14 S433 Intel Core i5 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4133": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook 14 X1400 Intel Core i3 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..39833..9718",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4071": "Asus VivoBook 14 X1400 Intel Core i3 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4135": "Intel Core i3",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook 14 X1400 Intel Core i5 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..39833..5394",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4071": "Asus VivoBook 14 X1400 Intel Core i5 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook 14 X1400 Intel Core i7 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..39833..5315",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4071": "Asus VivoBook 14 X1400 Intel Core i7 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook 14 X1402 Intel Core i3 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..40125..9718",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4073": "Asus VivoBook 14 X1402 Intel Core i3 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4135": "Intel Core i3",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook 14 X1402 Intel Core i5 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..40125..5394",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4073": "Asus VivoBook 14 X1402 Intel Core i5 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook 14 X1402 Intel Core i7 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..40125..5315",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4073": "Asus VivoBook 14 X1402 Intel Core i7 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook 15 X1500 Intel Core i3 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..40125..9718",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4073": "Asus VivoBook 15 X1500 Intel Core i3 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4135": "Intel Core i3",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus Vivobook S 14 OLED K3402 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..38716..5274",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4074": "Asus Vivobook S 14 OLED K3402 Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus Vivobook S 15 OLED K3502  Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..40142..5274",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4075": "Asus Vivobook S 15 OLED K3502  Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus Vivobook S 14X OLED S5402 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..38616..5274",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4076": "Asus Vivobook S 14X OLED S5402 Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus Vivobook S 16X OLED S5602 Intel Core i5 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..16177..19412..22537",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4077": "Asus Vivobook S 16X OLED S5602 Intel Core i5 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 17 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus Vivobook S 16X OLED S5602 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..39648..5274",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4077": "Asus Vivobook S 16X OLED S5602 Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 17 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+
+  "Asus VivoBook Pro 14 OLED M3401 Ryzen 7": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..31384..3955",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4078": "Asus VivoBook Pro 14 OLED M3401 Ryzen 7",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4150": "Laptops AMD cpu",
+      "4157": "Ryzen 7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook Pro 15 OLED K3500 Intel Core i5 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..29654..2174",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4079": "Asus VivoBook Pro 15 OLED K3500 Intel Core i5 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook Pro 15 OLED K3500 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..29654..5274",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4079": "Asus VivoBook Pro 15 OLED K3500 Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus Vivobook Pro 15 M3500 Ryzen 5": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..30157..4039",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4080": "Asus Vivobook Pro 15 M3500 Ryzen 5",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4150": "Laptops amd cpu",
+      "4156": "Ryzen 5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus Vivobook Pro 15 M3500 Ryzen 7": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..30157..3955",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4080": "Asus Vivobook Pro 15 M3500 Ryzen 7",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4150": "Laptops amd cpu",
+      "4157": "Ryzen 7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook Pro 14X N7400 Intel Core i5 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..28789..2174",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4081": "Asus VivoBook Pro 14X N7400 Intel Core i5 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook Pro 14X N7400 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..28789..5274",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4081": "Asus VivoBook Pro 14X N7400 Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook Pro 14X OLED N7401 Intel Core i9 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..16177..19412..22537",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4082": "Asus VivoBook Pro 14X OLED N7401 Intel Core i9 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook Pro 16X OLED N7600 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..40429..5274",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4083": "Asus VivoBook Pro 16X OLED N7600 Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 17 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook 15X OLED X1503 Intel Core i5 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..39614..2174",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4084": "Asus VivoBook 15X OLED X1503 Intel Core i5 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus VivoBook 15X OLED X1503 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..39614..5274",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4084": "Asus VivoBook 15X OLED X1503 Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus Vivobook 16X X1603 Intel Core i5 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..38386..2174",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4085": "Asus Vivobook 16X X1603 Intel Core i5 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 16 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4165": "Asus VivoBook"
+    }
+  },
+  "Asus ProArt Studiobook 16 H5600 Ryzen 7": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..40111..3955",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4086": "Asus ProArt Studiobook 16 H5600 Ryzen 7",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 16 inch",
+      "4148": "Laptops by cpu",
+      "4150": "Laptops amd cpu",
+      "4157": "Ryzen 7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4168": "Asus ProArt Studiobook"
+    }
+  },
+  "Asus ProArt Studiobook 16 OLED H5600 Ryzen 7": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..38651..3955",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4087": "Asus ProArt Studiobook 16 OLED H5600 Ryzen 7",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 16 inch",
+      "4148": "Laptops by cpu",
+      "4150": "Laptops amd cpu",
+      "4157": "Ryzen 7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4168": "Asus ProArt Studiobook"
+    }
+  },
+  "Asus ProArt Studiobook 16 OLED H5600 Ryzen 9": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..38651..8536",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4087": "Asus ProArt Studiobook 16 OLED H5600 Ryzen 9",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 16 inch",
+      "4148": "Laptops by cpu",
+      "4150": "Laptops amd cpu",
+      "4158": "Ryzen 9",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4168": "Asus ProArt Studiobook"
+    }
+  },
+  "Asus ProArt Studiobook 16 OLED H7600 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..16177..19412..22537",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4088": "Asus ProArt Studiobook 16 OLED H7600 Intel Core i7 - H",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 16 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4168": "Asus ProArt Studiobook"
+    }
+  },
+  "Asus ProArt Studiobook Pro 16 OLED W5600 Ryzen 9": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..38656..8536",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4089": "Asus ProArt Studiobook Pro 16 OLED W5600 Ryzen 9",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 16 inch",
+      "4148": "Laptops by cpu",
+      "4150": "Laptops amd cpu",
+      "4158": "Ryzen 9",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4168": "Asus ProArt Studiobook"
+    }
+  },
+  "Asus ProArt StudioBook Pro 16 OLED W7600 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..31287..5274",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4090": "Asus ProArt StudioBook Pro 16 OLED W7600 Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 16 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4168": "Asus ProArt Studiobook"
+    }
+  },
+  "Asus TUF Gaming F15 FX506 Intel Core i5 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..19134..2174",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4091": "Asus TUF Gaming F15 FX506 Intel Core i5 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4169": "Asus TUF Gaming"
+    }
+  },
+  "Asus TUF Gaming F15 FX506 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..19134..5274",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4091": "Asus TUF Gaming F15 FX506 Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4169": "Asus TUF Gaming"
+    }
+  },
+  "Asus TUF Gaming F15 FX507 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..35068..5274",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4092": "Asus TUF Gaming F15 FX507 Intel Core i7 - H",
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4169": "Asus TUF Gaming"
+    }
+  },
+  "Asus TUF Gaming F15 FX516 Intel Core i5 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..19979..2174",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4093": "Asus TUF Gaming F15 FX516 Intel Core i5 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4169": "Asus TUF Gaming"
+    }
+  },
+  "Asus TUF Gaming F15 FX516 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..19979..5274",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4093": "Asus TUF Gaming F15 FX516 Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4169": "Asus TUF Gaming"
+    }
+  },
+  "Asus TUF Dash F15 FX517 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..37604..5274",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4094": "Asus TUF Dash F15 FX517 Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4169": "Asus TUF Gaming"
+    }
+  },
+  "Asus TUF Gaming F17 FX706 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..19147..5274",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4095": "Asus TUF Gaming F17 FX706 Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 17 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4169": "Asus TUF Gaming"
+    }
+  },
+  "Asus TUF Gaming F17 FX706 Intel Core i9 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..19147..8160",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4095": "Asus TUF Gaming F17 FX706 Intel Core i9 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 17 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4171": "Intel Core i9",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4169": "Asus TUF Gaming"
+    }
+  },
+  "Asus TUF Gaming F17 FX707 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..16177..19412..22537",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4096": "Asus TUF Gaming F17 FX707 Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 17 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4169": "Asus TUF Gaming"
+    }
+  },
+  "Asus ROG Strix G15 G513 Ryzen 7": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..21167..3955",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4097": "Asus ROG Strix G15 G513 Ryzen 7",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4150": "Laptops AMD cpu",
+      "4157": "Ryzen 7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4170": "Asus ROG"
+    }
+  },
+  "Asus ROG Strix G17 G713 Ryzen 7": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..20298..3955",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4098": "Asus ROG Strix G17 G713 Ryzen 7",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 17 inch",
+      "4148": "Laptops by cpu",
+      "4150": "Laptops AMD cpu",
+      "4157": "Ryzen 7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4170": "Asus ROG"
+    }
+  },
+  "Asus ROG Strix G17 G713 Ryzen 9": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..20298..8536",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4098": "Asus ROG Strix G17 G713 Ryzen 9",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 17 inch",
+      "4148": "Laptops by cpu",
+      "4150": "Laptops AMD cpu",
+      "4158": "Ryzen 9",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4170": "Asus ROG"
+    }
+  },
+  "Asus ROG Strix SCAR 15 G533 Intel Core i9 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..20924..8160",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4099": "Asus ROG Strix SCAR 15 G533 Intel Core i9 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4171": "Intel Core i9",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4170": "Asus ROG"
+    }
+  },
+  "Asus ROG Strix SCAR 17 G733 Intel Core i9 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..20675..8160",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4100": "Asus ROG Strix SCAR 17 G733 Intel Core i9 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 17 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4171": "Intel Core i9",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4170": "Asus ROG"
+    }
+  },
+  "Asus ROG Strix SCAR 17 G733 SE Intel Core i9 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..39531..39541",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4101": "Asus ROG Strix SCAR 17 G733 Intel Core i9 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 17 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4171": "Intel Core i9",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4170": "Asus ROG"
+    }
+  },
+  "Asus ROG Flow Z13 GZ301 Intel Core i5 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..35490..2174",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4102": "Asus ROG Flow Z13 GZ301 Intel Core i5 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4127": "Laptops with screen size about 13 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4170": "Asus ROG"
+    }
+  },
+  "Asus ROG Flow Z13 GZ301 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..35490..5274",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4102": "Asus ROG Flow Z13 GZ301 Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4127": "Laptops with screen size about 13 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4170": "Asus ROG"
+    }
+  },
+  "Asus ROG Flow Z13 GZ301 Intel Core i9 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..35490..8160",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4102": "Asus ROG Flow Z13 GZ301 Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4127": "Laptops with screen size about 13 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4170": "Asus ROG"
+    }
+  },
+  "Asus ROG Flow X13 GV301 Ryzen 7": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..21433..3955",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4103": "Asus ROG Flow X13 GV301 Ryzen 7",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4127": "Laptops with screen size about 13 inch",
+      "4148": "Laptops by cpu",
+      "4150": "Laptops AMD cpu",
+      "4157": "Ryzen 7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4170": "Asus ROG"
+    }
+  },
+  "Asus ROG Flow X13 GV301 Ryzen 9": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..21433..8536",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4103": "Asus ROG Flow X13 GV301 Ryzen 9",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4127": "Laptops with screen size about 13 inch",
+      "4148": "Laptops by cpu",
+      "4150": "Laptops AMD cpu",
+      "4158": "Ryzen 9",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4170": "Asus ROG"
+    }
+  },
+  "Asus ROG Flow X16 GV601 2022 Ryzen 9": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..40145..8536",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4104": "Asus ROG Flow X16 GV601 2022 Ryzen 9",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 17 inch",
+      "4148": "Laptops by cpu",
+      "4150": "Laptops AMD cpu",
+      "4158": "Ryzen 9",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4170": "Asus ROG"
+    }
+  },
+  "Asus ROG Zephyrus G15 GA503 Ryzen 9": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..20729..8536",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4105": "Asus ROG Zephyrus G15 GA503 Ryzen 9",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4150": "Laptops AMD cpu",
+      "4158": "Ryzen 9",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4170": "Asus ROG"
+    }
+  },
+  "Asus ROG Zephyrus M16 GU603 Intel Core i9 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..26133..8160",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4106": "Asus ROG Zephyrus M16 GU603 Intel Core i9 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 17 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4171": "Intel Core i9",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4170": "Asus ROG"
+    }
+  },
+  "Asus ROG Zephyrus G14 GA402 Ryzen 7": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..38625..3955",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4107": "Asus ROG Zephyrus G14 GA402 Ryzen 7",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4140": "Laptops AMD cpu",
+      "4157": "Ryzen 7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4170": "Asus ROG"
+    }
+  },
+  "Asus ROG Zephyrus G14 GA402 Ryzen 9": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..38625..8536",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4107": "Asus ROG Zephyrus G14 GA402 Ryzen 9",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4140": "Laptops AMD cpu",
+      "4158": "Ryzen 9",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4170": "Asus ROG"
+    }
+  },
+  "Asus ROG Zephyrus Duo 16 GX650 Ryzen 9": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..39664..8536",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4108": "Asus ROG Zephyrus Duo 16 GX650 Ryzen 9",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 17 inch",
+      "4148": "Laptops by cpu",
+      "4140": "Laptops AMD cpu",
+      "4158": "Ryzen 9",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4170": "Asus ROG"
+    }
+  },
+  "Asus Zenbook Flip 13 UX363 Intel Core i5 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..16902..5394",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4109": "Asus Zenbook Flip 13 UX363 Intel Core i5 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4127": "Laptops with screen size about 13 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook Flip 13 UX363 Intel Core i7 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..16902..5315",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4109": "Asus Zenbook Flip 13 UX363 Intel Core i7 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4127": "Laptops with screen size about 13 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook Flip 14 UP5401 Intel Core i5 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..32374..2174",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4110": "Asus Zenbook Flip 14 UP5401 Intel Core i5 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook Flip 14 UP5401 Intel Core i5 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..32374..5394",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4110": "Asus Zenbook Flip 14 UP5401 Intel Core i5 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook Flip 14 UP5401 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..32374..5274",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4110": "Asus Zenbook Flip 14 UP5401 Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook 13 UX325 Intel Core i5 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..14098..5394",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4111": "Asus Zenbook 13 UX325 Intel Core i5 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4127": "Laptops with screen size about 13 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook 13 UX325 Intel Core i7 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..14098..5315",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4111": "Asus Zenbook 13 UX325 Intel Core i7 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4127": "Laptops with screen size about 13 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook 14 UX425 Intel Core i3 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..13864..9718",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4112": "Asus Zenbook 14 UX425 Intel Core i3 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4135": "Intel Core i3",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook 14 UX425 Intel Core i5 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..13864..5394",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4112": "Asus Zenbook 14 UX425 Intel Core i5 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook 14 UX425 Intel Core i7 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..13864..5315",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4112": "Asus Zenbook 14 UX425 Intel Core i7 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook 14 UX435 Intel Core i7 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..21484..5315",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4113": "Asus Zenbook 14 UX435 Intel Core i7 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook 14 OLED UX3402 Intel Core i5 - P": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..16177..19412..22537",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4114": "Asus Zenbook 14 OLED UX3402 Intel Core i5 - P",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook 14 OLED UX3402 Intel Core i7 - P": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..37869..35373",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4114": "Asus Zenbook 14 OLED UX3402 Intel Core i7 - P",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook 14 OLED UM3402 Ryzen 7": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..37624..3955",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4115": "Asus Zenbook 14 OLED UM3402 Ryzen 7",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4150": "Laptops AMD cpu",
+      "4157": "Ryzen 7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook 14X OLED UX5400 Intel Core i7 - P": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..31505..35373",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4116": "Asus Zenbook 14X OLED UX5400 Intel Core i7 - P",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook 14X UX5401 Intel Core i5 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..31880..5394",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4117": "Asus Zenbook 14X UX5401 Intel Core i5 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4138": "Intel Core i5",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook 14X UX5401 Intel Core i7 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..31880..5315",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4117": "Asus Zenbook 14X UX5401 Intel Core i7 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook 14X OLED Space Edition UX5401 Intel Core i9 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..40421..8160",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4118": "Asus Zenbook 14X OLED Space Edition UX5401 Intel Core i9 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4171": "Intel Core i9",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook Duo 14 UX482 Intel Core i7 - G": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..21372..5315",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4119": "Asus Zenbook Duo 14 UX482 Intel Core i7 - G",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook Pro 15 UX535 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..25975..5274",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4120": "Asus Zenbook Pro 15 UX535 Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook Pro 16X OLED UX7602 Intel Core i9 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..40459..8160",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4121": "Asus Zenbook Pro 16X OLED UX7602 Intel Core i9 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4130": "Laptops with screen size about 16 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4171": "Intel Core i9",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook Pro Duo 14 OLED UX8402 Intel Core i9 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..40468..8160",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4122": "Asus Zenbook Pro Duo 14 OLED UX8402 Intel Core i9 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4128": "Laptops with screen size about 14 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4171": "Intel Core i9",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
+    }
+  },
+  "Asus Zenbook Pro Duo 15 OLED UX582 Intel Core i7 - H": {
+    "brand": "ASUS",
+    "url": "https://ksp.co.il/web/cat/271..1358..25464..5274",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4123": "Asus Zenbook Pro Duo 15 OLED UX582 Intel Core i7 - H",
+
+
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3225": "Laptops",
+      "4125": "Laptops by screen size",
+      "4129": "Laptops with screen size about 15 inch",
+      "4148": "Laptops by cpu",
+      "4149": "Laptops Intel cpu",
+      "4143": "Intel Core i7",
+
+      "2258": "brand : ASUS",
+      "2287": "Laptops",
+      "4167": "Asus Zenbook"
     }
   }
 }

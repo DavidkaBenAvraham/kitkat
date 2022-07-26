@@ -1,0 +1,26 @@
+{
+  "CATEGORIES  EN": {
+    "spreadsheet_id": "1irlXh0n7ErB49pcjyd52OgO5RIw7wvSBE61OVBIvTzg",
+    "tables": {
+      "EXPORT": {
+        "PARENT": "2"
+      },
+      "IMPORT ALIEXPRESS": {
+        "PARENT": "2801"
+      },
+      "IMPORT BRANDS": {
+        "PARENT": "2"
+      },
+      "IMPORT SPACES": {
+        "PARENT": "2"
+      },
+      "SPACES": {
+        "PARENT": "2"
+      },
+      "suppliers": {
+        "PARENT": "2"
+      }
+
+    }
+  }
+}

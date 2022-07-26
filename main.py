@@ -1,27 +1,17 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/env python
 ## @package Katia
-# main() - запуск программы
-# !pip install conda
-# !pip install selenium
-# !pip install google
-# !pip install aliyun-python-sdk-core-v3
-# !pip install aliexpress-sdk
-# !pip install python-aliexpress-api
 ## обертка для работы с aliexpress API
 ## отсюда https://github.com/sergioteula/python-aliexpress-api/  
-# !pip install selenium-wire
 ## обертка для selenium
 ## с поддержкой request, request.responce 
 ## и др, хз как подружить с kora
 ## отсюда https://github.com/DavidkaBenAvraham/selenium-wire  
-# !pip install kora
 ## обертка для google colab
-# !pip install pyautogui
 ## двигалка мыши по экрану
 ## отсюда https://itproger.com/news/programma-na-python-dlya-upravleniya-kompyuterom-pyautogui
 
-
+import time
 from pathlib import Path
 from threading import Thread
 ''' Работа с потоками описана в https://python-scripts.com/threading '''
@@ -31,7 +21,7 @@ from suppliers import Supplier
 import GLOBAL_SETTINGS
 import execute_json as json
 logger = GLOBAL_SETTINGS.logger
-suppliers_list = GLOBAL_SETTINGS.suppliers_list
+
 
 threads : list = []
 ''' потоки '''
@@ -66,16 +56,37 @@ class Thread_for_supplier(Thread):
         self.supplier.driver.close()
         ''' Финиш '''
 
-
+## Отсюда я запускаю всю программу 
 def start_script() -> bool:  
-    ## Отсюда я запускаю всю программу 
-    # ini : Ini = Ini() 
-    # Класс инициализации приложения 
-    # строится на основе файла launch.json 
     
-    for supplier_prefics in suppliers_list: 
+    # по умолчанию список suppliers для скрапинга
+    # находится в launcher.json, но я могу спросить их при запуске
+    print(f''' supplier / suppliers prefics.
+    for list of suppliers use [suppl1,suppl2]''', end = ': ')
+    counter = 0
+    timeout = False
+    suppliers = input()
+
+    # если я получил одного поставщика
+    # я кладу его в список, 
+    # если пришли несколько через запятую - 
+    # я строю из них список через .join(',')
+    if isinstance(suppliers , str):
+        if str(suppliers).find(',')>-1:
+            suppliers = suppliers.split(',')
+        else: 
+            suppliers = [suppliers]
+    elif isinstance(suppliers , list):pass # всё заебись
+
+    elif len(suppliers) == 0:  # ничего не пришло - запускаю список из лончера
+        suppliers = GLOBAL_SETTINGS.SUPPLIERS_LIST_FOR_SCRAPPING
+    else:pass
+
+
+
+    for supplier_prefics in suppliers: 
             
-        if GLOBAL_SETTINGS.threads:
+        if GLOBAL_SETTINGS.THREADS:
             # с потоками -> 
             thread = Thread_for_supplier(supplier_prefics)
             thread.start()

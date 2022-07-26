@@ -54,7 +54,7 @@ class Ini():
     #paths               : paths = attrib(init = False ,default = None)
   
     @attrs
-    class paths():
+    class paths():pass
         ## В классе path я строю все пути к файлам и директориям программы
         
         #launcher        : dict = attrib(kw_only=True)
@@ -72,29 +72,29 @@ class Ini():
         #    self.apis_file = Path(self.ini_files_dir ,  _['apis_file']).absolute()
   
     
-    def __attrs_post_init__(self , *args, **kwards):
-        ## __attrs_post_init__ == __init__
+    #def __attrs_post_init__(self , *args, **kwards):
+    #    ## __attrs_post_init__ == __init__
 
 
-        # потихоньку отключаю функционал
-        #self.launcher : dict = json.loads(Path('launcher.json'))
-        ### словарь из файла ./launcher.json
-        #self.launcher['start_time'] = self.get_now()
-        #self.paths = self.paths(launcher = self.launcher)
-        ### определяю пути для скрипта 
+    #    # потихоньку отключаю функционал
+    #    #self.launcher : dict = json.loads(Path('launcher.json'))
+    #    ### словарь из файла ./launcher.json
+    #    #self.launcher['start_time'] = self.get_now()
+    #    #self.paths = self.paths(launcher = self.launcher)
+    #    ### определяю пути для скрипта 
 
-    @staticmethod
-    def get_now(strformat : str = '%m%d%H%M%S') -> datetime :
-        ##штамп текущего времени
-        #------------------
-        # @param strformat : в каком формате вернуть штамп (by default : %m%d%H%M%S)
-        return  datetime.datetime.now().strftime(strformat)
+    #@staticmethod
+    #def get_now(strformat : str = '%m%d%H%M%S') -> datetime :
+    #    ##штамп текущего времени
+    #    #------------------
+    #    # @param strformat : в каком формате вернуть штамп (by default : %m%d%H%M%S)
+    #    return  datetime.datetime.now().strftime(strformat)
     
     
-    @staticmethod
-    def get_randint(r:range = None ) -> int:
-        # возвращает random int
-        # ------------------
-        # @param r : в каком диапазоне вернуть random 
-        r = r if not r is None else [0,5]
-        return rnd.randint(r)
+    #@staticmethod
+    #def get_randint(r:range = None ) -> int:
+    #    # возвращает random int
+    #    # ------------------
+    #    # @param r : в каком диапазоне вернуть random 
+    #    r = r if not r is None else [0,5]
+    #    return rnd.randint(r)

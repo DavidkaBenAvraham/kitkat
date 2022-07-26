@@ -270,7 +270,9 @@
     <Compile Include="dingtalk\api\rest\__init__.py" />
     <Compile Include="dingtalk\api\__init__.py" />
     <Compile Include="dingtalk\__init__.py" />
+    <Compile Include="GLOBAL_SETTINGS.py" />
     <Compile Include="google_api\main.py" />
+    <Compile Include="google_api\spreadsheets.py" />
     <Compile Include="ini_files_dir\aliexpress_stores_malls.json" />
     <Compile Include="suppliers\aliexpress\__init__.py" />
     <Compile Include="suppliers\amazon\__init__.py" />
@@ -851,6 +853,7 @@
     <Folder Include="DOC\diagrams.net\" />
     <Folder Include="google_api\" />
     <Folder Include="google_api\.ipynb_checkpoints\" />
+    <Folder Include="google_api\spreadsheets\" />
     <Folder Include="jupiter_notebook\" />
     <Folder Include="suppliers\aliexpress\" />
     <Folder Include="suppliers\bangood\" />
@@ -949,6 +952,7 @@
     <Content Include="google_api\.ipynb_checkpoints\desktop.ini" />
     <Content Include="google_api\.ipynb_checkpoints\Untitled-checkpoint.ipynb" />
     <Content Include="google_api\desktop.ini" />
+    <Content Include="google_api\spreadsheets\categories.json" />
     <Content Include="google_api\Untitled.ipynb" />
     <Content Include="ini_files_dir\controldcs.json" />
     <Content Include="ini_files_dir\6comgiga.json" />
@@ -1014,8 +1018,8 @@
     <Content Include="ini_files_dir\wallashop.json" />
     <Content Include="ini_files_dir\victorinox.json" />
     <Content Include="ini_files_dir\ksp.json" />
-    <Content Include="ini_files_dir\ksp_categories_motherboards.json" />
-    <Content Include="ini_files_dir\ksp_categories_notebooks_asus_by_screen_and_cpu.json" />
+    <Content Include="ini_files_dir\------------ksp_categories_motherboards.json" />
+    <Content Include="ini_files_dir\--------------------ksp_categories_notebooks_asus_by_screen_and_cpu.json" />
     <Content Include="ini_files_dir\----------ksp_categories_phones.json" />
     <Content Include="ini_files_dir\---------------ksp_categories_phones_google - Copy.json" />
     <Content Include="ini_files_dir\ksp_categories_tablets_samsung - Copy.json" />
@@ -1027,7 +1031,7 @@
     <Content Include="ini_files_dir\ksp_categories_headphones_sony.json" />
     <Content Include="ini_files_dir\ksp_categories_consoles_microsoft.json" />
     <Content Include="ini_files_dir\ksp_categories_headphones_jbl.json" />
-    <Content Include="ini_files_dir\ksp_categories_imacs.json" />
+    <Content Include="ini_files_dir\--------------------ksp_categories_imacs.json" />
     <Content Include="ini_files_dir\ksp_categories_monitors_lg.json" />
     <Content Include="ini_files_dir\ksp_categories_monitors_samsung.json" />
     <Content Include="ini_files_dir\ksp_categories_headphones_xiaomi.json" />
@@ -1057,9 +1061,9 @@
     <Content Include="ini_files_dir\ksp_categories_tablets_samsung.json" />
     <Content Include="ini_files_dir\ksp_categories_watches_samsung.json" />
     <Content Include="ini_files_dir\ksp_categories_phones_samsung.json" />
-    <Content Include="ini_files_dir\ksp_categories_macbook.json" />
-    <Content Include="ini_files_dir\ksp_categories_ipads.json" />
-    <Content Include="ini_files_dir\ksp_categories_ipods.json" />
+    <Content Include="ini_files_dir\--------------------ksp_categories_macbook.json" />
+    <Content Include="ini_files_dir\-------------ksp_categories_ipads.json" />
+    <Content Include="ini_files_dir\-----------------sp_categories_ipods.json" />
     <Content Include="ini_files_dir\ksp_categories_phones_apple.json" />
     <Content Include="ini_files_dir\ksp_locators.json" />
     <Content Include="ini_files_dir\logins.json" />
