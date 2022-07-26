@@ -1,19 +1,21 @@
 {
-  "MSI Intel": {
+  "MSI Intel 1200 - H510": {
     "brand": "MSI",
-    "url": "https://ksp.co.il/web/cat/47..3..52",
+    "url": "https://ksp.co.il/web/cat/47..3..52..23877",
     "checkbox": false,
     "prestashop_categories": {
-      "3547": "Intel Motherboards",
+      "3557": "MSI Intel 1200 - H510",
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
       "3229": "DESKTOP COMPUTER HARDWARE",
       "3449": "Motherboards",
+      "3547": "Intel Motherboards",
+      "3385": "INTEL LGA1200",
 
       "3634": "MANUGACTURER ->  MSI",
       "3650": "Motherboards",
-      "3651": "Intel motherboards"
+      "3651": "H510"
 
     },
     "price_rule": 1

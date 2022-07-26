@@ -959,6 +959,16 @@
     <Content Include="ini_files_dir\aliexpress_stores_912124063.json" />
     <Content Include="ini_files_dir\elecrow.json" />
     <Content Include="ini_files_dir\crow_pi.json" />
+    <Content Include="ini_files_dir\grandadvance_categories_matherboards_msi.json" />
+    <Content Include="ini_files_dir\ksp_categories_aio_imacs.json" />
+    <Content Include="ini_files_dir\ksp_categories_aio_lenovo.json" />
+    <Content Include="ini_files_dir\ksp_categories_headphones_ipods.json" />
+    <Content Include="ini_files_dir\ksp_categories_headphones_msi.json" />
+    <Content Include="ini_files_dir\ksp_categories_monitors_lenovo.json" />
+    <Content Include="ini_files_dir\ksp_categories_motherboards_msi.json" />
+    <Content Include="ini_files_dir\ksp_categories_motherboards_msi_dictionary.json" />
+    <Content Include="ini_files_dir\ksp_categories_notebooks_macbook.json" />
+    <Content Include="ini_files_dir\ksp_categories_tablets_ipads.json" />
     <Content Include="ini_files_dir\mpdigest.json" />
     <Content Include="ini_files_dir\sparkfun.json" />
     <Content Include="ini_files_dir\aliexpress.json" />

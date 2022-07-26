@@ -161,10 +161,17 @@ class Product():
         def set_specification():pass
         def set_customer_reviews():pass
 
+        def set_meta_title():
+            _meta_title :str = list(_current_node['prestashop_categories'].values())[0]
+            field['meta title'] = _meta_title
+
+        def set_meta_keywords():
+            _keywords :str = ','.join(_current_node['prestashop_categories'].values())
+            field['meta keywords'] = _keywords
 
         def set_categories():
-            categories :str = ','.join(_current_node['prestashop_categories'].keys())
-            field['categories'] = categories# + ',2'
+            _categories :str = ','.join(_current_node['prestashop_categories'].keys())
+            field['categories'] = _categories + ',2'
 
       
 
@@ -183,42 +190,26 @@ class Product():
         set_specification()
         set_customer_reviews()
         set_categories()
+        set_meta_title()
+        set_meta_keywords()
         set_supplier()
         
         return self
 
     def get_certain_amount_of_images(self, supplier, raw_imgs)->str:
-        _out:str = None
+        _out:str = ''
 
-        def _parse_webelement(we):
-            if str(type(we)).lower().find('selenium') > 0 :
-                ''' если будет найден вебэлемент . 
-                 @TODO - надо будет 
-                 узнать какой аттрибут вытащить 
-                 (src/href/img)
-                 '''
-                logger.debug(f'''  
-                найден вебэлемент . 
-                @TODO - узнать какой аттрибут вытащить
-                {raw_imgs} 
-                ''')
-            return we
 
-        if raw_imgs is None: 
-            raw_imgs = ''
-            _out = ''
-
-        if isinstance(raw_imgs, str):
-            _out = _parse_webelement(raw_imgs[0])
+        if raw_imgs is None: pass 
+  
+        elif isinstance(raw_imgs, str):
+            _out = raw_imgs
            
         elif isinstance(raw_imgs , list):
-            if NUM_OF_IMAGES_TO_BE_SAVED == 1:
-                _out = _parse_webelement(raw_imgs[0])
-            else:
-                _counter = 0
-                for i in raw_imgs:
-                  _out += _parse_webelement(i)
-                  _counter += 1
-                  if _counter >= NUM_OF_IMAGES_TO_BE_SAVED: break
+            _counter = 0
+            for i in raw_imgs:
+                _out = _out + i
+                _counter += 1
+                if _counter >= NUM_OF_IMAGES_TO_BE_SAVED: break
         return _out               
          

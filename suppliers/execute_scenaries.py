@@ -14,11 +14,11 @@ from ast import Str
 from pathlib import Path
 import pandas as pd
 
-import GLOBAL_SETTINGS as SETTINGS
-json = SETTINGS.json
-logger = SETTINGS.logger
-SCENARIES_DIRECTORY = SETTINGS.SCENARIES_DIRECTORY
-strings_formatter = SETTINGS.SF
+import GLOBAL_SETTINGS 
+json = GLOBAL_SETTINGS.json
+logger = GLOBAL_SETTINGS.logger
+SCENARIES_DIRECTORY = GLOBAL_SETTINGS.SCENARIES_DIRECTORY
+strings_formatter = GLOBAL_SETTINGS.SF
 
 from suppliers.product import Product
 
@@ -112,8 +112,9 @@ def run_scenario(s , scenario) -> bool:
             для их дальнейшей обработки
             '''
 
-            ''' не получил id -> нет смысла сохранять товар '''
-            if not isinstance(product.fields['id'], str): return False
+            ''' Ошибка заполнения товара
+           -> нет смысла сохранять товар '''
+            if not product: return False
                 
 
             product_fields : pd.DataFrame = product.fields

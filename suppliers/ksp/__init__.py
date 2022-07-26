@@ -67,14 +67,22 @@ def grab_product_page(s , p) -> Product:
     
     def set_id():
         _id = _d.find(_['product_sku_locator'])
+        '''
+       Страница может не успеть подгрузиться AJAXом
+       Я терпеливо пробую еще 5 раз.
+        '''
         counter = 0 
         while _id is None:
             counter += 1
             _d.wait(10)
+            _d._page_refresh()
             _id = _d.find(_['product_sku_locator'])
-            logger.error(f''' Не нашелся id ''')
+            logger.error(f'''{counter}. Не нашелся id 
+            {_d.current_url}''')
             if counter > 5: break
 
+
+        if _id is None: return False
         _field['id'] = _id
          
     def set_sku_suppl():
@@ -96,15 +104,16 @@ def grab_product_page(s , p) -> Product:
 
     def set_cost_price():
         _price = _d.find(_['product_price_locator'])
-        '''  Может прийти все, что угодно  '''
+        '''  Может прийти все, что угодно  
+        Например, товара больше нет в наличии - цены не будет
+        '''
         if _price is None:
             logger.error(f''' Не нашлась цена ''')
+            return False
 
         _price = SF.clear_price(_price)
         _field['cost price'] =  _price
-        logger.debug(f'''
-        цена - {_field['cost price']}
-        ''')
+        logger.debug(f'''цена - {_field['cost price']}''')
         return True
     def set_before_tax_price():
         _field['price tax excluded']  = _field['cost price']
@@ -128,7 +137,8 @@ def grab_product_page(s , p) -> Product:
         - картинка не загрузилась (таймаут)
         - прочая хуйня
         '''
-        #_field['img url'] = p.prepare_images(s, imgs)
+
+        _field['img url'] = p.get_certain_amount_of_images(s, imgs)
        
         
        
@@ -145,12 +155,12 @@ def grab_product_page(s , p) -> Product:
         _field['supplier'] = '2787'
         pass
 
-    set_id()
+    if not set_id(): return False
     set_sku_suppl()
     set_sku_prod()
     set_title()
     set_summary()
-    set_cost_price()
+    if not set_cost_price(): return False
     set_before_tax_price()
     set_delivery()
     set_images()
