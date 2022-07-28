@@ -1,10 +1,10 @@
 {
-  "MSI Intel 1200 - H510": {
+  "MSI Intel-1200 H510": {
     "brand": "MSI",
     "url": "https://ksp.co.il/web/cat/47..3..52..23877",
     "checkbox": false,
     "prestashop_categories": {
-      "3557": "MSI Intel 1200 - H510",
+      "3557": "MSI Intel-1200 H510",
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
@@ -13,32 +13,205 @@
       "3547": "Intel Motherboards",
       "3385": "INTEL LGA1200",
 
-      "3634": "MANUGACTURER ->  MSI",
+      "3634": "brand: MSI",
       "3650": "Motherboards",
+      "3655": "Motherboards Intel LGA 1200",
       "3651": "H510"
 
     },
     "price_rule": 1
   },
-  "MSI AMD": {
+  "MSI Intel-1200 B460": {
     "brand": "MSI",
-    "url": "https://ksp.co.il/web/cat/47..3..202",
+    "url": "https://ksp.co.il/web/cat/47..3..52..12539..13374",
     "checkbox": false,
     "prestashop_categories": {
-      "3450": "AMD Motherboards",
+      "4177": "MSI Intel-1200 B460",
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
       "3229": "DESKTOP COMPUTER HARDWARE",
       "3449": "Motherboards",
+      "3547": "Intel Motherboards",
+      "3385": "INTEL LGA1200",
 
-
-      "3634": "MANUGACTURER ->  MSI",
+      "3634": "brand: MSI",
       "3650": "Motherboards",
-      "3652": "AMD motherboards"
+      "3655": "Motherboards Intel LGA 1200",
+      "4178": "B460"
+
+    },
+    "price_rule": 1
+  },
+  "MSI Intel-1200 B560": {
+    "brand": "MSI",
+    "url": "https://ksp.co.il/web/cat/47..3..52..12539..23315",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3558": "MSI Intel-1200 B560",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+      "3449": "Motherboards",
+      "3547": "Intel Motherboards",
+      "3385": "INTEL LGA1200",
+
+      "3634": "brand: MSI",
+      "3650": "Motherboards",
+      "3655": "Motherboards Intel LGA 1200",
+      "3562": "B560"
+
+    },
+    "price_rule": 1
+  },
+  "MSI Intel-1200 Z590": {
+    "brand": "MSI",
+    "url": "https://ksp.co.il/web/cat/47..3..52..12539..21824",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3559": "MSI Intel-1200 Z590",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+
+      "3449": "Motherboards",
+      "3547": "Intel Motherboards",
+      "3385": "INTEL LGA1200",
+
+      "3634": "brand: MSI",
+      "3650": "Motherboards",
+      "3655": "INTEL-1200 CHIPSETS",
+      "3563": "Z590"
+
+    },
+    "price_rule": 1
+  },
+  "MSI Intel-1700 Z690": {
+    "brand": "MSI",
+    "url": "https://ksp.co.il/web/cat/47..3..52..29757..29759",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3556": "MSI Intel-1700 Z690",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+      "3449": "Motherboards",
+      "3384": "INTEL LGA1700",
+
+      "3634": "brand: MSI",
+      "3650": "Motherboards",
+      "3655": "INTEL-1700 CHIPSETS",
+      "3552": "Z690"
+
+    },
+    "price_rule": 1
+  },
+  "MSI Intel-1700 B660": {
+    "brand": "MSI",
+    "url": "https://ksp.co.il/web/cat/47..3..52..29757..31871",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3555": "MSI Intel-1700 B660",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+      "3449": "Motherboards",
+      "3384": "INTEL LGA1700",
+
+      "3634": "brand: MSI",
+      "3650": "Motherboards",
+      "3655": "INTEL-1700 CHIPSETS",
+      "3551": "H610"
+
+    },
+    "price_rule": 1
+  },
+  "MSI Intel-1700 H670": {
+    "brand": "MSI",
+    "url": "https://ksp.co.il/web/cat/47..3..52..29757..31871",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4182": "MSI Intel-1700 H670",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+      "3449": "Motherboards",
+      "3384": "INTEL LGA1700",
+
+      "3634": "brand: MSI",
+      "3650": "Motherboards",
+      "3655": "INTEL-1700 CHIPSETS",
+      "4183": "H670"
+
+    },
+    "price_rule": 1
+  },
+  "MSI Intel-1700 H610": {
+    "brand": "MSI",
+    "url": "https://ksp.co.il/web/cat/47..3..52..29757..32570",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3554": "MSI Intel-1700 H610",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+      "3449": "Motherboards",
+      "3384": "INTEL LGA1700",
+
+      "3634": "brand: MSI",
+      "3650": "Motherboards",
+      "3655": "INTEL-1700 CHIPSETS",
+      "3550": "H610"
+
+    },
+    "price_rule": 1
+  },
+  "MSI AMD AM4 B550": {
+    "brand": "MSI",
+    "url": "https://ksp.co.il/web/cat/47..3..202..3951..13789",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4049": "MSI AMD AM4 B550",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+      "3449": "Motherboards",
+      "4044": "AMD CHIPSETS",
+
+      "3634": "brand: MSI",
+      "3650": "Motherboards",
+      "4185": "AMD motherboards",
+      "4191": "B550"
+
+    },
+    "price_rule": 1
+  },
+  "MSI AMD AM4 A520": {
+    "brand": "MSI",
+    "url": "https://ksp.co.il/web/cat/47..3..202..3951..14715",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4046": "MSI AMD AM4 A520",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3229": "DESKTOP COMPUTER HARDWARE",
+      "3449": "Motherboards",
+      "4044": "AMD CHIPSETS",
+
+      "3634": "brand: MSI",
+      "3650": "Motherboards",
+      "4185": "AMD motherboards",
+      "4188": "A520"
 
     },
     "price_rule": 1
   }
-
 } 

@@ -61,12 +61,18 @@ def start_script() -> bool:
     
     # по умолчанию список suppliers для скрапинга
     # находится в launcher.json, но я могу спросить их при запуске
-    print(f''' supplier / suppliers prefics.
-    for list of suppliers use [suppl1,suppl2]''', end = ': ')
+
     counter = 0
     timeout = False
-    suppliers = input()
+    suppliers = ''
 
+    ####
+    #print(f''' supplier / suppliers prefics.
+    #for list of suppliers use [suppl1,suppl2]''', end = ': ')
+    #suppliers = input()
+
+
+    if suppliers == '': suppliers = GLOBAL_SETTINGS.SUPPLIERS_LIST_FOR_SCRAPPING
     # если я получил одного поставщика
     # я кладу его в список, 
     # если пришли несколько через запятую - 
@@ -77,10 +83,6 @@ def start_script() -> bool:
         else: 
             suppliers = [suppliers]
     elif isinstance(suppliers , list):pass # всё заебись
-
-    elif len(suppliers) == 0:  # ничего не пришло - запускаю список из лончера
-        suppliers = GLOBAL_SETTINGS.SUPPLIERS_LIST_FOR_SCRAPPING
-    else:pass
 
 
 

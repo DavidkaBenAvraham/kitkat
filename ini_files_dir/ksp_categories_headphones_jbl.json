@@ -1,47 +1,147 @@
 {
-  "In-ear Bud": {
+  "JBL 225TWS BT In-ear Bud Headphones": {
     "brand": "JBL",
-    "url": "https://ksp.co.il/web/cat/242..1250..3127",
+    "url": "https://ksp.co.il/web/cat/242..1250..3127..36135",
     "checkbox": false,
     "prestashop_categories": {
-      "3459": "In-ear Bud",
+      "4195": "JBL 225TWS BT In-ear Bud Headphones",
 
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
       "3436": "Speakers & Audio",
-      "3454": "Headphones",
+      "3454": "Headphones in Speakers & Audio",
+      "4206": "BT Connection",
+      "3460": "In-ear Buds",
 
 
+      "3437": "TV & Audio",
+      "3997": "Headphones in TV & Audio",
+      "4218": "BT in TV & Audio",
+      "4018": "BT In-ear Bud in TV & Audio",
 
       "2264": "JBL",
       "2614": "Headphones",
+      "4203": "BT",
       "2615": "In-ear Bud"
     }
   },
-  "Over-ear": {
+  "JBL 200BT In-ear Bud Headphones": {
     "brand": "JBL",
-    "url": "https://ksp.co.il/web/cat/3127..242..1252",
+    "url": "https://ksp.co.il/web/cat/242..1250..3127..36130",
     "checkbox": false,
     "prestashop_categories": {
-      "3455": "Earbuds",
+      "4195": "JBL 200BT In-ear Bud Headphones",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3436": "Speakers & Audio",
+      "3454": "Headphones in Speakers & Audio",
+      "4206": "BT Connection",
+      "3460": "In-ear Buds",
+
+
+      "3437": "TV & Audio",
+      "3997": "Headphones in TV & Audio",
+      "4218": "BT in TV & Audio",
+      "4018": "BT In-ear Bud in TV & Audio",
+
+      "2264": "JBL",
+      "4203": "BT",
+      "2615": "In-ear Bud"
+
+    }
+  },
+  "In-ear Bud, JBL 125BT Neckband Headphones": {
+    "brand": "JBL",
+    "url": "https://ksp.co.il/web/cat/242..1250..3127..36125",
+    "checkbox": false,
+    "prestashop_categories": {
+      "4197": "JBL 125BT In-ear Bud Headphones",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+
+
+      "3436": "Speakers & Audio",
+      "3454": "Headphones in Speakers & Audio",
+      "4206": "BT Connection",
+      "3460": "In-ear Buds",
+
+
+      "3437": "TV & Audio",
+      "3997": "Headphones in TV & Audio",
+      "4218": "BT in TV & Audio",
+      "4018": "BT In-ear Bud in TV & Audio",
+
+      "2264": "JBL",
+      "4203": "BT",
+      "2615": "In-ear Bud"
+
+    }
+  },
+  "JBL 650BTNC  Over-ear Headphones": {
+    "brand": "JBL",
+    "url": "https://ksp.co.il/web/cat/242..3127..1252..36119",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3484": "JBL 650BTNC Over-ear Headphones",
 
       "3198": "CONSUMER ELECTRONICS",
 
+
       "3436": "Speakers & Audio",
-      "3454": "Headphones",
+      "3454": "Headphones in Speakers & Audio",
+      "4206": "BT Connection in Speakers & Audio",
+      "3461": "On-ear in Speakers & Audio",
+
+
+      "3437": "TV & Audio",
+      "3997": "Headphones in TV & Audio",
+      "4218": "BT in TV & Audio",
+      "4018": "BT In-ear Bud in TV & Audio",
+
 
       "2264": "JBL",
       "2611": "Headphones",
-      "2616": "Over-ear"
+      "4197": "In-ear Bud, JBL 115BT Neckband Headphones"
+
     }
   },
-  "Neckband": {
+  "In-ear Bud, JBL C100SI Headphones": {
     "brand": "JBL",
-    "url": "https://ksp.co.il/web/cat/3127..242..1252",
+    "url": "https://ksp.co.il/web/cat/242..1250..3127..36117",
     "checkbox": false,
     "prestashop_categories": {
-      "3455": "Earbuds",
+      "4197": "In-ear Bud, JBL C100SI Headphones",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3436": "Speakers & Audio",
+      "3454": "Headphones in Speakers & Audio",
+      "4208": "Cable connection Headphones in Speakers & Audio",
+      "4214": "In-ear Buds",
+
+
+      "3437": "TV & Audio",
+      "3997": "Headphones in TV & Audio",
+      "4220": "Cable connection Headphones in Speakers & Audio",
+      "4226": "In-ear Bud",
+
+      "2264": "JBL",
+      "4205": "Cable connection",
+      "2615": "In-ear Bud"
+
+    }
+  },
+
+
+  "In-ear Bud, JBL 115BT Neckband Headphones": {
+    "brand": "JBL",
+    "url": "https://ksp.co.il/web/cat/242..1250..3127..36118",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3484": "In-ear Bud, JBL 125BT Neckband Headphones",
 
       "3198": "CONSUMER ELECTRONICS",
 
@@ -49,9 +149,16 @@
       "3454": "Headphones",
 
 
+      "3437": "TV & Audio",
+      "3997": "Headphones in TV & Audio",
+      "4021": "In-ear Bud in Speakers & Audio",
+
+
+
       "2264": "JBL",
-      "2614": "Headphones",
-      "3483": "Neckband"
+      "2611": "Headphones",
+      "4197": "In-ear Bud, JBL 115BT Neckband Headphones"
+
     }
   }
 }

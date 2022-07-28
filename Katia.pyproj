@@ -954,6 +954,7 @@
     <Content Include="google_api\desktop.ini" />
     <Content Include="google_api\spreadsheets\categories.json" />
     <Content Include="google_api\Untitled.ipynb" />
+    <Content Include="ini_files_dir\categories_excluded_from_keywords.json" />
     <Content Include="ini_files_dir\controldcs.json" />
     <Content Include="ini_files_dir\6comgiga.json" />
     <Content Include="ini_files_dir\aliexpress_stores_912124063.json" />
@@ -966,7 +967,6 @@
     <Content Include="ini_files_dir\ksp_categories_headphones_msi.json" />
     <Content Include="ini_files_dir\ksp_categories_monitors_lenovo.json" />
     <Content Include="ini_files_dir\ksp_categories_motherboards_msi.json" />
-    <Content Include="ini_files_dir\ksp_categories_motherboards_msi_dictionary.json" />
     <Content Include="ini_files_dir\ksp_categories_notebooks_macbook.json" />
     <Content Include="ini_files_dir\ksp_categories_tablets_ipads.json" />
     <Content Include="ini_files_dir\mpdigest.json" />

@@ -14,8 +14,8 @@
 
 
 
-      "2243": " 2243 APPLE",
-      "2093": "2093 Ipods",
+      "2243": "APPLE",
+      "2093": "Ipods",
       "2095": "In-ear Bud"
 
     }
@@ -33,9 +33,8 @@
       "3436": "Speakers & Audio",
 
 
-
-      "2243": " 2243 APPLE",
-      "2093": "2093 Ipods",
+      "2243": "APPLE",
+      "2093": "Ipods",
       "2096": "Over-ear"
 
     }
@@ -45,18 +44,17 @@
     "url": "https://ksp.co.il/web/cat/242..245..1254",
     "checkbox": false,
     "prestashop_categories": {
-      "3455": "Earbuds",
+      "3455": "Ear-clip",
 
 
       "3198": "CONSUMER ELECTRONICS",
       "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
       "3436": "Speakers & Audio",
-  
 
 
-      "2243": " 2243 APPLE",
-      "2093": "2093 Ipods",
-      "2094": "Over-ear"
+      "2243": "APPLE",
+      "2093": "Ipods",
+      "2094": "Ear-clip"
 
     }
   }

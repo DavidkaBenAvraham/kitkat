@@ -7,15 +7,48 @@
       "3459": "In-ear Bud",
 
       "3198": "CONSUMER ELECTRONICS",
-
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
       "3436": "Speakers & Audio",
-      "3454": "Headphones",
+      "3454": "Headphones in Speakers & Audio",
+      "4206": "BT Connection",
+      "3460": "In-ear Buds",
 
+
+      "3437": "TV & Audio",
+      "3997": "Headphones in TV & Audio",
+      "4218": "BT in TV & Audio",
+      "4018": "BT In-ear Bud in TV & Audio",
 
 
       "2250": "brand:  XIAOMI",
-      "2479": "Headphones",
-      "3494": "In-ear Bud"
+      
+      "4245": "Xiaoimi BT Headphones"
+    }
+  },
+  "Xiaomi Mi In-ear Bud cable 3.5mm connection": {
+    "brand": "XIAOMI",
+    "url": "https://ksp.co.il/web/cat/242..2202..1250..5162",
+    "checkbox": false,
+    "prestashop_categories": {
+      "3459": "Xiaomi Mi In-ear Bud cable 3.5mm connection",
+
+      "3198": "CONSUMER ELECTRONICS",
+      "3202": "COMPUTERS PHONES CONSOLES SMART DEVICES",
+      "3436": "Speakers & Audio",
+      "3454": "Headphones in Speakers & Audio",
+      "4206": "BT Connection",
+      "3460": "In-ear Buds",
+
+
+      "3437": "TV & Audio",
+      "3997": "Headphones in TV & Audio",
+      "4218": "BT in TV & Audio",
+      "4018": "BT In-ear Bud in TV & Audio",
+
+
+      "2250": "brand:  XIAOMI",
+      "2479": "BT Earbuds",
+      "3494": "Redmi Buds 3"
     }
   }
 }

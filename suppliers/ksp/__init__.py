@@ -75,7 +75,7 @@ def grab_product_page(s , p) -> Product:
         while _id is None:
             counter += 1
             _d.wait(10)
-            _d._page_refresh()
+            _d.page_refresh()
             _id = _d.find(_['product_sku_locator'])
             logger.error(f'''{counter}. Не нашелся id 
             {_d.current_url}''')
@@ -84,23 +84,26 @@ def grab_product_page(s , p) -> Product:
 
         if _id is None: return False
         _field['id'] = _id
-         
+        return True
     def set_sku_suppl():
         _field['mkt suppl'] = _field['id']
-
+        return True
     def set_sku_prod():
         if not _field['id']  is None :
             _field['mkt'] = str('ksp-') + _field['id']
-
+            return True
     def set_title():
         title = _d.find(_['product_title_locator'])
         _field['title'] = SF.remove_non_latin_characters(title)
+        return True
 
     def set_summary():
         _field['summary'] = _d.find(_['product_summary_locator'])
+        return True
 
     def set_description():
         _field['description'] = _d.find(_['product_description_locator'])
+        return True
 
     def set_cost_price():
         _price = _d.find(_['product_price_locator'])
@@ -139,7 +142,7 @@ def grab_product_page(s , p) -> Product:
         '''
 
         _field['img url'] = p.get_certain_amount_of_images(s, imgs)
-       
+        return True
         
        
 
@@ -155,7 +158,8 @@ def grab_product_page(s , p) -> Product:
         _field['supplier'] = '2787'
         pass
 
-    if not set_id(): return False
+    if not set_id():
+       return False
     set_sku_suppl()
     set_sku_prod()
     set_title()

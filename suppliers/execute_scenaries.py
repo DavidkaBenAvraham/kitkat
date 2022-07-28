@@ -103,7 +103,15 @@ def run_scenario(s , scenario) -> bool:
 
         '''# СОБИРАЮ ДАННЫЕ СО СТРАНИЦЫ '''
         def grab_product_page():
-            product : Product = s.related_functions.grab_product_page(s, Product())
+            product = Product(supplier = s) 
+            _p = s.related_functions.grab_product_page(s, product)
+
+            ''' Ошибка заполнения товара
+            не получил id, proce, etc.
+           -> нет смысла сохранять товар '''
+            if not _p: return False
+            product_fields = _p.fields
+
             ''' получаю товар 
             заполняю все свойства товара в функции 
             grab_product_page() для каждого поставщика.
@@ -112,13 +120,14 @@ def run_scenario(s , scenario) -> bool:
             для их дальнейшей обработки
             '''
 
-            ''' Ошибка заполнения товара
-           -> нет смысла сохранять товар '''
-            if not product: return False
+
                 
 
-            product_fields : pd.DataFrame = product.fields
+            #product_fields : pd.DataFrame = product.fields
             s.p.append(product_fields)
+
+            ''' сбрасываю данные в файлы '''
+            json.export(s, s.p, s.scenario_category, ['csv'] )
             pass
 
         s.current_node = node
