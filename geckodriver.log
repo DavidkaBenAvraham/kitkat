@@ -5927,3 +5927,70 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
 JavaScript error: resource://gre/modules/XULStore.jsm, line 68: Error: Can't find profile directory.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 68: Error: Can't find profile directory.
+1659038287985	geckodriver	INFO	Listening on 127.0.0.1:61388
+1659038291013	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileAcbABE"
+1659038291398	Marionette	INFO	Marionette enabled
+1659038291403	Marionette	INFO	Listening on port 61401
+Read port: 61401
+1659038291503	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileAcbABE\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/XULStore.jsm, line 68: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 68: Error: Can't find profile directory.
+[Child 41632, MediaDecoderStateMachine #1] WARNING: Decoder=1de3ab2cd00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 41632, MediaDecoderStateMachine #1] WARNING: Decoder=1de3ab2cd00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 41632, MediaDecoderStateMachine #1] WARNING: Decoder=1de3aba5000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 41632, MediaDecoderStateMachine #1] WARNING: Decoder=1de3aba5000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 41632, MediaDecoderStateMachine #1] WARNING: Decoder=1de3aba1900 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 41632, MediaDecoderStateMachine #1] WARNING: Decoder=1de3aba1900 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/240bde48/player_ias.vflset/ru_RU/base.js, line 9321: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
